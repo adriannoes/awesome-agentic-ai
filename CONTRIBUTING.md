@@ -1,4 +1,4 @@
-# Contributing to VibeCoding Hub
+# Contributing to Vibe Coding for PMs
 
 Thanks for wanting to contribute! This project is all about helping Product Managers and Designers level up their technical skills with AI.
 
