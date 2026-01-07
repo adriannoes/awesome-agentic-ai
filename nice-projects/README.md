@@ -55,6 +55,7 @@ A curated collection of interesting open-source projects worth exploring, forkin
 
 ## Other Useful Resources 📚
 
+- **[awesome-AI-driven-development](https://github.com/eltociear/awesome-AI-driven-development)** - 🤖 A curated awesome list featuring 431+ AI-driven development tools, frameworks, and resources. Covers AI code editors, IDE extensions, multi-agent systems, code generation, testing, MCP servers, and more.
 - **[gen-ai-experiments](https://github.com/buildfastwithai/gen-ai-experiments)** - 🚀 A curated collection of 130+ production-ready Gen AI apps, agents, and experiments. Built with LangChain, RAG, AI Agents, Multi-Agent Teams, and more. Perfect for learning by building.
 - **[awesome-investing](https://github.com/mr-karan/awesome-investing)** - 💸💸 Curated list of investment & finance related resources
 - **[linux-insides](https://github.com/0xAX/linux-insides)** - A book-in-progress about the Linux kernel and its insides.
