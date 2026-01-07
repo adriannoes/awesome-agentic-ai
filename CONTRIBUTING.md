@@ -1,61 +1,61 @@
-# Contributing to Vibe Coding for PMs
+# Contributing to Awesome Vibe Coding
 
-Thanks for wanting to contribute! This project is all about helping Product Managers and Designers level up their technical skills with AI.
+Thank you for contributing! This is a knowledge hub for AI-assisted development. Your contributions help Product Builders learn to code with AI.
+
+## What Can You Contribute?
+
+- **⚡ Cursor & Claude Rules** - Best practices, coding standards, PM workflows, security guidelines
+- **📝 Prompts** - Tested prompts for AI agents (Claude, Cursor, Devin, Gemini, etc.)
+- **🔄 n8n Templates** - Workflow automation templates
+- **🧠 Learning Resources** - Research papers, guides, and documentation
+- **🔬 Research** - Jupyter notebooks and experiments
+- **📚 Documentation** - Improvements to existing docs
 
 ## How to Contribute
 
-### 🐛 Bug Reports
-- Use the issue template
-- Include steps to reproduce
-- Mention your OS and browser
-
-### ✨ Feature Requests
-- Explain the problem you're trying to solve
-- Describe your proposed solution
-- Show how it fits with our goals
-
-### 📝 Content Contributions
-- **Projects**: Add working examples from Lovable, v0.dev, or Bolt
-- **Learning Materials**: Share courses, tutorials, or explanations
-- **Prompts**: Submit tested prompts with clear use cases
-- **Tools**: Add small utilities that solve real problems
+1. **Fork and clone** the repository
+2. **Create a branch** (`git checkout -b feature/your-contribution`)
+3. **Make your changes** following the existing structure
+4. **Commit** using [Conventional Commits](https://www.conventionalcommits.org/):
+   - `feat: add new Claude prompt for data analysis`
+   - `docs: update Python FastAPI rules`
+   - `fix: correct typo in README`
+5. **Push and open a Pull Request**
 
 ## Content Guidelines
 
-### For Projects
-- Must be fully functional (clone and run)
-- Include a clear README with setup instructions
-- Show the 0→1 journey
-- Explain the technical concepts used
+### Rules & Prompts
+- Must be tested and proven to work
+- Include clear use cases
+- Follow existing format and structure
 
-### For Learning Materials
-- Focus on practical applications
-- Explain the "why" behind concepts
-- Use clear, jargon-free language
-- Include code examples
+### Templates
+- Must be functional and tested
+- Include setup instructions if needed
+- Add clear descriptions
 
-### For Prompts
-- Test them thoroughly
-- Include expected outputs
-- Explain the use case
-- Add any necessary context
+### Papers & Resources
+- Only high-quality, relevant content
+- Ensure files are readable and properly formatted
 
-## Development Setup
+## Project Structure
 
-1. Fork the repository
-2. Clone your fork
-3. Create a feature branch
-4. Make your changes
-5. Test everything works
-6. Submit a pull request
-
-## Code Style
-
-- Use clear, descriptive names
-- Add comments for complex logic
-- Follow existing patterns
-- Keep things simple and readable
+```
+cursor-and-claude-rules/    # Rules for Cursor/Claude
+prompt-engineering/          # AI prompts and guides
+n8n-templates/              # Workflow templates
+papers/                     # Research papers
+research/                   # Jupyter notebooks
+```
 
 ## Questions?
 
-Open a discussion or reach out - we're here to help! 🚀
+Open a [Discussion](https://github.com/adriannoes/awesome-vibe-coding/discussions) or reach out!
+
+---
+
+**Thank you for contributing!** 🚀
+
+<div align="center">
+  <img src="assets/vibe-coding.png" alt="Feature I clearly don't know how to implement - Me, Claude, Gemini, Cursor, My Senior, and StackOverflow thread from 12 years ago working together" width="600">
+</div>
