@@ -1,4 +1,4 @@
-# Nice Projects to Follow & Fork 🚀
+# Nice projects to follow & fork 🚀
 
 A curated collection of interesting open-source projects worth exploring, forking, and contributing to. This list is based on projects I've starred on GitHub.
 
@@ -55,6 +55,7 @@ A curated collection of interesting open-source projects worth exploring, forkin
 
 ## Other Useful Resources 📚
 
+- **[gen-ai-experiments](https://github.com/buildfastwithai/gen-ai-experiments)** - 🚀 A curated collection of 130+ production-ready Gen AI apps, agents, and experiments. Built with LangChain, RAG, AI Agents, Multi-Agent Teams, and more. Perfect for learning by building.
 - **[awesome-investing](https://github.com/mr-karan/awesome-investing)** - 💸💸 Curated list of investment & finance related resources
 - **[linux-insides](https://github.com/0xAX/linux-insides)** - A book-in-progress about the Linux kernel and its insides.
 - **[untidetect-tools](https://github.com/TheGP/untidetect-tools)** - List of anti-detect and humanizing tools and browsers, including captcha solvers and sms-activation.
