@@ -21,3 +21,6 @@
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Temporary clone directories
+.temp_clones
