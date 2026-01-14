@@ -99,10 +99,25 @@ This isn't just another collection of AI tools. We focus on:
 
 ## 🌟 Inspired By
 
+### AI & Development
 - [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - LLM applications with AI Agents
+- [awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) - Configuration files that enhance Cursor AI editor experience
+- [awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration) - Integrate the DeepSeek API into popular softwares
 - [awesome-datascience](https://github.com/academic/awesome-datascience) - Data science resources
+
+### Programming Languages
 - [awesome-python](https://github.com/vinta/awesome-python) - Python resources
 - [awesome-typescript](https://github.com/dzharii/awesome-typescript) - TypeScript resources
+
+### Architecture & Design Patterns
+- [awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns) - Software and architecture related design patterns
+- [awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources) - Learn System Design concepts and prepare for interviews
+- [awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) - The Patterns of Scalable, Reliable, and Performant Large-Scale Systems
+
+### Design & Product
+- [Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools) - The best design tools and plugins for everything
+- [awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) - A list of awesome beginners-friendly projects
+- [awesome-cto](https://github.com/kuchin/awesome-cto) - Resources for Chief Technology Officers, with emphasis on startups
 
 ## Contributing
 
