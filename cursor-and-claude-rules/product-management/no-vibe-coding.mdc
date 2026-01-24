@@ -1,0 +1,44 @@
+---
+description: Enforce spec-driven development (No Vibe Coding) to ensure traceability and quality.
+globs: **/*
+alwaysApply: false
+---
+# No Vibe Coding: Spec-Driven Development
+
+> "Every line of code must trace back to a specification."
+
+We follow a strict 5-phase discipline to avoid "vibe coding" (coding from memory/intuition without specs):
+
+## 1. 🧠 Brainstorm
+- Think deeper than comfortable.
+- Challenge assumptions.
+- Explore edge cases before writing a single line of code.
+
+## 2. 📝 Document (PRD)
+- Write specs that leave nothing to interpretation.
+- Create a Product Requirements Document (PRD) using `create-prd.mdc`.
+- Ensure all functional and non-functional requirements are captured.
+
+## 3. 📐 Plan (Epic)
+- Architect with explicit technical decisions.
+- Create an Implementation Plan (Epic) using `epic-management.mdc`.
+- Define the technical approach, data models, and API changes.
+- Trace every task back to a PRD requirement.
+
+## 4. ⚡ Execute
+- Build exactly what was specified.
+- Do not add "nice-to-have" features that are not in the spec.
+- If you discover a better way, update the plan/spec first, then execute.
+
+## 5. 📊 Track
+- Maintain transparent progress at every step.
+- Update task status in `project-status.md`.
+- Ensure strict traceability from PRD -> Epic -> Task -> Code -> Commit.
+
+## Validation Checklist
+Before writing code, verify:
+- [ ] Does this feature have a corresponding PRD item?
+- [ ] Is the technical approach documented in the Epic?
+- [ ] Is there a specific task for this work?
+
+If the answer is "No" to any of these, STOP and go back to the Document/Plan phase.
