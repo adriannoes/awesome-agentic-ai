@@ -41,7 +41,7 @@ Thank you for contributing! This is a knowledge hub for AI-assisted development.
 ## Project Structure
 
 ```
-cursor-and-claude-rules/    # Rules for Cursor/Claude
+cursor-rules/               # Rules for Cursor/Claude
 prompt-engineering/          # AI prompts and guides
 n8n-templates/              # Workflow templates
 papers/                     # Research papers
