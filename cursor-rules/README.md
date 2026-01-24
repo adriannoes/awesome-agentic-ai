@@ -5,7 +5,7 @@ Organized rules for Cursor and Claude Code software development.
 ## Directory Structure
 
 ```
-cursor-and-claude-rules/
+cursor-rules/
 ├── best-practices/      # Code quality, clean code, documentation
 ├── coding/              # Python, TypeScript, Tailwind
 ├── product-management/  # PRD, tasks, workflow (3 rules for Cursor, 5 for Claude Code)
@@ -22,6 +22,10 @@ python scripts/check_updates.py
 ```
 *(Note: `scripts/` and `MAINTENANCE.md` are gitignored)*
 
+### External Sources
+- **GitHub Repositories**: 9 repositories tracked (see `MAINTENANCE.md`)
+- **cursor.directory**: 10 high-quality rules integrated from the community directory
+
 ## Categories
 
 ### 📋 [Product Management](./product-management/)
@@ -36,13 +40,26 @@ Spec-driven development workflow:
 ### 💻 [Coding](./coding/)
 Language and framework-specific rules:
 - **Containerization:** `docker-best-practices.mdc`
-- Python (general, FastAPI, AI-friendly)
-- TypeScript/JavaScript
-- Tailwind CSS
+- **ORM:** `prisma-orm.mdc` (Prisma ORM best practices)
+- **Testing:** `playwright-testing.mdc` (E2E testing with Playwright)
+- **Backend Frameworks:**
+  - `nestjs-clean.mdc` (NestJS with clean architecture)
+  - `django-rest-api.mdc` (Django REST API development)
+  - `laravel-php.mdc` (Laravel PHP framework)
+  - `fastapi-enhanced.mdc` (Enhanced FastAPI patterns)
+- **Frontend Frameworks:**
+  - `nextjs-typescript.mdc` (Next.js App Router with TypeScript)
+  - `shopify-theme.mdc` (Shopify theme development)
+- **Languages:**
+  - Python (general, FastAPI, AI-friendly)
+  - `typescript-guidelines.mdc` (Comprehensive TypeScript guidelines)
+  - TypeScript/JavaScript
+  - Tailwind CSS
 
 ### ✨ [Best Practices](./best-practices/)
 Universal best practices:
 - **System Personas:** `system-prompts.mdc` (Architect, Plan Mode, Tech Lead)
+- **Accessibility:** `accessibility.mdc` (WCAG guidelines, a11y best practices)
 - Code quality guidelines
 - Clean code principles
 - Documentation standards

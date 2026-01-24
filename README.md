@@ -23,7 +23,7 @@ This is your go-to resource for bridging the gap between product thinking and te
 
 ```
 awesome-vibe-coding/
-├── cursor-and-claude-rules/    # Organized rules for Cursor and Claude Code
+├── cursor-rules/                # Organized rules for Cursor and Claude Code
 │   ├── best-practices/          # Code quality, clean code, documentation
 │   ├── coding/                  # Python, TypeScript, FastAPI, Tailwind
 │   ├── product-management/      # PRD, tasks, epic management
@@ -36,7 +36,7 @@ awesome-vibe-coding/
 
 ## 🔗 Quick Links
 
-- ⚡ [Cursor & Claude Rules](cursor-and-claude-rules/) - Organized rules for Cursor and Claude Code development
+- ⚡ [Cursor & Claude Rules](cursor-rules/) - Organized rules for Cursor and Claude Code development
 - 📝 [Prompts Library](prompts/) - Battle-tested prompts and templates for AI tools
 - 🧠 [Learning Resources](learning/) - Research papers and PDFs on AI, LLMs, and agents
 - 🔄 [n8n Templates](n8n-templates/) - Ready-to-use workflow automation templates
@@ -137,4 +137,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Ready to level up your technical skills?** Start with the [Cursor & Claude Rules](cursor-and-claude-rules/) to optimize your AI-assisted development workflow or explore the [Prompts Library](prompts/) to find battle-tested prompts for your favorite AI tools. The best way to learn is by doing! 🚀
+**Ready to level up your technical skills?** Start with the [Cursor & Claude Rules](cursor-rules/) to optimize your AI-assisted development workflow or explore the [Prompts Library](prompts/) to find battle-tested prompts for your favorite AI tools. The best way to learn is by doing! 🚀
