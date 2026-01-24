@@ -24,3 +24,7 @@ Temporary Items
 
 # Temporary clone directories
 .temp_clones
+
+# Maintenance scripts and logs
+scripts/
+cursor-and-claude-rules/MAINTENANCE.md

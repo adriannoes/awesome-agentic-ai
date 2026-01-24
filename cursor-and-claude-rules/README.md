@@ -12,10 +12,22 @@ cursor-and-claude-rules/
 └── security/           # Secure development practices
 ```
 
+## Maintenance & Updates
+
+We track external repositories to keep these rules up-to-date.
+See `MAINTENANCE.md` for the list of sources.
+To check for updates, run:
+```bash
+python scripts/check_updates.py
+```
+*(Note: `scripts/` and `MAINTENANCE.md` are gitignored)*
+
 ## Categories
 
 ### 📋 [Product Management](./product-management/)
 Spec-driven development workflow:
+- **Core Workflow:** `no-vibe-coding.mdc` (Spec-Driven Development)
+- **User Stories:** `user-stories.mdc` (INVEST, Gherkin)
 - **3 rules for Cursor:** `create-prd.mdc`, `generate-tasks.mdc`, `process-task-list.mdc`
 - **5 rules for Claude Code:** `epic-management.mdc`, `parallel-execution.mdc`, `context-preservation.mdc`, `traceability.mdc`, `project-status-tracking.mdc`
 
@@ -23,18 +35,21 @@ Spec-driven development workflow:
 
 ### 💻 [Coding](./coding/)
 Language and framework-specific rules:
+- **Containerization:** `docker-best-practices.mdc`
 - Python (general, FastAPI, AI-friendly)
 - TypeScript/JavaScript
 - Tailwind CSS
 
 ### ✨ [Best Practices](./best-practices/)
 Universal best practices:
+- **System Personas:** `system-prompts.mdc` (Architect, Plan Mode, Tech Lead)
 - Code quality guidelines
 - Clean code principles
 - Documentation standards
 
 ### 🔒 [Security](./security/)
 Secure development practices:
+- **Audit:** `anthropic-security-audit.mdc` (Official Anthropic Prompt)
 - Universal security principles (always applied)
 - Language-specific security (Python, C/C++)
 - Technology-specific security (SQL, MCP)
