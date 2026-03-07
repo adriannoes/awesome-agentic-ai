@@ -4,7 +4,7 @@ Thank you for contributing! This is a knowledge hub for AI-assisted development.
 
 ## What Can You Contribute?
 
-- **⚡ Cursor & Claude Rules** - Best practices, coding standards, PM workflows, security guidelines
+- **⚡ Cursor & Claude Skills** - Best practices, coding standards, PM workflows, security guidelines, shared skills
 - **📝 Prompts** - Tested prompts for AI agents (Claude, Cursor, Devin, Gemini, etc.)
 - **🔄 n8n Templates** - Workflow automation templates
 - **🧠 Learning Resources** - Research papers, guides, and documentation
@@ -40,13 +40,12 @@ Thank you for contributing! This is a knowledge hub for AI-assisted development.
 
 ## Project Structure
 
-```
-cursor-rules/               # Rules for Cursor/Claude
-prompt-engineering/          # AI prompts and guides
-n8n-templates/              # Workflow templates
-papers/                     # Research papers
-research/                   # Jupyter notebooks
-```
+- [cursor/](https://github.com/adriannoes/awesome-vibe-coding/tree/main/cursor) — Rules and skills for Cursor and Claude Code
+- [prompt-engineering/](https://github.com/adriannoes/awesome-vibe-coding/tree/main/prompt-engineering) — AI prompts and templates
+- [n8n-templates/](https://github.com/adriannoes/awesome-vibe-coding/tree/main/n8n-templates) — Workflow templates
+- [learning/](https://github.com/adriannoes/awesome-vibe-coding/tree/main/learning) — Books and learning materials
+- [research/](https://github.com/adriannoes/awesome-vibe-coding/tree/main/research) — Jupyter notebooks
+- [papers/](https://github.com/adriannoes/awesome-vibe-coding/tree/main/papers) — Research papers
 
 ## Questions?
 
@@ -57,5 +56,5 @@ Open a [Discussion](https://github.com/adriannoes/awesome-vibe-coding/discussion
 **Thank you for contributing!** 🚀
 
 <div align="center">
-  <img src="assets/vibe-coding.png" alt="Feature I clearly don't know how to implement - Me, Claude, Gemini, Cursor, My Senior, and StackOverflow thread from 12 years ago working together" width="600">
+  <img src="https://raw.githubusercontent.com/adriannoes/awesome-vibe-coding/main/assets/vibe-coding.png" alt="Feature I clearly don't know how to implement - Me, Claude, Gemini, Cursor, My Senior, and StackOverflow thread from 12 years ago working together" width="600">
 </div>

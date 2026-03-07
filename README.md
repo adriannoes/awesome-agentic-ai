@@ -23,29 +23,31 @@ This is your go-to resource for bridging the gap between product thinking and te
 
 ```
 awesome-vibe-coding/
-├── cursor-rules/                # Organized rules for Cursor and Claude Code
-│   ├── best-practices/          # Code quality, clean code, documentation
+├── cursor/   # Rules and skills for Cursor and Claude Code
+│   ├── skills/                 # Shared skills (Cursor + Claude Code)
+│   ├── best-practices/         # Code quality, clean code, documentation
 │   ├── coding/                  # Python, TypeScript, FastAPI, Tailwind
-│   ├── product-management/      # PRD, tasks, epic management
-│   └── security/                # Secure development practices
-├── prompts/                     # Battle-tested prompts for AI tools
-├── learning/                    # Research papers and PDFs on AI/LLMs
+│   ├── product-management/     # PRD, tasks, epic management
+│   └── security/               # Secure development practices
+├── prompt-engineering/          # Battle-tested prompts for AI tools
+├── learning/                    # Books and learning materials (math, algorithms, ML/DL)
 ├── n8n-templates/               # Ready-to-use workflow automation templates
-└── research/                    # Jupyter notebooks and experiments
+├── papers/                      # Research papers (agents, LLMs, code)
+└── research/                   # Jupyter notebooks and experiments
 ```
 
 ## 🔗 Quick Links
 
-- ⚡ [Cursor & Claude Rules](cursor-rules/) - Organized rules for Cursor and Claude Code development
-- 📝 [Prompts Library](prompts/) - Battle-tested prompts and templates for AI tools
-- 🧠 [Learning Resources](learning/) - Research papers and PDFs on AI, LLMs, and agents
-- 🔄 [n8n Templates](n8n-templates/) - Ready-to-use workflow automation templates
-- 🔬 [Research](research/) - Jupyter notebooks and AI experiments
+- ⚡ [Cursor & Claude Skills](https://github.com/adriannoes/awesome-vibe-coding/tree/main/cursor) - Rules and skills for Cursor and Claude Code development
+- 📝 [Prompts Library](https://github.com/adriannoes/awesome-vibe-coding/tree/main/prompt-engineering) - Battle-tested prompts and templates for AI tools
+- 📚 [Learning](https://github.com/adriannoes/awesome-vibe-coding/tree/main/learning) - Books and learning materials (math, algorithms, ML/DL)
+- 🔄 [n8n Templates](https://github.com/adriannoes/awesome-vibe-coding/tree/main/n8n-templates) - Ready-to-use workflow automation templates
+- 🔬 [Research](https://github.com/adriannoes/awesome-vibe-coding/tree/main/research) - Jupyter notebooks and AI experiments
 
 ## 🏆 What's Inside
 
-### ⚡ **Cursor & Claude Rules**
-Organized rules for AI-assisted development:
+### ⚡ **Cursor & Claude Skills**
+Rules and skills for AI-assisted development:
 - **Product Management** - Spec-driven workflow with PRD creation, task generation, and epic management
 - **Coding Standards** - Language-specific rules for Python, TypeScript, FastAPI, and Tailwind CSS
 - **Best Practices** - Code quality guidelines, clean code principles, and documentation standards
@@ -57,11 +59,11 @@ Battle-tested prompts for various AI tools:
 - **Platform Prompts** - Lovable, v0.dev, Replit, and n8n-specific templates
 - **Research Tools** - Perplexity Deep Research and specialized research prompts
 
-### 🧠 **Learning Resources**
-Research papers and PDFs on AI and LLMs:
-- **AI Agents & Automation** - Building autonomous agents, measuring in production, scaling systems
-- **LLM Fundamentals** - Fine-tuning, reasoning models, hallucinations, and memorization
-- **Perspectives** - Decentralized AI, cognitive debt, and occupational implications of AI
+### 📚 **Learning** (books)
+Books and learning materials for deepening technical foundations:
+- **Mathematics & CS** - Mathematics for Computer Science, Algorithms for Decision Making
+- **ML/DL** - Understanding Deep Learning and related references
+- **Research papers** - PDFs on AI, LLMs, and agents when relevant
 
 ### 🔄 **n8n Templates**
 Ready-to-use workflow automation templates:
@@ -129,12 +131,12 @@ Have a better prompt? Want to add a project?
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-Check out [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
+Check out [CONTRIBUTING.md](https://github.com/adriannoes/awesome-vibe-coding/blob/main/CONTRIBUTING.md) for detailed guidelines.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/adriannoes/awesome-vibe-coding/blob/main/LICENSE) file for details.
 
 ---
 
-**Ready to level up your technical skills?** Start with the [Cursor & Claude Rules](cursor-rules/) to optimize your AI-assisted development workflow or explore the [Prompts Library](prompts/) to find battle-tested prompts for your favorite AI tools. The best way to learn is by doing! 🚀
+**Ready to level up your technical skills?** Start with the [Cursor & Claude Skills](https://github.com/adriannoes/awesome-vibe-coding/tree/main/cursor) to optimize your AI-assisted development workflow or explore the [Prompts Library](https://github.com/adriannoes/awesome-vibe-coding/tree/main/prompt-engineering) to find battle-tested prompts for your favorite AI tools. The best way to learn is by doing! 🚀

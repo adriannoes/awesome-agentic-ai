@@ -1,12 +1,57 @@
-# Large Language Models for Coding
+# Research Papers
 
-This directory contains research papers and resources on Large Language Models (LLMs) specifically designed for code generation, understanding, and software engineering applications.
+This directory contains research papers and resources on Large Language Models (LLMs), AI agents, code generation, and related topics (ethics, scaling, hallucinations, and automation).
 
 ## Overview
 
-Large Language Models have revolutionized software development by enabling AI-assisted code generation, code understanding, and automated software engineering tasks. This collection focuses on foundational models and research papers that explore LLM architectures, training methodologies, and applications specifically designed for coding tasks.
+The collection includes: (1) **foundation models for code** (external references to key code-LLM papers); (2) **papers in this directory** (PDFs stored here), covering agents, hallucinations, reasoning, automation, and societal implications of AI.
 
-## Papers
+## Papers in this directory
+
+The following PDFs are stored in `papers/`, grouped by theme.
+
+### AI Agents & Agentic Systems
+
+- **AI Agents vs. Agentic AI: A Conceptual Taxonomy, Applications and Challenges**
+- **Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models**
+- **Fundamentals of Building Autonomous LLM Agents**
+- **Measuring Agents in Production**
+- **Towards a Science of Scaling Agent Systems**
+- **Virtual Agent Economies**
+
+### Hallucinations, Reasoning & Memorization
+
+- **A comprehensive taxonomy of hallucinations in Large Language Models**
+- **Reasoning Models Don't Always Say What They Think**
+- **why-language-models-hallucinate**
+- **the-illusion-of-thinking**
+- **Titans: Learning to Memorize at Test Time**
+
+### Models & Fine-Tuning
+
+- **Deepseek: Manifold-Constrained Hyper-Connections**
+- **DeepSeek Prover V2: DeepSeek's latest model masters math proofs**
+- **The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs**
+
+### Ethics, Risks & Automation
+
+- **Fully Autonomous AI Agents Should Not be Developed**
+- **On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?**
+- **Expertise and Automation**
+- **Working with AI: Measuring the Occupational Implications of Generative AI**
+- **Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task**
+- **We Won't be Missed: Work and Growth in the Era of AGI**
+
+### Perspectives & Value of AI
+
+- **A Perspective on Decentralizing AI**
+- **Genius on Demand: The Value of Transformative Artificial Intelligence**
+
+---
+
+## Foundation models for code (external references)
+
+Key code-LLM papers (links to arXiv, blogs, GitHub):
 
 ### Foundation Models
 
