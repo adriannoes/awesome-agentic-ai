@@ -1,6 +1,6 @@
 # Research
 
-This directory contains research notebooks and educational materials from various open-source projects.
+This directory contains research notebooks, educational materials, and autonomous research setups from various open-source projects.
 
 ## Contents
 
@@ -31,6 +31,22 @@ A full-stack implementation of an LLM like ChatGPT in a single, clean, minimal, 
 **Notebooks:**
 - `nanochat/dev/estimate_gpt3_core.ipynb` - GPT-3 core estimation analysis
 - `nanochat/dev/scaling_analysis.ipynb` - Scaling analysis notebook
+
+### autoresearch
+
+**Source:** [karpathy/autoresearch](https://github.com/karpathy/autoresearch)
+
+AI agents running research on single-GPU nanochat training automatically. An agent is given a small but real LLM training setup and experiments autonomously: it modifies the code, trains for a fixed 5-minute budget, checks if the result improved (validation bits per byte), keeps or discards, and repeats. The human configures the agent via `program.md` (lightweight “skill” / instructions); the agent only edits `train.py` (model, optimizer, training loop). Self-contained: one GPU, one editable file, one metric.
+
+Key files are mirrored in this repo under `research/autoresearch/` for local use.
+
+**Key files:**
+- `autoresearch/README.md` - Local mirror overview and quick start
+- `autoresearch/program.md` - Agent instructions (human-edited)
+- `autoresearch/train.py` - Model, optimizer, training loop (agent-edited)
+- `autoresearch/prepare.py` - Data prep and runtime utilities (fixed, do not modify)
+- `autoresearch/pyproject.toml` - Dependencies (uv)
+- `autoresearch/analysis.ipynb` - Analyze `results.tsv` and plot progress
 
 ### nlp-with-transformers
 

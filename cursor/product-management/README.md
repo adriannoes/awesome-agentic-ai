@@ -2,23 +2,25 @@
 
 Rules for managing software products using spec-driven development, inspired by [Claude Code PM (ccpm)](https://github.com/automazeio/ccpm).
 
+**See also:** [cursor/README.md](../README.md) | [no-vibe-coding.md](./no-vibe-coding.md) | [skills/](../skills/)
+
 ## Important: Cursor vs Claude Code
 
 **For Cursor (use these 3 rules):**
-- `create-prd.mdc` - Create Product Requirements Documents
-- `generate-tasks.mdc` - Generate task lists from PRDs
-- `task-list-development.mdc` - Execute tasks with proper protocol
+- `create-prd.md` - Create Product Requirements Documents
+- `generate-tasks.md` - Generate task lists from PRDs
+- `task-list-development.md` - Execute tasks with proper protocol
 
 **For Claude Code (reference only):**
-- `epic-management.mdc`
-- `parallel-execution.mdc`
-- `context-preservation.mdc`
-- `traceability.mdc`
-- `project-status-tracking.mdc`
+- `epic-management.md`
+- `parallel-execution.md`
+- `context-preservation.md`
+- `traceability.md`
+- `project-status-tracking.md`
 
 ## Cursor Rules
 
-### create-prd.mdc
+### create-prd.md
 Creates PRDs from user prompts.
 
 **Process:**
@@ -31,7 +33,7 @@ Creates PRDs from user prompts.
 
 **Note:** AI must NOT start implementing after creating PRD.
 
-### generate-tasks.mdc
+### generate-tasks.md
 Generates task lists from PRDs.
 
 **Process:**
@@ -52,7 +54,7 @@ Generates task lists from PRDs.
   - [ ] 1.1 Sub-task
 ```
 
-### process-task-list.mdc
+### process-task-list.md
 Guidelines for executing tasks (automatically applied).
 
 **Rules:**
@@ -64,9 +66,9 @@ Guidelines for executing tasks (automatically applied).
 
 ## Quick Start
 
-1. **Create PRD:** "Use create-prd.mdc to create a PRD for [feature]"
-2. **Generate Tasks:** "Use generate-tasks.mdc from prd-[name].md"
-3. **Execute:** "Start working on tasks-[name].md" (process-task-list.mdc applies automatically)
+1. **Create PRD:** "Use create-prd.md to create a PRD for [feature]"
+2. **Generate Tasks:** "Use generate-tasks.md from prd-[name].md"
+3. **Execute:** "Start working on tasks-[name].md" (process-task-list.md applies automatically)
 
 ## Workflow
 

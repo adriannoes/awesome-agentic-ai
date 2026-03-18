@@ -1,0 +1,4 @@
+# Agent run artifacts (do not commit)
+results.tsv
+run.log
+progress.png
