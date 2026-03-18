@@ -1,12 +1,12 @@
 <div align="center">
 
 ```
-██╗   ██╗██╗██████╗ ███████╗     ██████╗ ██████╗ ██████╗ ███████╗
-██║   ██║██║██╔══██╗██╔════╝    ██╔════╝██╔═══██╗██╔══██╗██╔════╝
-██║   ██║██║██████╔╝█████╗      ██║     ██║   ██║██║  ██║█████╗  
-╚██╗ ██╔╝██║██╔══██╗██╔══╝      ██║     ██║   ██║██║  ██║██╔══╝  
- ╚████╔╝ ██║██████╔╝███████╗    ╚██████╗╚██████╔╝██████╔╝███████╗
-  ╚═══╝  ╚═╝╚═════╝ ╚══════╝     ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝
+██╗   ██╗██╗██████╗ ███████╗     ██████╗ ██████╗ ██████╗ ██╗███╗   ██╗ ██████╗
+██║   ██║██║██╔══██╗██╔════╝    ██╔════╝██╔═══██╗██╔══██╗██║████╗  ██║██╔════╝
+██║   ██║██║██████╔╝█████╗      ██║     ██║   ██║██║  ██║██║██╔██╗ ██║██║  ███╗
+╚██╗ ██╔╝██║██╔══██╗██╔══╝      ██║     ██║   ██║██║  ██║██║██║╚██╗██║██║   ██║
+ ╚████╔╝ ██║██████╔╝███████╗    ╚██████╗╚██████╔╝██████╔╝██║██║ ╚████║╚██████╔╝
+  ╚═══╝  ╚═╝╚═════╝ ╚══════╝     ╚═════╝ ╚═════╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝ ╚═════╝
 ```
 
 </div>
@@ -15,66 +15,92 @@
 
 > Where Product Managers and Designers learn to code with AI, understand what's happening under the hood, and ship real products.
 
-**Topics:** `ai-tools`, `product-management`, `ai-development`, `vibe-code`, `product-builders`, `learn-to-code`, `workflow-automation`.
-
 This is your go-to resource for bridging the gap between product thinking and technical execution. Whether you're a PM who wants to prototype faster or a Designer who wants to understand the code your AI is generating, this repo has everything you need to level up your technical skills.
 
-## 📁 Project Structure
+## Project structure
 
 ```
 awesome-vibe-coding/
-├── cursor/   # Rules and skills for Cursor and Claude Code
-│   ├── skills/                 # Shared skills (Cursor + Claude Code)
-│   ├── best-practices/         # Code quality, clean code, documentation
-│   ├── coding/                  # Python, TypeScript, FastAPI, Tailwind
-│   ├── product-management/     # PRD, tasks, epic management
-│   └── security/               # Secure development practices
-├── prompt-engineering/          # Battle-tested prompts for AI tools
-├── learning/                    # Books and learning materials (math, algorithms, ML/DL)
-├── n8n-templates/               # Ready-to-use workflow automation templates
-├── papers/                      # Research papers (agents, LLMs, code)
-└── research/                   # Jupyter notebooks and experiments
+├── openclaw/                 # OpenClaw ecosystem — see openclaw/README.md
+│   ├── README.md
+│   └── skills/               # Skills index — openclaw/skills/README.md, categories/
+├── cursor/                   # Cursor & Claude Code — see cursor/README.md
+│   ├── skills/               # cursor/skills/README.md
+│   ├── commands/             # cursor/commands/README.md
+│   ├── best-practices/
+│   ├── coding/
+│   ├── product-management/   # cursor/product-management/README.md
+│   ├── security/
+│   └── references/           # cursor/references/README.md
+├── prompt-engineering/         # prompt-engineering/README.md, prompts/
+├── learning/                   # Books and learning materials
+├── n8n-templates/              # Workflow templates
+├── papers/                     # papers/README.md — PDFs and paper notes
+├── research/                   # research/README.md — notebooks & experiments
+└── CONTRIBUTING.md
 ```
 
-## 🔗 Quick Links
+## Quick links
 
-- ⚡ [Cursor & Claude Skills](https://github.com/adriannoes/awesome-vibe-coding/tree/main/cursor) - Rules and skills for Cursor and Claude Code development
-- 📝 [Prompts Library](https://github.com/adriannoes/awesome-vibe-coding/tree/main/prompt-engineering) - Battle-tested prompts and templates for AI tools
-- 📚 [Learning](https://github.com/adriannoes/awesome-vibe-coding/tree/main/learning) - Books and learning materials (math, algorithms, ML/DL)
-- 🔄 [n8n Templates](https://github.com/adriannoes/awesome-vibe-coding/tree/main/n8n-templates) - Ready-to-use workflow automation templates
-- 🔬 [Research](https://github.com/adriannoes/awesome-vibe-coding/tree/main/research) - Jupyter notebooks and AI experiments
+| Area | Entry point |
+|------|-------------|
+| Cursor & Claude | [cursor/](cursor/) · [cursor/README.md](cursor/README.md) |
+| Prompts | [prompt-engineering/](prompt-engineering/) · [prompt-engineering/README.md](prompt-engineering/README.md) |
+| Learning | [learning/](learning/) |
+| OpenClaw | [openclaw/](openclaw/) · [openclaw/README.md](openclaw/README.md) |
+| Research | [research/](research/) · [research/README.md](research/README.md) |
+| Papers | [papers/](papers/) · [papers/README.md](papers/README.md) |
+| n8n | [n8n-templates/](n8n-templates/) |
 
-## 🏆 What's Inside
+## What's inside
 
-### ⚡ **Cursor & Claude Skills**
-Rules and skills for AI-assisted development:
-- **Product Management** - Spec-driven workflow with PRD creation, task generation, and epic management
-- **Coding Standards** - Language-specific rules for Python, TypeScript, FastAPI, and Tailwind CSS
-- **Best Practices** - Code quality guidelines, clean code principles, and documentation standards
-- **Security** - Secure development practices for multiple languages and technologies
+### Cursor & Claude ([cursor/](cursor/))
 
-### 📝 **Prompts Library**
-Battle-tested prompts for various AI tools:
-- **AI Agents** - Cursor, Claude Sonnet, Devin, Gemini, Grok, Kimi, and more
-- **Platform Prompts** - Lovable, v0.dev, Replit, and n8n-specific templates
-- **Research Tools** - Perplexity Deep Research and specialized research prompts
+| Topic | Location |
+|-------|----------|
+| Skills (brainstorming, plans, TDD, debugging, git worktrees, etc.) | [cursor/skills/](cursor/skills/) · [cursor/skills/README.md](cursor/skills/README.md) |
+| Slash commands (code-review, final-review, git-commit, etc.) | [cursor/commands/](cursor/commands/) · [cursor/commands/README.md](cursor/commands/README.md) |
+| Product management (PRD, epics, tasks) | [cursor/product-management/](cursor/product-management/) · [README](cursor/product-management/README.md) |
+| Coding rules (Python, TypeScript, FastAPI, Tailwind, …) | [cursor/coding/](cursor/coding/) |
+| Best practices (clean code, Karpathy guidelines, MCP, …) | [cursor/best-practices/](cursor/best-practices/) |
+| Security | [cursor/security/](cursor/security/) |
+| References (agentic patterns, …) | [cursor/references/](cursor/references/) · [cursor/references/README.md](cursor/references/README.md) |
 
-### 📚 **Learning** (books)
-Books and learning materials for deepening technical foundations:
-- **Mathematics & CS** - Mathematics for Computer Science, Algorithms for Decision Making
-- **ML/DL** - Understanding Deep Learning and related references
-- **Research papers** - PDFs on AI, LLMs, and agents when relevant
+### Prompts library ([prompt-engineering/](prompt-engineering/))
 
-### 🔄 **n8n Templates**
-Ready-to-use workflow automation templates:
-- **AI-Powered** - Calendar assistants, email categorization, YouTube summarization
-- **Communication** - WhatsApp and Telegram bots, email automation
-- **Data Processing** - Google Sheets integration, PDF chat, web scraping
-- **Personal Assistants** - Meeting suggestions and ultimate personal assistant workflows
+Battle-tested prompts for Cursor, Claude, Grok, Kimi, n8n, Lovable, v0, and more — see [prompt-engineering/README.md](prompt-engineering/README.md) and [prompt-engineering/prompts/](prompt-engineering/prompts/).
 
-### 🔬 **Research & Experiments**
-Jupyter notebooks and experimental work:
-- **OCR Research** - Deepseek OCR experiments and model testing
+### Learning ([learning/](learning/))
+
+Books and notes (math, algorithms, ML/DL). Browse the folder; there is no single index file.
+
+### OpenClaw ([openclaw/](openclaw/))
+
+Derivative agents and a skills index (VoltAgent, official OpenClaw archive). Details: [openclaw/README.md](openclaw/README.md), [openclaw/skills/README.md](openclaw/skills/README.md).
+
+### n8n templates ([n8n-templates/](n8n-templates/))
+
+Workflow templates (AI assistants, messaging, sheets, scraping, etc.).
+
+### Research & experiments ([research/](research/))
+
+Educational notebooks and autonomous research setups. **Full catalog and source links:** [research/README.md](research/README.md).
+
+| Track | Folder | Notes |
+|-------|--------|--------|
+| Reasoning LLM (book code) | [research/reasoning-from-scratch/](research/reasoning-from-scratch/) | *Build a Reasoning Model (From Scratch)* |
+| Minimal ChatGPT-style stack | [research/nanochat/](research/nanochat/) | Karpathy nanochat |
+| Autonomous nanochat experiments | [research/autoresearch/](research/autoresearch/) | [README](research/autoresearch/README.md), Karpathy autoresearch |
+| NLP with Transformers book | [research/nlp-with-transformers/](research/nlp-with-transformers/) | Classification, NER, generation, QA, … |
+| Neural nets from scratch | [research/nn-zero-to-hero/](research/nn-zero-to-hero/) | Karpathy course notebooks |
+| Short ML examples | [research/ML-Notebooks/](research/ML-Notebooks/) | Notebooks under `notebooks/` |
+| Understanding Deep Learning | [research/understanding-deep-learning/](research/understanding-deep-learning/) | [Notebook list](research/understanding-deep-learning/README.md) (Prince / UDL) |
+
+Other items (e.g. DeepSeek OCR) are documented in [research/README.md](research/README.md) when present.
+
+### Papers ([papers/](papers/))
+
+PDFs and reading notes — [papers/README.md](papers/README.md).
 
 ## About
 
@@ -82,7 +108,7 @@ This repository is maintained by **Adrianno**, a Staff Product Manager at [Pipef
 
 You can find more about me on [GitHub](https://github.com/adriannoes) and [LinkedIn](https://www.linkedin.com/in/adrianno/). Feel free to connect with me, I'm always open to discussing AI, product management and building cool things together!
 
-## Who This Is For
+## Who this is for
 
 - **Product Managers** who want to prototype ideas without waiting for engineering
 - **Product Designers** who want to understand the code their AI generates
@@ -90,53 +116,56 @@ You can find more about me on [GitHub](https://github.com/adriannoes) and [Linke
 - **Developers** looking for optimized Cursor and Claude rules
 - **Anyone** curious about how AI-assisted development actually works.
 
-## What Makes This Different
+## What makes this different
 
 This isn't just another collection of AI tools. We focus on:
 
-- **Understanding the fundamentals** - You'll learn why things work, not just how to use them
-- **Real-world applications** - Every example is something you'd actually build
-- **Product thinking** - We connect technical concepts to business outcomes
-- **Reproducible results** - Everything is tested and documented
+- **Understanding the fundamentals** — You'll learn why things work, not just how to use them
+- **Real-world applications** — Every example is something you'd actually build
+- **Product thinking** — We connect technical concepts to business outcomes
+- **Reproducible results** — Everything is tested and documented
 
-## 🌟 Inspired By
+## Inspired by
 
-### AI & Development
-- [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - LLM applications with AI Agents
-- [awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) - Configuration files that enhance Cursor AI editor experience
-- [awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration) - Integrate the DeepSeek API into popular softwares
-- [awesome-datascience](https://github.com/academic/awesome-datascience) - Data science resources
+### AI & development
 
-### Programming Languages
-- [awesome-python](https://github.com/vinta/awesome-python) - Python resources
-- [awesome-typescript](https://github.com/dzharii/awesome-typescript) - TypeScript resources
+- [awesome-copilot](https://github.com/github/awesome-copilot) — Custom agents, instructions, skills, and plugins for GitHub Copilot
+- [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) — LLM applications with AI Agents
+- [awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) — Configuration files that enhance Cursor AI editor experience
+- [awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration) — Integrate the DeepSeek API into popular softwares
+- [awesome-datascience](https://github.com/academic/awesome-datascience) — Data science resources
 
-### Architecture & Design Patterns
-- [awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns) - Software and architecture related design patterns
-- [awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources) - Learn System Design concepts and prepare for interviews
-- [awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) - The Patterns of Scalable, Reliable, and Performant Large-Scale Systems
+### Programming languages
 
-### Design & Product
-- [Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools) - The best design tools and plugins for everything
-- [awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) - A list of awesome beginners-friendly projects
-- [awesome-cto](https://github.com/kuchin/awesome-cto) - Resources for Chief Technology Officers, with emphasis on startups
+- [awesome-python](https://github.com/vinta/awesome-python) — Python resources
+- [awesome-typescript](https://github.com/dzharii/awesome-typescript) — TypeScript resources
+
+### Architecture & design patterns
+
+- [awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns) — Software and architecture related design patterns
+- [awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources) — Learn System Design concepts and prepare for interviews
+- [awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) — The Patterns of Scalable, Reliable, and Performant Large-Scale Systems
+
+### Design & product
+
+- [Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools) — The best design tools and plugins for everything
+- [awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) — A list of awesome beginners-friendly projects
+- [awesome-cto](https://github.com/kuchin/awesome-cto) — Resources for Chief Technology Officers, with emphasis on startups
 
 ## Contributing
 
-Have a better prompt? Want to add a project?
-
 1. Fork the repo
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
+3. Commit your changes (see [CONTRIBUTING.md](CONTRIBUTING.md) for Conventional Commits)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-Check out [CONTRIBUTING.md](https://github.com/adriannoes/awesome-vibe-coding/blob/main/CONTRIBUTING.md) for detailed guidelines.
+Full guidelines: [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/adriannoes/awesome-vibe-coding/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License — see [LICENSE](LICENSE).
 
 ---
 
-**Ready to level up your technical skills?** Start with the [Cursor & Claude Skills](https://github.com/adriannoes/awesome-vibe-coding/tree/main/cursor) to optimize your AI-assisted development workflow or explore the [Prompts Library](https://github.com/adriannoes/awesome-vibe-coding/tree/main/prompt-engineering) to find battle-tested prompts for your favorite AI tools. The best way to learn is by doing! 🚀
+**Ready to level up?** Start with [cursor/README.md](cursor/README.md), [openclaw/README.md](openclaw/README.md), or [prompt-engineering/README.md](prompt-engineering/README.md). The best way to learn is by doing.
