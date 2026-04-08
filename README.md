@@ -44,7 +44,7 @@ awesome-vibe-coding/
 
 | Area | Entry point |
 |------|-------------|
-| Cursor & Claude | [cursor/](cursor/) · [cursor/README.md](cursor/README.md) |
+| Cursor & Claude | [cursor/](cursor/) · [cursor/README.md](cursor/README.md) · [Upstream repos catalog](cursor/references/upstream-repos-catalog.md) |
 | Prompts | [prompt-engineering/](prompt-engineering/) · [prompt-engineering/README.md](prompt-engineering/README.md) |
 | Learning | [learning/](learning/) |
 | OpenClaw | [openclaw/](openclaw/) · [openclaw/README.md](openclaw/README.md) |
