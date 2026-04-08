@@ -77,6 +77,7 @@ Secure development practices:
 ### 📚 [References](./references/)
 Reference documentation:
 - **Agentic Patterns:** [agentic-patterns.md](./references/agentic-patterns.md) (Plan-then-execute, sub-agent spawning, etc.)
+- **Upstream catalog:** [upstream-repos-catalog.md](./references/upstream-repos-catalog.md) (explored external repos: Vercel agent-skills, code-review-graph, awesome-design-md, claude-md hooks, Claw, prompt research, HumanLayer, Harness)
 
 **See**: [References README](./references/README.md)
 
@@ -115,3 +116,5 @@ Content integrated from the following repositories (adapted for our use, no runt
 | [nibzard/awesome-agentic-patterns](https://github.com/nibzard/awesome-agentic-patterns) | Apache-2.0 | references/agentic-patterns.md |
 | [JohnCrickett/ai-assisted-engineering](https://github.com/JohnCrickett/ai-assisted-engineering) | — | AGENTS.md reference |
 | [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | MIT | Previously integrated |
+
+Additional upstream projects (catalog): [upstream-repos-catalog.md](./references/upstream-repos-catalog.md).

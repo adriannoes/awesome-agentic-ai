@@ -37,6 +37,19 @@ A curated collection of interesting open-source projects worth exploring, forkin
 - **[product-manager-prompts](https://github.com/deanpeters/product-manager-prompts)** - A repository of Generative AI prompts for product managers using agents such as ChatGPT, Claude, & Gemini
 - **[claude-code-system-prompts](https://github.com/Piebald-AI/claude-code-system-prompts)** - All parts of Claude Code's system prompt, 20 builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility prompts (CLAUDE.md, compact, statusline, magic docs, WebFetch, Bash cmd, security)
 
+### Agent skills, UI specs & Claude ecosystem (hub catalog)
+
+Structured notes (folder layout, install commands, how each fits our hub) live in **[cursor/references/upstream-repos-catalog.md](../cursor/references/upstream-repos-catalog.md)**. Upstream sources:
+
+- **[vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills)** — Official Vercel Agent Skills (React/Next practices, web design guidelines, deploy skill, etc.); install via `npx skills add vercel-labs/agent-skills`.
+- **[tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph)** — Local knowledge graph for Claude Code / MCP to shrink context on reviews.
+- **[VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md)** — Ready-made `DESIGN.md` design systems for agent-driven UI (great for PMs/designers).
+- **[iamfakeguru/claude-md](https://github.com/iamfakeguru/claude-md)** — `CLAUDE.md` + hooks (verify, block destructive ops) for safer Claude Code workflows.
+- **[ultraworkers/claw-code](https://github.com/ultraworkers/claw-code)** — Rust `claw` CLI agent harness (USAGE.md / rust workspace).
+- **[Leonxlnx/agentic-ai-prompt-research](https://github.com/Leonxlnx/agentic-ai-prompt-research)** — Educational reconstructed prompts for agentic coding assistants.
+- **[humanlayer/humanlayer](https://github.com/humanlayer/humanlayer)** — CodeLayer + HumanLayer SDK monorepo (team-scale agent orchestration).
+- **[revfactory/harness](https://github.com/revfactory/harness)** — Meta-skill / plugin to generate domain-specific agent teams and skills for Claude Code.
+
 ### Design Tools
 - **[Apple-Hig-Designer](https://github.com/axiaoge2/Apple-Hig-Designer)** - A Claude Code Skill for designing professional interfaces following Apple Human Interface Guidelines
 
