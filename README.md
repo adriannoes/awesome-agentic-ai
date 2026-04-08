@@ -58,7 +58,7 @@ awesome-vibe-coding/
 
 | Topic | Location |
 |-------|----------|
-| Skills (brainstorming, plans, TDD, debugging, git worktrees, etc.) | [cursor/skills/](cursor/skills/) · [cursor/skills/README.md](cursor/skills/README.md) |
+| Skills (brainstorming, plans, TDD, debugging, git worktrees, Vercel UI/React guidelines, etc.) | [cursor/skills/](cursor/skills/) · [cursor/skills/README.md](cursor/skills/README.md) |
 | Slash commands (code-review, final-review, git-commit, etc.) | [cursor/commands/](cursor/commands/) · [cursor/commands/README.md](cursor/commands/README.md) |
 | Product management (PRD, epics, tasks) | [cursor/product-management/](cursor/product-management/) · [README](cursor/product-management/README.md) |
 | Coding rules (Python, TypeScript, FastAPI, Tailwind, …) | [cursor/coding/](cursor/coding/) |
