@@ -28,7 +28,10 @@ Skills in this folder are designed to work for **both Cursor and Claude Code**. 
 | `using-git-worktrees` | Isolated workspaces for feature work; safety verification, clean baseline |
 | **Design & Docs** | |
 | `frontend-design` | Distinctive frontend interfaces; bold aesthetic, avoid generic AI look |
+| `web-design-guidelines` | Audit UI against Vercel Web Interface Guidelines (fetch live rules + review files) — from [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
 | `update-changelog` | Update CHANGELOG.md with notable changes since last release |
+| **React / Next.js** | |
+| `react-best-practices` | Vercel performance rules quick reference (69 rules); full examples in upstream `rules/` — from [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
 | **Meta** | |
 | `autoresearch` | Research and evaluation workflows |
 

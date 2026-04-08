@@ -28,7 +28,8 @@ Skills that work for both **Cursor** and **Claude Code**:
 - **Workflow:** brainstorming, writing-plans, executing-plans, finishing-a-development-branch
 - **Quality:** test-driven-development, systematic-debugging, verification-before-completion, receiving-code-review
 - **Infrastructure:** using-git-worktrees
-- **Design & Docs:** frontend-design, update-changelog
+- **Design & Docs:** frontend-design, web-design-guidelines, update-changelog
+- **React / Next.js:** react-best-practices (Vercel performance rules summary)
 - **Meta:** create-rule, create-skill, update-settings, autoresearch
 
 **See**: [Skills README](./skills/README.md)
@@ -116,5 +117,6 @@ Content integrated from the following repositories (adapted for our use, no runt
 | [nibzard/awesome-agentic-patterns](https://github.com/nibzard/awesome-agentic-patterns) | Apache-2.0 | references/agentic-patterns.md |
 | [JohnCrickett/ai-assisted-engineering](https://github.com/JohnCrickett/ai-assisted-engineering) | — | AGENTS.md reference |
 | [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | MIT | Previously integrated |
+| [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | MIT | `web-design-guidelines`, `react-best-practices` skills ([skills README](./skills/README.md)); React `rules/*.md` and `AGENTS.md` remain upstream |
 
 Additional upstream projects (catalog): [upstream-repos-catalog.md](./references/upstream-repos-catalog.md).

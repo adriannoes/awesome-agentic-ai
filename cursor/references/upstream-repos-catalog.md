@@ -1,7 +1,7 @@
 # Upstream repositories catalog
 
 Curated notes on external repos that complement **Cursor**, **Claude Code**, and **vibe coding** workflows.  
-**Nothing in this file is vendored** — use the links to install or read upstream. All descriptions reflect public READMEs and repository layout as of the exploration date.
+Most entries are **link-only**; two Vercel **SKILL.md** summaries are also vendored under [cursor/skills/](../skills/README.md) (see the Vercel section below). All descriptions reflect public READMEs and repository layout as of the exploration date.
 
 | Repo | Upstream |
 |------|----------|
@@ -37,6 +37,8 @@ Curated notes on external repos that complement **Cursor**, **Claude Code**, and
 ```bash
 npx skills add vercel-labs/agent-skills
 ```
+
+**Vendored in this hub (summary `SKILL.md` only):** [web-design-guidelines](../skills/web-design-guidelines/SKILL.md), [react-best-practices](../skills/react-best-practices/SKILL.md). Detailed React rule files (`rules/*.md`) and compiled `AGENTS.md` are **not** copied; fetch from the upstream paths linked in those skills.
 
 **Fit for this hub:** Complements [cursor/skills/README.md](../skills/README.md) and [cursor/best-practices/](../best-practices/) for frontend and UI audits.
 
