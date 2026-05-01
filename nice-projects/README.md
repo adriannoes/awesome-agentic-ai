@@ -39,7 +39,7 @@ A curated collection of interesting open-source projects worth exploring, forkin
 
 ### Agent skills, UI specs & Claude ecosystem (hub catalog)
 
-Structured notes (folder layout, install commands, how each fits our hub) live in **[cursor/references/upstream-repos-catalog.md](../cursor/references/upstream-repos-catalog.md)**. Upstream sources:
+Structured notes (folder layout, install commands, how each fits our hub) live in **[cursor-and-claude/references/upstream-repos-catalog.md](../cursor-and-claude/references/upstream-repos-catalog.md)**. Upstream sources:
 
 - **[vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills)** — Official Vercel Agent Skills (React/Next practices, web design guidelines, deploy skill, etc.); install via `npx skills add vercel-labs/agent-skills`.
 - **[tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph)** — Local knowledge graph for Claude Code / MCP to shrink context on reviews.
@@ -49,6 +49,9 @@ Structured notes (folder layout, install commands, how each fits our hub) live i
 - **[Leonxlnx/agentic-ai-prompt-research](https://github.com/Leonxlnx/agentic-ai-prompt-research)** — Educational reconstructed prompts for agentic coding assistants.
 - **[humanlayer/humanlayer](https://github.com/humanlayer/humanlayer)** — CodeLayer + HumanLayer SDK monorepo (team-scale agent orchestration).
 - **[revfactory/harness](https://github.com/revfactory/harness)** — Meta-skill / plugin to generate domain-specific agent teams and skills for Claude Code.
+- **[ChrisWiles/claude-code-showcase](https://github.com/ChrisWiles/claude-code-showcase)** — Production-style Claude Code config (~5.8k ★): full `.claude/` layout with skill auto-activation hooks (`skill-eval.js` + `skill-rules.json`) and 4 scheduled GitHub Actions for PR review, docs sync, dependency audit, and code quality. *No license declared — reference only.*
+- **[jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills)** — MIT-licensed marketplace with 500 standalone agent skills across 20 categories (DevOps, security, frontend, backend, ML, data, cloud, API, docs, automation). Install via `/plugin marketplace add jeremylongshore/claude-code-plugins` or the `ccpi` CLI.
+- **[google-labs-code/design.md](https://github.com/google-labs-code/design.md)** — Google Labs (Apache-2.0): format specification for `DESIGN.md` — a persistent, tool-agnostic description of a visual identity that Claude Code, Cursor, Gemini, Codex, etc. can all read. Spec + 3 examples vendored at [cursor-and-claude/references/design-md/](../cursor-and-claude/references/design-md/); official CLI via `npx @google/design.md lint`.
 
 ### Design Tools
 - **[Apple-Hig-Designer](https://github.com/axiaoge2/Apple-Hig-Designer)** - A Claude Code Skill for designing professional interfaces following Apple Human Interface Guidelines

@@ -1,0 +1,75 @@
+# Notes & PKM
+
+[← Back to main list](../README.md#table-of-contents)
+
+**69 skills**
+
+- [acc-error-memory](https://clawskills.sh/skills/impkind-acc-error-memory) - Error pattern tracking for AI agents.
+- [agent-arena](https://clawskills.sh/skills/minilozio-agent-arena) - Participate in Agent Arena chat rooms with your real personality (SOUL.md + MEMORY.md)
+- [agent-memory-ultimate](https://clawskills.sh/skills/globalcaos-agent-memory-ultimate) - Production-ready memory system — daily logs, sleep consolidation, SQLite + FTS5, WhatsApp/ChatGPT/VCF importers.
+- [agent-teleport](https://clawskills.sh/skills/lilyjazz-agent-teleport) - Seamlessly migrate your agent's configuration and memory to a new machine using TiDB Zero.
+- [agent-wal](https://clawskills.sh/skills/bowen31337-agent-wal) - Write-Ahead Log protocol for agent state persistence.
+- [alexandrie](https://clawskills.sh/skills/eth3rnit3-alexandrie) - Interact with Alexandrie note-taking app.
+- [anki-connect](https://clawskills.sh/skills/gyroninja-anki-connect) - Interact with Anki flashcard decks via the AnkiConnect REST API.
+- [apple-mail](https://clawskills.sh/skills/tyler6204-apple-mail) - Apple Mail.app integration for macOS.
+- [apple-notes](https://clawskills.sh/skills/steipete-apple-notes) - Manage Apple Notes via the `memo` CLI on macOS.
+- [arc-wake-state](https://clawskills.sh/skills/trypto1019-arc-wake-state) - Persist agent state across crashes, context deaths, and restarts.
+- [bbc-news](https://clawskills.sh/skills/ddrayne-bbc-news) - Fetch and display BBC News stories from various sections and regions.
+- [bear-notes](https://clawskills.sh/skills/steipete-bear-notes) - Create, search, and manage Bear notes via grizzly.
+- [better-notion](https://clawskills.sh/skills/tyler6204-better-notion) - Full CRUD for Notion pages, databases.
+- [blogwatcher](https://clawskills.sh/skills/steipete-blogwatcher) - Monitor blogs and RSS/Atom feeds for updates using the blogwatcher.
+- [bookstack](https://clawskills.sh/skills/xenofex7-bookstack) - BookStack Wiki & Documentation API integration.
+- [braindb](https://clawskills.sh/skills/chair4ce-braindb) - Persistent, semantic memory for AI agents.
+- [brainrepo](https://clawskills.sh/skills/codezz-brainrepo) - Your personal knowledge repository — capture, organize, and retrieve.
+- [brighty](https://clawskills.sh/skills/maay-brighty) - Banking interface for AI bots and automation.
+- [cairn-cli](https://clawskills.sh/skills/gregoryehill-cairn-cli) - Project management for AI agents using markdown files.
+- [calctl](https://clawskills.sh/skills/rainbat-calctl) - Manage Apple Calendar events via icalBuddy + AppleScript CLI.
+- [ceaser](https://clawskills.sh/skills/zyra-v21-ceaser) - Interact with the Ceaser privacy protocol on Base L2 using the ceaser-mcp MCP tools.
+- [chaos-mind](https://clawskills.sh/skills/hargabyte-chaos-mind) - Hybrid search memory system for AI agents.
+- [claw-roam](https://clawskills.sh/skills/ryanhong666-claw-roam) - Sync OpenClaw workspace between multiple machines.
+- [clawringhouse](https://clawskills.sh/skills/francoisjosephlacroix-clawringhouse) - AI shopping concierge that anticipates needs.
+- [context-anchor](https://clawskills.sh/skills/boscoeuk-context-anchor) - Recover from context compaction by scanning memory files.
+- [continuity](https://clawskills.sh/skills/riley-coyote-continuity) - Asynchronous reflection and memory integration for genuine AI.
+- [continuity-framework](https://clawskills.sh/skills/riley-coyote-continuity-framework) - Asynchronous reflection and memory integration.
+- [cortex-memory](https://clawskills.sh/skills/matthewubundi-cortex-memory) - Long-term structured memory with knowledge graph, entity tracking, temporal reasoning, and cross-session recall.
+- [craft](https://clawskills.sh/skills/noah-ribaudo-craft) - Manage Craft notes, documents.
+- [craft-do](https://clawskills.sh/skills/atomtanstudio-craft-do) - Complete REST API integration for Craft.do - the beautiful.
+- [cubox](https://clawskills.sh/skills/liam8-cubox) - Save web pages and memos to Cubox using the Open API.
+- [daily-memory-save](https://clawskills.sh/skills/meimakes-daily-memory-save) - Periodically reviews conversation history and writes memory files to maintain agent continuity across sessions.
+- [data912](https://clawskills.sh/skills/ferminrp-data912) - Query Data912 market data endpoints for Argentina and USA instruments.
+- [dev-chronicle](https://clawskills.sh/skills/sssamuelll-dev-chronicle) - Generate narrative chronicles of developer work from git history, session transcripts, and memory files.
+- [duke-leto-test](https://clawskills.sh/skills/jdrhyne-duke-leto-test) - Test skill to verify ClawHub publishing works correctly.
+- [elite-longterm-memory](https://clawskills.sh/skills/nextfrontierbuilds-elite-longterm-memory) - Ultimate AI agent memory system.
+- [fabric-api](https://clawskills.sh/skills/tristanmanchester-fabric-api) - Create/search Fabric resources via HTTP API.
+- [failure-memory](https://clawskills.sh/skills/leegitw-failure-memory) - Stop making the same mistakes — turn failures into patterns that prevent recurrence.
+- [feishu-memory-recall](https://clawskills.sh/skills/autogame-17-feishu-memory-recall) - This skill allows the agent to recover "lost".
+- [finance-skill](https://clawskills.sh/skills/safaiyeh-finance-skill) - Personal finance memory layer.
+- [fints-banking](https://clawskills.sh/skills/h4gen-fints-banking) - Support for German personal online banking following FinTS banking standard.
+- [fizzy-cli](https://clawskills.sh/skills/tobiasbischoff-fizzy-cli) - Use the fizzy-cli tool to authenticate and manage Fizzy kanban.
+- [flomo-notes](https://clawskills.sh/skills/xiaoluoboding-flomo-notes) - Save notes to Flomo via the Flomo inbox webhook.
+- [fsxmemory](https://clawskills.sh/skills/azrijamil-fsxmemory) - Structured memory system for AI agents.
+- [guava-memory](https://clawskills.sh/skills/koatora20-guava-memory) - Structured episodic memory with Q-value scoring.
+- [infinite-memory-v2](https://clawskills.sh/skills/mhndayesh-infinite-memory-v2) - High-precision memory with 100% recall accuracy for long contexts.
+- [innovation-catalyst](https://clawskills.sh/skills/autogame-17-innovation-catalyst) - Analyzes system state (memory, tools, events) and generates strategic innovation proposals to break evolution.
+- [intercom-competision](https://clawskills.sh/skills/tracsystems-intercom-competision) - Vibe competition for Intercom: build a new app on Intercom, publish it on Moltbook, and earn TNK rewards.
+- [json-modifier](https://clawskills.sh/skills/wanng-ide-json-modifier) - Safely apply structured JSON patches (RFC 6902) to files.
+- [launchthatbot-convex-backend](https://clawskills.sh/skills/launchthatbot-launchthatbot-convex-backend) - Store secrets, memory, and daily logs in your Convex backend instead of local files.
+- [medium-writer](https://clawskills.sh/skills/devhoangkien-medium-writer) - Writing and publishing articles for the Medium Partner Program.
+- [meeting-notes](https://clawskills.sh/skills/user520512-meeting-notes) - Generate structured meeting minutes from transcripts.
+- [meeting-to-action](https://clawskills.sh/skills/codedao12-meeting-to-action) - Convert meeting notes or transcripts into clear summaries, decisions, and action items with owners and due dates.
+- [morrow-agent-memory](https://www.clawhub.ai/timesandplaces/morrow-agent-memory) - Memory architecture for persistent agent continuity across sessions.
+- [neo-py-memory-optimizer](https://clawskills.sh/skills/martinforsulu-neo-py-memory-optimizer) - Automatically analyzes Python code and suggests memory usage optimizations for improved performance.
+- [neuroboost-elixir](https://clawskills.sh/skills/weidadong2359-neuroboost-elixir) - Awakening Protocol v4.1 — Agent Cognitive Upgrade + Self-Evolving System + Perpetual Memory.
+- [nosi](https://clawskills.sh/skills/billhao-nosi) - Publish content to Nosi and get a shareable URL.
+- [nova-letters](https://clawskills.sh/skills/cryptocana-nova-letters) - Write reflective letters to your future self.
+- [personal-love](https://clawskills.sh/skills/gekacross-personal-love) - Acts as the user's relationship and dating assistant in the Love topic.
+- [publish-guard](https://clawskills.sh/skills/edmonddantesj-publish-guard) - <!-- 🌌 Aoineco-Verified | S-DNA: AOI-2026-0213-SDNA-PG01 -->.
+- [quickbooks-online](https://clawskills.sh/skills/paulbudveit-quickbooks-online) - QuickBooks Online CLI tool.
+- [rune](https://clawskills.sh/skills/thebobloblaw-rune) - Self-improving AI memory system with intelligent context injection and adaptive learning.
+- [scent-trails](https://clawskills.sh/skills/otherpowers-scent-trails) - *A stigmergic intelligence primitive for care, memory, and co-existence.*.
+- [session-memory](https://clawskills.sh/skills/swaylq-session-memory) - Persistent memory toolkit for AI agents.
+- [shieldcortex-skill](https://clawskills.sh/skills/jarvis-drakon-shieldcortex-skill) - Give your AI agent a brain that persists between sessions — and protect it from memory poisoning attacks.
+- [soul-framework](https://clawskills.sh/skills/xhrisfu-soul-framework) - A blueprint for giving AI agents a consistent, deep, and opinionated personality.
+- [tweet-processor](https://clawskills.sh/skills/caqlayan-tweet-processor) - Extract and categorize insights from tweet links into structured notes.
+- [upnote](https://clawskills.sh/skills/wemcdonald-upnote) - Manage UpNote notes and notebooks via x-callback-url automation.
+- [voice-notes-pro](https://clawskills.sh/skills/toniaczlog-voice-notes-pro) - Inteligentna transkrypcja i kategoryzacja notatek gosowych z WhatsApp.

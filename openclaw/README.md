@@ -2,11 +2,22 @@
 
 Reference index for [OpenClaw](https://github.com/openclaw/openclaw) — a locally-running AI assistant that operates directly on your machine. Skills extend its capabilities for external services, automation, and specialized tasks.
 
-**See also:** [README.md](../README.md) (project overview) · [cursor/README.md](../cursor/README.md) (Cursor & Claude skills) · [skills/README.md](./skills/README.md) (skills index)
+**See also:** [README.md](../README.md) (project overview) · [cursor-and-claude/README.md](../cursor-and-claude/README.md) (Cursor & Claude skills) · [skills/README.md](./skills/README.md) (skills index)
+
+## Vendored upstream indexes
+
+To survive upstream changes or deletions, we keep local snapshots of the two community indexes this folder depends on:
+
+| Index | Local snapshot | Upstream |
+|-------|----------------|----------|
+| Derivatives (35+ OpenClaw-inspired agents) | [awesome-claws/](./awesome-claws/) | [machinae/awesome-claws](https://github.com/machinae/awesome-claws) (MIT) |
+| Curated skills (5,400+ organized in 30 categories) | [awesome-openclaw-skills/](./awesome-openclaw-skills/) | [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) (MIT) |
+
+For the **latest** index, read upstream. For a **stable reference**, read our local copy. The derivatives table and skills index below are compiled from these snapshots.
 
 ## OpenClaw Derivatives
 
-Curated list from [machinae/awesome-claws](https://github.com/machinae/awesome-claws). AI agents inspired by OpenClaw:
+Curated list from [machinae/awesome-claws](https://github.com/machinae/awesome-claws) ([local snapshot](./awesome-claws/UPSTREAM-README.md)). AI agents inspired by OpenClaw:
 
 | Project | Language | Description |
 |---------|-----------|-------------|
@@ -49,12 +60,12 @@ Curated list from [machinae/awesome-claws](https://github.com/machinae/awesome-c
 
 ## Skills Sources
 
-| Source | Skills | Description |
-|--------|--------|-------------|
-| [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | 5,400+ | Curated, filtered, categorized from ClawHub registry |
-| [openclaw/skills](https://github.com/openclaw/skills) | 13,000+ | Official archive from clawhub.com; structure: `skills/<owner>/<skill-name>/` |
+| Source | Skills | Vendored here? | Description |
+|--------|--------|----------------|-------------|
+| [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | 5,400+ | ✅ [awesome-openclaw-skills/](./awesome-openclaw-skills/) | Curated, filtered, categorized from ClawHub registry |
+| [openclaw/skills](https://github.com/openclaw/skills) | 13,000+ | ❌ upstream only (~1 GB archive, not vendored) | Official archive from clawhub.com; structure: `skills/<owner>/<skill-name>/` |
 
-**See**: [skills/README.md](./skills/README.md) for category index and installation; [skills/categories/](./skills/categories/) for category links.
+**See**: [skills/README.md](./skills/README.md) for category index and installation; [skills/categories/](./skills/categories/) for category links (now pointing to local snapshots).
 
 ## Installation
 
@@ -81,6 +92,6 @@ Skills are **curated, not audited**. Review source code before installing. OpenC
 
 ## Credits
 
-- [machinae/awesome-claws](https://github.com/machinae/awesome-claws) — derivatives list (MIT)
-- [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) — curated skills index
-- [openclaw/skills](https://github.com/openclaw/skills) — official skills archive
+- [machinae/awesome-claws](https://github.com/machinae/awesome-claws) — derivatives list (MIT) — vendored at [awesome-claws/](./awesome-claws/)
+- [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) — curated skills index (MIT) — vendored at [awesome-openclaw-skills/](./awesome-openclaw-skills/)
+- [openclaw/skills](https://github.com/openclaw/skills) — official skills archive (MIT) — reference only (1 GB upstream)

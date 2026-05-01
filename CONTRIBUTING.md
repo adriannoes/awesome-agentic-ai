@@ -4,7 +4,7 @@ This repo is a knowledge hub for AI-assisted development — rules, skills, prom
 
 ## What to Contribute
 
-- **cursor/** — Skills, commands, best practices, coding rules (Cursor + Claude Code)
+- **cursor-and-claude/** — Skills, commands, best practices, coding rules (Cursor + Claude Code)
 - **prompt-engineering/** — Tested prompts for AI agents
 - **n8n-templates/** — Workflow automation templates
 - **research/** — Jupyter notebooks and experiments

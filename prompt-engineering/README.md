@@ -17,6 +17,6 @@ Battle-tested prompts and system prompt references for AI coding tools.
 | Repo | Purpose |
 |------|---------|
 | [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | Cursor, Claude Code, Devin, Windsurf, v0, Lovable — system prompts and tools |
-| [Leonxlnx/agentic-ai-prompt-research](https://github.com/Leonxlnx/agentic-ai-prompt-research) | Reconstructed agentic prompt patterns (orchestration, sub-agents, permissions) — educational; see [cursor/references/upstream-repos-catalog.md](../cursor/references/upstream-repos-catalog.md) |
+| [Leonxlnx/agentic-ai-prompt-research](https://github.com/Leonxlnx/agentic-ai-prompt-research) | Reconstructed agentic prompt patterns (orchestration, sub-agents, permissions) — educational; see [cursor-and-claude/references/upstream-repos-catalog.md](../cursor-and-claude/references/upstream-repos-catalog.md) |
 | [elder-plinius/CL4R1T4S](https://github.com/elder-plinius/CL4R1T4S) | Leaked system prompts — ChatGPT, Gemini, Claude, Cursor, Perplexity, etc. |
 | [elder-plinius/L1B3RT4S](https://github.com/elder-plinius/L1B3RT4S) | Liberation/jailbreak prompts — reference only; not for productive use |
