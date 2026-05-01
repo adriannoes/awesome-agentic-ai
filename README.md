@@ -9,13 +9,48 @@
   ╚═══╝  ╚═╝╚═════╝ ╚══════╝     ╚═════╝ ╚═════╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝ ╚═════╝
 ```
 
+[![GitHub stars](https://img.shields.io/github/stars/adriannoes/awesome-vibe-coding?style=social)](https://github.com/adriannoes/awesome-vibe-coding/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/adriannoes/awesome-vibe-coding?style=social)](https://github.com/adriannoes/awesome-vibe-coding/network/members)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/adriannoes/awesome-vibe-coding)](https://github.com/adriannoes/awesome-vibe-coding/commits/main)
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
 </div>
 
 # Vibe Coding Hub for Product Builders
 
-> Where Product Managers and Designers learn to code with AI, understand what's happening under the hood, and ship real products.
+> The most complete collection of battle-tested AI-assisted development resources — for Product Managers, Designers, and Developers who want to ship real products with AI.
 
-This is your go-to resource for bridging the gap between product thinking and technical execution. Whether you're a PM who wants to prototype faster or a Designer who wants to understand the code your AI is generating, this repo has everything you need to level up your technical skills.
+**What's inside:** 75 ready-to-use Cursor & Claude Code skills · 123 Jupyter notebooks · 31 research papers (PDFs in `papers/`) · 14 industry reports · 21 n8n workflow templates (JSON) · 14 system prompts from leading agents · 36 OpenClaw derivatives catalogued.
+
+Whether you're a PM who wants to prototype faster, a Designer who wants to understand the code your AI is generating, or a Developer looking for the sharpest rules to ship with — this repo is built to be copied, forked, and used the same day.
+
+## Quick start
+
+Pick your path and start in under 5 minutes:
+
+### For Product Managers
+1. Read [cursor-and-claude/product-management/no-vibe-coding.md](cursor-and-claude/product-management/no-vibe-coding.md) — Spec-Driven Development
+2. Use [cursor-and-claude/product-management/create-prd.md](cursor-and-claude/product-management/create-prd.md) to turn an idea into a PRD with AI
+3. Generate tasks with [cursor-and-claude/product-management/generate-tasks.md](cursor-and-claude/product-management/generate-tasks.md)
+4. Ship with [cursor-and-claude/skills/writing-plans/](cursor-and-claude/skills/writing-plans/) + [cursor-and-claude/skills/executing-plans/](cursor-and-claude/skills/executing-plans/)
+
+### For Designers
+1. Drop [cursor-and-claude/skills/frontend-design/](cursor-and-claude/skills/frontend-design/) into your Claude Code project
+2. Follow [cursor-and-claude/skills/web-design-guidelines/](cursor-and-claude/skills/web-design-guidelines/) (Vercel) for distinctive UI
+3. Read [cursor-and-claude/best-practices/accessibility.md](cursor-and-claude/best-practices/accessibility.md) before shipping
+
+### For Developers
+1. Install the core skills: [brainstorming](cursor-and-claude/skills/brainstorming/), [test-driven-development](cursor-and-claude/skills/test-driven-development/), [systematic-debugging](cursor-and-claude/skills/systematic-debugging/)
+2. Grab the slash commands: [cursor-and-claude/commands/](cursor-and-claude/commands/) (`code-review`, `final-review`, `git-commit`, `security-audit`)
+3. Pick your stack rules from [cursor-and-claude/coding/](cursor-and-claude/coding/) (Python, TypeScript, FastAPI, Next.js, …)
+4. Lock down security with [cursor-and-claude/security/anthropic-security-audit.md](cursor-and-claude/security/anthropic-security-audit.md)
+
+### For Learners
+1. Start with the notebooks in [research/nn-zero-to-hero/](research/nn-zero-to-hero/) (Karpathy's Zero to Hero)
+2. Read [learning/README.md](learning/README.md) to pick a textbook
+3. Follow [research/understanding-deep-learning/](research/understanding-deep-learning/) chapter-by-chapter
 
 ## Project structure
 
@@ -24,16 +59,17 @@ awesome-vibe-coding/
 ├── openclaw/                 # OpenClaw ecosystem — see openclaw/README.md
 │   ├── README.md
 │   └── skills/               # Skills index — openclaw/skills/README.md, categories/
-├── cursor/                   # Cursor & Claude Code — see cursor/README.md
-│   ├── skills/               # cursor/skills/README.md
-│   ├── commands/             # cursor/commands/README.md
+├── cursor-and-claude/                   # Cursor & Claude Code — see cursor-and-claude/README.md
+│   ├── skills/               # cursor-and-claude/skills/README.md
+│   ├── commands/             # cursor-and-claude/commands/README.md
 │   ├── best-practices/
 │   ├── coding/
-│   ├── product-management/   # cursor/product-management/README.md
+│   ├── product-management/   # cursor-and-claude/product-management/README.md
 │   ├── security/
-│   └── references/           # cursor/references/README.md
+│   └── references/           # cursor-and-claude/references/README.md
 ├── prompt-engineering/         # prompt-engineering/README.md, prompts/
-├── learning/                   # Books and learning materials
+├── learning/                   # learning/README.md — books and textbooks
+├── reports/                    # reports/README.md — industry reports (McKinsey, OpenAI, …)
 ├── n8n-templates/              # Workflow templates
 ├── papers/                     # papers/README.md — PDFs and paper notes
 ├── research/                   # research/README.md — notebooks & experiments
@@ -44,9 +80,10 @@ awesome-vibe-coding/
 
 | Area | Entry point |
 |------|-------------|
-| Cursor & Claude | [cursor/](cursor/) · [cursor/README.md](cursor/README.md) · [Upstream repos catalog](cursor/references/upstream-repos-catalog.md) |
+| Cursor & Claude | [cursor-and-claude/](cursor-and-claude/) · [cursor-and-claude/README.md](cursor-and-claude/README.md) · [Upstream repos catalog](cursor-and-claude/references/upstream-repos-catalog.md) |
 | Prompts | [prompt-engineering/](prompt-engineering/) · [prompt-engineering/README.md](prompt-engineering/README.md) |
-| Learning | [learning/](learning/) |
+| Learning | [learning/](learning/) · [learning/README.md](learning/README.md) |
+| Reports | [reports/](reports/) · [reports/README.md](reports/README.md) |
 | OpenClaw | [openclaw/](openclaw/) · [openclaw/README.md](openclaw/README.md) |
 | Research | [research/](research/) · [research/README.md](research/README.md) |
 | Papers | [papers/](papers/) · [papers/README.md](papers/README.md) |
@@ -54,17 +91,17 @@ awesome-vibe-coding/
 
 ## What's inside
 
-### Cursor & Claude ([cursor/](cursor/))
+### Cursor & Claude ([cursor-and-claude/](cursor-and-claude/))
 
 | Topic | Location |
 |-------|----------|
-| Skills (brainstorming, plans, TDD, debugging, git worktrees, Vercel UI/React guidelines, etc.) | [cursor/skills/](cursor/skills/) · [cursor/skills/README.md](cursor/skills/README.md) |
-| Slash commands (code-review, final-review, git-commit, etc.) | [cursor/commands/](cursor/commands/) · [cursor/commands/README.md](cursor/commands/README.md) |
-| Product management (PRD, epics, tasks) | [cursor/product-management/](cursor/product-management/) · [README](cursor/product-management/README.md) |
-| Coding rules (Python, TypeScript, FastAPI, Tailwind, …) | [cursor/coding/](cursor/coding/) |
-| Best practices (clean code, Karpathy guidelines, MCP, …) | [cursor/best-practices/](cursor/best-practices/) |
-| Security | [cursor/security/](cursor/security/) |
-| References (agentic patterns, …) | [cursor/references/](cursor/references/) · [cursor/references/README.md](cursor/references/README.md) |
+| Skills (brainstorming, plans, TDD, debugging, git worktrees, Vercel UI/React guidelines, etc.) | [cursor-and-claude/skills/](cursor-and-claude/skills/) · [cursor-and-claude/skills/README.md](cursor-and-claude/skills/README.md) |
+| Slash commands (code-review, final-review, git-commit, etc.) | [cursor-and-claude/commands/](cursor-and-claude/commands/) · [cursor-and-claude/commands/README.md](cursor-and-claude/commands/README.md) |
+| Product management (PRD, epics, tasks) | [cursor-and-claude/product-management/](cursor-and-claude/product-management/) · [README](cursor-and-claude/product-management/README.md) |
+| Coding rules (Python, TypeScript, FastAPI, Tailwind, …) | [cursor-and-claude/coding/](cursor-and-claude/coding/) |
+| Best practices (clean code, Karpathy guidelines, MCP, …) | [cursor-and-claude/best-practices/](cursor-and-claude/best-practices/) |
+| Security | [cursor-and-claude/security/](cursor-and-claude/security/) |
+| References (agentic patterns, …) | [cursor-and-claude/references/](cursor-and-claude/references/) · [cursor-and-claude/references/README.md](cursor-and-claude/references/README.md) |
 
 ### Prompts library ([prompt-engineering/](prompt-engineering/))
 
@@ -72,7 +109,11 @@ Battle-tested prompts for Cursor, Claude, Grok, Kimi, n8n, Lovable, v0, and more
 
 ### Learning ([learning/](learning/))
 
-Books and notes (math, algorithms, ML/DL). Browse the folder; there is no single index file.
+Three freely-available textbooks that ground the notebooks and skills in this repo: *Understanding Deep Learning* (Prince), *Mathematics for Computer Science* (MIT 6.042J), and *Algorithms for Decision Making* (Stanford). See [learning/README.md](learning/README.md) for what each is best for.
+
+### Reports ([reports/](reports/))
+
+14 industry reports from McKinsey, Deloitte, KPMG, OpenAI, Anthropic, Air Street Capital, and others — useful for pitch decks, business cases, and agent metrics. See [reports/README.md](reports/README.md) for a themed index.
 
 ### OpenClaw ([openclaw/](openclaw/))
 
@@ -104,7 +145,7 @@ PDFs and reading notes — [papers/README.md](papers/README.md).
 
 ## About
 
-This repository is maintained by **Adrianno**, a Staff Product Manager at [Pipefy](https://www.pipefy.com), diving into the magic behind LLMs, experimenting with Python and TypeScript and re-learning the craft of software engineering.
+This repository is maintained by **Adrianno**, a Staff Product Manager at [Pipefy](https://www.pipefy.com), diving into the magic behind LLMs.
 
 You can find more about me on [GitHub](https://github.com/adriannoes) and [LinkedIn](https://www.linkedin.com/in/adrianno/). Feel free to connect with me, I'm always open to discussing AI, product management and building cool things together!
 
@@ -168,4 +209,4 @@ This project is licensed under the MIT License — see [LICENSE](LICENSE).
 
 ---
 
-**Ready to level up?** Start with [cursor/README.md](cursor/README.md), [openclaw/README.md](openclaw/README.md), or [prompt-engineering/README.md](prompt-engineering/README.md). The best way to learn is by doing.
+**Ready to level up?** Start with [cursor-and-claude/README.md](cursor-and-claude/README.md), [openclaw/README.md](openclaw/README.md), or [prompt-engineering/README.md](prompt-engineering/README.md). The best way to learn is by doing.

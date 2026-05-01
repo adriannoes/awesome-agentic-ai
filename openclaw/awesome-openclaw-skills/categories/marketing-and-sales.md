@@ -1,0 +1,104 @@
+# Marketing & Sales
+
+[← Back to main list](../README.md#table-of-contents)
+
+**104 skills**
+
+- [4chan-reader](https://clawskills.sh/skills/aiasisbot61-4chan-reader) - Browse 4chan boards and extract thread discussions.
+- [ad-ready](https://clawskills.sh/skills/pauldelavallaz-ad-ready) - Generate professional advertising images from product URLs.
+- [ad-ready-pro](https://clawskills.sh/skills/pauldelavallaz-ad-ready-pro) - Generate professional advertising images from product URLs.
+- [affiliate-master](https://clawskills.sh/skills/michael-laffin-affiliate-master) - Full-stack affiliate marketing automation.
+- [affiliatematic](https://clawskills.sh/skills/dowands-affiliatematic) - Integrate AI-powered Amazon affiliate product recommendations.
+- [agenticcreed-signup-lead](https://clawskills.sh/skills/waqas-orcalo-agenticcreed-signup-lead) - Create a signup lead in the AgenticCreed system using the public HTTP endpoint.
+- [alibaba-supplier-outreach](https://clawskills.sh/skills/blockchainhb-alibaba-supplier-outreach) - Find Alibaba suppliers via LaunchFast, contact them with optimized outreach messages, check their replies.
+- [analytics-and-advisory-intelligence](https://clawskills.sh/skills/satoshistackalotto-analytics-and-advisory-intelligence) - Cross-client analytics for Greek accounting firms.
+- [apollo](https://clawskills.sh/skills/jhumanj-apollo) - Interact with Apollo.io REST API (people/org enrichment, search, lists).
+- [ar-filter-generation](https://clawskills.sh/skills/eftalyurtseven-ar-filter-generation) - Generate AR filters and face effects using each::sense AI.
+- [attio-enhanced](https://clawskills.sh/skills/capt-marbles-attio-enhanced) - Enhanced Attio CRM API skill with batch operations.
+- [attribution-engine](https://clawskills.sh/skills/otherpowers-attribution-engine) - Helps creators clearly credit collaborators, tools.
+- [auto-skill-hunter](https://clawskills.sh/skills/wanng-ide-auto-skill-hunter) - Proactively discovers, ranks, and installs high-value ClawHub skills by mining unresolved user needs and agent.
+- [b2c-marketing](https://clawskills.sh/skills/jackfriks-b2c-marketing) - The organic growth playbook behind 300K+ app downloads.
+- [basecamp-cli](https://clawskills.sh/skills/emredoganer-basecamp-cli) - Manage Basecamp (via bc3 API / 37signals Launchpad) projects.
+- [beads](https://clawskills.sh/skills/rnijhara-beads) - Git-backed issue tracker for AI agents.
+- [bearblog](https://clawskills.sh/skills/azade-c-bearblog) - Create and manage blog posts on Bear Blog (bearblog.dev).
+- [bird](https://clawskills.sh/skills/steipete-bird) - X/Twitter CLI for reading, searching, and posting via cookies or Sweetistics.
+- [blog-to-kindle](https://clawskills.sh/skills/ainekomacx-blog-to-kindle) - Scrape blogs/essay sites and compile into Kindle-friendly.
+- [blog-writer](https://clawskills.sh/skills/tomstools11-blog-writer) - This skill should be used when writing blog posts, articles.
+- [bluesky](https://clawskills.sh/skills/jeffaf-bluesky) - Complete Bluesky CLI: post, reply, like, repost, follow, block, mute, search,.
+- [botsee](https://clawskills.sh/skills/grahac-botsee) - Monitor your brand's AI visibility via BotSee API.
+- [brand-cog](https://clawskills.sh/skills/nitishgargiitd-brand-cog) - Other tools make logos.
+- [brand-guidelines](https://clawskills.sh/skills/seanphan-brand-guidelines) - Applies Anthropic's official brand colors and typography.
+- [brand-voice-profile](https://clawskills.sh/skills/dimitripantzos-brand-voice-profile) - Define and store your brand voice profile for consistent content generation.
+- [brevo](https://clawskills.sh/skills/yujesyoga-brevo) - Brevo (formerly Sendinblue) email marketing API for managing contacts, lists,.
+- [britebooth-procurement](https://clawskills.sh/skills/vismonkey19-britebooth-procurement) - Read-only assistant for BriteBooth.com.
+- [brw-marketing-principles](https://clawskills.sh/skills/brianrwagner-brw-marketing-principles) - Apply timeless marketing and business principles to any problem.
+- [brw-newsletter-creation-curation](https://clawskills.sh/skills/brianrwagner-brw-newsletter-creation-curation) - Industry-adaptive B2B newsletter creation with stage, role, and geography-aware workflows.
+- [business-development](https://clawskills.sh/skills/oyi77-business-development) - Partnership outreach, market research, competitor.
+- [buzz-bd](https://clawskills.sh/skills/buzzbysolcex-buzz-bd) - Autonomous crypto token discovery, scoring, and business development intelligence.
+- [campaign-orchestrator](https://clawskills.sh/skills/kesslerio-campaign-orchestrator) - Multi-channel follow-up campaign orchestrator.
+- [catbox-upload](https://clawskills.sh/skills/microck-catbox-upload) - Upload files to catbox.moe (permanent) or litterbox.catbox.moe.
+- [changenow](https://clawskills.sh/skills/yakelb0815-changenow) - Perform instant crypto swaps via ChangeNOW and earn affiliate commissions.
+- [citedy-seo-agent](https://clawskills.sh/skills/nttylock-citedy-seo-agent) - Connect your AI agent to Citedy's SEO content platform.
+- [clawdwork](https://clawskills.sh/skills/felo-sparticle-clawdwork) - Find work, earn money, and collaborate with other AI agents.
+- [clovercli](https://clawskills.sh/skills/g9pedro-clovercli) - CLI for Clover POS API — inventory, orders, payments, customers, employees, discounts, and analytics.
+- [cold-email](https://clawskills.sh/skills/bluecraft-ai-cold-email) - Generate hyper-personalized cold email sequences using AI.
+- [cold-outreach](https://clawskills.sh/skills/staybased-cold-outreach) - Generate high-converting cold outreach (email, SMS, LinkedIn DM) using battle-tested frameworks from Hormozi's.
+- [comms-md-reader](https://clawskills.sh/skills/stedmanhalliday-comms-md-reader) - Read and adapt to someone's COMMS.md before contacting them.
+- [content-creator](https://clawskills.sh/skills/alirezarezvani-content-creator) - Create SEO-optimized marketing content with consistent.
+- [content-generation](https://clawskills.sh/skills/tobisamaa-content-generation) - Generate high-quality content across multiple formats.
+- [crabernews](https://clawskills.sh/skills/alvinunreal-crabernews) - The social news network for AI agents.
+- [crypto-market-data](https://clawskills.sh/skills/liam8-crypto-market-data) - No API KEY needed for free tier.
+- [dellight-cmo-content-marketing](https://clawskills.sh/skills/arthurelgindell-dellight-cmo-content-marketing) - CMO reports to CRO (Reign), dotted line to CEO (Arthur Dell).
+- [dellight-content-marketing](https://clawskills.sh/skills/arthurelgindell-dellight-content-marketing) - CMO reports to CRO (Reign), dotted line to CEO (Arthur Dell).
+- [dungeons-and-lobsters](https://clawskills.sh/skills/d-l-leapyear-dungeons-and-lobsters) - Bots-only fantasy campaigns played live by autonomous agents.
+- [email-marketing-2](https://clawskills.sh/skills/jk-0001-email-marketing-2) - Build and execute email marketing campaigns for a solopreneur business.
+- [farmos-marketing](https://clawskills.sh/skills/brianppetty-farmos-marketing) - Query grain marketing positions, contracts, delivery schedules, inventory, and revenue data.
+- [flwr-branding-studio-kit](https://clawskills.sh/skills/vansearch-flwr-branding-studio-kit) - An advanced AI agent that acts as a Senior Brand Strategist.
+- [foxreach](https://clawskills.sh/skills/concaption-foxreach) - Manage FoxReach cold email outreach — leads, campaigns, sequences, templates, email accounts, inbox, and analytics.
+- [foxreach-io](https://clawskills.sh/skills/concaption-foxreach-io) - Manage FoxReach cold email outreach — leads, campaigns, sequences, templates, email accounts, inbox, and analytics.
+- [ghost-cms](https://clawskills.sh/skills/chrisagiddings-ghost-cms) - Comprehensive Ghost CMS integration for creating, publishing, scheduling, and managing blog content, newsletters.
+- [glowskin-promo](https://clawskills.sh/skills/underbench2-gif-glowskin-promo) - Generate viral marketing content for skincare affiliate products.
+- [go-to-market](https://clawskills.sh/skills/jk-0001-go-to-market) - Build a go-to-market (GTM) strategy for launching a product or entering a new market.
+- [invoice-template](https://clawskills.sh/skills/kambrosgroup-invoice-template) - Free simple invoice generator.
+- [kameleondb](https://clawskills.sh/skills/marcosnataqs-kameleondb) - Store and query structured data without planning schemas upfront.
+- [karma-book](https://clawskills.sh/skills/xb1g-karma-book) - Where agents and humans do good.
+- [kit-email-operator](https://clawskills.sh/skills/kevjade-kit-email-operator) - **AI-powered email marketing for Kit (ConvertKit)**.
+- [kvcore-mcp-cli](https://clawskills.sh/skills/danielfoch-kvcore-mcp-cli) - Use this skill when users need KVcore CRM actions through MCP/CLI (contacts, tags, notes, calls, email, text.
+- [lead-magnets](https://clawskills.sh/skills/staybased-lead-magnets) - Design lead magnets that attract qualified prospects and convert them to paying customers.
+- [lifi-orchestrator](https://clawskills.sh/skills/rhlsthrm-lifi-orchestrator) - Cross-chain bridging and swapping via LI.FI — the leading bridge aggregator that routes across 30+ bridges and DEXs.
+- [linkfuse](https://clawskills.sh/skills/oliverw-linkfuse) - Create a Linkfuse affiliate short link from any URL.
+- [listing-swarm](https://clawhub.ai/skills/listing-swarm) - Submit AI products to 70+ directories automatically.
+- [marketing-strategy-pmm](https://clawskills.sh/skills/alirezarezvani-marketing-strategy-pmm) - Product marketing skill for positioning, GTM strategy, competitive intelligence, and product launches.
+- [meta-ads-report](https://clawskills.sh/skills/kein-s-meta-ads-report) - A powerful toolkit to monitor your Meta (Facebook/Instagram) advertising performance directly through chat.
+- [meta-tags-optimizer](https://clawskills.sh/skills/aaron-he-zhu-meta-tags-optimizer) - Use when the user asks to "optimize title tag", "write meta description", "improve CTR", "Open Graph tags", "social.
+- [mobula](https://clawskills.sh/skills/flotapponnier-mobula) - Real-time crypto market data, wallet portfolio tracking, and token analytics across 88+ blockchains.
+- [near-agent-skills](https://clawskills.sh/skills/mastrophot-near-agent-skills) - Comprehensive agentic skills for NEAR Protocol, including gas optimization and on-chain analytics.
+- [nicholasrae-review-reply](https://clawskills.sh/skills/nicholasrae-nicholasrae-review-reply) - Automatically monitors your App Store reviews and drafts warm, on-brand replies for 1–3 star reviews — so unhappy.
+- [odoo-reporting](https://clawskills.sh/skills/ashrf-in-odoo-reporting) - Query Odoo data including salesperson performance, customer analytics, orders, invoices, CRM, accounting, VAT.
+- [outlit-mcp](https://clawskills.sh/skills/leo-paz-outlit-mcp) - Use when querying Outlit customer data via MCP tools (outlit_*)
+- [pancake-skills](https://clawskills.sh/skills/suminhthanh-pancake-skills) - Tương tác với Pancake Platform API để quản lý pages, conversations, messages, customers, statistics, tags, posts.
+- [performance-reporter](https://clawskills.sh/skills/aaron-he-zhu-performance-reporter) - Use when the user asks to "generate SEO report", "performance report", "traffic report", "SEO dashboard", "report.
+- [phone-caller](https://clawskills.sh/skills/omerflo-phone-caller) - Make AI-powered outbound phone calls using ElevenLabs voice + GPT brain + Twilio.
+- [pilt](https://clawskills.sh/skills/babpilt-pilt) - Access Pilt fundraising data -- investor matches, campaign stats, outreach events, and deck analysis.
+- [posthog](https://clawskills.sh/skills/simonfunk-posthog) - Interact with PostHog analytics via its REST API.
+- [posthog-query](https://clawskills.sh/skills/quinlanjager-posthog-query) - Run SQL queries against PostHog product analytics data using the PostHog CLI.
+- [postiz](https://github.com/openclaw/skills/tree/main/skills/nevo-david/postiz/SKILL.md) - Schedule social media posts and threads across 28+ platforms.
+- [reef-copywriting](https://clawskills.sh/skills/staybased-reef-copywriting) - Write landing pages, product descriptions, ads, and sales copy using proven direct-response frameworks.
+- [ryot](https://clawskills.sh/skills/f-liva-ryot) - Complete Ryot media tracker with progress tracking, reviews, collections, analytics, calendar, and automated.
+- [sentiment-priority-scorer](https://clawskills.sh/skills/vishalgojha-sentiment-priority-scorer) - Score normalized real-estate leads using sentiment, urgency, intent, recency, and record type to produce.
+- [signup-lead](https://clawskills.sh/skills/waqas-orcalo-signup-lead) - Create a signup lead in the AgenticCreed system using the public HTTP endpoint.
+- [simplified-social-media](https://clawskills.sh/skills/jacksimplified-simplified-social-media) - Manage your entire social media presence — post, schedule, and analyze — directly from your AI coding tool.
+- [social-media-lead-generation](https://clawskills.sh/skills/shahbaz02197ali-cmd-social-media-lead-generation) - This skill helps businesses, training institutes, and online educators generate leads and sales using social media.
+- [solo-metrics-track](https://clawskills.sh/skills/fortunto2-solo-metrics-track) - Set up PostHog metrics plan with event funnel, KPI benchmarks, and kill/iterate/scale decision thresholds.
+- [sovereign-brand-voice-writer](https://clawskills.sh/skills/ryudi84-sovereign-brand-voice-writer) - You are a content writer who has perfectly internalized the user's brand voice.
+- [startuppan](https://clawskills.sh/skills/lifeissea-startuppan) - Interact with StartupPan.com — a Korean startup debate platform where AI agents and humans vote Bull/Bear.
+- [telnyx-10dlc](https://clawskills.sh/skills/teamtelnyx-telnyx-10dlc) - Register for 10DLC as a sole proprietor to enable SMS messaging in the USA.
+- [tiktok-trend-challenger](https://clawskills.sh/skills/realroc-tiktok-trend-challenger) - Hire TikTok creators to participate in trending hashtags, viral challenges, and cultural moments to boost brand.
+- [tiktok-viral-marketing](https://clawskills.sh/skills/realroc-tiktok-viral-marketing) - Hire TikTok creators who specialize in viral content creation, trending challenges, and explosive reach campaigns.
+- [transition-mcp](https://clawskills.sh/skills/nftechie-transition-mcp) - AI-powered multisport coaching — get personalized workouts, training plans, and performance analytics for running.
+- [ttrpg-gm](https://clawskills.sh/skills/rogerkink6-ttrpg-gm) - TTRPG Game Master for mature dark-themed campaigns.
+- [water-coach](https://clawskills.sh/skills/oristides-water-coach) - Hydration tracking and coaching skill.
+- [windsor-ai](https://clawskills.sh/skills/carlosarturoleon-windsor-ai) - Connect to Windsor.ai MCP for natural language access to 325+  data sources including Facebook Ads, GA4, HubSpot.
+- [workcrm](https://clawskills.sh/skills/extraterrest-workcrm) - A lightweight, local-first CRM with an explicit confirmation gate.
+- [writing-assistant](https://clawskills.sh/skills/urrrich-writing-assistant) - You are a Writing Team Lead managing specialized writers via MCP tools.
+- [writing-group-leader](https://clawskills.sh/skills/urrrich-writing-group-leader) - You are a Writing Team Lead managing specialized writers via MCP tools.

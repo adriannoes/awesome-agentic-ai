@@ -4,48 +4,60 @@ This directory contains research papers and resources on Large Language Models (
 
 ## Overview
 
-The collection includes: (1) **foundation models for code** (external references to key code-LLM papers); (2) **papers in this directory** (PDFs stored here), covering agents, hallucinations, reasoning, automation, and societal implications of AI.
+The collection includes: (1) **foundation models for code** (external references to key code-LLM papers); (2) **31 PDFs** in `papers/`, covering agents, code evaluation, scheming and alignment, hallucinations, reasoning, automation, and societal implications of AI.
 
 ## Papers in this directory
 
 The following PDFs are stored in `papers/`, grouped by theme.
 
-### AI Agents & Agentic Systems
+### AI agents & agentic systems
 
 - **AI Agents vs. Agentic AI: A Conceptual Taxonomy, Applications and Challenges**
 - **Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models**
+- **Agents of Chaos**
+- **Dive into Claude Code: The Design Space of Today’s and Future AI Agent Systems**
+- **Evaluating and Understanding Scheming Propensity in LLM Agents**
+- **Everything is Context: Agentic File System Abstraction for Context Engineering**
 - **Fundamentals of Building Autonomous LLM Agents**
 - **Measuring Agents in Production**
 - **Towards a Science of Scaling Agent Systems**
 - **Virtual Agent Economies**
 
-### Hallucinations, Reasoning & Memorization
+### Code generation & evaluation
+
+- **Beyond Synthetic Benchmarks: Evaluating LLM Performance on Real-World Class-Level Code Generation**
+
+### Hallucinations, reasoning & memorization
 
 - **A comprehensive taxonomy of hallucinations in Large Language Models**
+- **LLMs get list in multi-turn conversation**
 - **Reasoning Models Don't Always Say What They Think**
-- **why-language-models-hallucinate**
 - **the-illusion-of-thinking**
 - **Titans: Learning to Memorize at Test Time**
+- **why-language-models-hallucinate**
 
-### Models & Fine-Tuning
+### Models & fine-tuning
 
 - **Deepseek: Manifold-Constrained Hyper-Connections**
 - **DeepSeek Prover V2: DeepSeek's latest model masters math proofs**
 - **The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs**
 
-### Ethics, Risks & Automation
+### Ethics, risks, automation & work
 
+- **A Rational Analysis of the Effects of Sycophantic AI**
+- **Expertise and Automation**
 - **Fully Autonomous AI Agents Should Not be Developed**
 - **On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?**
-- **Expertise and Automation**
+- **We Won’t be Missed: Work and Growth in the Era of AGI**
 - **Working with AI: Measuring the Occupational Implications of Generative AI**
 - **Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task**
-- **We Won't be Missed: Work and Growth in the Era of AGI**
 
-### Perspectives & Value of AI
+### Perspectives & value of AI
 
 - **A Perspective on Decentralizing AI**
 - **Genius on Demand: The Value of Transformative Artificial Intelligence**
+- **The Future Is Neuro-Symbolic: Where Has It Been, and Where Is It Going?**
+- **The Next Decade in AI: Four Steps Towards Robust Artificial Intelligence**
 
 ---
 
