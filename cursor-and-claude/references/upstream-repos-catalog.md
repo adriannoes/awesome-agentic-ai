@@ -16,6 +16,8 @@ Most entries are **link-only**; two Vercel **SKILL.md** summaries are also vendo
 | Claude Code Showcase | [ChrisWiles/claude-code-showcase](https://github.com/ChrisWiles/claude-code-showcase) |
 | Claude Code Plugins + Skills | [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) |
 | Superpowers (core skills) | [obra/superpowers](https://github.com/obra/superpowers) |
+| DESIGN.md spec (Google Labs) | [google-labs-code/design.md](https://github.com/google-labs-code/design.md) |
+| Skills for Real Engineers | [mattpocock/skills](https://github.com/mattpocock/skills) |
 
 ---
 
@@ -264,6 +266,43 @@ Or via the `ccpi` CLI per upstream README.
 **Use here:** Read [references/design-md/README.md](./design-md/README.md) first. Start a product with a DESIGN.md and every agent session stays visually coherent without re-explaining the brand.
 
 **Fit for this hub:** Primary bridge between **designers** and **AI-assisted development** — fills the gap between [cursor-and-claude/skills/frontend-design/](../skills/frontend-design/) (how to build distinctive UI) and [cursor-and-claude/skills/web-design-guidelines/](../skills/web-design-guidelines/) (how to audit UI). Natural pair with [VoltAgent/awesome-design-md](#voltagentawesome-design-md) which is a community collection that follows this same format.
+
+---
+
+## [mattpocock/skills](https://github.com/mattpocock/skills)
+
+**License:** MIT.
+
+**What it is:** Matt Pocock's personal `.claude/skills/` directory — ~54k stars. Branded as "Skills For Real Engineers — not vibe coding." Built around fixing four agent failure modes: misalignment, verbosity, code that doesn't work, and plan drift.
+
+**Core philosophy:** Small, easy to adapt, composable, model-agnostic. Doesn't try to own the process the way GSD/BMAD/Spec-Kit do — hands you a sharp tool and gets out of the way.
+
+**Three patterns worth studying:**
+
+1. **Grilling sessions.** `/grill-me` (non-code) and `/grill-with-docs` (code) interview the user relentlessly about a plan until reaching shared understanding. `/grill-with-docs` also produces an ADR and a `CONTEXT.md` (ubiquitous-language doc) so the agent stops being verbose in subsequent sessions.
+
+2. **Triage state machine.** `/triage` defines `bug`/`enhancement` × 5 states (`needs-triage`, `ready`, `in-progress`, `blocked`, `done`) plus an `AGENT-BRIEF.md` format for AFK agents. Pairs with `/to-issues` (bulk convert) and `/to-prd` (PRD generator).
+
+3. **Zoom out.** `/zoom-out` is the antidote to agent tunnel-vision — pause, take stock, recalibrate.
+
+**Layout explored upstream:**
+- `skills/engineering/` — 9 active skills (diagnose, grill-with-docs, improve-codebase-architecture, setup-matt-pocock-skills, tdd, to-issues, to-prd, triage, zoom-out)
+- `skills/productivity/` — 3 skills (caveman, grill-me, write-a-skill)
+- `skills/misc/` — 4 skills (git-guardrails-claude-code, migrate-to-shoehorn, scaffold-exercises, setup-pre-commit)
+- `skills/personal/` — 2 Matt-specific (edit-article, obsidian-vault)
+- `skills/deprecated/` — 4 deprecated (design-an-interface, qa, request-refactor-plan, ubiquitous-language)
+
+**Vendored in this hub (as of 2026-05-03):** [skills/matt-pocock/](../skills/matt-pocock/) — 13 of the 22 active skills (engineering: 8, productivity: 3, misc: 2). We skipped `setup-matt-pocock-skills` (installer-specific), `migrate-to-shoehorn` (TS-library-specific), `scaffold-exercises` (course-specific), the entire `personal/` folder, and all `deprecated/` skills. See the [folder README](../skills/matt-pocock/README.md) for the full skip rationale.
+
+**Install upstream (alternative):**
+
+```bash
+npx skills@latest add mattpocock/skills
+```
+
+Then run `/setup-matt-pocock-skills` in your agent — it asks about your issue tracker (GitHub/Linear/local) and triage labels.
+
+**Fit for this hub:** Provides a different angle on skills we already have (`tdd`, `diagnose`, `write-a-skill` from obra/superpowers vs Matt's versions) and adds genuinely new patterns (`grill-with-docs` ubiquitous-language ADRs, `triage` state machine, `zoom-out`). Reading both is recommended.
 
 ---
 
