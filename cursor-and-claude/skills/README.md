@@ -77,16 +77,17 @@ Skills in this folder are designed to work for **both Cursor and Claude Code**. 
 | `writing-skills` | How to write new skills well — Anthropic best practices, persuasion principles, subagent-tested examples | [obra/superpowers](https://github.com/obra/superpowers) (MIT) |
 | `using-superpowers` | How to use the superpowers skill collection effectively | [obra/superpowers](https://github.com/obra/superpowers) (MIT) |
 
-## Breadth-catalog skills (vendored as starting points)
+## Curated category folders (vendored from upstream)
 
-These are **starting-point / checklist skills** vendored from [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) (MIT). They share a boilerplate template and are most useful with the [skill-auto-activation](../references/skill-auto-activation.md) pattern. See each folder's README for an honest quality note.
+Subfolders that group multiple related skills from a single upstream source. Each has its own README with attribution and an honest quality note.
 
-| Category | Skills | Link |
-|----------|--------|------|
-| Visual Content | 25 (Mermaid, D2, PlantUML, charts, architecture & journey diagrams, …) | [visual-content/README.md](./visual-content/README.md) |
-| Business Automation | 25 (n8n, Zapier, Slack, email, spreadsheets, PDFs, forms, …) | [business-automation/README.md](./business-automation/README.md) |
+| Folder | Skills | Source | Description |
+|--------|--------|--------|-------------|
+| [matt-pocock/](./matt-pocock/) | 13 | [mattpocock/skills](https://github.com/mattpocock/skills) (MIT, ~54k ★) | "Skills for real engineers." Grilling sessions, ubiquitous-language ADRs, triage state machine, zoom-out. Matt's flagship is `grill-with-docs`. |
+| [visual-content/](./visual-content/) | 25 | [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) (MIT) | Mermaid, D2, PlantUML, charts, architecture & journey diagrams. Breadth-first; pair with [skill-auto-activation](../references/skill-auto-activation.md). |
+| [business-automation/](./business-automation/) | 25 | [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) (MIT) | n8n, Zapier, Slack, email, spreadsheets, PDFs, forms. Breadth-first; pair with [skill-auto-activation](../references/skill-auto-activation.md). |
 
-For the **20 total categories** in Jeremy's marketplace (devops, security, frontend/backend, ML, data, AWS/GCP, APIs, docs, enterprise), see the upstream repo; we vendored the two most complementary to our existing content.
+For Jeremy's **20 total categories** (devops, security, frontend/backend, ML, data, AWS/GCP, APIs, docs, enterprise), see the upstream repo; we vendored the two most complementary to our existing content.
 
 ## Attribution & licenses
 
