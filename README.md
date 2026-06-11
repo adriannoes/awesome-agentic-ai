@@ -22,7 +22,7 @@
 
 > The most complete collection of battle-tested AI-assisted development resources — for Product Managers, Designers, and Developers who want to ship real products with AI.
 
-**What's inside:** 75 ready-to-use Cursor & Claude Code skills · 123 Jupyter notebooks · 31 research papers (PDFs in `papers/`) · 14 industry reports · 21 n8n workflow templates (JSON) · 14 system prompts from leading agents · 36 OpenClaw derivatives catalogued.
+**What's inside:** 89+ ready-to-use Cursor, Claude Code & Codex skills (see [cursor-claude-codex/skills/README.md](cursor-claude-codex/skills/README.md)) · [codex-profiles](cursor-claude-codex/tools/codex-profiles/) CLI for multi-account Codex · 123 Jupyter notebooks · 33 research papers (PDFs in `papers/`) · 14 industry reports · 21 n8n workflow templates (JSON) · 14 system prompts from leading agents · 36 OpenClaw derivatives catalogued.
 
 Whether you're a PM who wants to prototype faster, a Designer who wants to understand the code your AI is generating, or a Developer looking for the sharpest rules to ship with — this repo is built to be copied, forked, and used the same day.
 
@@ -31,21 +31,26 @@ Whether you're a PM who wants to prototype faster, a Designer who wants to under
 Pick your path and start in under 5 minutes:
 
 ### For Product Managers
-1. Read [cursor-and-claude/product-management/no-vibe-coding.md](cursor-and-claude/product-management/no-vibe-coding.md) — Spec-Driven Development
-2. Use [cursor-and-claude/product-management/create-prd.md](cursor-and-claude/product-management/create-prd.md) to turn an idea into a PRD with AI
-3. Generate tasks with [cursor-and-claude/product-management/generate-tasks.md](cursor-and-claude/product-management/generate-tasks.md)
-4. Ship with [cursor-and-claude/skills/writing-plans/](cursor-and-claude/skills/writing-plans/) + [cursor-and-claude/skills/executing-plans/](cursor-and-claude/skills/executing-plans/)
+1. Read [cursor-claude-codex/product-management/no-vibe-coding.md](cursor-claude-codex/product-management/no-vibe-coding.md) — Spec-Driven Development
+2. Use [cursor-claude-codex/product-management/create-prd.md](cursor-claude-codex/product-management/create-prd.md) to turn an idea into a PRD with AI
+3. Generate tasks with [cursor-claude-codex/product-management/generate-tasks.md](cursor-claude-codex/product-management/generate-tasks.md)
+4. Ship with [cursor-claude-codex/skills/writing-plans/](cursor-claude-codex/skills/writing-plans/) + [cursor-claude-codex/skills/executing-plans/](cursor-claude-codex/skills/executing-plans/)
 
 ### For Designers
-1. Drop [cursor-and-claude/skills/frontend-design/](cursor-and-claude/skills/frontend-design/) into your Claude Code project
-2. Follow [cursor-and-claude/skills/web-design-guidelines/](cursor-and-claude/skills/web-design-guidelines/) (Vercel) for distinctive UI
-3. Read [cursor-and-claude/best-practices/accessibility.md](cursor-and-claude/best-practices/accessibility.md) before shipping
+1. Drop [cursor-claude-codex/skills/frontend-design/](cursor-claude-codex/skills/frontend-design/) into your Claude Code project
+2. Follow [cursor-claude-codex/skills/web-design-guidelines/](cursor-claude-codex/skills/web-design-guidelines/) (Vercel) for distinctive UI
+3. Read [cursor-claude-codex/best-practices/accessibility.md](cursor-claude-codex/best-practices/accessibility.md) before shipping
 
 ### For Developers
-1. Install the core skills: [brainstorming](cursor-and-claude/skills/brainstorming/), [test-driven-development](cursor-and-claude/skills/test-driven-development/), [systematic-debugging](cursor-and-claude/skills/systematic-debugging/)
-2. Grab the slash commands: [cursor-and-claude/commands/](cursor-and-claude/commands/) (`code-review`, `final-review`, `git-commit`, `security-audit`)
-3. Pick your stack rules from [cursor-and-claude/coding/](cursor-and-claude/coding/) (Python, TypeScript, FastAPI, Next.js, …)
-4. Lock down security with [cursor-and-claude/security/anthropic-security-audit.md](cursor-and-claude/security/anthropic-security-audit.md)
+1. Install the core skills: [brainstorming](cursor-claude-codex/skills/brainstorming/), [test-driven-development](cursor-claude-codex/skills/test-driven-development/), [systematic-debugging](cursor-claude-codex/skills/systematic-debugging/)
+2. Grab the slash commands: [cursor-claude-codex/commands/](cursor-claude-codex/commands/) (`code-review`, `final-review`, `git-commit`, `security-audit`)
+3. Pick your stack rules from [cursor-claude-codex/coding/](cursor-claude-codex/coding/) (Python, TypeScript, FastAPI, Next.js, …)
+4. Lock down security with [cursor-claude-codex/security/anthropic-security-audit.md](cursor-claude-codex/security/anthropic-security-audit.md)
+
+### For Codex users
+1. Copy skills to `~/.agents/skills/` from [cursor-claude-codex/skills/](cursor-claude-codex/skills/)
+2. Set up isolated profiles: [cursor-claude-codex/tools/codex-profiles/](cursor-claude-codex/tools/codex-profiles/) ([Ducksss/codex-profiles](https://github.com/Ducksss/codex-profiles))
+3. Map Claude Code tool names when needed: [codex-tools.md](cursor-claude-codex/skills/using-superpowers/references/codex-tools.md)
 
 ### For Learners
 1. Start with the notebooks in [research/nn-zero-to-hero/](research/nn-zero-to-hero/) (Karpathy's Zero to Hero)
@@ -59,14 +64,15 @@ awesome-vibe-coding/
 ├── openclaw/                 # OpenClaw ecosystem — see openclaw/README.md
 │   ├── README.md
 │   └── skills/               # Skills index — openclaw/skills/README.md, categories/
-├── cursor-and-claude/                   # Cursor & Claude Code — see cursor-and-claude/README.md
-│   ├── skills/               # cursor-and-claude/skills/README.md
-│   ├── commands/             # cursor-and-claude/commands/README.md
+├── cursor-claude-codex/      # Cursor, Claude Code & Codex — see cursor-claude-codex/README.md
+│   ├── skills/               # cursor-claude-codex/skills/README.md
+│   ├── commands/             # cursor-claude-codex/commands/README.md (Cursor slash commands)
+│   ├── tools/                # cursor-claude-codex/tools/ (e.g. codex-profiles)
 │   ├── best-practices/
 │   ├── coding/
-│   ├── product-management/   # cursor-and-claude/product-management/README.md
+│   ├── product-management/   # cursor-claude-codex/product-management/README.md
 │   ├── security/
-│   └── references/           # cursor-and-claude/references/README.md
+│   └── references/           # cursor-claude-codex/references/README.md
 ├── prompt-engineering/         # prompt-engineering/README.md, prompts/
 ├── learning/                   # learning/README.md — books and textbooks
 ├── reports/                    # reports/README.md — industry reports (McKinsey, OpenAI, …)
@@ -80,7 +86,7 @@ awesome-vibe-coding/
 
 | Area | Entry point |
 |------|-------------|
-| Cursor & Claude | [cursor-and-claude/](cursor-and-claude/) · [cursor-and-claude/README.md](cursor-and-claude/README.md) · [Upstream repos catalog](cursor-and-claude/references/upstream-repos-catalog.md) |
+| Cursor, Claude & Codex | [cursor-claude-codex/](cursor-claude-codex/) · [cursor-claude-codex/README.md](cursor-claude-codex/README.md) · [codex-profiles](cursor-claude-codex/tools/codex-profiles/) · [Upstream catalog](cursor-claude-codex/references/upstream-repos-catalog.md) |
 | Prompts | [prompt-engineering/](prompt-engineering/) · [prompt-engineering/README.md](prompt-engineering/README.md) |
 | Learning | [learning/](learning/) · [learning/README.md](learning/README.md) |
 | Reports | [reports/](reports/) · [reports/README.md](reports/README.md) |
@@ -91,17 +97,18 @@ awesome-vibe-coding/
 
 ## What's inside
 
-### Cursor & Claude ([cursor-and-claude/](cursor-and-claude/))
+### Cursor, Claude Code & Codex ([cursor-claude-codex/](cursor-claude-codex/))
 
 | Topic | Location |
 |-------|----------|
-| Skills (brainstorming, plans, TDD, debugging, git worktrees, Vercel UI/React guidelines, etc.) | [cursor-and-claude/skills/](cursor-and-claude/skills/) · [cursor-and-claude/skills/README.md](cursor-and-claude/skills/README.md) |
-| Slash commands (code-review, final-review, git-commit, etc.) | [cursor-and-claude/commands/](cursor-and-claude/commands/) · [cursor-and-claude/commands/README.md](cursor-and-claude/commands/README.md) |
-| Product management (PRD, epics, tasks) | [cursor-and-claude/product-management/](cursor-and-claude/product-management/) · [README](cursor-and-claude/product-management/README.md) |
-| Coding rules (Python, TypeScript, FastAPI, Tailwind, …) | [cursor-and-claude/coding/](cursor-and-claude/coding/) |
-| Best practices (clean code, Karpathy guidelines, MCP, …) | [cursor-and-claude/best-practices/](cursor-and-claude/best-practices/) |
-| Security | [cursor-and-claude/security/](cursor-and-claude/security/) |
-| References (agentic patterns, …) | [cursor-and-claude/references/](cursor-and-claude/references/) · [cursor-and-claude/references/README.md](cursor-and-claude/references/README.md) |
+| Skills (brainstorming, plans, TDD, debugging, git worktrees, Vercel UI/React guidelines, etc.) | [cursor-claude-codex/skills/](cursor-claude-codex/skills/) · [cursor-claude-codex/skills/README.md](cursor-claude-codex/skills/README.md) |
+| Tools (Codex multi-account CLI) | [cursor-claude-codex/tools/](cursor-claude-codex/tools/) · [codex-profiles](cursor-claude-codex/tools/codex-profiles/) |
+| Slash commands — Cursor only (code-review, final-review, git-commit, etc.) | [cursor-claude-codex/commands/](cursor-claude-codex/commands/) · [cursor-claude-codex/commands/README.md](cursor-claude-codex/commands/README.md) |
+| Product management (PRD, epics, tasks) | [cursor-claude-codex/product-management/](cursor-claude-codex/product-management/) · [README](cursor-claude-codex/product-management/README.md) |
+| Coding rules (Python, TypeScript, FastAPI, Tailwind, …) | [cursor-claude-codex/coding/](cursor-claude-codex/coding/) |
+| Best practices (Karpathy guidelines, MCP, hooks, accessibility, …) | [cursor-claude-codex/best-practices/](cursor-claude-codex/best-practices/) · [karpathy-guidelines.md](cursor-claude-codex/best-practices/karpathy-guidelines.md) |
+| Security | [cursor-claude-codex/security/](cursor-claude-codex/security/) |
+| References (agentic patterns, …) | [cursor-claude-codex/references/](cursor-claude-codex/references/) · [cursor-claude-codex/references/README.md](cursor-claude-codex/references/README.md) |
 
 ### Prompts library ([prompt-engineering/](prompt-engineering/))
 
@@ -154,7 +161,7 @@ You can find more about me on [GitHub](https://github.com/adriannoes) and [Linke
 - **Product Managers** who want to prototype ideas without waiting for engineering
 - **Product Designers** who want to understand the code their AI generates
 - **Product Builders** who want to go from idea to product faster
-- **Developers** looking for optimized Cursor and Claude rules
+- **Developers** looking for optimized Cursor, Claude Code, and Codex rules
 - **Anyone** curious about how AI-assisted development actually works.
 
 ## What makes this different
@@ -209,4 +216,4 @@ This project is licensed under the MIT License — see [LICENSE](LICENSE).
 
 ---
 
-**Ready to level up?** Start with [cursor-and-claude/README.md](cursor-and-claude/README.md), [openclaw/README.md](openclaw/README.md), or [prompt-engineering/README.md](prompt-engineering/README.md). The best way to learn is by doing.
+**Ready to level up?** Start with [cursor-claude-codex/README.md](cursor-claude-codex/README.md), [openclaw/README.md](openclaw/README.md), or [prompt-engineering/README.md](prompt-engineering/README.md). The best way to learn is by doing.

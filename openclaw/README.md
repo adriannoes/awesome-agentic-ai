@@ -2,7 +2,7 @@
 
 Reference index for [OpenClaw](https://github.com/openclaw/openclaw) — a locally-running AI assistant that operates directly on your machine. Skills extend its capabilities for external services, automation, and specialized tasks.
 
-**See also:** [README.md](../README.md) (project overview) · [cursor-and-claude/README.md](../cursor-and-claude/README.md) (Cursor & Claude skills) · [skills/README.md](./skills/README.md) (skills index)
+**See also:** [README.md](../README.md) (project overview) · [cursor-claude-codex/README.md](../cursor-claude-codex/README.md) (Cursor, Claude Code & Codex) · [skills/README.md](./skills/README.md) (skills index)
 
 ## Vendored upstream indexes
 
@@ -14,6 +14,8 @@ To survive upstream changes or deletions, we keep local snapshots of the two com
 | Curated skills (5,400+ organized in 30 categories) | [awesome-openclaw-skills/](./awesome-openclaw-skills/) | [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) (MIT) |
 
 For the **latest** index, read upstream. For a **stable reference**, read our local copy. The derivatives table and skills index below are compiled from these snapshots.
+
+**Refresh cadence:** Re-sync both snapshots quarterly (see [cursor-claude-codex/MAINTENANCE.md](../cursor-claude-codex/MAINTENANCE.md)). After `rsync`, spot-check category file counts in [awesome-openclaw-skills/categories/](./awesome-openclaw-skills/categories/) against upstream `README.md`.
 
 ## OpenClaw Derivatives
 
