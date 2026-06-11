@@ -1,7 +1,7 @@
 # Upstream repositories catalog
 
 Curated notes on external repos that complement **Cursor**, **Claude Code**, and **vibe coding** workflows.  
-Most entries are **link-only**; two Vercel **SKILL.md** summaries are also vendored under [cursor-and-claude/skills/](../skills/README.md) (see the Vercel section below). All descriptions reflect public READMEs and repository layout as of the exploration date.
+Most entries are **link-only**; two Vercel **SKILL.md** summaries are also vendored under [cursor-claude-codex/skills/](../skills/README.md) (see the Vercel section below). All descriptions reflect public READMEs and repository layout as of the exploration date.
 
 | Repo | Upstream |
 |------|----------|
@@ -18,6 +18,7 @@ Most entries are **link-only**; two Vercel **SKILL.md** summaries are also vendo
 | Superpowers (core skills) | [obra/superpowers](https://github.com/obra/superpowers) |
 | DESIGN.md spec (Google Labs) | [google-labs-code/design.md](https://github.com/google-labs-code/design.md) |
 | Skills for Real Engineers | [mattpocock/skills](https://github.com/mattpocock/skills) |
+| Codex profile switcher | [Ducksss/codex-profiles](https://github.com/Ducksss/codex-profiles) |
 
 ---
 
@@ -54,7 +55,7 @@ npx skills add vercel-labs/agent-skills
 
 For `web-design-guidelines` and `react-best-practices`, detailed rule files remain upstream — fetch from the links inside each summary SKILL.md.
 
-**Fit for this hub:** Complements [cursor-and-claude/skills/README.md](../skills/README.md) and [cursor-and-claude/best-practices/](../best-practices/) for frontend and UI audits.
+**Fit for this hub:** Complements [cursor-claude-codex/skills/README.md](../skills/README.md) and [cursor-claude-codex/best-practices/](../best-practices/) for frontend and UI audits.
 
 ---
 
@@ -66,7 +67,7 @@ For `web-design-guidelines` and `react-best-practices`, detailed rule files rema
 
 **Use here:** Clone or follow upstream install in a project where you want graph-backed context. Keep this repo as a **pointer only** unless you decide to submodule or document a specific setup.
 
-**Fit for this hub:** Pairs with [cursor-and-claude/commands/code-review.md](../commands/code-review.md) and code-review workflows; advanced context engineering.
+**Fit for this hub:** Pairs with [cursor-claude-codex/commands/code-review.md](../commands/code-review.md) and code-review workflows; advanced context engineering.
 
 ---
 
@@ -98,7 +99,7 @@ curl -sL https://raw.githubusercontent.com/iamfakeguru/claude-md/main/install.sh
 
 Review hook behavior before running; adapt commands to your stack (TypeScript vs Python, etc.).
 
-**Fit for this hub:** Complements [cursor-and-claude/security/](../security/) and team discipline docs; does **not** replace reading Anthropic’s own Claude Code docs.
+**Fit for this hub:** Complements [cursor-claude-codex/security/](../security/) and team discipline docs; does **not** replace reading Anthropic’s own Claude Code docs.
 
 ---
 
@@ -120,7 +121,7 @@ Review hook behavior before running; adapt commands to your stack (TypeScript vs
 
 **Use here:** Cross-read with [prompt-engineering/README.md](../../prompt-engineering/README.md). Link only; do not treat as vendor truth.
 
-**Fit for this hub:** Research track alongside [cursor-and-claude/references/agentic-patterns.md](./agentic-patterns.md).
+**Fit for this hub:** Research track alongside [cursor-claude-codex/references/agentic-patterns.md](./agentic-patterns.md).
 
 ---
 
@@ -144,9 +145,9 @@ Review hook behavior before running; adapt commands to your stack (TypeScript vs
 
 **Use here:** Trigger prompts like “Build a harness for this project” inside Claude Code after install.
 
-**Vendored in this hub (as of 2026-04-21):** [skills/harness/](../skills/harness/) — full skill (SKILL.md + references/). ⚠️ Upstream SKILL.md body is in **Korean**; useful if you read Korean or want to study the pattern of a meta-skill that bootstraps domain-specific agent teams. For an English-first alternative, see our own [cursor-and-claude/references/agentic-patterns.md](./agentic-patterns.md).
+**Vendored in this hub (as of 2026-04-21):** [skills/harness/](../skills/harness/) — full skill (SKILL.md + references/). ⚠️ Upstream SKILL.md body is in **Korean**; useful if you read Korean or want to study the pattern of a meta-skill that bootstraps domain-specific agent teams. For an English-first alternative, see our own [cursor-claude-codex/references/agentic-patterns.md](./agentic-patterns.md).
 
-**Fit for this hub:** Extends multi-agent thinking beyond [cursor-and-claude/references/agentic-patterns.md](./agentic-patterns.md).
+**Fit for this hub:** Extends multi-agent thinking beyond [cursor-claude-codex/references/agentic-patterns.md](./agentic-patterns.md).
 
 ---
 
@@ -178,7 +179,7 @@ Review hook behavior before running; adapt commands to your stack (TypeScript vs
 
 3. **MCP + ticket system (`/ticket` command).** Read ticket → understand requirements → implement → update status → create bug tickets if needed. Shows MCP used for real product loops, not demos.
 
-**Use here:** Read the upstream README (~31 KB, excellent walkthrough) and copy patterns (not files) into your own project. Pair with [cursor-and-claude/best-practices/hooks-guide.md](../best-practices/hooks-guide.md) and [cursor-and-claude/best-practices/mcp-guide.md](../best-practices/mcp-guide.md).
+**Use here:** Read the upstream README (~31 KB, excellent walkthrough) and copy patterns (not files) into your own project. Pair with [cursor-claude-codex/best-practices/hooks-guide.md](../best-practices/hooks-guide.md) and [cursor-claude-codex/best-practices/mcp-guide.md](../best-practices/mcp-guide.md).
 
 **Fit for this hub:** Complements our skills/commands/hooks coverage with a **scheduled automation** angle and a **skill-routing hook** idea we don't otherwise document. Because of the missing license, this entry stays link-only.
 
@@ -229,7 +230,7 @@ Or via the `ccpi` CLI per upstream README.
 
 **Use here:** Link-only. Use the category taxonomy as a **coverage map** when auditing skill gaps in your own project, and cherry-pick individual skills by name (MIT-licensed — attribute to Jeremy Longshore).
 
-**Fit for this hub:** Sits alongside [openclaw/](../../openclaw/) as another large-scale Claude Code skill directory to reference. Our own [cursor-and-claude/skills/](../skills/README.md) stays curated and deep; this repo is the wide-catalog counterpart.
+**Fit for this hub:** Sits alongside [openclaw/](../../openclaw/) as another large-scale Claude Code skill directory to reference. Our own [cursor-claude-codex/skills/](../skills/README.md) stays curated and deep; this repo is the wide-catalog counterpart.
 
 ---
 
@@ -241,9 +242,9 @@ Or via the `ccpi` CLI per upstream README.
 
 **Skills available upstream (14):** `brainstorming`, `writing-plans`, `executing-plans`, `finishing-a-development-branch`, `test-driven-development`, `systematic-debugging`, `verification-before-completion`, `receiving-code-review`, `requesting-code-review`, `using-git-worktrees`, `dispatching-parallel-agents`, `subagent-driven-development`, `writing-skills`, `using-superpowers`.
 
-**Vendored in this hub (as of 2026-04-21):** **all 14** skills under [cursor-and-claude/skills/](../skills/). Each skill directory preserves the upstream SKILL.md and any ancillary files (`code-reviewer.md`, prompt files, `references/`, etc.).
+**Vendored in this hub (as of 2026-04-21):** **all 14** skills under [cursor-claude-codex/skills/](../skills/). Each skill directory preserves the upstream SKILL.md and any ancillary files (`code-reviewer.md`, prompt files, `references/`, etc.).
 
-**Fit for this hub:** These are the backbone of our workflow/quality/multi-agent sections in [cursor-and-claude/skills/README.md](../skills/README.md). Nearly every other skill we ship is downstream of one of these.
+**Fit for this hub:** These are the backbone of our workflow/quality/multi-agent sections in [cursor-claude-codex/skills/README.md](../skills/README.md). Nearly every other skill we ship is downstream of one of these.
 
 ---
 
@@ -265,7 +266,7 @@ Or via the `ccpi` CLI per upstream README.
 
 **Use here:** Read [references/design-md/README.md](./design-md/README.md) first. Start a product with a DESIGN.md and every agent session stays visually coherent without re-explaining the brand.
 
-**Fit for this hub:** Primary bridge between **designers** and **AI-assisted development** — fills the gap between [cursor-and-claude/skills/frontend-design/](../skills/frontend-design/) (how to build distinctive UI) and [cursor-and-claude/skills/web-design-guidelines/](../skills/web-design-guidelines/) (how to audit UI). Natural pair with [VoltAgent/awesome-design-md](#voltagentawesome-design-md) which is a community collection that follows this same format.
+**Fit for this hub:** Primary bridge between **designers** and **AI-assisted development** — fills the gap between [cursor-claude-codex/skills/frontend-design/](../skills/frontend-design/) (how to build distinctive UI) and [cursor-claude-codex/skills/web-design-guidelines/](../skills/web-design-guidelines/) (how to audit UI). Natural pair with [VoltAgent/awesome-design-md](#voltagentawesome-design-md) which is a community collection that follows this same format.
 
 ---
 
@@ -303,6 +304,77 @@ npx skills@latest add mattpocock/skills
 Then run `/setup-matt-pocock-skills` in your agent — it asks about your issue tracker (GitHub/Linear/local) and triage labels.
 
 **Fit for this hub:** Provides a different angle on skills we already have (`tdd`, `diagnose`, `write-a-skill` from obra/superpowers vs Matt's versions) and adds genuinely new patterns (`grill-with-docs` ubiquitous-language ADRs, `triage` state machine, `zoom-out`). Reading both is recommended.
+
+---
+
+## [Ducksss/codex-profiles](https://github.com/Ducksss/codex-profiles)
+
+**License:** MIT (per upstream README).
+
+**What it is:** Bash CLI (`codex-profile`) for switching Codex CLI and Desktop accounts via isolated `CODEX_HOME` directories. Each profile gets its own auth, config, sessions, connectors, plugins, caches, and logs — without copying `auth.json` between accounts.
+
+**Install (canonical — prefer for day-to-day updates):**
+
+```bash
+npm install -g codex-profile
+# or
+brew install Ducksss/tap/codex-profile
+```
+
+**Vendored in this hub (as of 2026-06-10):** [tools/codex-profiles/](../tools/codex-profiles/) — `bin/codex-profile`, `Makefile`, `test/`, `LICENSE`, `package.json`; hub README at [tools/codex-profiles/README.md](../tools/codex-profiles/README.md); full upstream docs in [UPSTREAM-README.md](../tools/codex-profiles/UPSTREAM-README.md). Not mirrored: GitHub Pages site, media, CI workflows.
+
+**Use here:**
+
+```bash
+codex-profile init personal && codex-profile init work
+codex-profile login personal && codex-profile login work
+codex-profile cli work exec "review this repo"
+```
+
+Pair with hub skills in `~/.agents/skills/` per profile. For tool-name mapping when running superpowers-style skills on Codex, see [using-superpowers/references/codex-tools.md](../skills/using-superpowers/references/codex-tools.md).
+
+**Fit for this hub:** Developer setup utility for the Codex column of [cursor-claude-codex/README.md](../README.md). Complements multi-account OpenClaw skills (e.g. `codex-account-switcher` in the OpenClaw catalog) with a focused, MIT-licensed CLI maintained by [Ducksss](https://github.com/Ducksss). Suggested via [issue #3](https://github.com/adriannoes/awesome-vibe-coding/issues/3).
+
+---
+
+## [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)
+
+**License:** Apache-2.0 (per upstream `LICENSE`).
+
+**What it is:** **754** agentskills.io playbooks across **26** security domains (DFIR, SOC, threat hunting, cloud/container security, malware analysis, DevSecOps, compliance, etc.). Each skill maps to MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, and NIST AI RMF. **Community project — not affiliated with Anthropic PBC** despite the name.
+
+**Install (canonical — prefer for day-to-day updates):**
+
+```bash
+npx skills add mukul975/Anthropic-Cybersecurity-Skills
+```
+
+**Vendored in this hub (as of 2026-06-10):** [skills/anthropic-cybersecurity-skills/](../skills/anthropic-cybersecurity-skills/) — **83 skills** cherry-picked from tag **v1.2.0** (DFIR, threat hunting, SOC, malware, cloud audit/CSPM, DevSecOps, IR, compliance). Hub README: [anthropic-cybersecurity-skills/README.md](../skills/anthropic-cybersecurity-skills/README.md); upstream README: [UPSTREAM-README.md](../skills/anthropic-cybersecurity-skills/UPSTREAM-README.md); pick list: [PICK-LIST.md](../skills/anthropic-cybersecurity-skills/PICK-LIST.md). Refresh: [scripts/cherry-pick-acs.sh](../../scripts/cherry-pick-acs.sh) · [MAINTENANCE.md](../MAINTENANCE.md#mukul975anthropic-cybersecurity-skills).
+
+**Honest assessment:** High-quality practitioner workflows (sampled: memory forensics with Volatility3, credential-hunting playbooks). Repo is large (~13 MB, 754 skills); full mirror is justified only for offline use or pinned enterprise snapshots. Overlaps partially with [bug-hunter](../skills/bug-hunter/) on web pentest/red team but is **much broader on blue-team IR**. Run [skill-security-auditor](../skills/alirezarezvani-skills/skill-security-auditor/) before vendoring; treat like bug-hunter — authorized scope only, no global `alwaysApply`.
+
+**Fit for this hub:** Complements [skills/bug-hunter/](../skills/bug-hunter/) (offensive bounty/pentest) and defensive [security/](../security/) with SOC/DFIR/threat-hunting depth. Pin to release tags (latest: [v1.2.0](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/releases/tag/v1.2.0)) if mirroring.
+
+---
+
+## [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)
+
+**License:** MIT (per upstream `LICENSE`).
+
+**What it is:** **13** portable agent skills that push AI-built UIs away from generic “slop”: layout variance, typography, motion (GSAP), spacing, redesign audits, and optional **image-generation** comps (web, mobile, brand kit). Default install name: `design-taste-frontend` (v2 experimental). Variants cover minimalist, brutalist, premium/soft, GPT-strict, Google Stitch `DESIGN.md`, image-to-code, and full-output enforcement.
+
+**Install (canonical — prefer for day-to-day updates):**
+
+```bash
+npx skills add https://github.com/Leonxlnx/taste-skill
+npx skills add https://github.com/Leonxlnx/taste-skill --skill "design-taste-frontend"
+```
+
+**Vendored in this hub (as of 2026-06-10):** [skills/taste-skills/](../skills/taste-skills/) — **13 skills** @ commit `1a6dc0a`. Hub README: [taste-skills/README.md](../skills/taste-skills/README.md); upstream README: [UPSTREAM-README.md](../skills/taste-skills/UPSTREAM-README.md). Refresh: [MAINTENANCE.md](../MAINTENANCE.md#leonxlnxtaste-skill).
+
+**Honest assessment:** All 13 skills **PASS** [skill-security-auditor](../skills/alirezarezvani-skills/skill-security-auditor/) (2026-06-10). Complements — does not replace — [frontend-design](../skills/frontend-design/) and [web-design-guidelines](../skills/web-design-guidelines/). v2 default is experimental; pin commits or use `design-taste-frontend-v1` for stable v1 behavior. Not for global `alwaysApply`.
+
+**Fit for this hub:** Product Builders and frontend vibe-coding — landing pages, portfolios, marketing redesigns. Pairs with [design-md/](./design-md/) (Stitch) and [composition-patterns](../skills/composition-patterns/) for React structure after visual direction is set.
 
 ---
 

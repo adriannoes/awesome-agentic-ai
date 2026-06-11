@@ -43,12 +43,12 @@ Outputs structured JSON that agents can act on.
 
 ## Related in this hub
 
-- [cursor-and-claude/skills/frontend-design/](../../skills/frontend-design/) — skill for distinctive frontend interfaces
-- [cursor-and-claude/skills/web-design-guidelines/](../../skills/web-design-guidelines/) — Vercel UI audit skill
+- [cursor-claude-codex/skills/frontend-design/](../../skills/frontend-design/) — skill for distinctive frontend interfaces
+- [cursor-claude-codex/skills/web-design-guidelines/](../../skills/web-design-guidelines/) — Vercel UI audit skill
 - [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) (catalog entry: [upstream-repos-catalog.md](../upstream-repos-catalog.md#voltagentawesome-design-md)) — community-curated collection of DESIGN.md files for public sites; uses this same format
 
 ## Attribution
 
 Apache License 2.0. All files in this directory are vendored as-is from [google-labs-code/design.md](https://github.com/google-labs-code/design.md). The original `LICENSE` file is included alongside. No modifications; if upstream updates the format, re-vendor from source.
 
-Full catalog entry: [cursor-and-claude/references/upstream-repos-catalog.md](../upstream-repos-catalog.md#google-labs-codedesignmd).
+Full catalog entry: [cursor-claude-codex/references/upstream-repos-catalog.md](../upstream-repos-catalog.md#google-labs-codedesignmd).

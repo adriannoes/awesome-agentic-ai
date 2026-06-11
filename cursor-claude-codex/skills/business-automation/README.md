@@ -9,7 +9,7 @@
 These are **breadth-first starting-point skills**, not deep opinionated playbooks. Each `SKILL.md` follows the same template (Overview / When to Use / Instructions / Examples / Prerequisites / Error Handling / Resources) and relies on Claude's general knowledge of the target tool rather than shipping its own playbook.
 
 They are most useful as:
-- **Trigger shims** — naming conventions that help skill auto-activation fire on the right prompts (pair with [cursor-and-claude/references/skill-auto-activation.md](../../references/skill-auto-activation.md))
+- **Trigger shims** — naming conventions that help skill auto-activation fire on the right prompts (pair with [cursor-claude-codex/references/skill-auto-activation.md](../../references/skill-auto-activation.md))
 - **A coverage checklist** — a menu of 25 automation outputs you might not have considered
 - **A starting point** — fork and deepen individual SKILL.md files when you actually use them
 
@@ -70,4 +70,4 @@ If you'd rather install from the source marketplace than use our vendored copy:
 
 ## Attribution
 
-Vendored as-is from upstream on 2026-04-21. Original category name: `19-business-automation`. See [cursor-and-claude/references/upstream-repos-catalog.md](../../references/upstream-repos-catalog.md#jeremylongshoreclaude-code-plugins-plus-skills) for the full catalog entry.
+Vendored as-is from upstream on 2026-04-21. Original category name: `19-business-automation`. See [cursor-claude-codex/references/upstream-repos-catalog.md](../../references/upstream-repos-catalog.md#jeremylongshoreclaude-code-plugins-plus-skills) for the full catalog entry.

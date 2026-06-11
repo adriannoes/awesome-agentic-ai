@@ -26,7 +26,7 @@ The core philosophy: **small, easy to adapt, composable, model-agnostic**. They 
 | [diagnose](./engineering/diagnose/SKILL.md) | Bug diagnosis workflow. Different angle from our [systematic-debugging](../systematic-debugging/) (obra/superpowers); read both. |
 | [triage](./engineering/triage/SKILL.md) | State-machine for issue triage on GitHub/Linear/local files. Includes `AGENT-BRIEF.md` format for AFK agents. |
 | [to-issues](./engineering/to-issues/SKILL.md) | Convert a plan or document into well-formed issues on the tracker. |
-| [to-prd](./engineering/to-prd/SKILL.md) | Generate a PRD. Pairs with our [cursor-and-claude/product-management/create-prd.md](../../product-management/create-prd.md). |
+| [to-prd](./engineering/to-prd/SKILL.md) | Generate a PRD. Pairs with our [cursor-claude-codex/product-management/create-prd.md](../../product-management/create-prd.md). |
 | [improve-codebase-architecture](./engineering/improve-codebase-architecture/SKILL.md) | Architectural review and improvement workflow. |
 | [zoom-out](./engineering/zoom-out/SKILL.md) | Pause and take stock. Counter to "agent in tunnel vision" failure mode. |
 
@@ -71,4 +71,4 @@ After install, run `/setup-matt-pocock-skills` in your agent.
 
 All 13 skills + LICENSE are vendored as-is from [mattpocock/skills](https://github.com/mattpocock/skills). When using or adapting one, credit Matt and link to the original. He maintains an active newsletter where new skills are announced: [aihero.dev/s/skills-newsletter](https://www.aihero.dev/s/skills-newsletter).
 
-Full catalog entry: [cursor-and-claude/references/upstream-repos-catalog.md](../../references/upstream-repos-catalog.md#mattpocockskills).
+Full catalog entry: [cursor-claude-codex/references/upstream-repos-catalog.md](../../references/upstream-repos-catalog.md#mattpocockskills).

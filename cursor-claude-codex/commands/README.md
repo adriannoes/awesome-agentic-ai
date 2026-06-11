@@ -2,20 +2,20 @@
 
 Slash-command prompts for Cursor IDE. Type `/` in Cursor chat to list available commands.
 
-**See also:** [cursor-and-claude/README.md](../README.md) | [skills/](../skills/)
+**See also:** [cursor-claude-codex/README.md](../README.md) | [skills/](../skills/)
 
 ## Usage
 
-Cursor reads commands from `.cursor-and-claude/commands/` at the project root. To use these commands:
+Cursor reads commands from `.cursor/commands/` at the project root. To use these commands:
 
 ```bash
 # Option 1: Symlink (recommended)
-ln -s cursor-and-claude/commands .cursor-and-claude/commands
+ln -sfn cursor-claude-codex/commands .cursor/commands
 
 # Option 2: Copy
-mkdir -p .cursor && cp -r cursor-and-claude/commands .cursor-and-claude/
+mkdir -p .cursor && cp -r cursor-claude-codex/commands .cursor/
 
-# Option 3: Manual - create .cursor-and-claude/commands/ and copy the .md files you need
+# Option 3: Manual — create .cursor/commands/ and copy the .md files you need
 ```
 
 ## Available Commands
@@ -30,6 +30,13 @@ mkdir -p .cursor && cp -r cursor-and-claude/commands .cursor-and-claude/
 | `deslop.md` | Remove AI-generated slop (extra comments, defensive checks, etc.) |
 | `security-audit.md` | Dependency, code, and infrastructure security review |
 | `diagrams.md` | Generate Mermaid diagrams (flowchart, sequence, class, ER, state) |
+
+## Bug-hunter slash commands
+
+Offensive-security commands (`/recon`, `/hunt`, `/triage`, `/report`, …) live inside the vendored bundle, not in this folder:
+
+- [../skills/bug-hunter/commands/](../skills/bug-hunter/commands/) — copy `*.md` into `.cursor/commands/` when needed
+- See [../skills/bug-hunter/README.md](../skills/bug-hunter/README.md)
 
 ## Sources
 

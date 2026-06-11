@@ -82,7 +82,7 @@ Every one of the four patterns needs roughly the same skeleton:
 
 ## Related in this hub
 
-- [cursor-and-claude/best-practices/hooks-guide.md](../best-practices/hooks-guide.md) — hooks for interactive editor sessions.
-- [cursor-and-claude/commands/code-review.md](../commands/code-review.md) — the interactive counterpart to pattern #1.
-- [cursor-and-claude/references/skill-auto-activation.md](./skill-auto-activation.md) — a hook pattern that complements CI automation at the editor layer.
-- [cursor-and-claude/references/upstream-repos-catalog.md](./upstream-repos-catalog.md) — the full catalog entry for ChrisWiles/claude-code-showcase.
+- [cursor-claude-codex/best-practices/hooks-guide.md](../best-practices/hooks-guide.md) — hooks for interactive editor sessions.
+- [cursor-claude-codex/commands/code-review.md](../commands/code-review.md) — the interactive counterpart to pattern #1.
+- [cursor-claude-codex/references/skill-auto-activation.md](./skill-auto-activation.md) — a hook pattern that complements CI automation at the editor layer.
+- [cursor-claude-codex/references/upstream-repos-catalog.md](./upstream-repos-catalog.md) — the full catalog entry for ChrisWiles/claude-code-showcase.
