@@ -83,11 +83,15 @@ Subfolders that group multiple related skills from a single upstream source. Eac
 
 | Folder | Skills | Source | Description |
 |--------|--------|--------|-------------|
-| [matt-pocock/](./matt-pocock/) | 13 | [mattpocock/skills](https://github.com/mattpocock/skills) (MIT, ~54k ★) | "Skills for real engineers." Grilling sessions, ubiquitous-language ADRs, triage state machine, zoom-out. Matt's flagship is `grill-with-docs`. |
+| [anthropic-cybersecurity-skills/](./anthropic-cybersecurity-skills/) | 83 | [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) (Apache-2.0) | Cherry-picked blue-team / SOC / DFIR / DevSecOps playbooks (subset of 754 upstream). Pairs with bug-hunter for offense vs defense. |
+| [bug-hunter/](./bug-hunter/) | 51 | [xiaolai/Claude-BugHunter](https://github.com/xiaolai/Claude-BugHunter) (MIT) | Authorized bug bounty & external pentest: 24+ `hunt-*` classes, enterprise identity chains, triage/reporting. |
 | [visual-content/](./visual-content/) | 25 | [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) (MIT) | Mermaid, D2, PlantUML, charts, architecture & journey diagrams. Breadth-first; pair with [skill-auto-activation](../references/skill-auto-activation.md). |
 | [business-automation/](./business-automation/) | 25 | [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) (MIT) | n8n, Zapier, Slack, email, spreadsheets, PDFs, forms. Breadth-first; pair with [skill-auto-activation](../references/skill-auto-activation.md). |
+| [matt-pocock/](./matt-pocock/) | 13 | [mattpocock/skills](https://github.com/mattpocock/skills) (MIT, ~54k ★) | "Skills for real engineers." Grilling sessions, ubiquitous-language ADRs, triage state machine, zoom-out. Matt's flagship is `grill-with-docs`. |
+| [taste-skills/](./taste-skills/) | 13 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) (MIT) | Anti-slop frontend design + optional image-generation comps for web/mobile/brand kits. |
+| [alirezarezvani-skills/](./alirezarezvani-skills/) | 11 | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) (MIT) | Skill supply-chain audit + Playwright/E2E depth (`playwright-pro`). |
 
-For Jeremy's **20 total categories** (devops, security, frontend/backend, ML, data, AWS/GCP, APIs, docs, enterprise), see the upstream repo; we vendored the two most complementary to our existing content.
+**Total:** 26 top-level skills + 221 in category folders = **247** `SKILL.md` packages. For Jeremy's other **18 categories** (devops, security, frontend/backend, ML, data, AWS/GCP, APIs, docs, enterprise), see the upstream repo.
 
 ## Attribution & licenses
 

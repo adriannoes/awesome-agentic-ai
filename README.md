@@ -22,7 +22,7 @@
 
 > The most complete collection of battle-tested AI-assisted development resources — for Product Managers, Designers, and Developers who want to ship real products with AI.
 
-**What's inside:** 89+ ready-to-use Cursor, Claude Code & Codex skills (see [cursor-claude-codex/skills/README.md](cursor-claude-codex/skills/README.md)) · [codex-profiles](cursor-claude-codex/tools/codex-profiles/) CLI for multi-account Codex · 123 Jupyter notebooks · 33 research papers (PDFs in `papers/`) · 14 industry reports · 21 n8n workflow templates (JSON) · 14 system prompts from leading agents · 36 OpenClaw derivatives catalogued.
+**What's inside:** 247+ ready-to-use Cursor, Claude Code & Codex skills (see [cursor-claude-codex/skills/README.md](cursor-claude-codex/skills/README.md)) · [codex-profiles](cursor-claude-codex/tools/codex-profiles/) CLI for multi-account Codex · 123 Jupyter notebooks · 34 research papers (PDFs in `papers/`) · 14 industry reports · 21 n8n workflow templates (JSON) · 14 system prompts from leading agents · 36 OpenClaw derivatives catalogued.
 
 Whether you're a PM who wants to prototype faster, a Designer who wants to understand the code your AI is generating, or a Developer looking for the sharpest rules to ship with — this repo is built to be copied, forked, and used the same day.
 
