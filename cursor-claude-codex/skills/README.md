@@ -1,8 +1,8 @@
-# Skills (Cursor & Claude Code)
+# Skills (Cursor, Claude Code & Codex)
 
 Skills in this folder are designed to work for **both Cursor and Claude Code**. Place here any skill that you want to reuse across both tools so a single definition serves both.
 
-**See also:** [cursor-and-claude/README.md](../README.md) | [commands/](../commands/) | [product-management/no-vibe-coding.md](../product-management/no-vibe-coding.md)
+**See also:** [cursor-claude-codex/README.md](../README.md) | [commands/](../commands/) | [product-management/no-vibe-coding.md](../product-management/no-vibe-coding.md)
 
 ## What goes here
 
@@ -91,13 +91,14 @@ For Jeremy's **20 total categories** (devops, security, frontend/backend, ML, da
 
 ## Attribution & licenses
 
-All skills here are vendored from their upstream repositories. The license of each is noted in the Source column above. Skill files retain their original frontmatter where license/author info was present. Full catalog entries for each upstream repo: [cursor-and-claude/references/upstream-repos-catalog.md](../references/upstream-repos-catalog.md).
+All skills here are vendored from their upstream repositories. The license of each is noted in the Source column above. Skill files retain their original frontmatter where license/author info was present. Full catalog entries for each upstream repo: [cursor-claude-codex/references/upstream-repos-catalog.md](../references/upstream-repos-catalog.md).
 
 When vendoring a new skill: add it to this README with the source and license, preserve the original SKILL.md content, and extend the catalog entry.
 
 ## Usage
 
-- **Cursor**: Skills are typically loaded from `.cursor-and-claude/skills/` or referenced in rules; link or copy from this folder as needed.
-- **Claude Code**: Use the same skill files in your Claude Code skills path.
+- **Cursor**: Skills load from `.cursor/skills/` or project rules; link or copy from this folder as needed.
+- **Claude Code**: `~/.claude/skills/` or project skills path.
+- **Codex**: `~/.agents/skills/` per profile — pair with [codex-profiles](../tools/codex-profiles/) for multi-account setups.
 
 Keep skill files in English, with a clear description and when to use them.

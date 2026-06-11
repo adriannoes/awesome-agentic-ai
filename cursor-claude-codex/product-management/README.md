@@ -2,7 +2,7 @@
 
 Rules for managing software products using spec-driven development, inspired by [Claude Code PM (ccpm)](https://github.com/automazeio/ccpm).
 
-**See also:** [cursor-and-claude/README.md](../README.md) | [no-vibe-coding.md](./no-vibe-coding.md) | [skills/](../skills/)
+**See also:** [cursor-claude-codex/README.md](../README.md) | [no-vibe-coding.md](./no-vibe-coding.md) | [skills/](../skills/)
 
 ## Important: Cursor vs Claude Code
 

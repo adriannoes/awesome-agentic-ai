@@ -118,7 +118,7 @@ exit 0
 
 ## Related in this hub
 
-- [cursor-and-claude/best-practices/hooks-guide.md](../best-practices/hooks-guide.md) — hook fundamentals and other hook patterns.
-- [cursor-and-claude/references/github-actions-for-claude.md](./github-actions-for-claude.md) — the CI counterpart to this editor-side pattern.
-- [cursor-and-claude/skills/visual-content/README.md](../skills/visual-content/README.md) and [business-automation/README.md](../skills/business-automation/README.md) — bulk-catalog skills that especially benefit from this pattern, since description-based activation doesn't scale past ~20 skills.
-- [cursor-and-claude/references/upstream-repos-catalog.md](./upstream-repos-catalog.md) — the full catalog entry for ChrisWiles/claude-code-showcase.
+- [cursor-claude-codex/best-practices/hooks-guide.md](../best-practices/hooks-guide.md) — hook fundamentals and other hook patterns.
+- [cursor-claude-codex/references/github-actions-for-claude.md](./github-actions-for-claude.md) — the CI counterpart to this editor-side pattern.
+- [cursor-claude-codex/skills/visual-content/README.md](../skills/visual-content/README.md) and [business-automation/README.md](../skills/business-automation/README.md) — bulk-catalog skills that especially benefit from this pattern, since description-based activation doesn't scale past ~20 skills.
+- [cursor-claude-codex/references/upstream-repos-catalog.md](./upstream-repos-catalog.md) — the full catalog entry for ChrisWiles/claude-code-showcase.
