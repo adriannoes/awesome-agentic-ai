@@ -4,7 +4,7 @@ This repo is a knowledge hub for AI-assisted development — rules, skills, prom
 
 ## What to Contribute
 
-- **cursor-and-claude/** — Skills, commands, best practices, coding rules (Cursor + Claude Code)
+- **cursor-claude-codex/** — Skills, commands, tools, best practices, coding rules (Cursor + Claude Code + Codex)
 - **prompt-engineering/** — Tested prompts for AI agents
 - **n8n-templates/** — Workflow automation templates
 - **research/** — Jupyter notebooks and experiments
@@ -18,6 +18,19 @@ This repo is a knowledge hub for AI-assisted development — rules, skills, prom
    - `docs: update writing-plans skill`
    - `fix: typo in README`
 3. Push and open a Pull Request
+
+## Upstream refreshes
+
+Vendored skills and snapshots should stay attributed and diffed — not blind-copied. See [cursor-claude-codex/MAINTENANCE.md](cursor-claude-codex/MAINTENANCE.md) and [cursor-claude-codex/references/upstream-repos-catalog.md](cursor-claude-codex/references/upstream-repos-catalog.md).
+
+Before updating README skill counts, run:
+
+```bash
+chmod +x scripts/count-skills.sh   # once
+./scripts/count-skills.sh
+```
+
+That prints `SKILL.md` totals and the **curated subtotal** used for marketing copy.
 
 ## Guidelines
 

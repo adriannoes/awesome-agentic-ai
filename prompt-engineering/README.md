@@ -12,11 +12,17 @@ Battle-tested prompts and system prompt references for AI coding tools.
 | [prompts/Gemini-2.5-Pro-04-18-2025.md](prompts/Gemini-2.5-Pro-04-18-2025.md) | — | Gemini coding agent |
 | [prompts/Replit_Agent.md](prompts/Replit_Agent.md) | — | Replit Agent |
 
+## Freshness
+
+Prompts in [prompts/](prompts/) are **dated snapshots** (filenames include model/version dates). Use them for comparison and pattern mining, not as live system prompts. For agent harness design, see the OpenAI paper *Harness engineering* in [papers/README.md](../papers/README.md).
+
+When adding a new prompt: keep the date in the filename, note the source in this table, and prefer linking upstream over copying unverified leaks.
+
 ## External Sources
 
 | Repo | Purpose |
 |------|---------|
 | [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | Cursor, Claude Code, Devin, Windsurf, v0, Lovable — system prompts and tools |
-| [Leonxlnx/agentic-ai-prompt-research](https://github.com/Leonxlnx/agentic-ai-prompt-research) | Reconstructed agentic prompt patterns (orchestration, sub-agents, permissions) — educational; see [cursor-and-claude/references/upstream-repos-catalog.md](../cursor-and-claude/references/upstream-repos-catalog.md) |
+| [Leonxlnx/agentic-ai-prompt-research](https://github.com/Leonxlnx/agentic-ai-prompt-research) | Reconstructed agentic prompt patterns (orchestration, sub-agents, permissions) — educational; see [cursor-claude-codex/references/upstream-repos-catalog.md](../cursor-claude-codex/references/upstream-repos-catalog.md) |
 | [elder-plinius/CL4R1T4S](https://github.com/elder-plinius/CL4R1T4S) | Leaked system prompts — ChatGPT, Gemini, Claude, Cursor, Perplexity, etc. |
 | [elder-plinius/L1B3RT4S](https://github.com/elder-plinius/L1B3RT4S) | Liberation/jailbreak prompts — reference only; not for productive use |

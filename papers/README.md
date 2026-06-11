@@ -4,7 +4,7 @@ This directory contains research papers and resources on Large Language Models (
 
 ## Overview
 
-The collection includes: (1) **foundation models for code** (external references to key code-LLM papers); (2) **31 PDFs** in `papers/`, covering agents, code evaluation, scheming and alignment, hallucinations, reasoning, automation, and societal implications of AI.
+The collection includes: (1) **foundation models for code** (external references to key code-LLM papers); (2) **34 PDFs** in `papers/`, covering agents, code evaluation, scheming and alignment, hallucinations, reasoning, automation, agent harnesses, world models, and societal implications of AI.
 
 ## Papers in this directory
 
@@ -36,8 +36,14 @@ The following PDFs are stored in `papers/`, grouped by theme.
 - **Titans: Learning to Memorize at Test Time**
 - **why-language-models-hallucinate**
 
-### Models & fine-tuning
+### Agent harnesses & engineering
 
+- **Harness engineering: leveraging Codex in an agent-first world** (OpenAI) — agent-first software engineering with Codex; pairs with [cursor-claude-codex/references/upstream-repos-catalog.md](../cursor-claude-codex/references/upstream-repos-catalog.md) and [reports/README.md](../reports/README.md) for industry framing.
+- **Scaling Laws for Agent Harnesses via Effective Feedback Compute** (Zhang et al., Harbin Institute of Technology) — introduces Effective Feedback Compute (EFC) as a scaling coordinate for agent harnesses; shows that feedback quality, not raw token/tool spend, predicts success better than raw-compute baselines; [arXiv:2605.29682](https://arxiv.org/abs/2605.29682) (2026.05).
+
+### Models, world models & fine-tuning
+
+- **LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels**
 - **Deepseek: Manifold-Constrained Hyper-Connections**
 - **DeepSeek Prover V2: DeepSeek's latest model masters math proofs**
 - **The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs**

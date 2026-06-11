@@ -24,8 +24,12 @@ Temporary Items
 
 # Temporary clone directories
 .temp_clones
+.tmp/
+
+# Local IDE / agent config (symlinks, rules, secrets — not hub content)
+.cursor/
+.claude/
 
 # Maintenance scripts and logs
 scripts/
-cursor-and-claude/MAINTENANCE.md
-.claude/
+cursor-claude-codex/MAINTENANCE.md
