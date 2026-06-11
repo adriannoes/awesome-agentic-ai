@@ -1,0 +1,506 @@
+{
+  "source": "mukul975/Anthropic-Cybersecurity-Skills",
+  "tag": "v1.2.0",
+  "cherry_pick": true,
+  "skill_count": 83,
+  "skills": [
+    {
+      "name": "acquiring-disk-image-with-dd-and-dcfldd",
+      "description": "Create forensically sound bit-for-bit disk images using dd and dcfldd while preserving evidence integrity through",
+      "domain": "cybersecurity",
+      "path": "skills/acquiring-disk-image-with-dd-and-dcfldd"
+    },
+    {
+      "name": "analyzing-android-malware-with-apktool",
+      "description": "Perform static analysis of Android APK malware samples using apktool for decompilation, jadx for Java source",
+      "domain": "cybersecurity",
+      "path": "skills/analyzing-android-malware-with-apktool"
+    },
+    {
+      "name": "analyzing-api-gateway-access-logs",
+      "description": "'Parses API Gateway access logs (AWS API Gateway, Kong, Nginx) to detect BOLA/IDOR attacks, rate limit bypass,",
+      "domain": "cybersecurity",
+      "path": "skills/analyzing-api-gateway-access-logs"
+    },
+    {
+      "name": "analyzing-azure-activity-logs-for-threats",
+      "description": "'Queries Azure Monitor activity logs and sign-in logs via azure-monitor-query to detect suspicious administrative",
+      "domain": "cybersecurity",
+      "path": "skills/analyzing-azure-activity-logs-for-threats"
+    },
+    {
+      "name": "analyzing-bootkit-and-rootkit-samples",
+      "description": "'Analyzes bootkit and advanced rootkit malware that infects the Master Boot Record (MBR), Volume Boot Record",
+      "domain": "cybersecurity",
+      "path": "skills/analyzing-bootkit-and-rootkit-samples"
+    },
+    {
+      "name": "analyzing-browser-forensics-with-hindsight",
+      "description": "Analyze Chromium-based browser artifacts using Hindsight to extract browsing history, downloads, cookies, cached",
+      "domain": "cybersecurity",
+      "path": "skills/analyzing-browser-forensics-with-hindsight"
+    },
+    {
+      "name": "analyzing-cloud-storage-access-patterns",
+      "description": "Detect abnormal access patterns in AWS S3, GCS, and Azure Blob Storage by analyzing CloudTrail Data Events, GCS",
+      "domain": "cybersecurity",
+      "path": "skills/analyzing-cloud-storage-access-patterns"
+    },
+    {
+      "name": "analyzing-disk-image-with-autopsy",
+      "description": "Perform comprehensive forensic analysis of disk images using Autopsy to recover files, examine artifacts, and",
+      "domain": "cybersecurity",
+      "path": "skills/analyzing-disk-image-with-autopsy"
+    },
+    {
+      "name": "analyzing-dns-logs-for-exfiltration",
+      "description": "'Analyzes DNS query logs to detect data exfiltration via DNS tunneling, DGA domain communication, and covert",
+      "domain": "cybersecurity",
+      "path": "skills/analyzing-dns-logs-for-exfiltration"
+    },
+    {
+      "name": "analyzing-linux-audit-logs-for-intrusion",
+      "description": "'Uses the Linux Audit framework (auditd) with ausearch and aureport utilities to detect intrusion attempts, unauthorized",
+      "domain": "cybersecurity",
+      "path": "skills/analyzing-linux-audit-logs-for-intrusion"
+    },
+    {
+      "name": "analyzing-office365-audit-logs-for-compromise",
+      "description": "Parse Office 365 Unified Audit Logs via Microsoft Graph API to detect email forwarding rule creation, inbox delegation,",
+      "domain": "cybersecurity",
+      "path": "skills/analyzing-office365-audit-logs-for-compromise"
+    },
+    {
+      "name": "analyzing-persistence-mechanisms-in-linux",
+      "description": "Detect and analyze Linux persistence mechanisms including crontab entries, systemd service units, LD_PRELOAD",
+      "domain": "cybersecurity",
+      "path": "skills/analyzing-persistence-mechanisms-in-linux"
+    },
+    {
+      "name": "analyzing-powershell-empire-artifacts",
+      "description": "Detect PowerShell Empire framework artifacts in Windows event logs by identifying Base64 encoded launcher patterns,",
+      "domain": "cybersecurity",
+      "path": "skills/analyzing-powershell-empire-artifacts"
+    },
+    {
+      "name": "analyzing-ransomware-network-indicators",
+      "description": "Identify ransomware network indicators including C2 beaconing patterns, TOR exit node connections, data exfiltration",
+      "domain": "cybersecurity",
+      "path": "skills/analyzing-ransomware-network-indicators"
+    },
+    {
+      "name": "analyzing-windows-event-logs-in-splunk",
+      "description": "'Analyzes Windows Security, System, and Sysmon event logs in Splunk to detect authentication attacks, privilege",
+      "domain": "cybersecurity",
+      "path": "skills/analyzing-windows-event-logs-in-splunk"
+    },
+    {
+      "name": "auditing-aws-s3-bucket-permissions",
+      "description": "'Systematically audit AWS S3 bucket permissions to identify publicly accessible buckets, overly permissive ACLs,",
+      "domain": "cybersecurity",
+      "path": "skills/auditing-aws-s3-bucket-permissions"
+    },
+    {
+      "name": "building-automated-malware-submission-pipeline",
+      "description": "'Builds an automated malware submission and analysis pipeline that collects suspicious files from endpoints and",
+      "domain": "cybersecurity",
+      "path": "skills/building-automated-malware-submission-pipeline"
+    },
+    {
+      "name": "building-cloud-siem-with-sentinel",
+      "description": "'This skill covers deploying Microsoft Sentinel as a cloud-native SIEM and SOAR platform for centralized security",
+      "domain": "cybersecurity",
+      "path": "skills/building-cloud-siem-with-sentinel"
+    },
+    {
+      "name": "building-detection-rule-with-splunk-spl",
+      "description": "Build effective detection rules using Splunk Search Processing Language (SPL) correlation searches to identify",
+      "domain": "cybersecurity",
+      "path": "skills/building-detection-rule-with-splunk-spl"
+    },
+    {
+      "name": "building-detection-rules-with-sigma",
+      "description": "'Builds vendor-agnostic detection rules using the Sigma rule format for threat detection across SIEM platforms",
+      "domain": "cybersecurity",
+      "path": "skills/building-detection-rules-with-sigma"
+    },
+    {
+      "name": "building-devsecops-pipeline-with-gitlab-ci",
+      "description": "Design and implement a comprehensive DevSecOps pipeline in GitLab CI/CD integrating SAST, DAST, container scanning,",
+      "domain": "cybersecurity",
+      "path": "skills/building-devsecops-pipeline-with-gitlab-ci"
+    },
+    {
+      "name": "building-incident-response-playbook",
+      "description": "'Designs and documents structured incident response playbooks that define step-by-step procedures for specific",
+      "domain": "cybersecurity",
+      "path": "skills/building-incident-response-playbook"
+    },
+    {
+      "name": "building-threat-hunt-hypothesis-framework",
+      "description": "Build a systematic threat hunt hypothesis framework that transforms threat intelligence, attack patterns, and",
+      "domain": "cybersecurity",
+      "path": "skills/building-threat-hunt-hypothesis-framework"
+    },
+    {
+      "name": "collecting-indicators-of-compromise",
+      "description": "'Systematically collects, categorizes, and distributes indicators of compromise (IOCs) during and after security",
+      "domain": "cybersecurity",
+      "path": "skills/collecting-indicators-of-compromise"
+    },
+    {
+      "name": "conducting-cloud-incident-response",
+      "description": "'Responds to security incidents in cloud environments (AWS, Azure, GCP) by performing identity-based containment,",
+      "domain": "cybersecurity",
+      "path": "skills/conducting-cloud-incident-response"
+    },
+    {
+      "name": "containing-active-breach",
+      "description": "'Executes containment strategies to stop active adversary operations and prevent lateral movement during a confirmed",
+      "domain": "cybersecurity",
+      "path": "skills/containing-active-breach"
+    },
+    {
+      "name": "correlating-security-events-in-qradar",
+      "description": "'Correlates security events in IBM QRadar SIEM using AQL (Ariel Query Language), custom rules, building blocks,",
+      "domain": "cybersecurity",
+      "path": "skills/correlating-security-events-in-qradar"
+    },
+    {
+      "name": "deobfuscating-javascript-malware",
+      "description": "'Deobfuscates malicious JavaScript code used in web-based attacks, phishing pages, and dropper scripts by reversing",
+      "domain": "cybersecurity",
+      "path": "skills/deobfuscating-javascript-malware"
+    },
+    {
+      "name": "deobfuscating-powershell-obfuscated-malware",
+      "description": "Systematically deobfuscate multi-layer PowerShell malware using AST analysis, dynamic tracing, and tools like",
+      "domain": "cybersecurity",
+      "path": "skills/deobfuscating-powershell-obfuscated-malware"
+    },
+    {
+      "name": "detecting-aws-cloudtrail-anomalies",
+      "description": "Detect unusual API call patterns in AWS CloudTrail logs using boto3, statistical baselining, and behavioral analysis",
+      "domain": "cybersecurity",
+      "path": "skills/detecting-aws-cloudtrail-anomalies"
+    },
+    {
+      "name": "detecting-beaconing-patterns-with-zeek",
+      "description": "'Performs statistical analysis of Zeek conn.log connection intervals to detect C2 beaconing patterns. Uses the",
+      "domain": "cybersecurity",
+      "path": "skills/detecting-beaconing-patterns-with-zeek"
+    },
+    {
+      "name": "detecting-dcsync-attack-in-active-directory",
+      "description": "Detect DCSync attacks where adversaries abuse Active Directory replication privileges to extract password hashes",
+      "domain": "cybersecurity",
+      "path": "skills/detecting-dcsync-attack-in-active-directory"
+    },
+    {
+      "name": "detecting-dll-sideloading-attacks",
+      "description": "Detect DLL side-loading attacks where adversaries place malicious DLLs alongside legitimate applications to hijack",
+      "domain": "cybersecurity",
+      "path": "skills/detecting-dll-sideloading-attacks"
+    },
+    {
+      "name": "detecting-email-account-compromise",
+      "description": "Detect compromised O365 and Google Workspace email accounts by analyzing inbox rule creation, suspicious sign-in",
+      "domain": "cybersecurity",
+      "path": "skills/detecting-email-account-compromise"
+    },
+    {
+      "name": "detecting-email-forwarding-rules-attack",
+      "description": "Detect malicious email forwarding rules created by adversaries to maintain persistent access to email communications",
+      "domain": "cybersecurity",
+      "path": "skills/detecting-email-forwarding-rules-attack"
+    },
+    {
+      "name": "detecting-fileless-malware-techniques",
+      "description": "'Detects and analyzes fileless malware that operates entirely in memory using PowerShell, WMI, .NET reflection,",
+      "domain": "cybersecurity",
+      "path": "skills/detecting-fileless-malware-techniques"
+    },
+    {
+      "name": "detecting-golden-ticket-attacks-in-kerberos-logs",
+      "description": "Detect Golden Ticket attacks in Active Directory by analyzing Kerberos TGT anomalies including mismatched encryption",
+      "domain": "cybersecurity",
+      "path": "skills/detecting-golden-ticket-attacks-in-kerberos-logs"
+    },
+    {
+      "name": "detecting-insider-data-exfiltration-via-dlp",
+      "description": "'Detects insider data exfiltration by analyzing DLP policy violations, file access patterns, upload volume anomalies,",
+      "domain": "cybersecurity",
+      "path": "skills/detecting-insider-data-exfiltration-via-dlp"
+    },
+    {
+      "name": "detecting-process-injection-techniques",
+      "description": "'Detects and analyzes process injection techniques used by malware including classic DLL injection, process hollowing,",
+      "domain": "cybersecurity",
+      "path": "skills/detecting-process-injection-techniques"
+    },
+    {
+      "name": "eradicating-malware-from-infected-systems",
+      "description": "Systematically remove malware, backdoors, and attacker persistence mechanisms from infected systems while ensuring",
+      "domain": "cybersecurity",
+      "path": "skills/eradicating-malware-from-infected-systems"
+    },
+    {
+      "name": "extracting-browser-history-artifacts",
+      "description": "Extract and analyze browser history, cookies, cache, downloads, and bookmarks from Chrome, Firefox, and Edge",
+      "domain": "cybersecurity",
+      "path": "skills/extracting-browser-history-artifacts"
+    },
+    {
+      "name": "extracting-config-from-agent-tesla-rat",
+      "description": "Extract embedded configuration from Agent Tesla RAT samples including SMTP/FTP/Telegram exfiltration credentials,",
+      "domain": "cybersecurity",
+      "path": "skills/extracting-config-from-agent-tesla-rat"
+    },
+    {
+      "name": "extracting-credentials-from-memory-dump",
+      "description": "Extract cached credentials, password hashes, Kerberos tickets, and authentication tokens from memory dumps using",
+      "domain": "cybersecurity",
+      "path": "skills/extracting-credentials-from-memory-dump"
+    },
+    {
+      "name": "extracting-iocs-from-malware-samples",
+      "description": "'Extracts indicators of compromise (IOCs) from malware samples including file hashes, network indicators (IPs,",
+      "domain": "cybersecurity",
+      "path": "skills/extracting-iocs-from-malware-samples"
+    },
+    {
+      "name": "extracting-memory-artifacts-with-rekall",
+      "description": "'Uses Rekall memory forensics framework to analyze memory dumps for process hollowing, injected code via VAD",
+      "domain": "cybersecurity",
+      "path": "skills/extracting-memory-artifacts-with-rekall"
+    },
+    {
+      "name": "hunting-credential-stuffing-attacks",
+      "description": "'Detects credential stuffing attacks by analyzing authentication logs for login velocity anomalies, ASN diversity,",
+      "domain": "cybersecurity",
+      "path": "skills/hunting-credential-stuffing-attacks"
+    },
+    {
+      "name": "hunting-for-anomalous-powershell-execution",
+      "description": "'Hunt for malicious PowerShell activity by analyzing Script Block Logging (Event 4104), Module Logging (Event",
+      "domain": "cybersecurity",
+      "path": "skills/hunting-for-anomalous-powershell-execution"
+    },
+    {
+      "name": "hunting-for-beaconing-with-frequency-analysis",
+      "description": "Identify command-and-control beaconing patterns in network traffic by applying statistical frequency analysis,",
+      "domain": "cybersecurity",
+      "path": "skills/hunting-for-beaconing-with-frequency-analysis"
+    },
+    {
+      "name": "hunting-for-cobalt-strike-beacons",
+      "description": "Detect Cobalt Strike beacon network activity using default TLS certificate signatures (serial 8BB00EE), JA3/JA3S/JARM",
+      "domain": "cybersecurity",
+      "path": "skills/hunting-for-cobalt-strike-beacons"
+    },
+    {
+      "name": "implementing-alert-fatigue-reduction",
+      "description": "'Implements strategies to reduce SOC alert fatigue by tuning detection rules, consolidating duplicate alerts,",
+      "domain": "cybersecurity",
+      "path": "skills/implementing-alert-fatigue-reduction"
+    },
+    {
+      "name": "implementing-aqua-security-for-container-scanning",
+      "description": "Deploy Aqua Security's Trivy scanner to detect vulnerabilities, misconfigurations, secrets, and license issues",
+      "domain": "cybersecurity",
+      "path": "skills/implementing-aqua-security-for-container-scanning"
+    },
+    {
+      "name": "implementing-aws-config-rules-for-compliance",
+      "description": "'Implementing AWS Config rules for continuous compliance monitoring of AWS resources, deploying managed and custom",
+      "domain": "cybersecurity",
+      "path": "skills/implementing-aws-config-rules-for-compliance"
+    },
+    {
+      "name": "implementing-canary-tokens-for-network-intrusion",
+      "description": "'Deploys DNS, HTTP, and AWS API key canary tokens across network infrastructure to detect unauthorized access",
+      "domain": "cybersecurity",
+      "path": "skills/implementing-canary-tokens-for-network-intrusion"
+    },
+    {
+      "name": "implementing-code-signing-for-artifacts",
+      "description": "'This skill covers implementing code signing for build artifacts to ensure integrity and authenticity throughout",
+      "domain": "cybersecurity",
+      "path": "skills/implementing-code-signing-for-artifacts"
+    },
+    {
+      "name": "implementing-gdpr-data-protection-controls",
+      "description": "The General Data Protection Regulation (EU) 2016/679 (GDPR) is the EU's comprehensive data protection law governing",
+      "domain": "cybersecurity",
+      "path": "skills/implementing-gdpr-data-protection-controls"
+    },
+    {
+      "name": "implementing-github-advanced-security-for-code-scanning",
+      "description": "Configure GitHub Advanced Security with CodeQL to perform automated static analysis and vulnerability detection",
+      "domain": "cybersecurity",
+      "path": "skills/implementing-github-advanced-security-for-code-scanning"
+    },
+    {
+      "name": "implementing-iso-27001-information-security-management",
+      "description": "ISO/IEC 27001:2022 is the international standard for establishing, implementing, maintaining, and continually improving an Information Security Management System (ISMS). This skill covers the complete",
+      "domain": "cybersecurity",
+      "path": "skills/implementing-iso-27001-information-security-management"
+    },
+    {
+      "name": "implementing-pci-dss-compliance-controls",
+      "description": "PCI DSS 4.0.1 establishes 12 requirements across 6 control objectives for organizations that store, process, or transmit cardholder data. With PCI DSS 3.2.1 retiring April 2024 and 51 new requirements",
+      "domain": "cybersecurity",
+      "path": "skills/implementing-pci-dss-compliance-controls"
+    },
+    {
+      "name": "implementing-velociraptor-for-ir-collection",
+      "description": "Deploy and configure Velociraptor for scalable endpoint forensic artifact collection during incident response",
+      "domain": "cybersecurity",
+      "path": "skills/implementing-velociraptor-for-ir-collection"
+    },
+    {
+      "name": "integrating-dast-with-owasp-zap-in-pipeline",
+      "description": "'This skill covers integrating OWASP ZAP (Zed Attack Proxy) for Dynamic Application Security Testing in CI/CD",
+      "domain": "cybersecurity",
+      "path": "skills/integrating-dast-with-owasp-zap-in-pipeline"
+    },
+    {
+      "name": "integrating-sast-into-github-actions-pipeline",
+      "description": "'This skill covers integrating Static Application Security Testing (SAST) tools\u2014CodeQL and Semgrep\u2014into GitHub",
+      "domain": "cybersecurity",
+      "path": "skills/integrating-sast-into-github-actions-pipeline"
+    },
+    {
+      "name": "investigating-insider-threat-indicators",
+      "description": "'Investigates insider threat indicators including data exfiltration attempts, unauthorized access patterns, policy",
+      "domain": "cybersecurity",
+      "path": "skills/investigating-insider-threat-indicators"
+    },
+    {
+      "name": "investigating-ransomware-attack-artifacts",
+      "description": "Identify, collect, and analyze ransomware attack artifacts to determine the variant, initial access vector, encryption",
+      "domain": "cybersecurity",
+      "path": "skills/investigating-ransomware-attack-artifacts"
+    },
+    {
+      "name": "managing-cloud-identity-with-okta",
+      "description": "'This skill covers implementing Okta as a centralized identity provider for cloud environments, configuring SSO",
+      "domain": "cybersecurity",
+      "path": "skills/managing-cloud-identity-with-okta"
+    },
+    {
+      "name": "performing-alert-triage-with-elastic-siem",
+      "description": "Perform systematic alert triage in Elastic Security SIEM to rapidly classify, prioritize, and investigate security",
+      "domain": "cybersecurity",
+      "path": "skills/performing-alert-triage-with-elastic-siem"
+    },
+    {
+      "name": "performing-automated-malware-analysis-with-cape",
+      "description": "Deploy and operate CAPEv2 sandbox for automated malware analysis with behavioral monitoring, payload extraction,",
+      "domain": "cybersecurity",
+      "path": "skills/performing-automated-malware-analysis-with-cape"
+    },
+    {
+      "name": "performing-cloud-asset-inventory-with-cartography",
+      "description": "Perform comprehensive cloud asset inventory and relationship mapping using Cartography to build a Neo4j security",
+      "domain": "cybersecurity",
+      "path": "skills/performing-cloud-asset-inventory-with-cartography"
+    },
+    {
+      "name": "performing-cloud-forensics-investigation",
+      "description": "Conduct forensic investigations in cloud environments by collecting and analyzing logs, snapshots, and metadata",
+      "domain": "cybersecurity",
+      "path": "skills/performing-cloud-forensics-investigation"
+    },
+    {
+      "name": "performing-cloud-storage-forensic-acquisition",
+      "description": "Perform forensic acquisition and analysis of cloud storage services including Google Drive, OneDrive, Dropbox,",
+      "domain": "cybersecurity",
+      "path": "skills/performing-cloud-storage-forensic-acquisition"
+    },
+    {
+      "name": "performing-container-image-hardening",
+      "description": "'This skill covers hardening container images by minimizing attack surface, removing unnecessary packages, implementing",
+      "domain": "cybersecurity",
+      "path": "skills/performing-container-image-hardening"
+    },
+    {
+      "name": "performing-dns-tunneling-detection",
+      "description": "'Detects DNS tunneling by computing Shannon entropy of DNS query names, analyzing query length distributions,",
+      "domain": "cybersecurity",
+      "path": "skills/performing-dns-tunneling-detection"
+    },
+    {
+      "name": "performing-memory-forensics-with-volatility3",
+      "description": "Analyze volatile memory dumps using Volatility 3 to extract running processes, network connections, loaded modules,",
+      "domain": "cybersecurity",
+      "path": "skills/performing-memory-forensics-with-volatility3"
+    },
+    {
+      "name": "performing-nist-csf-maturity-assessment",
+      "description": ">-",
+      "domain": "cybersecurity",
+      "path": "skills/performing-nist-csf-maturity-assessment"
+    },
+    {
+      "name": "performing-sca-dependency-scanning-with-snyk",
+      "description": "'This skill covers implementing Software Composition Analysis (SCA) using Snyk to detect vulnerable open-source",
+      "domain": "cybersecurity",
+      "path": "skills/performing-sca-dependency-scanning-with-snyk"
+    },
+    {
+      "name": "performing-soc2-type2-audit-preparation",
+      "description": "'Automates SOC 2 Type II audit preparation including gap assessment against AICPA Trust Services Criteria (CC1-CC9),",
+      "domain": "cybersecurity",
+      "path": "skills/performing-soc2-type2-audit-preparation"
+    },
+    {
+      "name": "performing-threat-hunting-with-yara-rules",
+      "description": "'Use YARA pattern-matching rules to hunt for malware, suspicious files, and indicators of compromise across filesystems",
+      "domain": "cybersecurity",
+      "path": "skills/performing-threat-hunting-with-yara-rules"
+    },
+    {
+      "name": "recovering-deleted-files-with-photorec",
+      "description": "Recover deleted files from disk images and storage media using PhotoRec's file signature-based carving engine",
+      "domain": "cybersecurity",
+      "path": "skills/recovering-deleted-files-with-photorec"
+    },
+    {
+      "name": "remediating-s3-bucket-misconfiguration",
+      "description": "'This skill provides step-by-step procedures for identifying and remediating Amazon S3 bucket misconfigurations",
+      "domain": "cybersecurity",
+      "path": "skills/remediating-s3-bucket-misconfiguration"
+    },
+    {
+      "name": "reverse-engineering-android-malware-with-jadx",
+      "description": "'Reverse engineers malicious Android APK files using JADX decompiler to analyze Java/Kotlin source code, identify",
+      "domain": "cybersecurity",
+      "path": "skills/reverse-engineering-android-malware-with-jadx"
+    },
+    {
+      "name": "scanning-containers-with-trivy-in-cicd",
+      "description": "'This skill covers integrating Aqua Security''s Trivy scanner into CI/CD pipelines for comprehensive container",
+      "domain": "cybersecurity",
+      "path": "skills/scanning-containers-with-trivy-in-cicd"
+    },
+    {
+      "name": "securing-api-gateway-with-aws-waf",
+      "description": "'Securing API Gateway endpoints with AWS WAF by configuring managed rule groups for OWASP Top 10 protection,",
+      "domain": "cybersecurity",
+      "path": "skills/securing-api-gateway-with-aws-waf"
+    },
+    {
+      "name": "securing-github-actions-workflows",
+      "description": "'This skill covers hardening GitHub Actions workflows against supply chain attacks, credential theft, and privilege",
+      "domain": "cybersecurity",
+      "path": "skills/securing-github-actions-workflows"
+    },
+    {
+      "name": "triaging-security-alerts-in-splunk",
+      "description": "'Triages security alerts in Splunk Enterprise Security by classifying severity, investigating notable events,",
+      "domain": "cybersecurity",
+      "path": "skills/triaging-security-alerts-in-splunk"
+    }
+  ]
+}

@@ -20,7 +20,7 @@ Curated industry and research reports from consulting firms, AI labs, and VCs. U
 | Report | Lab | Focus |
 |--------|-----|-------|
 | [The state of enterprise AI (2025)](Open%20AI%20-%20The%20state%20of%20enterprise%20AI%20%282025%29.pdf) | OpenAI | Enterprise adoption trends |
-| [A practical guide to building agents](OpenAI%20-%20A%20practical%20guide%20to%20building%20agents.pdf) | OpenAI | Hands-on guide — pairs with [cursor-and-claude/references/agentic-patterns.md](../cursor-and-claude/references/agentic-patterns.md) |
+| [A practical guide to building agents](OpenAI%20-%20A%20practical%20guide%20to%20building%20agents.pdf) | OpenAI | Hands-on guide — pairs with [cursor-claude-codex/references/agentic-patterns.md](../cursor-claude-codex/references/agentic-patterns.md) |
 | [Use cases AI Agents](OpenAI%20-%20Use%20cases%20AI%20Agents.pdf) | OpenAI | Concrete agent applications |
 | [Staying Ahead in the Age of AI](OpenAI%20-%20Staying%20Ahead%20in%20the%20Age%20of%20AI.pdf) | OpenAI | Workforce and strategy |
 | [Estimating AI productivity gains from Claude conversations](Estimating%20AI%20productivity%20gains%20from%20Claude%20conversations.pdf) | Anthropic | Productivity measurement methodology |
@@ -36,9 +36,13 @@ Curated industry and research reports from consulting firms, AI labs, and VCs. U
 ## How to use this folder
 
 - **Building a pitch deck?** Start with Deloitte, KPMG, or McKinsey for executive-ready framing.
-- **Designing an agent?** [OpenAI's practical guide](OpenAI%20-%20A%20practical%20guide%20to%20building%20agents.pdf) + [cursor-and-claude/references/agentic-patterns.md](../cursor-and-claude/references/agentic-patterns.md) is the fastest path.
+- **Designing an agent?** [OpenAI's practical guide](OpenAI%20-%20A%20practical%20guide%20to%20building%20agents.pdf) + [cursor-claude-codex/references/agentic-patterns.md](../cursor-claude-codex/references/agentic-patterns.md) is the fastest path.
 - **Measuring impact?** [Deloitte's measure leap](Deloitte%20-%20The%20measure%20leap_%20Appraising%20AI%20agent%20impact%20with%20agent%20operations.pdf) and [Anthropic's productivity paper](Estimating%20AI%20productivity%20gains%20from%20Claude%20conversations.pdf).
 - **Yearly landscape?** [State of AI Report 2025](State%20of%20AI%20Report%20-%202025%20%28Air%20Street%20Capital%29.pdf).
+
+## Related research in this repo
+
+- **Agent harness (engineering):** [Harness engineering: leveraging Codex in an agent-first world](../papers/Harness%20engineering_%20leveraging%20Codex%20in%20an%20agent-first%20world%20_%20OpenAI.pdf) in [papers/](../papers/) — complements OpenAI's practical agent guide and [cursor-claude-codex/references/agentic-patterns.md](../cursor-claude-codex/references/agentic-patterns.md).
 
 ## A note on reports
 

@@ -66,4 +66,4 @@ The files listed here are **indexes with links** — the actual skill source liv
 
 VoltAgent's curation work — filtering spam, duplicates, and malicious entries; categorizing — is the reason this index is useful. When using a skill from here, credit both the skill author and VoltAgent's curated index.
 
-Full catalog entry: [cursor-and-claude/references/upstream-repos-catalog.md](../../cursor-and-claude/references/upstream-repos-catalog.md) (we may add a section later).
+Full catalog entry: [cursor-claude-codex/references/upstream-repos-catalog.md](../../cursor-claude-codex/references/upstream-repos-catalog.md) (we may add a section later).
