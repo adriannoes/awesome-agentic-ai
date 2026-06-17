@@ -1,28 +1,21 @@
 <div align="center">
 
 ```
-██╗   ██╗██╗██████╗ ███████╗     ██████╗ ██████╗ ██████╗ ██╗███╗   ██╗ ██████╗
-██║   ██║██║██╔══██╗██╔════╝    ██╔════╝██╔═══██╗██╔══██╗██║████╗  ██║██╔════╝
-██║   ██║██║██████╔╝█████╗      ██║     ██║   ██║██║  ██║██║██╔██╗ ██║██║  ███╗
-╚██╗ ██╔╝██║██╔══██╗██╔══╝      ██║     ██║   ██║██║  ██║██║██║╚██╗██║██║   ██║
- ╚████╔╝ ██║██████╔╝███████╗    ╚██████╗╚██████╔╝██████╔╝██║██║ ╚████║╚██████╔╝
-  ╚═══╝  ╚═╝╚═════╝ ╚══════╝     ╚═════╝ ╚═════╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝ ╚═════╝
+ ██╗   ██╗ ██╗ ██████╗  ███████╗      ██████╗  ██████╗  ██████╗  ██╗ ███╗   ██╗ ██████╗
+ ██║   ██║ ██║ ██╔══██╗ ██╔════╝     ██╔════╝ ██╔═══██╗ ██╔══██╗ ██║ ████╗  ██║ ██╔════╝
+ ██║   ██║ ██║ ██████╔╝ █████╗       ██║      ██║   ██║ ██║  ██║ ██║ ██╔██╗ ██║ ██║  ███╗
+ ╚██╗ ██╔╝ ██║ ██╔══██╗ ██╔══╝       ██║      ██║   ██║ ██║  ██║ ██║ ██║╚██╗██║ ██║   ██║
+  ╚████╔╝  ██║ ██████╔╝ ███████╗     ╚██████╗ ╚██████╔╝ ██████╔╝ ██║ ██║ ╚████║ ╚██████╔╝
+   ╚═══╝   ╚═╝ ╚═════╝  ╚══════╝      ╚═════╝  ╚═════╝  ╚═════╝  ╚═╝ ╚═╝  ╚═══╝ ╚═════╝
 ```
-
-[![GitHub stars](https://img.shields.io/github/stars/adriannoes/awesome-vibe-coding?style=social)](https://github.com/adriannoes/awesome-vibe-coding/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/adriannoes/awesome-vibe-coding?style=social)](https://github.com/adriannoes/awesome-vibe-coding/network/members)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Last commit](https://img.shields.io/github/last-commit/adriannoes/awesome-vibe-coding)](https://github.com/adriannoes/awesome-vibe-coding/commits/main)
-[![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 </div>
 
-# Vibe Coding Hub for Product Builders
+# Learning Hub for Product Builders
 
 > The most complete collection of battle-tested AI-assisted development resources — for Product Managers, Designers, and Developers who want to ship real products with AI.
 
-**What's inside:** **247** agent skills (Cursor, Claude Code & Codex) · **8** slash commands · **21** coding rules · **123** Jupyter notebooks · **46** research papers (PDF, 9 themes) · **14** industry reports · **21** n8n workflow templates · **14** system prompts · **36** OpenClaw agents · **5,400+** OpenClaw skills indexed · **57** curated GitHub projects — see [Stats](#stats) below.
+**What's inside:** **247** agent skills (Cursor, Claude Code & Codex) · **8** slash commands · **21** coding rules · **123** Jupyter notebooks · **46** research papers (PDF, 9 themes) · **14** industry reports · **21** n8n workflow templates · **14** system prompts · **36** OpenClaw agents · **5,400+** OpenClaw skills indexed · **57** curated GitHub projects.
 
 Whether you're a PM who wants to prototype faster, a Designer who wants to understand the code your AI is generating, or a Developer looking for the sharpest rules to ship with — this repo is built to be copied, forked, and used the same day.
 
@@ -47,50 +40,10 @@ Pick your path and start in under 5 minutes:
 3. Pick your stack rules from [cursor-claude-codex/coding/](cursor-claude-codex/coding/) (Python, TypeScript, FastAPI, Next.js, …)
 4. Lock down security with [cursor-claude-codex/security/anthropic-security-audit.md](cursor-claude-codex/security/anthropic-security-audit.md)
 
-### For Codex users
-1. Copy skills to `~/.agents/skills/` from [cursor-claude-codex/skills/](cursor-claude-codex/skills/)
-2. Set up isolated profiles: [cursor-claude-codex/tools/codex-profiles/](cursor-claude-codex/tools/codex-profiles/) ([Ducksss/codex-profiles](https://github.com/Ducksss/codex-profiles))
-3. Map Claude Code tool names when needed: [codex-tools.md](cursor-claude-codex/skills/using-superpowers/references/codex-tools.md)
-
 ### For Learners
 1. Start with the notebooks in [research/nn-zero-to-hero/](research/nn-zero-to-hero/) (Karpathy's Zero to Hero)
 2. Read [learning/README.md](learning/README.md) to pick a textbook
 3. Follow [research/understanding-deep-learning/](research/understanding-deep-learning/) chapter-by-chapter
-
-## Project structure
-
-```
-awesome-vibe-coding/
-├── openclaw/                 # OpenClaw ecosystem — see openclaw/README.md
-│   ├── README.md
-│   └── skills/               # Skills index — openclaw/skills/README.md, categories/
-├── cursor-claude-codex/      # Cursor, Claude Code & Codex — see cursor-claude-codex/README.md
-│   ├── skills/               # cursor-claude-codex/skills/README.md
-│   ├── commands/             # cursor-claude-codex/commands/README.md (Cursor slash commands)
-│   ├── tools/                # cursor-claude-codex/tools/ (e.g. codex-profiles)
-│   ├── best-practices/
-│   ├── coding/
-│   ├── product-management/   # cursor-claude-codex/product-management/README.md
-│   ├── security/
-│   └── references/           # cursor-claude-codex/references/README.md
-├── prompt-engineering/         # prompt-engineering/README.md, prompts/
-├── learning/                   # learning/README.md — books and textbooks
-├── reports/                    # reports/README.md — industry reports (McKinsey, OpenAI, …)
-├── n8n-templates/              # Workflow templates
-├── papers/                     # papers/README.md — 46 PDFs in 9 thematic subfolders
-│   ├── early-deep-learning/    # AlexNet, DQN, Word2Vec
-│   ├── foundation-models/      # Transformers, BERT, GPT, scaling laws
-│   ├── alignment-and-post-training/
-│   ├── generative-models/
-│   ├── agents-and-engineering/
-│   ├── reliability-and-reasoning/
-│   ├── models-and-training/
-│   ├── ethics-risks-and-society/
-│   └── perspectives-and-futures/
-├── research/                   # research/README.md — notebooks & experiments
-├── nice-projects/              # nice-projects/README.md — GitHub projects to follow & fork
-└── CONTRIBUTING.md
-```
 
 ## Quick links
 
