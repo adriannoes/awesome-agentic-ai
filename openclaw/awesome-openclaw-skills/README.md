@@ -14,6 +14,8 @@ The original VoltAgent repo is a **curated, filtered index** of 5,400+ OpenClaw 
 
 For the **latest index**, prefer the [upstream repo](https://github.com/VoltAgent/awesome-openclaw-skills) — ours is a point-in-time copy.
 
+> **Note:** [UPSTREAM-README.md](./UPSTREAM-README.md) and [CONTRIBUTING.md](./CONTRIBUTING.md) still link to the old repo name `VoltAgent/awesome-clawdbot-skills` (upstream rename). Use [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) for issues and the live index.
+
 ## What's here
 
 | Path | Purpose |

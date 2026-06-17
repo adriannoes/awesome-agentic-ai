@@ -1,24 +1,37 @@
 # Upstream repositories catalog
 
 Curated notes on external repos that complement **Cursor**, **Claude Code**, and **vibe coding** workflows.  
-Most entries are **link-only**; two Vercel **SKILL.md** summaries are also vendored under [cursor-claude-codex/skills/](../skills/README.md) (see the Vercel section below). All descriptions reflect public READMEs and repository layout as of the exploration date.
+**Vendored** entries live under [cursor-claude-codex/skills/](../skills/README.md), [tools/](../tools/), or [references/design-md/](./design-md/); **link-only** entries are catalogued here for discovery. All descriptions reflect public READMEs and repository layout as of the exploration date.
 
-| Repo | Upstream |
-|------|----------|
-| Vercel Agent Skills | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
-| Code Review Graph | [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) |
-| Awesome DESIGN.md | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) |
-| claude-md (hooks + CLAUDE.md) | [iamfakeguru/claude-md](https://github.com/iamfakeguru/claude-md) |
-| Claw Code | [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) |
-| Agentic AI prompt research | [Leonxlnx/agentic-ai-prompt-research](https://github.com/Leonxlnx/agentic-ai-prompt-research) |
-| HumanLayer / CodeLayer | [humanlayer/humanlayer](https://github.com/humanlayer/humanlayer) |
-| Harness (agent teams) | [revfactory/harness](https://github.com/revfactory/harness) |
-| Claude Code Showcase | [ChrisWiles/claude-code-showcase](https://github.com/ChrisWiles/claude-code-showcase) |
-| Claude Code Plugins + Skills | [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) |
-| Superpowers (core skills) | [obra/superpowers](https://github.com/obra/superpowers) |
-| DESIGN.md spec (Google Labs) | [google-labs-code/design.md](https://github.com/google-labs-code/design.md) |
-| Skills for Real Engineers | [mattpocock/skills](https://github.com/mattpocock/skills) |
-| Codex profile switcher | [Ducksss/codex-profiles](https://github.com/Ducksss/codex-profiles) |
+**See also:** [nice-projects/README.md](../../nice-projects/README.md) (projects to watch) · [openclaw/README.md](../../openclaw/README.md) (OpenClaw ecosystem)
+
+| Repo | Vendored? | Upstream |
+|------|-----------|----------|
+| Vercel Agent Skills | ✅ partial/full | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
+| Superpowers (core skills) | ✅ 14 skills | [obra/superpowers](https://github.com/obra/superpowers) |
+| Claude BugHunter | ✅ 51 skills | [xiaolai/Claude-BugHunter](https://github.com/xiaolai/Claude-BugHunter) |
+| Anthropic Cybersecurity Skills | ✅ 83 skills | [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) |
+| Taste skills (anti-slop UI) | ✅ 13 skills | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) |
+| Skills for Real Engineers | ✅ 13 skills | [mattpocock/skills](https://github.com/mattpocock/skills) |
+| Claude Skills (security + E2E) | ✅ 11 skills | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) |
+| Claude Code Plugins + Skills | ✅ 50 skills (2 cats) | [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) |
+| DESIGN.md spec (Google Labs) | ✅ spec + 3 examples | [google-labs-code/design.md](https://github.com/google-labs-code/design.md) |
+| Codex profile switcher | ✅ CLI snapshot | [Ducksss/codex-profiles](https://github.com/Ducksss/codex-profiles) |
+| Harness (agent teams) | ✅ meta-skill | [revfactory/harness](https://github.com/revfactory/harness) |
+| Agent stuff (design + changelog) | ✅ 2 skills + command | [mitsuhiko/agent-stuff](https://github.com/mitsuhiko/agent-stuff) |
+| Karpathy LLM guidelines | ✅ 1 rule file | [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) |
+| Agentic patterns | ✅ reference doc | [nibzard/awesome-agentic-patterns](https://github.com/nibzard/awesome-agentic-patterns) |
+| Autoresearch | ✅ 1 skill | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) |
+| Cursor commands | ✅ 8 commands | [hamzafer/cursor-commands](https://github.com/hamzafer/cursor-commands) |
+| Awesome OpenClaw skills index | ✅ snapshot | [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) |
+| Awesome Claws (derivatives) | ✅ snapshot | [machinae/awesome-claws](https://github.com/machinae/awesome-claws) |
+| Code Review Graph | ❌ link only | [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) |
+| Awesome DESIGN.md | ❌ link only | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) |
+| claude-md (hooks + CLAUDE.md) | ❌ link only | [iamfakeguru/claude-md](https://github.com/iamfakeguru/claude-md) |
+| Claw Code | ❌ link only | [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) |
+| Agentic AI prompt research | ❌ link only | [Leonxlnx/agentic-ai-prompt-research](https://github.com/Leonxlnx/agentic-ai-prompt-research) |
+| HumanLayer / CodeLayer | ❌ link only | [humanlayer/humanlayer](https://github.com/humanlayer/humanlayer) |
+| Claude Code Showcase | ❌ reference only | [ChrisWiles/claude-code-showcase](https://github.com/ChrisWiles/claude-code-showcase) |
 
 ---
 

@@ -22,7 +22,7 @@
 
 > The most complete collection of battle-tested AI-assisted development resources — for Product Managers, Designers, and Developers who want to ship real products with AI.
 
-**What's inside:** 247+ ready-to-use Cursor, Claude Code & Codex skills (see [cursor-claude-codex/skills/README.md](cursor-claude-codex/skills/README.md)) · [codex-profiles](cursor-claude-codex/tools/codex-profiles/) CLI for multi-account Codex · 123 Jupyter notebooks · 34 research papers (PDFs in `papers/`) · 14 industry reports · 21 n8n workflow templates (JSON) · 14 system prompts from leading agents · 36 OpenClaw derivatives catalogued.
+**What's inside:** **247** agent skills (Cursor, Claude Code & Codex) · **8** slash commands · **21** coding rules · **123** Jupyter notebooks · **46** research papers (PDF, 9 themes) · **14** industry reports · **21** n8n workflow templates · **14** system prompts · **36** OpenClaw agents · **5,400+** OpenClaw skills indexed · **57** curated GitHub projects — see [Stats](#stats) below.
 
 Whether you're a PM who wants to prototype faster, a Designer who wants to understand the code your AI is generating, or a Developer looking for the sharpest rules to ship with — this repo is built to be copied, forked, and used the same day.
 
@@ -77,8 +77,18 @@ awesome-vibe-coding/
 ├── learning/                   # learning/README.md — books and textbooks
 ├── reports/                    # reports/README.md — industry reports (McKinsey, OpenAI, …)
 ├── n8n-templates/              # Workflow templates
-├── papers/                     # papers/README.md — PDFs and paper notes
+├── papers/                     # papers/README.md — 46 PDFs in 9 thematic subfolders
+│   ├── early-deep-learning/    # AlexNet, DQN, Word2Vec
+│   ├── foundation-models/      # Transformers, BERT, GPT, scaling laws
+│   ├── alignment-and-post-training/
+│   ├── generative-models/
+│   ├── agents-and-engineering/
+│   ├── reliability-and-reasoning/
+│   ├── models-and-training/
+│   ├── ethics-risks-and-society/
+│   └── perspectives-and-futures/
 ├── research/                   # research/README.md — notebooks & experiments
+├── nice-projects/              # nice-projects/README.md — GitHub projects to follow & fork
 └── CONTRIBUTING.md
 ```
 
@@ -91,6 +101,7 @@ awesome-vibe-coding/
 | Learning | [learning/](learning/) · [learning/README.md](learning/README.md) |
 | Reports | [reports/](reports/) · [reports/README.md](reports/README.md) |
 | OpenClaw | [openclaw/](openclaw/) · [openclaw/README.md](openclaw/README.md) |
+| Projects to watch | [nice-projects/](nice-projects/) · [nice-projects/README.md](nice-projects/README.md) |
 | Research | [research/](research/) · [research/README.md](research/README.md) |
 | Papers | [papers/](papers/) · [papers/README.md](papers/README.md) |
 | n8n | [n8n-templates/](n8n-templates/) |
@@ -124,7 +135,11 @@ Three freely-available textbooks that ground the notebooks and skills in this re
 
 ### OpenClaw ([openclaw/](openclaw/))
 
-Derivative agents and a skills index (VoltAgent, official OpenClaw archive). Details: [openclaw/README.md](openclaw/README.md), [openclaw/skills/README.md](openclaw/skills/README.md).
+**36** agent projects catalogued (OpenClaw + 35 derivatives) and **5,400+** community skills indexed in 30 categories (local snapshots from [machinae/awesome-claws](https://github.com/machinae/awesome-claws) and [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)). Details: [openclaw/README.md](openclaw/README.md), [openclaw/skills/README.md](openclaw/skills/README.md).
+
+### Projects to watch ([nice-projects/](nice-projects/))
+
+**57** hand-picked open-source repos — tools, AI/ML, agent skills, and the upstream sources behind vendored hub content. See [nice-projects/README.md](nice-projects/README.md) and the full catalog at [cursor-claude-codex/references/upstream-repos-catalog.md](cursor-claude-codex/references/upstream-repos-catalog.md).
 
 ### n8n templates ([n8n-templates/](n8n-templates/))
 
@@ -148,7 +163,40 @@ Other items (e.g. DeepSeek OCR) are documented in [research/README.md](research/
 
 ### Papers ([papers/](papers/))
 
-PDFs and reading notes — [papers/README.md](papers/README.md).
+**46** research papers (PDFs) in **9 thematic subfolders** — from classic deep learning (AlexNet, DQN, Word2Vec) through the foundation-model era (Transformers, BERT, GPT-1/2/3, scaling laws, Chinchilla, RLHF, diffusion) to contemporary agent, harness, reliability, and ethics research. Full index: [papers/README.md](papers/README.md).
+
+| Folder | Focus | PDFs |
+|--------|-------|------|
+| [early-deep-learning/](papers/early-deep-learning/) | CNNs, RL, word embeddings (2012–2013) | 3 |
+| [foundation-models/](papers/foundation-models/) | Transformers, BERT, GPT, scaling laws | 7 |
+| [alignment-and-post-training/](papers/alignment-and-post-training/) | RLHF / InstructGPT | 1 |
+| [generative-models/](papers/generative-models/) | Diffusion models | 1 |
+| [agents-and-engineering/](papers/agents-and-engineering/) | Agents, harnesses, code evaluation | 13 |
+| [reliability-and-reasoning/](papers/reliability-and-reasoning/) | Hallucinations, reasoning, memory | 6 |
+| [models-and-training/](papers/models-and-training/) | World models, fine-tuning, DeepSeek | 4 |
+| [ethics-risks-and-society/](papers/ethics-risks-and-society/) | Risks, work, autonomy | 7 |
+| [perspectives-and-futures/](papers/perspectives-and-futures/) | Long-term AI visions | 4 |
+
+Includes **12** foundational PDFs added to the repo (early DL through alignment and diffusion). Code-LLM papers (AlphaCode, StarCoder, DeepSeek-Coder, …) are external links in [papers/README.md](papers/README.md#foundation-models-for-code-external-references).
+
+## Stats
+
+Counts verified against the repo tree (2026-06):
+
+| Resource | Count | Entry point |
+|----------|------:|-------------|
+| Agent skills (Cursor / Claude / Codex) | **247** | [cursor-claude-codex/skills/README.md](cursor-claude-codex/skills/README.md) |
+| Cursor slash commands | **8** | [cursor-claude-codex/commands/](cursor-claude-codex/commands/) |
+| Coding & stack rules | **21** | [cursor-claude-codex/coding/](cursor-claude-codex/coding/) |
+| Upstream sources integrated | **18** | [cursor-claude-codex/README.md](cursor-claude-codex/README.md#credits--sources) |
+| OpenClaw agents catalogued | **36** | [openclaw/README.md](openclaw/README.md) |
+| OpenClaw skills indexed (snapshot) | **5,400+** | [openclaw/skills/README.md](openclaw/skills/README.md) |
+| GitHub projects to watch | **57** | [nice-projects/README.md](nice-projects/README.md) |
+| Jupyter notebooks | **123** | [research/README.md](research/README.md) |
+| Research papers (PDF, 9 themes) | **46** | [papers/README.md](papers/README.md) |
+| Industry reports (PDF) | **14** | [reports/README.md](reports/README.md) |
+| n8n workflow templates | **21** | [n8n-templates/](n8n-templates/) |
+| System prompt snapshots | **14** | [prompt-engineering/prompts/](prompt-engineering/prompts/) |
 
 ## About
 
@@ -216,4 +264,4 @@ This project is licensed under the MIT License — see [LICENSE](LICENSE).
 
 ---
 
-**Ready to level up?** Start with [cursor-claude-codex/README.md](cursor-claude-codex/README.md), [openclaw/README.md](openclaw/README.md), or [prompt-engineering/README.md](prompt-engineering/README.md). The best way to learn is by doing.
+**Ready to level up?** Start with [cursor-claude-codex/README.md](cursor-claude-codex/README.md), [openclaw/README.md](openclaw/README.md), [nice-projects/README.md](nice-projects/README.md), or [prompt-engineering/README.md](prompt-engineering/README.md). The best way to learn is by doing.

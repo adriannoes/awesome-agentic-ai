@@ -4,30 +4,66 @@ This directory contains research papers and resources on Large Language Models (
 
 ## Overview
 
-The collection includes: (1) **foundation models for code** (external references to key code-LLM papers); (2) **34 PDFs** in `papers/`, covering agents, code evaluation, scheming and alignment, hallucinations, reasoning, automation, agent harnesses, world models, and societal implications of AI.
+The collection includes: (1) **foundation models for code** (external references to key code-LLM papers); (2) **46 PDFs** in `papers/`, organized into thematic subfolders — from classic deep-learning papers through contemporary agent and alignment research.
 
-## Papers in this directory
+## Directory structure
 
-The following PDFs are stored in `papers/`, grouped by theme.
+```
+papers/
+├── early-deep-learning/           # 3 — AlexNet, DQN, Word2Vec (2012–2013)
+├── foundation-models/             # 7 — Transformers, BERT, GPT, scaling laws (2017–2022)
+├── alignment-and-post-training/   # 1 — RLHF / InstructGPT
+├── generative-models/             # 1 — diffusion models
+├── agents-and-engineering/        # 13 — agents, harnesses, code evaluation
+├── reliability-and-reasoning/     # 6 — hallucinations, reasoning, memory
+├── models-and-training/           # 4 — world models, fine-tuning, DeepSeek
+├── ethics-risks-and-society/      # 7 — risks, work, autonomy
+└── perspectives-and-futures/      # 4 — long-term visions of AI
+```
 
-### AI agents & agentic systems
+## Papers by folder
+
+### [early-deep-learning/](early-deep-learning/)
+
+- **ImageNet Classification with Deep Convolutional Neural Networks** (AlexNet, 2012)
+- **Playing Atari with Deep Reinforcement Learning** (DQN, 2013)
+- **Efficient Estimation of Word Representations in Vector Space** (Word2Vec, 2013)
+
+### [foundation-models/](foundation-models/)
+
+- **Attention Is All You Need** (Transformers, 2017)
+- **BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding** (2018)
+- **Improving Language Understanding by Generative Pre-Training** (GPT-1, 2018)
+- **Language Models are Unsupervised Multitask Learners** (GPT-2, 2019)
+- **Language Models are Few-Shot Learners** (GPT-3, 2020)
+- **Scaling Laws for Neural Language Models** (2020)
+- **Training Compute-Optimal Large Language Models** (Chinchilla, 2022)
+
+### [alignment-and-post-training/](alignment-and-post-training/)
+
+- **Training language models to follow instructions with human feedback** (InstructGPT / RLHF, 2022)
+
+### [generative-models/](generative-models/)
+
+- **Denoising Diffusion Probabilistic Models** (2020)
+
+### [agents-and-engineering/](agents-and-engineering/)
 
 - **AI Agents vs. Agentic AI: A Conceptual Taxonomy, Applications and Challenges**
 - **Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models**
 - **Agents of Chaos**
-- **Dive into Claude Code: The Design Space of Today’s and Future AI Agent Systems**
+- **Beyond Synthetic Benchmarks: Evaluating LLM Performance on Real-World Class-Level Code Generation**
+- **Dive into Claude Code: The Design Space of Today's and Future AI Agent Systems**
 - **Evaluating and Understanding Scheming Propensity in LLM Agents**
 - **Everything is Context: Agentic File System Abstraction for Context Engineering**
 - **Fundamentals of Building Autonomous LLM Agents**
+- **[Harness engineering: leveraging Codex in an agent-first world](agents-and-engineering/Harness%20engineering_%20leveraging%20Codex%20in%20an%20agent-first%20world%20_%20OpenAI.pdf)** (OpenAI) — agent-first software engineering with Codex; pairs with [cursor-claude-codex/references/upstream-repos-catalog.md](../cursor-claude-codex/references/upstream-repos-catalog.md) and [reports/README.md](../reports/README.md) for industry framing.
 - **Measuring Agents in Production**
+- **Scaling Laws for Agent Harnesses via Effective Feedback Compute** (Zhang et al., Harbin Institute of Technology) — introduces Effective Feedback Compute (EFC) as a scaling coordinate for agent harnesses; [arXiv:2605.29682](https://arxiv.org/abs/2605.29682) (2026.05).
 - **Towards a Science of Scaling Agent Systems**
 - **Virtual Agent Economies**
 
-### Code generation & evaluation
-
-- **Beyond Synthetic Benchmarks: Evaluating LLM Performance on Real-World Class-Level Code Generation**
-
-### Hallucinations, reasoning & memorization
+### [reliability-and-reasoning/](reliability-and-reasoning/)
 
 - **A comprehensive taxonomy of hallucinations in Large Language Models**
 - **LLMs get list in multi-turn conversation**
@@ -36,29 +72,24 @@ The following PDFs are stored in `papers/`, grouped by theme.
 - **Titans: Learning to Memorize at Test Time**
 - **why-language-models-hallucinate**
 
-### Agent harnesses & engineering
-
-- **Harness engineering: leveraging Codex in an agent-first world** (OpenAI) — agent-first software engineering with Codex; pairs with [cursor-claude-codex/references/upstream-repos-catalog.md](../cursor-claude-codex/references/upstream-repos-catalog.md) and [reports/README.md](../reports/README.md) for industry framing.
-- **Scaling Laws for Agent Harnesses via Effective Feedback Compute** (Zhang et al., Harbin Institute of Technology) — introduces Effective Feedback Compute (EFC) as a scaling coordinate for agent harnesses; shows that feedback quality, not raw token/tool spend, predicts success better than raw-compute baselines; [arXiv:2605.29682](https://arxiv.org/abs/2605.29682) (2026.05).
-
-### Models, world models & fine-tuning
+### [models-and-training/](models-and-training/)
 
 - **LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels**
 - **Deepseek: Manifold-Constrained Hyper-Connections**
 - **DeepSeek Prover V2: DeepSeek's latest model masters math proofs**
-- **The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs**
+- **The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs** (also in [reports/](../reports/))
 
-### Ethics, risks, automation & work
+### [ethics-risks-and-society/](ethics-risks-and-society/)
 
 - **A Rational Analysis of the Effects of Sycophantic AI**
 - **Expertise and Automation**
 - **Fully Autonomous AI Agents Should Not be Developed**
 - **On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?**
-- **We Won’t be Missed: Work and Growth in the Era of AGI**
+- **We Won't be Missed: Work and Growth in the Era of AGI**
 - **Working with AI: Measuring the Occupational Implications of Generative AI**
 - **Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task**
 
-### Perspectives & value of AI
+### [perspectives-and-futures/](perspectives-and-futures/)
 
 - **A Perspective on Decentralizing AI**
 - **Genius on Demand: The Value of Transformative Artificial Intelligence**

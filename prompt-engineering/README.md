@@ -14,7 +14,7 @@ Battle-tested prompts and system prompt references for AI coding tools.
 
 ## Freshness
 
-Prompts in [prompts/](prompts/) are **dated snapshots** (filenames include model/version dates). Use them for comparison and pattern mining, not as live system prompts. For agent harness design, see the OpenAI paper *Harness engineering* in [papers/README.md](../papers/README.md).
+Prompts in [prompts/](prompts/) are **dated snapshots** (filenames include model/version dates). Use them for comparison and pattern mining, not as live system prompts. For agent harness design, see the OpenAI paper *Harness engineering* in [papers/agents-and-engineering/](../papers/agents-and-engineering/) ([index](../papers/README.md#agents-and-engineering)).
 
 When adding a new prompt: keep the date in the filename, note the source in this table, and prefer linking upstream over copying unverified leaks.
 
