@@ -1,6 +1,6 @@
 # Nice projects to follow & fork 🚀
 
-A curated collection of interesting open-source projects worth exploring, forking, and contributing to. This list is based on projects I've starred on GitHub.
+A curated collection of **57** interesting open-source projects worth exploring, forking, and contributing to. This list is based on projects I've starred on GitHub and upstream sources vendored in this hub.
 
 ## Tools 🛠️
 
@@ -56,6 +56,19 @@ Structured notes (folder layout, install commands, how each fits our hub) live i
 - **[alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)** — MIT marketplace (300+ skills): we vendored **`skill-security-auditor`** (pre-install scan) and **`playwright-pro`** (E2E plugin) at [cursor-claude-codex/skills/alirezarezvani-skills/](../cursor-claude-codex/skills/alirezarezvani-skills/).
 - **[xiaolai/Claude-BugHunter](https://github.com/xiaolai/Claude-BugHunter)** — Authorized bug bounty / external pentest bundle (51 skills, `cbh` CLI). Vendored at [cursor-claude-codex/skills/bug-hunter/](../cursor-claude-codex/skills/bug-hunter/); prefer [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) for upstream issues.
 - **[Ducksss/codex-profiles](https://github.com/Ducksss/codex-profiles)** — MIT Bash CLI for isolated Codex CLI/Desktop profiles (`CODEX_HOME` per account). Vendored at [cursor-claude-codex/tools/codex-profiles/](../cursor-claude-codex/tools/codex-profiles/); install via `npm install -g codex-profile` or `brew install Ducksss/tap/codex-profile` for updates.
+- **[obra/superpowers](https://github.com/obra/superpowers)** — MIT foundational Claude Code skills (brainstorming, TDD, debugging, plans, git worktrees, subagents). **14 skills** vendored at [cursor-claude-codex/skills/](../cursor-claude-codex/skills/) (top-level folders); install via `npx skills add obra/superpowers`.
+- **[mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)** — Apache-2.0 blue-team / SOC / DFIR playbooks (754 upstream; **83 cherry-picked** @ v1.2.0). Vendored at [cursor-claude-codex/skills/anthropic-cybersecurity-skills/](../cursor-claude-codex/skills/anthropic-cybersecurity-skills/).
+- **[Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)** — MIT anti-slop frontend design skills (13 variants: brutalist, minimalist, Stitch `DESIGN.md`, image comps). Vendored at [cursor-claude-codex/skills/taste-skills/](../cursor-claude-codex/skills/taste-skills/); install via `npx skills add https://github.com/Leonxlnx/taste-skill`.
+- **[mitsuhiko/agent-stuff](https://github.com/mitsuhiko/agent-stuff)** — Apache-2.0: `frontend-design`, `update-changelog` skills and `git-commit` slash command vendored in [cursor-claude-codex/](../cursor-claude-codex/).
+- **[karpathy/autoresearch](https://github.com/karpathy/autoresearch)** — Autonomous LLM research loop; skill vendored at [cursor-claude-codex/skills/autoresearch/](../cursor-claude-codex/skills/autoresearch/); notebooks in [research/autoresearch/](../research/autoresearch/).
+- **[nibzard/awesome-agentic-patterns](https://github.com/nibzard/awesome-agentic-patterns)** — Apache-2.0 agent orchestration patterns; summarized at [cursor-claude-codex/references/agentic-patterns.md](../cursor-claude-codex/references/agentic-patterns.md).
+- **[forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills)** — MIT LLM coding guidelines; vendored as [karpathy-guidelines.md](../cursor-claude-codex/best-practices/karpathy-guidelines.md).
+
+### OpenClaw ecosystem (indexed in this hub)
+
+- **[openclaw/openclaw](https://github.com/openclaw/openclaw)** — Original locally-running AI assistant (multi-channel, voice, canvas).
+- **[machinae/awesome-claws](https://github.com/machinae/awesome-claws)** — **36** OpenClaw-inspired agents catalogued; snapshot at [openclaw/awesome-claws/](../openclaw/awesome-claws/).
+- **[VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** — **5,400+** curated skills in 30 categories; snapshot at [openclaw/awesome-openclaw-skills/](../openclaw/awesome-openclaw-skills/). See [openclaw/README.md](../openclaw/README.md).
 
 ### Design Tools
 - **[Apple-Hig-Designer](https://github.com/axiaoge2/Apple-Hig-Designer)** - A Claude Code Skill for designing professional interfaces following Apple Human Interface Guidelines

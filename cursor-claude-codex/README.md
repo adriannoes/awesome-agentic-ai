@@ -28,7 +28,7 @@ cursor-claude-codex/
 
 Skills written for Claude Code often work on Codex with minimal changes. When a skill references `Task`, `TodoWrite`, or `Skill` tools, see [skills/using-superpowers/references/codex-tools.md](./skills/using-superpowers/references/codex-tools.md).
 
-**Project overview:** [main README](../README.md) · [OpenClaw ecosystem](../openclaw/README.md)
+**Project overview:** [main README](../README.md) · [OpenClaw ecosystem](../openclaw/README.md) · [nice-projects](../nice-projects/README.md)
 
 ## Categories
 
@@ -93,15 +93,24 @@ Content integrated from the following repositories (adapted for our use, no runt
 
 | Source | License | What we integrated |
 |--------|---------|--------------------|
-| [obra/superpowers](https://github.com/obra/superpowers) | MIT | brainstorming, test-driven-development, systematic-debugging, writing-plans, executing-plans, finishing-a-development-branch, verification-before-completion, receiving-code-review, using-git-worktrees |
+| [obra/superpowers](https://github.com/obra/superpowers) | MIT | 14 workflow/quality/multi-agent skills — see [skills/README.md](./skills/README.md) |
+| [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | MIT | 7 React/Next/Vercel skills (2 summaries + 5 full packages) — [skills/README.md](./skills/README.md) |
+| [xiaolai/Claude-BugHunter](https://github.com/xiaolai/Claude-BugHunter) | MIT | [skills/bug-hunter/](./skills/bug-hunter/) — 51 offensive-security skills + commands |
+| [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | Apache-2.0 | [skills/anthropic-cybersecurity-skills/](./skills/anthropic-cybersecurity-skills/) — 83 blue-team skills @ v1.2.0 |
+| [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | MIT | [skills/taste-skills/](./skills/taste-skills/) — 13 anti-slop frontend design skills |
+| [mattpocock/skills](https://github.com/mattpocock/skills) | MIT | [skills/matt-pocock/](./skills/matt-pocock/) — 13 engineering/productivity skills |
+| [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | MIT | [skills/alirezarezvani-skills/](./skills/alirezarezvani-skills/) — skill-security-auditor + playwright-pro |
+| [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) | MIT | [skills/visual-content/](./skills/visual-content/) (25) + [skills/business-automation/](./skills/business-automation/) (25) |
+| [revfactory/harness](https://github.com/revfactory/harness) | Apache-2.0 | [skills/harness/](./skills/harness/) meta-skill |
+| [google-labs-code/design.md](https://github.com/google-labs-code/design.md) | Apache-2.0 | [references/design-md/](./references/design-md/) spec + 3 examples |
 | [Ducksss/codex-profiles](https://github.com/Ducksss/codex-profiles) | MIT | [tools/codex-profiles/](./tools/codex-profiles/) CLI snapshot |
-| [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | MIT | karpathy-guidelines.md (LLM coding guidelines) |
-| [hamzafer/cursor-commands](https://github.com/hamzafer/cursor-commands) | MIT | code-review, run-all-tests-and-fix, clarify-task, deslop, security-audit, diagrams commands |
-| [patyearone/final-review-gist](https://gist.github.com/patyearone/c9a091b97e756f5ed361f7514d88ef0b) | — | final-review command (PR review with parallel agents) |
 | [mitsuhiko/agent-stuff](https://github.com/mitsuhiko/agent-stuff) | Apache-2.0 | git-commit command, frontend-design, update-changelog skills |
-| [nibzard/awesome-agentic-patterns](https://github.com/nibzard/awesome-agentic-patterns) | Apache-2.0 | references/agentic-patterns.md |
+| [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | MIT | [best-practices/karpathy-guidelines.md](./best-practices/karpathy-guidelines.md) |
+| [hamzafer/cursor-commands](https://github.com/hamzafer/cursor-commands) | MIT | 7 slash commands in [commands/](./commands/) |
+| [patyearone/final-review-gist](https://gist.github.com/patyearone/c9a091b97e756f5ed361f7514d88ef0b) | — | final-review command |
+| [nibzard/awesome-agentic-patterns](https://github.com/nibzard/awesome-agentic-patterns) | Apache-2.0 | [references/agentic-patterns.md](./references/agentic-patterns.md) |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | — | [skills/autoresearch/](./skills/autoresearch/) + [research/autoresearch/](../research/autoresearch/) |
 | [JohnCrickett/ai-assisted-engineering](https://github.com/JohnCrickett/ai-assisted-engineering) | — | AGENTS.md reference |
-| [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | MIT | Previously integrated |
-| [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | MIT | `web-design-guidelines`, `react-best-practices` skills ([skills README](./skills/README.md)); React `rules/*.md` and `AGENTS.md` remain upstream |
 
-Additional upstream projects (catalog): [upstream-repos-catalog.md](./references/upstream-repos-catalog.md).
+**247** agent skills total — full index: [skills/README.md](./skills/README.md).  
+Additional upstream projects (link-only + OpenClaw snapshots): [upstream-repos-catalog.md](./references/upstream-repos-catalog.md) · [nice-projects/README.md](../nice-projects/README.md).

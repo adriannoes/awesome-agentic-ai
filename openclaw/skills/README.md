@@ -2,7 +2,7 @@
 
 Index of OpenClaw skills from community sources. Skills extend OpenClaw capabilities for external services, automation, and specialized tasks.
 
-**See also:** [../README.md](../README.md) (OpenClaw overview) · [categories/](./categories/) (skills by category)
+**See also:** [../README.md](../README.md) (OpenClaw overview) · [categories/](./categories/) (skills by category) · [cursor-claude-codex/references/upstream-repos-catalog.md](../../cursor-claude-codex/references/upstream-repos-catalog.md) · [nice-projects/README.md](../../nice-projects/README.md)
 
 ## Sources
 

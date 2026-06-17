@@ -14,7 +14,7 @@ Curated textbooks that ground the skills and notebooks elsewhere in this repo. A
 
 - **If you're doing the notebooks in [research/understanding-deep-learning/](../research/understanding-deep-learning/)** — read the corresponding UDL chapter first.
 - **If you're building agents** — *Algorithms for Decision Making* is the canonical reference for MDPs, POMDPs, and multi-agent reasoning that underpins agentic systems.
-- **If the math in papers is the blocker** — *Mathematics for Computer Science* is the prerequisite refresher.
+- **If the math in papers is the blocker** — *Mathematics for Computer Science* is the prerequisite refresher; curated PDFs live in [papers/README.md](../papers/README.md).
 
 ## Original sources
 

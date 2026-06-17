@@ -31,7 +31,7 @@ Curated industry and research reports from consulting firms, AI labs, and VCs. U
 |--------|--------|-------|
 | [State of AI Report 2025](State%20of%20AI%20Report%20-%202025%20%28Air%20Street%20Capital%29.pdf) | Air Street Capital | Annual AI landscape (research, industry, politics, safety) |
 | [Artificial Intelligence Trends](Bond%20-%20Artificial_Intelligence%20Trends.pdf) | Bond (Mary Meeker) | Market and usage trends with charts |
-| [The Ultimate Guide to Fine-Tuning LLMs](The%20Ultimate%20Guide%20to%20Fine-Tuning%20LLMs%20from%20Basics%20to%20Breakthroughs.pdf) | Research compilation | Technical guide to fine-tuning |
+| [The Ultimate Guide to Fine-Tuning LLMs](The%20Ultimate%20Guide%20to%20Fine-Tuning%20LLMs%20from%20Basics%20to%20Breakthroughs.pdf) | Research compilation | Technical guide to fine-tuning (also in [papers/models-and-training/](../papers/models-and-training/)) |
 
 ## How to use this folder
 
@@ -42,7 +42,7 @@ Curated industry and research reports from consulting firms, AI labs, and VCs. U
 
 ## Related research in this repo
 
-- **Agent harness (engineering):** [Harness engineering: leveraging Codex in an agent-first world](../papers/Harness%20engineering_%20leveraging%20Codex%20in%20an%20agent-first%20world%20_%20OpenAI.pdf) in [papers/](../papers/) — complements OpenAI's practical agent guide and [cursor-claude-codex/references/agentic-patterns.md](../cursor-claude-codex/references/agentic-patterns.md).
+- **Agent harness (engineering):** [Harness engineering: leveraging Codex in an agent-first world](../papers/agents-and-engineering/Harness%20engineering_%20leveraging%20Codex%20in%20an%20agent-first%20world%20_%20OpenAI.pdf) in [papers/agents-and-engineering/](../papers/agents-and-engineering/) — complements OpenAI's practical agent guide and [cursor-claude-codex/references/agentic-patterns.md](../cursor-claude-codex/references/agentic-patterns.md).
 
 ## A note on reports
 
