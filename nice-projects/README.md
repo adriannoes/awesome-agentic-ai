@@ -63,6 +63,7 @@ Structured notes (folder layout, install commands, how each fits our hub) live i
 - **[karpathy/autoresearch](https://github.com/karpathy/autoresearch)** — Autonomous LLM research loop; skill vendored at [cursor-claude-codex/skills/autoresearch/](../cursor-claude-codex/skills/autoresearch/); notebooks in [research/autoresearch/](../research/autoresearch/).
 - **[nibzard/awesome-agentic-patterns](https://github.com/nibzard/awesome-agentic-patterns)** — Apache-2.0 agent orchestration patterns; summarized at [cursor-claude-codex/references/agentic-patterns.md](../cursor-claude-codex/references/agentic-patterns.md).
 - **[forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills)** — MIT LLM coding guidelines; vendored as [karpathy-guidelines.md](../cursor-claude-codex/best-practices/karpathy-guidelines.md).
+- **[nowork-studio/NotFair](https://github.com/nowork-studio/NotFair)** — MIT Claude Code skills for SEO, GEO, and paid ads (~2.9k ★): [seo/](https://github.com/nowork-studio/NotFair/tree/main/seo) (site analysis, keyword research, meta tags, schema markup, content writing), [google-ads/](https://github.com/nowork-studio/NotFair/tree/main/google-ads) (audits, wasted-spend detection, keyword & bid management), and [meta-ads/](https://github.com/nowork-studio/NotFair/tree/main/meta-ads) (ROAS, creative fatigue, audience overlap). Connects to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP.
 
 ### OpenClaw ecosystem (indexed in this hub)
 
