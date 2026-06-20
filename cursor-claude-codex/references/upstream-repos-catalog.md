@@ -32,6 +32,7 @@ Curated notes on external repos that complement **Cursor**, **Claude Code**, and
 | Agentic AI prompt research | ❌ link only | [Leonxlnx/agentic-ai-prompt-research](https://github.com/Leonxlnx/agentic-ai-prompt-research) |
 | HumanLayer / CodeLayer | ❌ link only | [humanlayer/humanlayer](https://github.com/humanlayer/humanlayer) |
 | Claude Code Showcase | ❌ reference only | [ChrisWiles/claude-code-showcase](https://github.com/ChrisWiles/claude-code-showcase) |
+| NotFair (SEO & paid ads) | ❌ link only | [nowork-studio/NotFair](https://github.com/nowork-studio/NotFair) |
 
 ---
 
@@ -388,6 +389,25 @@ npx skills add https://github.com/Leonxlnx/taste-skill --skill "design-taste-fro
 **Honest assessment:** All 13 skills **PASS** [skill-security-auditor](../skills/alirezarezvani-skills/skill-security-auditor/) (2026-06-10). Complements — does not replace — [frontend-design](../skills/frontend-design/) and [web-design-guidelines](../skills/web-design-guidelines/). v2 default is experimental; pin commits or use `design-taste-frontend-v1` for stable v1 behavior. Not for global `alwaysApply`.
 
 **Fit for this hub:** Product Builders and frontend vibe-coding — landing pages, portfolios, marketing redesigns. Pairs with [design-md/](./design-md/) (Stitch) and [composition-patterns](../skills/composition-patterns/) for React structure after visual direction is set.
+
+---
+
+## [nowork-studio/NotFair](https://github.com/nowork-studio/NotFair)
+
+**License:** MIT (per upstream `LICENSE`).
+
+**What it is:** Claude Code **plugin** (~2.9k ★) for **SEO**, **GEO**, **Google Ads**, and **Meta Ads**. Three skill areas: [seo/](https://github.com/nowork-studio/NotFair/tree/main/seo) (site analysis, keyword research, meta tags, schema markup, content writing), [google-ads/](https://github.com/nowork-studio/NotFair/tree/main/google-ads) (audits, wasted-spend detection, keyword & bid management), and [meta-ads/](https://github.com/nowork-studio/NotFair/tree/main/meta-ads) (ROAS, creative fatigue, audience overlap). Pulls live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP. Companion web app at [notfair.co](https://notfair.co) for browser-based audits on the same engine.
+
+**Install (canonical — prefer for day-to-day updates):**
+
+```bash
+/plugin marketplace add nowork-studio/notfair
+/plugin install notfair@nowork-studio
+```
+
+**Use here:** Link-only — not vendored in this hub. Follow upstream for plugin updates and MCP auth (OAuth via notfair.co; tokens stored in OS keychain).
+
+**Fit for this hub:** Complements dev-focused skills with growth/marketing workflows for Product Builders — SEO fixes, ad spend audits, and campaign optimization alongside the Claude Code / MCP stack already documented here.
 
 ---
 
