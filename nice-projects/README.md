@@ -1,6 +1,6 @@
 # Nice projects to follow & fork 🚀
 
-A curated collection of **67** interesting open-source projects worth exploring, forking, and contributing to. This list is based on projects I've starred on GitHub and upstream sources vendored in this hub.
+A curated collection of **68** interesting open-source projects worth exploring, forking, and contributing to. This list is based on projects I've starred on GitHub and upstream sources vendored in this hub.
 
 ## Tools 🛠️
 
@@ -20,6 +20,7 @@ A curated collection of **67** interesting open-source projects worth exploring,
 
 ### Web Crawling & Data
 - **[teracrawl](https://github.com/BrowserCash/teracrawl)** - High-performance web crawler API optimized for LLMs. Turn any search or website into clean Markdown using remote browsers.
+- **[Xquik](https://github.com/Xquik-dev/x-twitter-scraper)** - X/Twitter data API with REST, MCP, and webhook workflows.
 
 ## AI/ML 🤖
 
