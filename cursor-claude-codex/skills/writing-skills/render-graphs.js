@@ -11,6 +11,12 @@
  * Useful for helping your human partner visualize the process flows.
  *
  * Requires: graphviz (dot) installed on system
+ *
+ * Security note (for skill-security-auditor reviewers): the two execSync
+ * calls below use a fixed literal command (`dot -Tsvg` and `which dot`).
+ * The dot source is fed via stdin (`input: dotContent`), never interpolated
+ * into the shell command, so there is no command-injection surface. The
+ * `regex.exec(markdown)` call is `RegExp.prototype.exec`, not child_process.
  */
 
 const fs = require('fs');

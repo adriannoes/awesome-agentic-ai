@@ -93,24 +93,30 @@ Content integrated from the following repositories (adapted for our use, no runt
 
 | Source | License | What we integrated |
 |--------|---------|--------------------|
-| [obra/superpowers](https://github.com/obra/superpowers) | MIT | 14 workflow/quality/multi-agent skills — see [skills/README.md](./skills/README.md) |
-| [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | MIT | 7 React/Next/Vercel skills (2 summaries + 5 full packages) — [skills/README.md](./skills/README.md) |
+| [obra/superpowers](https://github.com/obra/superpowers) | MIT | 14 workflow/quality/multi-agent skills @ v6.0.3 — see [skills/README.md](./skills/README.md) |
+| [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | MIT | 8 React/Next/Vercel skills (3 summaries + 5 full packages; vercel-optimize added 2026-06-25) — [skills/README.md](./skills/README.md) |
 | [xiaolai/Claude-BugHunter](https://github.com/xiaolai/Claude-BugHunter) | MIT | [skills/bug-hunter/](./skills/bug-hunter/) — 51 offensive-security skills + commands |
-| [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | Apache-2.0 | [skills/anthropic-cybersecurity-skills/](./skills/anthropic-cybersecurity-skills/) — 83 blue-team skills @ v1.2.0 |
+| [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | Apache-2.0 | [skills/anthropic-cybersecurity-skills/](./skills/anthropic-cybersecurity-skills/) — 109 blue-team + AI-security + supply-chain + hardware skills @ v1.3.0 |
 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | MIT | [skills/taste-skills/](./skills/taste-skills/) — 13 anti-slop frontend design skills |
-| [mattpocock/skills](https://github.com/mattpocock/skills) | MIT | [skills/matt-pocock/](./skills/matt-pocock/) — 13 engineering/productivity skills |
+| [mattpocock/skills](https://github.com/mattpocock/skills) | MIT | [skills/matt-pocock/](./skills/matt-pocock/) — 20 engineering/productivity/misc skills |
 | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | MIT | [skills/alirezarezvani-skills/](./skills/alirezarezvani-skills/) — skill-security-auditor + playwright-pro |
 | [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) | MIT | [skills/visual-content/](./skills/visual-content/) (25) + [skills/business-automation/](./skills/business-automation/) (25) |
-| [revfactory/harness](https://github.com/revfactory/harness) | Apache-2.0 | [skills/harness/](./skills/harness/) meta-skill |
-| [google-labs-code/design.md](https://github.com/google-labs-code/design.md) | Apache-2.0 | [references/design-md/](./references/design-md/) spec + 3 examples |
+| [revfactory/harness](https://github.com/revfactory/harness) | Apache-2.0 | [skills/harness/](./skills/harness/) meta-skill (Phase 3-0/4-0 duplicate-review guidelines) |
+| [google-labs-code/design.md](https://github.com/google-labs-code/design.md) | Apache-2.0 | [references/design-md/](./references/design-md/) spec (v0.3.0) + PHILOSOPHY.md + 3 examples |
 | [Ducksss/codex-profiles](https://github.com/Ducksss/codex-profiles) | MIT | [tools/codex-profiles/](./tools/codex-profiles/) CLI snapshot |
 | [mitsuhiko/agent-stuff](https://github.com/mitsuhiko/agent-stuff) | Apache-2.0 | git-commit command, frontend-design, update-changelog skills |
 | [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | MIT | [best-practices/karpathy-guidelines.md](./best-practices/karpathy-guidelines.md) |
-| [hamzafer/cursor-commands](https://github.com/hamzafer/cursor-commands) | MIT | 7 slash commands in [commands/](./commands/) |
+| [hamzafer/cursor-commands](https://github.com/hamzafer/cursor-commands) | MIT | 6 slash commands in [commands/](./commands/) |
 | [patyearone/final-review-gist](https://gist.github.com/patyearone/c9a091b97e756f5ed361f7514d88ef0b) | — | final-review command |
 | [nibzard/awesome-agentic-patterns](https://github.com/nibzard/awesome-agentic-patterns) | Apache-2.0 | [references/agentic-patterns.md](./references/agentic-patterns.md) |
 | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | — | [skills/autoresearch/](./skills/autoresearch/) + [research/autoresearch/](../research/autoresearch/) |
 | [JohnCrickett/ai-assisted-engineering](https://github.com/JohnCrickett/ai-assisted-engineering) | — | AGENTS.md reference |
+| [igoruehara/spec-driven](https://github.com/igoruehara/spec-driven) | MIT | [skills/igoruehara-spec-driven/](./skills/igoruehara-spec-driven/) — 15 SDD skills (translated pt-BR → en) + hook + [product-management/igoruehara-sdd/](./product-management/igoruehara-sdd/) templates |
+| [Forward-Future/loop-library](https://github.com/Forward-Future/loop-library) | MIT | [skills/forward-future-loop-library/](./skills/forward-future-loop-library/) — bounded agent-loop skill (69-loop live catalog linked) |
+| [Master-cai/Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills) | MIT | [skills/research-paper-writing/](./skills/research-paper-writing/) — ML/CV/NLP paper-writing skill |
+| [benchflow-ai/awesome-evals](https://github.com/benchflow-ai/awesome-evals) | CC0 1.0 | [references/awesome-evals/](./references/awesome-evals/) — eval reference catalog (443+ links) + PATTERNS playbook + 146 notes |
+| [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | Apache-2.0 | [research/llms-from-scratch/](../research/llms-from-scratch/) — 66 notebooks (GPT/attention/pretrain/finetune/LoRA) |
+| [huggingface/smol-course](https://github.com/huggingface/smol-course) | Apache-2.0 | [research/smol-course/](../research/smol-course/) — 12 notebooks (instruction tuning, DPO, LoRA/PEFT, eval, VLM, agents) |
 
-**247** agent skills total — full index: [skills/README.md](./skills/README.md).  
+**298** agent skills total — full index: [skills/README.md](./skills/README.md).  
 Additional upstream projects (link-only + OpenClaw snapshots): [upstream-repos-catalog.md](./references/upstream-repos-catalog.md) · [nice-projects/README.md](../nice-projects/README.md).

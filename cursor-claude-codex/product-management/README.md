@@ -87,3 +87,14 @@ PRD → Tasks → Execute (one sub-task at a time with approval)
 ## References
 
 - [Claude Code PM (ccpm)](https://github.com/automazeio/ccpm)
+
+## Vendored SDD pipeline (igoruehara/spec-driven)
+
+A full Spec-Driven Development pipeline — Lean Inception → DDD → Technical Design Docs → SDD — is vendored at [igoruehara-sdd/](./igoruehara-sdd/):
+
+- **Templates:** [igoruehara-sdd/specs/_templates/](./igoruehara-sdd/specs/_templates/) (`spec`, `design`, `domain`, `product`, `tasks`) + [igoruehara-sdd/docs/product/_templates/](./igoruehara-sdd/docs/product/_templates/) (`vision`, `stakeholders`, `journeys`, `features`, `mvp-canvas`, `roadmap`)
+- **Worked example:** [igoruehara-sdd/specs/0001-exemplo-cota-de-uso/](./igoruehara-sdd/specs/0001-exemplo-cota-de-uso/)
+- **Audit scripts + CI:** [igoruehara-sdd/scripts/](./igoruehara-sdd/scripts/) (`.mjs`) + [igoruehara-sdd/.github/workflows/esteira.yml](./igoruehara-sdd/.github/workflows/esteira.yml)
+- **Companion skills (translated pt-BR → en):** [../skills/igoruehara-spec-driven/](../skills/igoruehara-spec-driven/) — 15 skills that operate on these templates (`kickoff`, `nova-feature`, `validar`, `auditar`, …)
+
+Pair it with our hub's [no-vibe-coding.md](./no-vibe-coding.md) (SDD overview), [create-prd.md](./create-prd.md), and [generate-tasks.md](./generate-tasks.md).

@@ -22,6 +22,22 @@ This repository contains the code for developing an LLM reasoning model and is t
 - `reasoning-from-scratch/01_main-chapter-code/chC_main.ipynb` - Appendix C main code
 - `reasoning-from-scratch/01_main-chapter-code/chF_main.ipynb` - Appendix F main code
 
+### llms-from-scratch
+
+**Source:** [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) · **License:** Apache-2.0
+
+Official code for the book [*Build a Large Language Model (From Scratch)*](https://manning.com/books/build-a-large-language-model-from-scratch) by Sebastian Raschka. Step-by-step PyTorch notebooks implementing a ChatGPT-like LLM from scratch — text data → attention → GPT model → pretraining → finetuning (classification + instruction-following) → LoRA (appendix-E). **66 notebooks** across ch02–ch07 + appendix-A/D/E, plus bonus sections (gpt-to-llama, qwen3, muon optimizer). The from-scratch prequel to `reasoning-from-scratch` and the full-pipeline companion to `nanochat`.
+
+**Notebooks:** See [llms-from-scratch/README.md](llms-from-scratch/README.md) for the chapter/bonus table and the upstream README.
+
+### smol-course
+
+**Source:** [huggingface/smol-course](https://github.com/huggingface/smol-course) · **License:** Apache-2.0
+
+A practical Hugging Face course on **aligning small language models** that runs on most local machines (built around SmolLM3 / SmolVLM2). Eight v1 modules cover the gaps the hub was missing: instruction tuning, preference alignment (DPO/ORPO), parameter-efficient finetuning (LoRA/prompt tuning), evaluation (benchmarks + custom domain), vision-language models, synthetic datasets, inference, and agents. **12 notebooks** + module/unit markdown guides. English-only subset (upstream also ships ES/JA/KO/PT-BR/VI translations).
+
+**Notebooks:** See [smol-course/README.md](smol-course/README.md) for the v1 module table and v2 units.
+
 ### nanochat
 
 **Source:** [karpathy/nanochat](https://github.com/karpathy/nanochat)

@@ -11,7 +11,7 @@ To survive upstream changes or deletions, we keep local snapshots of the two com
 | Index | Local snapshot | Upstream |
 |-------|----------------|----------|
 | Derivatives (36 agents: OpenClaw + 35 inspired forks) | [awesome-claws/](./awesome-claws/) | [machinae/awesome-claws](https://github.com/machinae/awesome-claws) (MIT) |
-| Curated skills (5,400+ organized in 30 categories) | [awesome-openclaw-skills/](./awesome-openclaw-skills/) | [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) (MIT) |
+| Curated skills (5,380 skills across 30 categories; upstream badge reads 5,300+) | [awesome-openclaw-skills/](./awesome-openclaw-skills/) | [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) (MIT) |
 
 For the **latest** index, read upstream. For a **stable reference**, read our local copy. The derivatives table and skills index below are compiled from these snapshots.
 
@@ -23,7 +23,7 @@ Curated list from [machinae/awesome-claws](https://github.com/machinae/awesome-c
 
 | Project | Language | Description |
 |---------|-----------|-------------|
-| [OpenClaw](https://github.com/openclaw/openclaw) | TypeScript | Original full-featured assistant: multi-agent routing, voice wake, live canvas, 15+ messaging channels |
+| [OpenClaw](https://github.com/openclaw/openclaw) | TypeScript | Original full-featured assistant: multi-agent routing, voice wake, live canvas, 22 messaging channels (latest stable `v2026.6.10`, 2026-06-24) |
 | [PicoClaw](https://github.com/sipeed/picoclaw) | Go | Ultra-efficient for low-cost hardware, single-binary deploy, old Android support |
 | [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw) | Rust | Trait-driven, zero-overhead AI infrastructure, swappable core |
 | [nanobot](https://github.com/HKUDS/nanobot) | Python | Ultra-lightweight, research workflows, one-click deploy, MCP, agent social networking |
@@ -64,7 +64,7 @@ Curated list from [machinae/awesome-claws](https://github.com/machinae/awesome-c
 
 | Source | Skills | Vendored here? | Description |
 |--------|--------|----------------|-------------|
-| [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | 5,400+ | ✅ [awesome-openclaw-skills/](./awesome-openclaw-skills/) | Curated, filtered, categorized from ClawHub registry |
+| [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | 5,380 (snapshot; upstream badge 5,300+) | ✅ [awesome-openclaw-skills/](./awesome-openclaw-skills/) | Curated, filtered, categorized from ClawHub registry |
 | [openclaw/skills](https://github.com/openclaw/skills) | 13,000+ | ❌ upstream only (~1 GB archive, not vendored) | Official archive from clawhub.com; structure: `skills/<owner>/<skill-name>/` |
 
 **See**: [skills/README.md](./skills/README.md) for category index and installation; [skills/categories/](./skills/categories/) for category links (now pointing to local snapshots).

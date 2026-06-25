@@ -2,7 +2,7 @@
 
 **Source:** [google-labs-code/design.md](https://github.com/google-labs-code/design.md)
 **License:** Apache License 2.0 — Google LLC (see [LICENSE](./LICENSE))
-**Vendored:** 2026-04-21 · spec.md + 3 examples
+**Vendored:** 2026-06-25 (refreshed to upstream `docs/spec.md` @ v0.3.0; originally 2026-04-21) · spec.md + PHILOSOPHY.md + 3 examples
 
 ## What is DESIGN.md?
 
@@ -11,18 +11,19 @@ A format specification (from Google Labs) for describing a **visual identity to 
 - **Machine-readable design tokens** in YAML front matter — colors, typography, spacing, rounded, components. Tokens follow the [Design Token JSON spec](https://www.designtokens.org/tr/2025.10/format/) with `{path.to.token}` references.
 - **Human-readable prose** in the markdown body — rationale, tone, application guidance.
 
-The format is designed to be a **living source of truth** that both humans and agents (Claude Code, Cursor, Gemini, Codex, Antigravity, etc.) can read and refine across sessions and tools. Tokens are easily convertible to `tokens.json`, Figma variables, or Tailwind theme config.
+The format is designed to be a **living source of truth** that both humans and agents (Claude Code, Cursor, Gemini, Codex, Antigravity, etc.) can read and refine across sessions and tools. Tokens are easily convertible to `tokens.json`, Figma variables, or Tailwind theme config (Tailwind CSS v4 export is supported as of v0.3.0).
 
 ## What's in this folder
 
 | Path | Purpose |
 |------|---------|
-| [spec.md](./spec.md) | The full format specification (generated from the upstream `spec.mdx`) |
+| [spec.md](./spec.md) | The full format specification (generated from the upstream `spec.mdx`) — v0.3.0 adds Tailwind v4 export, standard + CSS Color Module formats in the validator/linter, and several new lint rules |
+| [PHILOSOPHY.md](./PHILOSOPHY.md) | Upstream design philosophy doc — why DESIGN.md exists and how to think about design tokens + prose together |
 | [examples/atmospheric-glass/](./examples/atmospheric-glass/) | Example design system: *Atmospheric Glass* — translucent, depth-based UI |
 | [examples/paws-and-paths/](./examples/paws-and-paths/) | Example design system: *Paws and Paths* — playful, pet-centric brand |
 | [examples/totality-festival/](./examples/totality-festival/) | Example design system: *Totality Festival* — high-energy event brand |
 
-Each example includes `DESIGN.md`, `design_tokens.json`, `tailwind.config.js`, and a short `README.md`.
+Each example includes `DESIGN.md`, `design_tokens.json`, `tailwind.config.js`, and a short `README.md`. The 3 examples are unchanged since the original vendor.
 
 ## When to use this
 
@@ -32,14 +33,14 @@ Each example includes `DESIGN.md`, `design_tokens.json`, `tailwind.config.js`, a
 
 ## CLI (upstream, not vendored)
 
-Google Labs ships an official CLI (Apache-2.0, not vendored here) that lints, diffs, and validates DESIGN.md files — including WCAG contrast checks:
+Google Labs ships an official CLI (Apache-2.0, not vendored here) that lints, diffs, and validates DESIGN.md files — including WCAG contrast checks. As of upstream v0.3.0:
 
 ```bash
 npx @google/design.md lint DESIGN.md
 npx @google/design.md diff DESIGN.md DESIGN-v2.md
 ```
 
-Outputs structured JSON that agents can act on.
+Outputs structured JSON that agents can act on. The linter now supports standard + CSS Color Module formats, an unknown-top-level-key rule, a token-like-ignored rule for dropped frontmatter keys, and `lint --format markdown`.
 
 ## Related in this hub
 
@@ -49,6 +50,6 @@ Outputs structured JSON that agents can act on.
 
 ## Attribution
 
-Apache License 2.0. All files in this directory are vendored as-is from [google-labs-code/design.md](https://github.com/google-labs-code/design.md). The original `LICENSE` file is included alongside. No modifications; if upstream updates the format, re-vendor from source.
+Apache License 2.0. All files in this directory are vendored as-is from [google-labs-code/design.md](https://github.com/google-labs-code/design.md). The original `LICENSE` file is included alongside. No modifications to spec content; if upstream updates the format, re-vendor from source.
 
 Full catalog entry: [cursor-claude-codex/references/upstream-repos-catalog.md](../upstream-repos-catalog.md#google-labs-codedesignmd).

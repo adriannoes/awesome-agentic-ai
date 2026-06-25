@@ -1,6 +1,6 @@
 # autoresearch
 
-Key files mirrored from [karpathy/autoresearch](https://github.com/karpathy/autoresearch). For full context, quick start, and platform notes, see the upstream repository.
+Key files mirrored from [karpathy/autoresearch](https://github.com/karpathy/autoresearch). For full context, quick start, and platform notes, see the upstream repository. Mirrored 2026-06-25 (code files refreshed to upstream `master` @ 2026-03-26 — train.py indentation fix, NaN-loss fast-fail, infinite-loop guard, FA3 non-Hopper fallback, analysis.ipynb best_bpb fix; originally 2026-03-18).
 
 AI agents running research on single-GPU nanochat training automatically: the agent edits `train.py`, runs a 5-minute training budget, keeps or discards by val_bpb, and repeats. You configure the agent via `program.md`.
 

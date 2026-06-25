@@ -2,11 +2,11 @@
 
 **Source:** [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)
 **License:** MIT (see [LICENSE](./LICENSE)) — © VoltAgent
-**Vendored:** 2026-04-21 — full categories + main README
+**Vendored:** 2026-06-25 (refreshed; originally 2026-04-21) — full categories + main README · **5,380 skills across 30 categories** (point-in-time count from per-category `**N skills**` headers)
 
 ## Why this is vendored
 
-The original VoltAgent repo is a **curated, filtered index** of 5,400+ OpenClaw skills organized by category (originally pulled from ClawHub). We vendor it locally so:
+The original VoltAgent repo is a **curated, filtered index** of 5,300+ OpenClaw skills organized by category (originally pulled from ClawHub). We vendor it locally so:
 
 - Future upstream changes or deletions don't break our index
 - Offline browsing works
@@ -14,7 +14,7 @@ The original VoltAgent repo is a **curated, filtered index** of 5,400+ OpenClaw 
 
 For the **latest index**, prefer the [upstream repo](https://github.com/VoltAgent/awesome-openclaw-skills) — ours is a point-in-time copy.
 
-> **Note:** [UPSTREAM-README.md](./UPSTREAM-README.md) and [CONTRIBUTING.md](./CONTRIBUTING.md) still link to the old repo name `VoltAgent/awesome-clawdbot-skills` (upstream rename). Use [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) for issues and the live index.
+> **Note:** Upstream's README hero now reads "5,300+" and the skills badge reads 5,199; the per-category headers in this snapshot sum to **5,380**. We track the per-category sum (verifiable in-repo) rather than the upstream badge, which lags. [UPSTREAM-README.md](./UPSTREAM-README.md) and [CONTRIBUTING.md](./CONTRIBUTING.md) still link to the old repo name `VoltAgent/awesome-clawdbot-skills` (upstream rename). Use [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) for issues and the live index.
 
 ## What's here
 

@@ -44,16 +44,38 @@ Transform imperative tasks into verifiable goals. Define success criteria. Loop 
 
 | Category | Examples |
 |----------|----------|
-| **Context & Memory** | Curated context window, progressive disclosure, working memory via TodoWrite |
-| **Feedback Loops** | CI feedback, reflection loop, spec-as-test |
-| **Orchestration** | Plan-then-execute, sub-agent spawning, parallel tool execution |
-| **Reliability** | Structured output, schema validation retry, workflow evals |
-| **Tool Use** | Code-then-execute, CLI-first skill design, dual-use tool design |
-| **UX & Collaboration** | Human-in-the-loop, spectrum of control, proactive trigger vocabulary |
+| **Context & Memory** | Curated context window, progressive disclosure, working memory via TodoWrite, session-scoped context runtime |
+| **Feedback Loops** | CI feedback, reflection loop, spec-as-test, output verification loop |
+| **Orchestration** | Plan-then-execute, sub-agent spawning, parallel tool execution, deterministic zero-LLM orchestration |
+| **Reliability** | Structured output, schema validation retry, workflow evals, agent circuit breaker |
+| **Tool Use** | Code-then-execute, CLI-first skill design, dual-use tool design, black-box skill invocation, unified tool gateway |
+| **Security & Safety** | Deterministic threat rule scanning, policy-gated tool proxy, local-first credential broker, cryptographic governance audit trail |
+| **UX & Collaboration** | Human-in-the-loop, spectrum of control, proactive trigger vocabulary, cross-agent lesson sharing |
+
+## Patterns worth knowing (newer additions)
+
+These are directly coding-agent-relevant patterns added to the catalogue after the original summary. Each has a `based_on` provenance field upstream; treat as emerging patterns, not settled doctrine.
+
+### Reliability & Eval
+
+- **Agent Circuit Breaker** — track tool failure rates and temporarily disable broken endpoints so the agent stops wasting tokens/time on a tool that is down or erroring. Pair with [systematic-debugging](../skills/systematic-debugging/) when a tool failure turns out to be a code bug.
+- **Output Verification Loop** — extract individual claims from an LLM output, check each against evidence sources, and return per-claim trust scores before acting. A lighter-weight cousin of [verification-before-completion](../skills/verification-before-completion/).
+
+### Tool Use & Context
+
+- **Session-Scoped Context Runtime for Agent Tools** — interpose a context runtime that caches structured reads and normalizes tool output, so sessions reuse compact representations instead of repeating raw tokens. Relevant when an agent re-reads the same files across turns.
+- **Black-Box Skill Invocation** — invoke a skill through a schema-only interface (no source prompt exposed) so shared skills stay private and inter-agent calls are capability-scoped. Useful for proprietary or licensed skills.
+- **Unified Tool Gateway** — route all agent tool calls through one gateway handling discovery, auth, billing, and execution across heterogeneous providers. An MCP-gateway shape for multi-provider setups.
+
+### Security & Safety
+
+- **Deterministic Threat Rule Scanning** — apply deterministic regex rules as a first-pass layer to detect known threat patterns (prompt injection, tool poisoning, MCP abuse) in agent tool calls and skill definitions. Pairs with [skill-security-auditor](../skills/alirezarezvani-skills/skill-security-auditor/) and the AI Security skills in [anthropic-cybersecurity-skills/](../skills/anthropic-cybersecurity-skills/).
+- **Policy-Gated Tool Proxy** — insert a transparent proxy between agents and tool servers that evaluates every tool call against a policy engine before forwarding, with an immutable audit trail. The governance counterpart to unified-tool-gateway.
+- **Local-First Credential Broker** — keep raw secrets out of the agent process by injecting credentials at the network layer via a local broker, instead of handing the agent env vars or config files. Aligns with the [security/](../../security/) principle of never embedding secrets.
 
 ## Full Catalogue
 
-For the complete pattern catalogue with 100+ patterns, see:
+For the complete pattern catalogue with 170+ patterns (each with `based_on` provenance, status, and source links), see:
 - **Website:** https://agentic-patterns.com
 - **llms.txt:** https://agentic-patterns.com/llms.txt (machine-readable for RAG/LLM context)
 - **Repo:** https://github.com/nibzard/awesome-agentic-patterns

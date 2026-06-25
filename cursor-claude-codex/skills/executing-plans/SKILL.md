@@ -5,24 +5,21 @@ description: Use when you have a written implementation plan to execute in a sep
 
 # Executing Plans
 
-**Source:** [obra/superpowers](https://github.com/obra/superpowers) (MIT) · v5.0.5
-
 ## Overview
 
 Load plan, review critically, execute all tasks, report when complete.
 
 **Announce at start:** "I'm using the executing-plans skill to implement this plan."
 
-**Note:** Subagent-driven development (dispatching fresh subagents per task) often yields higher quality. If subagents are available, prefer that approach. Otherwise, use this skill for inline execution with checkpoints.
+**Note:** Tell your human partner that Superpowers works much better with access to subagents. The quality of its work will be significantly higher if run on a platform with subagent support (Claude Code, Codex CLI, Codex App, Copilot CLI, and Gemini CLI all qualify; see the per-platform tool refs in `../using-superpowers/references/`). If subagents are available, use superpowers:subagent-driven-development instead of this skill.
 
 ## The Process
 
 ### Step 1: Load and Review Plan
-
 1. Read plan file
 2. Review critically - identify any questions or concerns about the plan
 3. If concerns: Raise them with your human partner before starting
-4. If no concerns: Create TodoWrite and proceed
+4. If no concerns: Create todos for the plan items and proceed
 
 ### Step 2: Execute Tasks
 
@@ -36,7 +33,8 @@ For each task:
 
 After all tasks complete and verified:
 - Announce: "I'm using the finishing-a-development-branch skill to complete this work."
-- Use finishing-a-development-branch skill to verify tests, present options, execute choice
+- **REQUIRED SUB-SKILL:** Use superpowers:finishing-a-development-branch
+- Follow that skill to verify tests, present options, execute choice
 
 ## When to Stop and Ask for Help
 
@@ -57,7 +55,6 @@ After all tasks complete and verified:
 **Don't force through blockers** - stop and ask.
 
 ## Remember
-
 - Review plan critically first
 - Follow plan steps exactly
 - Don't skip verifications
@@ -68,6 +65,6 @@ After all tasks complete and verified:
 ## Integration
 
 **Required workflow skills:**
-- **using-git-worktrees** - Set up isolated workspace before starting (recommended for feature work)
-- **writing-plans** - Creates the plan this skill executes
-- **finishing-a-development-branch** - Complete development after all tasks
+- **superpowers:using-git-worktrees** - Ensures isolated workspace (creates one or verifies existing)
+- **superpowers:writing-plans** - Creates the plan this skill executes
+- **superpowers:finishing-a-development-branch** - Complete development after all tasks
