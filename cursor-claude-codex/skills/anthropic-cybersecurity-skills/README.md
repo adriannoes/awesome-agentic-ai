@@ -2,16 +2,16 @@
 
 **Source:** [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)  
 **License:** Apache-2.0 — see [LICENSE](./LICENSE)  
-**Vendored:** 2026-06-10 — **83 skills** cherry-picked from upstream tag **v1.2.0** (754 total)  
+**Vendored:** 2026-06-25 — **109 skills** cherry-picked from upstream tag **v1.3.0** (817 total)  
 **Upstream README:** [UPSTREAM-README.md](./UPSTREAM-README.md)
 
 > **Community project** — not affiliated with Anthropic PBC despite the upstream repo name.
 
 ## What it is
 
-Blue-team and security-operations playbooks for AI agents: DFIR, threat hunting, SOC workflows, malware analysis, cloud audit/CSPM, DevSecOps, and compliance. Each skill follows [agentskills.io](https://agentskills.io) (`SKILL.md` + optional `references/`, `scripts/`, `assets/`) with framework mappings (MITRE ATT&CK, NIST CSF 2.0, ATLAS, D3FEND, NIST AI RMF) in skill frontmatter and reference files.
+Blue-team and security-operations playbooks for AI agents: DFIR, threat hunting, SOC workflows, malware analysis, cloud audit/CSPM, DevSecOps, compliance, and — new in v1.3.0 — **AI/LLM security**, **supply-chain security**, and **hardware/firmware security**. Each skill follows [agentskills.io](https://agentskills.io) (`SKILL.md` + optional `references/`, `scripts/`, `assets/`) with framework mappings (MITRE ATT&CK v19.1, NIST CSF 2.0, ATLAS, D3FEND, NIST AI RMF, MITRE F3 fraud) in skill frontmatter and reference files.
 
-This hub vendors a **curated subset** focused on domains **not** covered by [bug-hunter/](../bug-hunter/) (authorized bounty / external pentest). For the full 754-skill library, install upstream directly:
+This hub vendors a **curated subset** focused on domains **not** covered by [bug-hunter/](../bug-hunter/) (authorized bounty / external pentest). For the full 817-skill library, install upstream directly:
 
 ```bash
 npx skills add mukul975/Anthropic-Cybersecurity-Skills
@@ -33,18 +33,21 @@ npx skills add mukul975/Anthropic-Cybersecurity-Skills
 | incident-response | 8 | Playbooks, containment, Velociraptor collection |
 | compliance-governance | 4 | GDPR, ISO 27001, PCI DSS, NIST CSF maturity |
 | governance-risk-compliance | 1 | SOC 2 Type II prep |
+| ai-security | 14 | **v1.3.0** — LLM red-teaming (garak/PyRIT), prompt injection, RAG poisoning, **MCP tool-poisoning**, agentic tool-invocation controls, runtime guardrails |
+| supply-chain-security | 8 | **v1.3.0** — SBOM, dependency confusion, malicious npm triage, typosquatting, SLSA/Sigstore |
+| hardware-firmware-security | 4 | **v1.3.0** — CHIPSEC UEFI, Secure Boot bypass, TPM measured-boot, bootkit hunting |
 
-Selection uses **diverse workflow verbs** (acquire, build, detect, hunt, implement, …) per subdomain rather than alphabetical truncation. Full skill names: [index.json](./index.json) or [PICK-LIST.md](./PICK-LIST.md).
+Selection uses **diverse workflow verbs** (acquire, build, detect, hunt, implement, …) per subdomain rather than alphabetical truncation. The three v1.3.0 domains are fully included (no cap) because they close real gaps for agent/vibe-coding safety and have small, bounded counts upstream. Full skill names: [index.json](./index.json) or [PICK-LIST.md](./PICK-LIST.md).
 
-Upstream full index (754 skills): [index-upstream-full.json](./index-upstream-full.json).
+Upstream full index (817 skills): [index-upstream-full.json](./index-upstream-full.json).
 
 ## Layout
 
 | Path | Contents |
 |------|----------|
-| [skills/](./skills/) | 83 cherry-picked agent skills |
+| [skills/](./skills/) | 109 cherry-picked agent skills |
 | [index.json](./index.json) | Hub manifest (picked skills + metadata) |
-| [index-upstream-full.json](./index-upstream-full.json) | Upstream v1.2.0 index (reference only) |
+| [index-upstream-full.json](./index-upstream-full.json) | Upstream v1.3.0 index (reference only) |
 | [PICK-LIST.md](./PICK-LIST.md) | Flat pick list + refresh notes |
 | [UPSTREAM-README.md](./UPSTREAM-README.md) | Upstream project README |
 | [SECURITY.md](./SECURITY.md) | Responsible use and vulnerability reporting |

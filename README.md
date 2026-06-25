@@ -15,7 +15,7 @@
 
 > The most complete collection of battle-tested AI-assisted development resources — for Product Managers, Designers, and Developers who want to ship real products with AI.
 
-**What's inside:** **247** agent skills (Cursor, Claude Code & Codex) · **8** slash commands · **21** coding rules · **123** Jupyter notebooks · **46** research papers (PDF, 9 themes) · **14** industry reports · **21** n8n workflow templates · **14** system prompts · **36** OpenClaw agents · **5,400+** OpenClaw skills indexed · **58** curated GitHub projects.
+**What's inside:** **298** agent skills (Cursor, Claude Code & Codex) · **8** slash commands · **21** coding rules · **201** Jupyter notebooks · **48** research papers (PDF, 9 themes) · **15** industry reports · **21** n8n workflow templates · **14** system prompts · **36** OpenClaw agents · **5,380** OpenClaw skills indexed · **67** curated GitHub projects.
 
 Whether you're a PM who wants to prototype faster, a Designer who wants to understand the code your AI is generating, or a Developer looking for the sharpest rules to ship with — this repo is built to be copied, forked, and used the same day.
 
@@ -84,15 +84,15 @@ Three freely-available textbooks that ground the notebooks and skills in this re
 
 ### Reports ([reports/](reports/))
 
-14 industry reports from McKinsey, Deloitte, KPMG, OpenAI, Anthropic, Air Street Capital, and others — useful for pitch decks, business cases, and agent metrics. See [reports/README.md](reports/README.md) for a themed index.
+15 industry reports from McKinsey, Deloitte, KPMG, OpenAI, Anthropic, Air Street Capital, and others — useful for pitch decks, business cases, and agent metrics. See [reports/README.md](reports/README.md) for a themed index.
 
 ### OpenClaw ([openclaw/](openclaw/))
 
-**36** agent projects catalogued (OpenClaw + 35 derivatives) and **5,400+** community skills indexed in 30 categories (local snapshots from [machinae/awesome-claws](https://github.com/machinae/awesome-claws) and [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)). Details: [openclaw/README.md](openclaw/README.md), [openclaw/skills/README.md](openclaw/skills/README.md).
+**36** agent projects catalogued (OpenClaw + 35 derivatives) and **5,380** community skills indexed in 30 categories (local snapshots from [machinae/awesome-claws](https://github.com/machinae/awesome-claws) and [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)). Details: [openclaw/README.md](openclaw/README.md), [openclaw/skills/README.md](openclaw/skills/README.md).
 
 ### Projects to watch ([nice-projects/](nice-projects/))
 
-**58** hand-picked open-source repos — tools, AI/ML, agent skills, and the upstream sources behind vendored hub content. See [nice-projects/README.md](nice-projects/README.md) and the full catalog at [cursor-claude-codex/references/upstream-repos-catalog.md](cursor-claude-codex/references/upstream-repos-catalog.md).
+**64** hand-picked open-source repos — tools, AI/ML, agent skills, and the upstream sources behind vendored hub content. See [nice-projects/README.md](nice-projects/README.md) and the full catalog at [cursor-claude-codex/references/upstream-repos-catalog.md](cursor-claude-codex/references/upstream-repos-catalog.md).
 
 ### n8n templates ([n8n-templates/](n8n-templates/))
 
@@ -105,6 +105,8 @@ Educational notebooks and autonomous research setups. **Full catalog and source 
 | Track | Folder | Notes |
 |-------|--------|--------|
 | Reasoning LLM (book code) | [research/reasoning-from-scratch/](research/reasoning-from-scratch/) | *Build a Reasoning Model (From Scratch)* |
+| LLM from scratch (book code) | [research/llms-from-scratch/](research/llms-from-scratch/) | *Build a Large Language Model (From Scratch)* — GPT/attention/pretrain/finetune/LoRA |
+| Small-model alignment (course) | [research/smol-course/](research/smol-course/) | Hugging Face — instruction tuning, DPO, LoRA/PEFT, eval, VLM, agents |
 | Minimal ChatGPT-style stack | [research/nanochat/](research/nanochat/) | Karpathy nanochat |
 | Autonomous nanochat experiments | [research/autoresearch/](research/autoresearch/) | [README](research/autoresearch/README.md), Karpathy autoresearch |
 | NLP with Transformers book | [research/nlp-with-transformers/](research/nlp-with-transformers/) | Classification, NER, generation, QA, … |
@@ -116,7 +118,7 @@ Other items (e.g. DeepSeek OCR) are documented in [research/README.md](research/
 
 ### Papers ([papers/](papers/))
 
-**46** research papers (PDFs) in **9 thematic subfolders** — from classic deep learning (AlexNet, DQN, Word2Vec) through the foundation-model era (Transformers, BERT, GPT-1/2/3, scaling laws, Chinchilla, RLHF, diffusion) to contemporary agent, harness, reliability, and ethics research. Full index: [papers/README.md](papers/README.md).
+**48** research papers (PDFs) in **9 thematic subfolders** — from classic deep learning (AlexNet, DQN, Word2Vec) through the foundation-model era (Transformers, BERT, GPT-1/2/3, scaling laws, Chinchilla, RLHF, diffusion) to contemporary agent, harness, reliability, and ethics research. Full index: [papers/README.md](papers/README.md).
 
 | Folder | Focus | PDFs |
 |--------|-------|------|
@@ -124,7 +126,7 @@ Other items (e.g. DeepSeek OCR) are documented in [research/README.md](research/
 | [foundation-models/](papers/foundation-models/) | Transformers, BERT, GPT, scaling laws | 7 |
 | [alignment-and-post-training/](papers/alignment-and-post-training/) | RLHF / InstructGPT | 1 |
 | [generative-models/](papers/generative-models/) | Diffusion models | 1 |
-| [agents-and-engineering/](papers/agents-and-engineering/) | Agents, harnesses, code evaluation | 13 |
+| [agents-and-engineering/](papers/agents-and-engineering/) | Agents, harnesses, code evaluation | 15 |
 | [reliability-and-reasoning/](papers/reliability-and-reasoning/) | Hallucinations, reasoning, memory | 6 |
 | [models-and-training/](papers/models-and-training/) | World models, fine-tuning, DeepSeek | 4 |
 | [ethics-risks-and-society/](papers/ethics-risks-and-society/) | Risks, work, autonomy | 7 |
@@ -134,20 +136,20 @@ Includes **12** foundational PDFs added to the repo (early DL through alignment 
 
 ## Stats
 
-Counts verified against the repo tree (2026-06):
+Counts verified against the repo tree (2026-06-25):
 
 | Resource | Count | Entry point |
 |----------|------:|-------------|
-| Agent skills (Cursor / Claude / Codex) | **247** | [cursor-claude-codex/skills/README.md](cursor-claude-codex/skills/README.md) |
+| Agent skills (Cursor / Claude / Codex) | **298** | [cursor-claude-codex/skills/README.md](cursor-claude-codex/skills/README.md) |
 | Cursor slash commands | **8** | [cursor-claude-codex/commands/](cursor-claude-codex/commands/) |
 | Coding & stack rules | **21** | [cursor-claude-codex/coding/](cursor-claude-codex/coding/) |
-| Upstream sources integrated | **18** | [cursor-claude-codex/README.md](cursor-claude-codex/README.md#credits--sources) |
+| Upstream sources integrated | **24** | [cursor-claude-codex/README.md](cursor-claude-codex/README.md#credits--sources) |
 | OpenClaw agents catalogued | **36** | [openclaw/README.md](openclaw/README.md) |
-| OpenClaw skills indexed (snapshot) | **5,400+** | [openclaw/skills/README.md](openclaw/skills/README.md) |
-| GitHub projects to watch | **58** | [nice-projects/README.md](nice-projects/README.md) |
-| Jupyter notebooks | **123** | [research/README.md](research/README.md) |
-| Research papers (PDF, 9 themes) | **46** | [papers/README.md](papers/README.md) |
-| Industry reports (PDF) | **14** | [reports/README.md](reports/README.md) |
+| OpenClaw skills indexed (snapshot) | **5,380** | [openclaw/skills/README.md](openclaw/skills/README.md) |
+| GitHub projects to watch | **67** | [nice-projects/README.md](nice-projects/README.md) |
+| Jupyter notebooks | **201** | [research/README.md](research/README.md) |
+| Research papers (PDF, 9 themes) | **48** | [papers/README.md](papers/README.md) |
+| Industry reports (PDF) | **15** | [reports/README.md](reports/README.md) |
 | n8n workflow templates | **21** | [n8n-templates/](n8n-templates/) |
 | System prompt snapshots | **14** | [prompt-engineering/prompts/](prompt-engineering/prompts/) |
 

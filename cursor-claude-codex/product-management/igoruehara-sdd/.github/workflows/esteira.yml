@@ -1,0 +1,29 @@
+# Translation note: Originally authored in Portuguese (pt-BR) by Igor Uehara
+# (igoruehara/spec-driven, MIT). Translated to English by this hub to keep the repository
+# language consistent. YAML keys, job/step IDs, paths, and code unchanged; comments and
+# display strings translated.
+# SDD pipeline conformance gate.
+# Fails the PR if the structure violates the standard (frontmatter, links, specs).
+# Complement with the test/coverage gates from your pipeline (see /setup-ci and docs/engineering/TESTING.md).
+name: esteira
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  audit:
+    name: Pipeline audit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Validate pipeline structure
+        run: node scripts/audit-esteira.mjs .
+      - name: Validate Mermaid diagrams
+        run: node scripts/validate-mermaid.mjs .
+      - name: Spec→implementation fidelity eval
+        run: node scripts/eval-spec-fidelity.mjs .

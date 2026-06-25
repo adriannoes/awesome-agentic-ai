@@ -2,9 +2,10 @@
 
 [← Back to main list](../README.md#table-of-contents)
 
-**65 skills**
+**66 skills**
 
 - [accli](https://clawskills.sh/skills/joargp-accli) - This skill should be used when interacting with Apple Calendar on macOS.
+- [accli-plus](https://clawhub.ai/gopaljigaur/accli-plus) - Extended Apple Calendar CLI for macOS — adds search, export, dry-run, recurring events, alerts, and full error codes on top of accli.
 - [advanced-calendar](https://clawskills.sh/skills/toughworm-advanced-calendar) - Advanced calendar skill with natural language.
 - [agency-guardian](https://clawskills.sh/skills/aranej-agency-guardian) - Gentle reminders to stay human while using AI.
 - [agent-tinman](https://clawskills.sh/skills/oliveskin-agent-tinman) - AI security scanner with active prevention - 168 detection.
@@ -32,6 +33,7 @@
 - [gcal-pro](https://clawskills.sh/skills/bilalmohamed187-cpu-gcal-pro) - Google Calendar integration for viewing, creating, and managing.
 - [gog](https://clawskills.sh/skills/steipete-gog) - Google Workspace CLI for Gmail, Calendar, Drive, Contacts, Sheets, and Docs.
 - [google-calendar](https://clawskills.sh/skills/adrianmiller99-google-calendar) - Interact with Google Calendar via the Google Calendar.
+- [google-service-accounts](https://clawhub.ai/amiller/google-service-accounts) - Headless Google Sheets, Docs, Drive, Calendar via service-account sharing.
 - [grazy](https://clawskills.sh/skills/thomyg-grazy) - grazy - Your Grazer Command Line Companion.
 - [greek-financial-statements](https://clawskills.sh/skills/satoshistackalotto-greek-financial-statements) - Greek financial statement generation — P&L, balance sheets, VAT summaries with EGLS integration.
 - [habib-pdf-to-json](https://clawskills.sh/skills/dbmoradi60-habib-pdf-to-json) - Extract structured data from construction PDFs.

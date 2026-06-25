@@ -51,6 +51,7 @@ Skills in this folder are designed to work for **both Cursor and Claude Code**. 
 |-------|-------------|--------|
 | `frontend-design` | Distinctive frontend interfaces; bold aesthetic, avoid generic AI look | [mitsuhiko/agent-stuff](https://github.com/mitsuhiko/agent-stuff) (Apache-2.0) |
 | `web-design-guidelines` | Audit UI against Vercel Web Interface Guidelines (summary; fetches live rules) | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) (MIT) |
+| `writing-guidelines` | Review docs/prose against Vercel's Writing Guidelines (summary; fetches live rules via WebFetch) | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) (MIT) |
 | `update-changelog` | Update CHANGELOG.md with notable changes since last release | [mitsuhiko/agent-stuff](https://github.com/mitsuhiko/agent-stuff) (Apache-2.0) |
 
 ### React / Next.js (Vercel skills)
@@ -68,6 +69,7 @@ Skills in this folder are designed to work for **both Cursor and Claude Code**. 
 |-------|-------------|--------|
 | `deploy-to-vercel` | Claimable deployments from agent chats | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) (MIT) |
 | `vercel-cli-with-tokens` | Using the Vercel CLI with tokens from an agent context | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) (MIT) |
+| `vercel-optimize` | Observability-first Vercel cost & performance optimization audit (metrics → deterministic gates → ranked, cited recommendations). Added 2026-06-25. | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) (MIT) |
 
 ### Meta
 
@@ -77,21 +79,31 @@ Skills in this folder are designed to work for **both Cursor and Claude Code**. 
 | `writing-skills` | How to write new skills well — Anthropic best practices, persuasion principles, subagent-tested examples | [obra/superpowers](https://github.com/obra/superpowers) (MIT) |
 | `using-superpowers` | How to use the superpowers skill collection effectively | [obra/superpowers](https://github.com/obra/superpowers) (MIT) |
 
+### Research & loops
+
+| Skill | Description | Source |
+|-------|-------------|--------|
+| `research-paper-writing` | Section-by-section ML/CV/NLP research-paper rewrite (abstract → introduction → method → experiments → conclusion + self-review). Pairs with `autoresearch`. | [Master-cai/Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills) (MIT) |
+| `forward-future-loop-library` | Discover/find/audit/adapt/design bounded AI-agent loops (Observe→Choose→Act→Verify→Record→Repeat-or-stop). 69-loop live catalog linked. | [Forward-Future/loop-library](https://github.com/Forward-Future/loop-library) (MIT) |
+
 ## Curated category folders (vendored from upstream)
 
 Subfolders that group multiple related skills from a single upstream source. Each has its own README with attribution and an honest quality note.
 
 | Folder | Skills | Source | Description |
 |--------|--------|--------|-------------|
-| [anthropic-cybersecurity-skills/](./anthropic-cybersecurity-skills/) | 83 | [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) (Apache-2.0) | Cherry-picked blue-team / SOC / DFIR / DevSecOps playbooks (subset of 754 upstream). Pairs with bug-hunter for offense vs defense. |
+| [anthropic-cybersecurity-skills/](./anthropic-cybersecurity-skills/) | 109 | [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) (Apache-2.0) | Cherry-picked blue-team / SOC / DFIR / DevSecOps / AI-security / supply-chain / hardware-firmware playbooks (subset of 817 upstream @ v1.3.0). Pairs with bug-hunter for offense vs defense. |
 | [bug-hunter/](./bug-hunter/) | 51 | [xiaolai/Claude-BugHunter](https://github.com/xiaolai/Claude-BugHunter) (MIT) | Authorized bug bounty & external pentest: 24+ `hunt-*` classes, enterprise identity chains, triage/reporting. |
 | [visual-content/](./visual-content/) | 25 | [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) (MIT) | Mermaid, D2, PlantUML, charts, architecture & journey diagrams. Breadth-first; pair with [skill-auto-activation](../references/skill-auto-activation.md). |
 | [business-automation/](./business-automation/) | 25 | [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) (MIT) | n8n, Zapier, Slack, email, spreadsheets, PDFs, forms. Breadth-first; pair with [skill-auto-activation](../references/skill-auto-activation.md). |
-| [matt-pocock/](./matt-pocock/) | 13 | [mattpocock/skills](https://github.com/mattpocock/skills) (MIT, ~54k ★) | "Skills for real engineers." Grilling sessions, ubiquitous-language ADRs, triage state machine, zoom-out. Matt's flagship is `grill-with-docs`. |
+| [matt-pocock/](./matt-pocock/) | 20 | [mattpocock/skills](https://github.com/mattpocock/skills) (MIT, ~54k ★) | "Skills for real engineers." Grilling sessions, deep-module design vocabulary, triage state machine, domain-modeling, handoff, ask-matt. Matt's flagship is `grill-with-docs`. |
+| [igoruehara-spec-driven/](./igoruehara-spec-driven/) | 15 | [igoruehara/spec-driven](https://github.com/igoruehara/spec-driven) (MIT) | Spec-Driven Development pipeline (Lean Inception → DDD → TDD → SDD). Upstream pt-BR, translated to English by this hub. 15 skills + SessionStart hook + templates at [product-management/igoruehara-sdd/](../product-management/igoruehara-sdd/). |
 | [taste-skills/](./taste-skills/) | 13 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) (MIT) | Anti-slop frontend design + optional image-generation comps for web/mobile/brand kits. |
 | [alirezarezvani-skills/](./alirezarezvani-skills/) | 11 | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) (MIT) | Skill supply-chain audit + Playwright/E2E depth (`playwright-pro`). |
+| [research-paper-writing/](./research-paper-writing/) | 1 | [Master-cai/Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills) (MIT, ~4.3k ★) | Section-by-section ML/CV/NLP research-paper rewrite workflow, curated from Prof. Peng Sida's notes. |
+| [forward-future-loop-library/](./forward-future-loop-library/) | 1 | [Forward-Future/loop-library](https://github.com/Forward-Future/loop-library) (MIT, ~1.6k ★) | Discover/find/audit/adapt/design bounded AI-agent loops; 69-loop live catalog linked. |
 
-**Total:** 26 top-level skills + 221 in category folders = **247** `SKILL.md` packages. For Jeremy's other **18 categories** (devops, security, frontend/backend, ML, data, AWS/GCP, APIs, docs, enterprise), see the upstream repo.
+**Total:** 29 top-level skills + 269 in category folders = **298** `SKILL.md` packages. For Jeremy's other **18 categories** (devops, security, frontend/backend, ML, data, AWS/GCP, APIs, docs, enterprise), see the upstream repo.
 
 ## Attribution & licenses
 

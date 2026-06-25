@@ -8,14 +8,14 @@
 <br/>
 
 <div align="center">
-    <strong>Discover 5200+ community-built OpenClaw skills, organized by category.
+    <strong>Discover 5300+ community-built OpenClaw skills, organized by category.
     </strong>
     <br />
     <br />
 </div>
   
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Skills Count](https://img.shields.io/badge/skills-5198-blue?style=flat-square)](#table-of-contents)
+[![Skills Count](https://img.shields.io/badge/skills-5199-blue?style=flat-square)](#table-of-contents)
 [![Last Update](https://img.shields.io/github/last-commit/VoltAgent/awesome-clawdbot-skills?label=Last%20update&style=flat-square)](https://github.com/VoltAgent/awesome-clawdbot-skills/pulls?q=is%3Apr+is%3Amerged+sort%3Aupdated-desc)
 <a href="https://github.com/VoltAgent/voltagent">
   <img alt="VoltAgent" src="https://cdn.voltagent.dev/website/logo/logo-2-svg.svg" height="20" />
@@ -24,20 +24,7 @@
 
 </div>
 
-<div align="center">
-    <strong>More awesome collections for developers</strong>
-    <br />
-    <br />
-</div>
 
-<div align="center">
-
-[![Agent Skills](https://img.shields.io/github/stars/VoltAgent/awesome-agent-skills?style=classic&label=%E2%9A%A1%20Agent%20Skills&color=black)](https://github.com/VoltAgent/awesome-agent-skills)
-[![Claude Code Subagents](https://img.shields.io/github/stars/VoltAgent/awesome-claude-code-subagents?style=classic&label=Claude%20Code%20Subagents&color=D97757&logo=claude&logoColor=D97757)](https://github.com/VoltAgent/awesome-claude-code-subagents)
-[![Codex Subagents][codex-badge]][codex-link]
-[![AI Agent Papers](https://img.shields.io/github/stars/VoltAgent/awesome-ai-agent-papers?style=classic&label=AI%20Agent%20Papers&color=b31b1b&logo=arxiv)](https://github.com/VoltAgent/awesome-ai-agent-papers)
-
-</div>
 
 </div>
 
@@ -51,11 +38,18 @@ Skills in this list are sourced from ClawHub (OpenClaw's public skills registry)
 
 ### Installation
 
-#### ClawHub CLI
-
+#### OpenClaw CLI
 
 ```bash
-clawhub install <skill-slug>
+openclaw skills install <skill-slug>
+```
+
+#### ClawHub CLI
+
+Or with the ClawHub CLI, for registry-managed skill folders outside a full OpenClaw workspace:
+
+```bash
+npx clawhub install <skill-slug>
 ```
 
 #### Manual Installation
@@ -76,7 +70,7 @@ You can also paste the skill's GitHub repository link directly into your assista
 
 ### Why This List Exists?
 
-OpenClaw's public registry (ClawHub) hosts **13,729 community-built skills** as of February 28, 2026. This awesome list has **5,211 skills**. Here's what we filtered out:
+OpenClaw's public registry (ClawHub) hosts thousands of community-built skills. This awesome list curates the best of them. Here's what we filtered out:
 
 | Filter | Excluded |
 |--------|----------|
@@ -90,9 +84,9 @@ OpenClaw's public registry (ClawHub) hosts **13,729 community-built skills** as 
 
 #### Want to add a skill?
 
-This list only includes skills that are **already published** in the `github.com/openclaw/skills` repository. We do not accept links to personal repos, gists, or any other external source. If your skill isn't in the OpenClaw skills repo yet, publish it there first. 
+This list only includes skills that are **already published** on [ClawHub](https://clawhub.ai), OpenClaw's public skills registry. We do not accept links to personal repos, gists, or any other external source. If your skill isn't on ClawHub yet, publish it there first.
 
-Include both the ClawHub link (e.g. `https://clawhub.ai/steipete/slack`) and the GitHub link (e.g. `https://github.com/openclaw/skills/tree/main/skills/steipete/slack`) in your PR description. See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+Include the ClawHub link for your skill (e.g. `https://clawhub.ai/steipete/slack`) in your PR description — the `clawskills.sh` listings are managed by us separately. See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 
 ## OpenClaw Ecosystem Tools
@@ -104,6 +98,42 @@ OpenClaw agents can interact with external services like GitHub, Slack, Gmail, a
 <a href="https://composio.dev/claw?utm_source=github&utm_campaign=volt-agent">
 <img src="https://cdn.voltagent.dev/awesome-repo/composio-img.png" alt="Composio"  />
 Managed OAuth, scoped permissions, and logged native toolcalls across 1000+ apps.
+</a>
+
+
+### ☁️ Hosting & Deployment
+
+You can deploy OpenClaw on any VPS or cloud platform to run your skills securely on your own infrastructure, or use a managed host that handles servers, updates, and isolation for you. 
+
+<a href="https://myclaw.ai/?utm_source=github&utm_campaign=awesome-openclaw-skills">
+<img src="https://cdn.voltagent.dev/awesome-repo/myclaw-banner.svg" alt="MyClaw"  /><br/>
+You can run these skills without managing a server — a full cloud-hosted OpenClaw instance with one-click setup, 24/7 uptime, and complete data ownership.
+</a>
+
+
+<br/>
+<br/>
+
+> **Tip:** If you're self-hosting, pin your OpenClaw Docker image to a specific tag and snapshot your skills volume before upgrades — makes rollbacks painless when a skill update misbehaves.
+
+
+### 🔍 Search & Web Data
+
+OpenClaw agents often need fresh, real-world data — search results, product listings, videos, and more. You can scrape and parse it yourself, or use a search API that returns clean, structured data in real time without managing proxies, CAPTCHAs, or HTML parsing.
+
+<a href="https://serpapi.com/search-engine-apis?utm_source=awesomeopenclawskills_github">
+<img src="https://cdn.voltagent.dev/awesome-repo/serpapi.png" alt="SerpApi"  /><br/>
+Give OpenClaw agents access to real-time Google Search, YouTube, Amazon Product, and web search data through a single API.
+</a>
+
+
+### 🛡️ Security & Config Auditing
+
+As you add more skills, custom code, and connected services, your OpenClaw setup accumulates secrets, file access, and tool permissions that are easy to lose track of. You can review these by hand, or run a continuous audit that surfaces misconfigurations and over-broad permissions before they become a problem.
+
+<a href="https://trent.ai/openclaw/?utm_source=github&utm_medium=referral&utm_campaign=volt-agent">
+<img src="https://cdn.voltagent.dev/awesome-repo/trenclaw.png" alt="trentclaw"  /><br/>
+trentclaw maps config, installed skills, custom code, secrets, and permissions, then returns findings inside your OpenClaw session.
 </a>
 
 
@@ -124,13 +154,6 @@ openclaw onboard --auth-choice openai-codex
 </details>
 
 
-### ☁️ Hosting & Deployment
-
-You can deploy OpenClaw on any VPS or cloud platform run your skills securely on your own infrastructure, or a managed host. Docker, Podman, Nix, and Ansible are all supported as install methods.
-
-> **Tip:** If you're looking for a quick cloud setup, spin up a VPS with your preferred provider, install OpenClaw via Docker, and you're good to go.
-
-
 <div align="center">
 
 <table>
@@ -141,11 +164,10 @@ You can deploy OpenClaw on any VPS or cloud platform run your skills securely on
 
 <p></p>
 
-<sub>📈 <strong>+1M monthly views</strong> — the #1 most visited community resource after the official OpenClaw resource</sub>
+<sub>The #1 most visited community resource after the official OpenClaw resource</sub>
 
-<br/>
 
-<a href="mailto:necati@voltagent.dev"><img src="https://img.shields.io/badge/📩_Become_a_Sponsor-Contact_Us-blue?style=for-the-badge&logoColor=white" alt="Become a Sponsor" /></a>
+<a href="https://sponsors.voltagent.dev/#awesome-openclaw-skills"><img src="https://img.shields.io/badge/📩_Become_a_Sponsor-Contact_Us-blue?style=for-the-badge&logoColor=white" alt="Become a Sponsor" /></a>
 
 </td>
 </tr>
@@ -176,18 +198,27 @@ If you believe a skill in this list should be flagged or has a security concern,
 
 | | | |
 |---|---|---|
-| [Git & GitHub](#git--github) (167) | [Marketing & Sales](#marketing--sales) (103) | [Communication](#communication) (146) |
-| [Coding Agents & IDEs](#coding-agents--ides) (1184) | [Productivity & Tasks](#productivity--tasks) (205) | [Speech & Transcription](#speech--transcription) (45) |
+| [Git & GitHub](#git--github) (167) | [Marketing & Sales](#marketing--sales) (104) | [Communication](#communication) (146) |
+| [Coding Agents & IDEs](#coding-agents--ides) (1184) | [Productivity & Tasks](#productivity--tasks) (206) | [Speech & Transcription](#speech--transcription) (46) |
 | [Browser & Automation](#browser--automation) (323) | [AI & LLMs](#ai--llms) (176) | [Smart Home & IoT](#smart-home--iot) (41) |
-| [Web & Frontend Development](#web--frontend-development) (919) | [Data & Analytics](#data--analytics) (28) | [Shopping & E-commerce](#shopping--e-commerce) (51) |
-| [DevOps & Cloud](#devops--cloud) (393) | [Calendar & Scheduling](#calendar--scheduling) (65) | |
+| [Web & Frontend Development](#web--frontend-development) (920) | [Data & Analytics](#data--analytics) (28) | [Shopping & E-commerce](#shopping--e-commerce) (51) |
+| [DevOps & Cloud](#devops--cloud) (393) | [Calendar & Scheduling](#calendar--scheduling) (66) | |
 | [Image & Video Generation](#image--video-generation) (170) | [Media & Streaming](#media--streaming) (86) | [PDF & Documents](#pdf--documents) (105) |
 | [Apple Apps & Services](#apple-apps--services) (44) | [Notes & PKM](#notes--pkm) (69) | [Self-Hosted & Automation](#self-hosted--automation) (33) |
 | [Search & Research](#search--research) (345) | [iOS & macOS Development](#ios--macos-development) (29) | [Security & Passwords](#security--passwords) (54) |
 | [Clawdbot Tools](#clawdbot-tools) (37) | [Transportation](#transportation) (110) | [Moltbook](#moltbook) (29) |
-| [CLI Utilities](#cli-utilities) (180) | [Personal Development](#personal-development) (50) | [Gaming](#gaming) (35) |
+| [CLI Utilities](#cli-utilities) (180) | [Personal Development](#personal-development) (52) | [Gaming](#gaming) (35) |
 | [Health & Fitness](#health--fitness) (87) | | |
 
+
+
+<br/>
+
+<a href="https://launchkit.getdesign.md/">
+<img src="https://cdn.voltagent.dev/awesome-repo/launchkit-banner-3.png" alt="launchkit"  /><br/>
+</a>
+
+<br/>
 
 <details open>
 <summary><h3 style="display:inline">Git & GitHub</h3></summary>
@@ -247,8 +278,9 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [agent-audit-trail](https://clawskills.sh/skills/roosch269-agent-audit-trail) - Tamper-evident, hash-chained audit logging for AI agents.
 - [agent-card-signing-auditor](https://clawskills.sh/skills/andyxinweiminicloud-agent-card-signing-auditor) - Helps audit Agent Card signing practices in A2A protocol implementations.
 - [agent-chat-ux-v1-4-0](https://clawskills.sh/skills/maverick-software-agent-chat-ux-v1-4-0) - Multi-agent UX for OpenClaw Control UI — agent selector, per-agent sessions, session history viewer with search.
-- [skywork-ppt](https://github.com/openclaw/skills/blob/main/skills/gxcun17/skywork-ppt/SKILL.md) - Generate, imitate, and edit PowerPoint presentations with skywork.
-- [skywork-music-maker](https://github.com/openclaw/skills/blob/main/skills/gxcun17/skywork-music-maker/SKILL.md) - Create professional music with Mureka AI.
+- [skywork-ppt](https://clawskills.sh/skills/gxcun17-skywork-ppt) - Generate, imitate, and edit PowerPoint presentations with skywork.
+- [skywork-music-maker](https://clawskills.sh/skills/gxcun17-skywork-music-maker) - Create professional music with Mureka AI.
+- [before-you-build](https://clawhub.ai/bin1874/before-you-build) - Review product risk before building.
 
 > **[View all 1200 skills in Coding Agents & IDEs →](categories/coding-agents-and-ides.md)**
 </details>
@@ -282,8 +314,8 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [airtable-automation](https://clawskills.sh/skills/sohamganatra-airtable-automation) - Automate Airtable tasks via Rube MCP (Composio)
 - [airtable-participants](https://clawskills.sh/skills/austinmao-airtable-participants) - Read and query retreat participant data from the Ceremonia Airtable base.
 - [ak-rss-24h-brief](https://clawskills.sh/skills/seandong-ak-rss-24h-brief) - Read RSS/Atom feeds from an OPML list, fetch articles from the last N hours, and generate a Chinese categorized.
-- [adspower-browser](https://github.com/openclaw/skills/tree/main/skills/adspower/adspower-browser) - Use when the user asks to create or manage AdsPower browsers, groups, tags, proxies, or check status via AdsPower Local API.
-- [duoplus-agent](https://github.com/openclaw/skills/tree/main/skills/duoplusofficial/duoplus-agent/SKILL.md) - Control DuoPlus cloud phones via ADB.
+- [adspower-browser](https://clawskills.sh/skills/adspower-adspower-browser) - Use when the user asks to create or manage AdsPower browsers, groups, tags, proxies, or check status via AdsPower Local API.
+- [duoplus-agent](https://clawskills.sh/skills/duoplusofficial-duoplus-agent) - Control DuoPlus cloud phones via ADB.
 
 > **[View all 323 skills in Browser & Automation →](categories/browser-and-automation.md)**
 </details>
@@ -319,7 +351,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [agentic-security-audit](https://clawskills.sh/skills/kingrubic-agentic-security-audit) - Audit codebases, infrastructure, AND agentic AI systems for security issues.
 - [agentpay](https://clawskills.sh/skills/kar69-96-agentpay) - Buy things from real websites on behalf of your human.
 
-> **[View all 924 skills in Web & Frontend Development →](categories/web-and-frontend-development.md)**
+> **[View all 925 skills in Web & Frontend Development →](categories/web-and-frontend-development.md)**
 </details>
 
 <details>
@@ -382,12 +414,13 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [best-image-generation](https://clawskills.sh/skills/evolinkai-best-image-generation) - Best quality AI image generation (~$0.12-0.20/image)
 - [bex-nano-banana-pro](https://clawskills.sh/skills/bextuychiev-bex-nano-banana-pro) - Generate or edit images via Gemini 3 Pro Image on Replicate.
 - [breeze](https://clawskills.sh/skills/keeganthomp-breeze) - Interact with the Breeze yield aggregator through the x402 payment-gated HTTP API.
-- [cad-agent](https://github.com/clawdbot/skills/tree/main/skills/clawd-maf/cad-agent/SKILL.md) - Rendering server for AI agents doing CAD work.
+- [cad-agent](https://clawskills.sh/skills/clawd-maf-cad-agent) - Rendering server for AI agents doing CAD work.
 - [calorie-visualizer](https://clawskills.sh/skills/vintlin-calorie-visualizer) - Local calorie logging and visual reporting (auto-refreshes and returns report image after each log)
 - [canva-connect](https://clawskills.sh/skills/coolmanns-canva-connect) - Manage Canva designs, assets, and folders via the Connect API.
-- [skywork-design](https://github.com/openclaw/skills/blob/main/skills/gxcun17/skywork-design/SKILL.md) - Generate and edit images via Skywork Image for posters, logos and more.
+- [runapi-mcp](https://clawhub.ai/runapi-ai/runapi-mcp) - 130+ AI models for image, video, music, audio, and LLM generation from 18 providers. 8 MCP tools with free catalog browsing. `npx @runapi.ai/mcp`
+- [skywork-design](https://clawskills.sh/skills/gxcun17-skywork-design) - Generate and edit images via Skywork Image for posters, logos and more.
 
-- [ai-video-remix](https://github.com/openclaw/skills/tree/main/skills/abu-shotai/ai-video-remix/SKILL.md) - AI-driven video remix from local library using ShotAI.
+- [ai-video-remix](https://clawskills.sh/skills/abu-shotai-ai-video-remix) - AI-driven video remix from local library using ShotAI.
 > **[View all 170 skills in Image & Video Generation →](categories/image-and-video-generation.md)**
 </details>
 
@@ -461,7 +494,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [airbnb](https://clawskills.sh/skills/stveenli-airbnb) - Search Airbnb listings with prices, ratings, and direct links.
 - [openclaw-free-web-search](https://clawskills.sh/skills/wd041216-bit-openclaw-free-web-search) - Free, private web search for OpenClaw with self-hosted SearXNG + Scrapling anti-bot + multi-source cross-validation. Zero API keys, zero cost. Tells you how much to trust the answer.
 - [xquik-x-twitter-scraper](https://clawskills.sh/skills/kriptoburak-xquik-x-twitter-scraper) - X API scraper with 40+ tools for AI agents.
-- [skywork-search](https://github.com/openclaw/skills/blob/main/skills/gxcun17/skywork-search/SKILL.md) - AI-powered web search for real-time information — retrieve up-to-date content.
+- [skywork-search](https://clawskills.sh/skills/gxcun17-skywork-search) - AI-powered web search for real-time information — retrieve up-to-date content.
 
 > **[View all 352 skills in Search & Research →](categories/search-and-research.md)**
 </details>
@@ -563,9 +596,10 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [brand-guidelines](https://clawskills.sh/skills/seanphan-brand-guidelines) - Applies Anthropic's official brand colors and typography.
 - [brand-voice-profile](https://clawskills.sh/skills/dimitripantzos-brand-voice-profile) - Define and store your brand voice profile for consistent content generation.
 - [brevo](https://clawskills.sh/skills/yujesyoga-brevo) - Brevo (formerly Sendinblue) email marketing API for managing contacts, lists,.
-- [socialecho-social-media-management-agent](https://github.com/openclaw/skills/tree/main/skills/socialecho-net/socialecho-social-media-management-agent/SKILL.md) - SocialEcho API team account article report queries.
-- [postiz](https://github.com/openclaw/skills/tree/main/skills/nevo-david/postiz/SKILL.md) - Schedule social media posts and threads across 28+ platforms.
-> **[View all 104 skills in Marketing & Sales →](categories/marketing-and-sales.md)**
+- [socialecho-social-media-management-agent](https://clawskills.sh/skills/socialecho-net-socialecho-social-media-management-agent) - SocialEcho API team account article report queries.
+- [postiz](https://clawskills.sh/skills/nevo-david-postiz) - Schedule social media posts and threads across 28+ platforms.
+- [sequenzy-email-marketing](https://clawhub.ai/polnikale/sequenzy-email-marketing) - Authorized email automation for agents.
+> **[View all 105 skills in Marketing & Sales →](categories/marketing-and-sales.md)**
 </details>
 
 <details>
@@ -598,9 +632,9 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [ask-agents](https://clawskills.sh/skills/teamolab-ask-agents) - AI agent for ask agents tasks.
 - [async-task](https://clawskills.sh/skills/enderfga-async-task) - Execute long-running tasks without HTTP timeouts.
 - [atlassian-mcp](https://clawskills.sh/skills/atakanermis-atlassian-mcp) - Run the Model Context Protocol (MCP) Atlassian server.
-- [boss-ai-agent](https://github.com/openclaw/skills/tree/main/skills/tonypk/boss-ai-agent/SKILL.md) - AI management middleware with 14 mentors and 9 culture packs.
+- [boss-ai-agent](https://clawskills.sh/skills/tonypk-boss-ai-agent) - AI management middleware with 14 mentors and 9 culture packs.
 
-> **[View all 205 skills in Productivity & Tasks →](categories/productivity-and-tasks.md)**
+> **[View all 206 skills in Productivity & Tasks →](categories/productivity-and-tasks.md)**
 
 </details>
 
@@ -628,7 +662,8 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [agent-selfie](https://clawskills.sh/skills/iisweetheartii-agent-selfie) - AI agent self-portrait generator.
 - [agent-sentinel](https://clawskills.sh/skills/jimmystacks-agent-sentinel) - The operational circuit breaker for this agent.
 
-> **[View all 184 skills in AI & LLMs →](categories/ai-and-llms.md)**
+- [agentbase](https://clawskills.sh/skills/revmischa-agentbase) - Shared knowledge base for AI agents via MCP.
+> **[View all 185 skills in AI & LLMs →](categories/ai-and-llms.md)**
 </details>
 
 <details>
@@ -656,7 +691,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [ipinfo](https://clawskills.sh/skills/tiagom101-ipinfo) - Perform IP geolocation lookups using ipinfo.io API.
 - [kradleverse-cleanup](https://clawskills.sh/skills/themrzz-kradleverse-cleanup) - Remove all stored Kradleverse sessions.
 - [linkdapi](https://clawskills.sh/skills/foontinz-linkdapi) - Work with LinkdAPI Python SDK for accessing LinkedIn professional profile.
-- [skywork-excel](https://github.com/openclaw/skills/blob/main/skills/gxcun17/skywork-excel/SKILL.md) - AI-powered spreadsheet operations for creating, analyzing and generating reports.
+- [skywork-excel](https://clawskills.sh/skills/gxcun17-skywork-excel) - AI-powered spreadsheet operations for creating, analyzing and generating reports.
 
 </details>
 
@@ -794,6 +829,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [camino-journey](https://clawskills.sh/skills/james-southendsolutions-camino-journey) - Plan multi-waypoint journeys with route optimization, feasibility analysis, and time budget constraints.
 - [camino-real-estate](https://clawskills.sh/skills/james-southendsolutions-camino-real-estate) - Evaluate any address for home buyers and renters.
 - [camino-route](https://clawskills.sh/skills/james-southendsolutions-camino-route) - Get detailed routing between two points with distance, duration, and optional turn-by-turn directions.
+- [traffic-standards-kb](https://clawhub.ai/solvex-top/traffic-standards-kb) - Chinese smart transportation standards knowledge base (GB/JT/GA) for writing solutions with industry standard citations.
 
 > **[View all 110 skills in Transportation →](categories/transportation.md)**
 </details>
@@ -809,6 +845,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [agent-evolver](https://clawskills.sh/skills/lilei0311-agent-evolver) - AI Agent self-evolution engine that enables agents to learn from experience, detect problems, extract insights.
 - [agent-reflect](https://clawskills.sh/skills/stevengonsalvez-agent-reflect) - Self-improvement through conversation analysis.
 - [ai-persona-os](https://clawskills.sh/skills/jeffjhunter-ai-persona-os) - The complete operating system for OpenClaw agents.
+- [ai-shifu-course-creator](https://clawhub.ai/heshaofu2/ai-shifu-course-creator) - Build interactive AI-Shifu courses.
 - [anxiety-relief](https://clawskills.sh/skills/jhillin8-anxiety-relief) - Manage anxiety with grounding exercises, breathing techniques.
 - [apikiss](https://clawskills.sh/skills/theill-apikiss) - Access weather, IP geolocation, SMS, crypto prices, Danish CVR, Whois, phone lookup, UUID, stock data.
 - [beaverhabits](https://clawskills.sh/skills/daya0576-beaverhabits) - Track and manage your habits using the Beaver Habit Tracker API.
@@ -829,7 +866,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [fix-life-in-1-day](https://clawskills.sh/skills/evgyur-fix-life-in-1-day) - Fix your entire life in 1 day.
 - [founder-coach](https://clawskills.sh/skills/goforu-founder-coach) - AI-powered startup mindset coach that helps founders upgrade.
 
-> **[View all 51 skills in Personal Development →](categories/personal-development.md)**
+> **[View all 52 skills in Personal Development →](categories/personal-development.md)**
 </details>
 
 <details>
@@ -925,7 +962,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [elevenlabs-tts](https://clawskills.sh/skills/shaharsha-elevenlabs-tts) - ElevenLabs TTS - the best ElevenLabs integration for OpenClaw.
 - [elevenlabs-voices](https://clawskills.sh/skills/robbyczgw-cla-elevenlabs-voices) - High-quality voice synthesis with 18 personas, 32.
 
-> **[View all 45 skills in Speech & Transcription →](categories/speech-and-transcription.md)**
+> **[View all 46 skills in Speech & Transcription →](categories/speech-and-transcription.md)**
 </details>
 
 <details>
@@ -997,6 +1034,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 <summary><h3 style="display:inline">Calendar & Scheduling</h3></summary>
 
 - [accli](https://clawskills.sh/skills/joargp-accli) - This skill should be used when interacting with Apple Calendar on macOS.
+- [accli-plus](https://clawhub.ai/gopaljigaur/accli-plus) - Extended Apple Calendar CLI for macOS — adds search, export, dry-run, recurring events, alerts, and full error codes on top of accli.
 - [advanced-calendar](https://clawskills.sh/skills/toughworm-advanced-calendar) - Advanced calendar skill with natural language.
 - [agency-guardian](https://clawskills.sh/skills/aranej-agency-guardian) - Gentle reminders to stay human while using AI.
 - [agent-tinman](https://clawskills.sh/skills/oliveskin-agent-tinman) - AI security scanner with active prevention - 168 detection.
@@ -1024,8 +1062,9 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [gcal-pro](https://clawskills.sh/skills/bilalmohamed187-cpu-gcal-pro) - Google Calendar integration for viewing, creating, and managing.
 - [gog](https://clawskills.sh/skills/steipete-gog) - Google Workspace CLI for Gmail, Calendar, Drive, Contacts, Sheets, and Docs.
 - [google-calendar](https://clawskills.sh/skills/adrianmiller99-google-calendar) - Interact with Google Calendar via the Google Calendar.
+- [google-service-accounts](https://clawhub.ai/amiller/google-service-accounts) - Headless Google Sheets, Docs, Drive, Calendar via service-account sharing.
 
-> **[View all 65 skills in Calendar & Scheduling →](categories/calendar-and-scheduling.md)**
+> **[View all 66 skills in Calendar & Scheduling →](categories/calendar-and-scheduling.md)**
 </details>
 
 <details>
@@ -1057,8 +1096,8 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [competitor-analyzer](https://clawskills.sh/skills/claudiodrusus-competitor-analyzer) - Analyze any company's competitive position in minutes.
 - [confidant](https://clawskills.sh/skills/ericsantos-confidant) - Secure secret handoff from human to AI.
 - [confluence](https://clawskills.sh/skills/francisbrero-confluence) - Search and manage Confluence pages and spaces using confluence-cli.
-- [bluente-translate](https://github.com/openclaw/skills/blob/main/skills/varsmallrookie/bluente-translate/SKILL.md) - Translate your documents with formatting intact in 2 minutes.
-- [skywork-document](https://github.com/openclaw/skills/blob/main/skills/gxcun17/skywork-document/SKILL.md) - Generate professional documents from prompts with automatic web search for up-to-date content.
+- [bluente-translate](https://clawskills.sh/skills/varsmallrookie-bluente-translate) - Translate your documents with formatting intact in 2 minutes.
+- [skywork-document](https://clawskills.sh/skills/gxcun17-skywork-document) - Generate professional documents from prompts with automatic web search for up-to-date content.
 
 > **[View all 110 skills in PDF & Documents →](categories/pdf-and-documents.md)**
 </details>
@@ -1107,7 +1146,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [1claw](https://clawskills.sh/skills/kmjones1979-1claw) - HSM-backed vault for agent secrets; store, rotate, share securely.
 - [age-verification](https://clawskills.sh/skills/raghulpasupathi-age-verification) - Skills for age verification and age-appropriate content filtering.
 - [amai-id](https://www.clawhub.ai/Gonzih/amai-id) - Soul-Bound Keys and Soulchain for persistent.
-- [agent-security-harness](https://github.com/openclaw/skills/tree/main/skills/msaleme/agent-security-harness/SKILL.md) - Security testing for AI agent wire protocols and platforms.
+- [agent-security-harness](https://clawskills.sh/skills/msaleme-agent-security-harness) - Security testing for AI agent wire protocols and platforms.
 - [api-security](https://clawskills.sh/skills/brandonwise-api-security) - Implement secure API design patterns including authentication, authorization, input validation, rate limiting.
 - [audit-badge-demo](https://clawskills.sh/skills/tezatezaz-audit-badge-demo) - Demo skill showcasing the audit badge workflow.
 - [auditing-appstore-readiness](https://clawskills.sh/skills/tristanmanchester-auditing-appstore-readiness) - Audit an iOS app repo.
@@ -1130,6 +1169,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [facebook](https://clawskills.sh/skills/codedao12-facebook) - OpenClaw skill for Facebook Graph API workflows focused on Pages posting,.
 - [feelgoodbot](https://clawskills.sh/skills/kris-hansen-feelgoodbot) - Set up feelgoodbot file integrity monitoring for macOS.
 - [skill-provenance](https://clawskills.sh/skills/snapsynapse-skill-provenance) - Version tracking and integrity verification for skill bundles
+- [trentclaw](https://clawskills.sh/skills/trent-ai-release-trentclaw) - Finds chained attack paths across config, secrets, and permissions.
 
 > **[View all 54 skills in Security & Passwords →](categories/security-and-passwords.md)**
 </details>

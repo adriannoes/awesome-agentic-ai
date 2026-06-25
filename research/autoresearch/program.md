@@ -6,12 +6,12 @@ This is an experiment to have the LLM do its own research.
 
 To set up a new experiment, work with the user to:
 
-1. **Agree on a run tag**: propose a tag based on today's date (e.g. `mar5`). The branch `autoresearch/ ` must not already exist — this is a fresh run.
-2. **Create the branch**: `git checkout -b autoresearch/ ` from current master.
+1. **Agree on a run tag**: propose a tag based on today's date (e.g. `mar5`). The branch `autoresearch/<tag>` must not already exist — this is a fresh run.
+2. **Create the branch**: `git checkout -b autoresearch/<tag>` from current master.
 3. **Read the in-scope files**: The repo is small. Read these files for full context:
- - `README.md` — repository context.
- - `prepare.py` — fixed constants, data prep, tokenizer, dataloader, evaluation. Do not modify.
- - `train.py` — the file you modify. Model architecture, optimizer, training loop.
+   - `README.md` — repository context.
+   - `prepare.py` — fixed constants, data prep, tokenizer, dataloader, evaluation. Do not modify.
+   - `train.py` — the file you modify. Model architecture, optimizer, training loop.
 4. **Verify data exists**: Check that `~/.cache/autoresearch/` contains data shards and a tokenizer. If not, tell the human to run `uv run prepare.py`.
 5. **Initialize results.tsv**: Create `results.tsv` with just the header row. The baseline will be recorded after the first run.
 6. **Confirm and go**: Confirm setup looks good.

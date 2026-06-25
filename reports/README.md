@@ -32,6 +32,7 @@ Curated industry and research reports from consulting firms, AI labs, and VCs. U
 | [State of AI Report 2025](State%20of%20AI%20Report%20-%202025%20%28Air%20Street%20Capital%29.pdf) | Air Street Capital | Annual AI landscape (research, industry, politics, safety) |
 | [Artificial Intelligence Trends](Bond%20-%20Artificial_Intelligence%20Trends.pdf) | Bond (Mary Meeker) | Market and usage trends with charts |
 | [The Ultimate Guide to Fine-Tuning LLMs](The%20Ultimate%20Guide%20to%20Fine-Tuning%20LLMs%20from%20Basics%20to%20Breakthroughs.pdf) | Research compilation | Technical guide to fine-tuning (also in [papers/models-and-training/](../papers/models-and-training/)) |
+| [The New SDLC With Vibe Coding](The%20New%20SDLC%20With%20Vibe%20Coding.pdf) | Industry report | How the software development lifecycle shifts under vibe coding — pairs with this repo's [cursor-claude-codex/](../cursor-claude-codex/) skills and [prompt-engineering/](../prompt-engineering/) |
 
 ## How to use this folder
 

@@ -40,5 +40,6 @@ Offensive-security commands (`/recon`, `/hunt`, `/triage`, `/report`, …) live 
 
 ## Sources
 
-- [hamzafer/cursor-commands](https://github.com/hamzafer/cursor-commands) (MIT)
-- [patyearone/final-review-gist](https://gist.github.com/patyearone/c9a091b97e756f5ed361f7514d88ef0b)
+- [hamzafer/cursor-commands](https://github.com/hamzafer/cursor-commands) (MIT) — upstream now ships 32 commands; we vendor 6 of them here (`code-review`, `run-all-tests-and-fix`, `clarify-task`, `deslop`, `security-audit`, `diagrams`). Browse upstream for the rest (`overview`, `roadmap`, `address-github-pr-comments`, `light-review-existing-diffs`, `generate-pr-description`, `fix-compile-errors`, …).
+- [patyearone/final-review-gist](https://gist.github.com/patyearone/c9a091b97e756f5ed361f7514d88ef0b) — `final-review`
+- [mitsuhiko/agent-stuff](https://github.com/mitsuhiko/agent-stuff) (Apache-2.0) — `git-commit` (upstream moved it to `skills/commit/SKILL.md`; we keep it as a Cursor slash command here)

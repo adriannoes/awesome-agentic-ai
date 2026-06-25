@@ -7,10 +7,19 @@ Battle-tested prompts and system prompt references for AI coding tools.
 | File | Source | Description |
 |------|--------|-------------|
 | [prompts/gpt-5.2-codex.md](prompts/gpt-5.2-codex.md) | — | Codex-style coding agent (GPT-5) |
-| [prompts/cursor-agent.md](prompts/cursor-agent.md) | [x1xhlol](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | Cursor Agent system prompt (2025-09) |
+| [prompts/Cursor-Agent.md](prompts/Cursor-Agent.md) | [x1xhlol](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | Cursor Agent system prompt |
 | [prompts/Devin2_09-08-2025.md](prompts/Devin2_09-08-2025.md) | — | Devin AI agent |
 | [prompts/Gemini-2.5-Pro-04-18-2025.md](prompts/Gemini-2.5-Pro-04-18-2025.md) | — | Gemini coding agent |
 | [prompts/Replit_Agent.md](prompts/Replit_Agent.md) | — | Replit Agent |
+| [prompts/Claude_Sonnet-4.5_Sep-29-2025.md](prompts/Claude_Sonnet-4.5_Sep-29-2025.md) | — | Claude Sonnet 4.5 system prompt snapshot |
+| [prompts/GROK-4-NEW_Jul-13-2025.md](prompts/GROK-4-NEW_Jul-13-2025.md) | — | Grok 4 system prompt snapshot |
+| [prompts/Grok-Code-Fast-1_Aug-26-2025.md](prompts/Grok-Code-Fast-1_Aug-26-2025.md) | — | Grok Code Fast-1 coding agent |
+| [prompts/Kimi_2_July-11-2025.md](prompts/Kimi_2_July-11-2025.md) | — | Kimi 2 system prompt snapshot |
+| [prompts/Lovable-2.0.md](prompts/Lovable-2.0.md) | — | Lovable 2.0 coding agent |
+| [prompts/Perplexity_Deep_Research.md](prompts/Perplexity_Deep_Research.md) | — | Perplexity Deep Research |
+| [prompts/vercel-v0.md](prompts/vercel-v0.md) | — | Vercel v0 system prompt snapshot |
+| [prompts/n8n-sql.md](prompts/n8n-sql.md) | — | n8n SQL agent prompt |
+| [prompts/n8n-day-hour.md](prompts/n8n-day-hour.md) | — | n8n day/hour scheduling agent prompt |
 
 ## Freshness
 

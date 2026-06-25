@@ -4,7 +4,7 @@ This directory contains research papers and resources on Large Language Models (
 
 ## Overview
 
-The collection includes: (1) **foundation models for code** (external references to key code-LLM papers); (2) **46 PDFs** in `papers/`, organized into thematic subfolders — from classic deep-learning papers through contemporary agent and alignment research.
+The collection includes: (1) **foundation models for code** (external references to key code-LLM papers); (2) **48 PDFs** in `papers/`, organized into thematic subfolders — from classic deep-learning papers through contemporary agent and alignment research.
 
 ## Directory structure
 
@@ -14,7 +14,7 @@ papers/
 ├── foundation-models/             # 7 — Transformers, BERT, GPT, scaling laws (2017–2022)
 ├── alignment-and-post-training/   # 1 — RLHF / InstructGPT
 ├── generative-models/             # 1 — diffusion models
-├── agents-and-engineering/        # 13 — agents, harnesses, code evaluation
+├── agents-and-engineering/        # 15 — agents, harnesses, code evaluation
 ├── reliability-and-reasoning/     # 6 — hallucinations, reasoning, memory
 ├── models-and-training/           # 4 — world models, fine-tuning, DeepSeek
 ├── ethics-risks-and-society/      # 7 — risks, work, autonomy
@@ -50,6 +50,8 @@ papers/
 ### [agents-and-engineering/](agents-and-engineering/)
 
 - **AI Agents vs. Agentic AI: A Conceptual Taxonomy, Applications and Challenges**
+- **A Technical Taxonomy of LLM Agent Communication Protocols** (Sander et al., TU Munich) — five-dimension taxonomy of LLM agent protocols (counterparty, payload, state, discovery, schema flexibility); [arXiv:2606.19135](https://arxiv.org/abs/2606.19135) (2026.06).
+- **Agentic Auto-Scheduling: An Experimental Study of LLM-Guided Loop Optimization** (Merouani et al., PACT 2025) — ComPilot uses off-the-shelf LLMs in a compiler feedback loop for loop-nest optimization; [arXiv:2511.00592](https://arxiv.org/abs/2511.00592) (2025.11).
 - **Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models**
 - **Agents of Chaos**
 - **Beyond Synthetic Benchmarks: Evaluating LLM Performance on Real-World Class-Level Code Generation**
