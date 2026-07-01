@@ -15,7 +15,7 @@
 
 > The most complete collection of battle-tested AI-assisted development resources — for Product Managers, Designers, and Developers who want to ship real products with AI.
 
-**What's inside:** **298** agent skills (Cursor, Claude Code & Codex) · **8** slash commands · **21** coding rules · **201** Jupyter notebooks · **48** research papers (PDF, 9 themes) · **15** industry reports · **21** n8n workflow templates · **14** system prompts · **36** OpenClaw agents · **5,380** OpenClaw skills indexed · **68** curated GitHub projects.
+**What's inside:** **298** agent skills (Cursor, Claude Code & Codex) · **8** slash commands · **21** coding rules · **201** Jupyter notebooks · **49** research papers (PDF, 9 themes) · **15** industry reports · **21** n8n workflow templates · **14** system prompts · **36** OpenClaw agents · **5,380** OpenClaw skills indexed · **68** curated GitHub projects.
 
 Whether you're a PM who wants to prototype faster, a Designer who wants to understand the code your AI is generating, or a Developer looking for the sharpest rules to ship with — this repo is built to be copied, forked, and used the same day.
 
@@ -118,7 +118,7 @@ Other items (e.g. DeepSeek OCR) are documented in [research/README.md](research/
 
 ### Papers ([papers/](papers/))
 
-**48** research papers (PDFs) in **9 thematic subfolders** — from classic deep learning (AlexNet, DQN, Word2Vec) through the foundation-model era (Transformers, BERT, GPT-1/2/3, scaling laws, Chinchilla, RLHF, diffusion) to contemporary agent, harness, reliability, and ethics research. Full index: [papers/README.md](papers/README.md).
+**49** research papers (PDFs) in **9 thematic subfolders** — from classic deep learning (AlexNet, DQN, Word2Vec) through the foundation-model era (Transformers, BERT, GPT-1/2/3, scaling laws, Chinchilla, RLHF, diffusion) to contemporary agent, harness, reliability, and ethics research. Full index: [papers/README.md](papers/README.md).
 
 | Folder | Focus | PDFs |
 |--------|-------|------|
@@ -127,7 +127,7 @@ Other items (e.g. DeepSeek OCR) are documented in [research/README.md](research/
 | [alignment-and-post-training/](papers/alignment-and-post-training/) | RLHF / InstructGPT | 1 |
 | [generative-models/](papers/generative-models/) | Diffusion models | 1 |
 | [agents-and-engineering/](papers/agents-and-engineering/) | Agents, harnesses, code evaluation | 15 |
-| [reliability-and-reasoning/](papers/reliability-and-reasoning/) | Hallucinations, reasoning, memory | 6 |
+| [reliability-and-reasoning/](papers/reliability-and-reasoning/) | Hallucinations, reasoning, memory, evaluation | 7 |
 | [models-and-training/](papers/models-and-training/) | World models, fine-tuning, DeepSeek | 4 |
 | [ethics-risks-and-society/](papers/ethics-risks-and-society/) | Risks, work, autonomy | 7 |
 | [perspectives-and-futures/](papers/perspectives-and-futures/) | Long-term AI visions | 4 |
@@ -136,7 +136,7 @@ Includes **12** foundational PDFs added to the repo (early DL through alignment 
 
 ## Stats
 
-Counts verified against the repo tree (2026-06-25):
+Counts verified against the repo tree (2026-07-01):
 
 | Resource | Count | Entry point |
 |----------|------:|-------------|
@@ -148,7 +148,7 @@ Counts verified against the repo tree (2026-06-25):
 | OpenClaw skills indexed (snapshot) | **5,380** | [openclaw/skills/README.md](openclaw/skills/README.md) |
 | GitHub projects to watch | **68** | [nice-projects/README.md](nice-projects/README.md) |
 | Jupyter notebooks | **201** | [research/README.md](research/README.md) |
-| Research papers (PDF, 9 themes) | **48** | [papers/README.md](papers/README.md) |
+| Research papers (PDF, 9 themes) | **49** | [papers/README.md](papers/README.md) |
 | Industry reports (PDF) | **15** | [reports/README.md](reports/README.md) |
 | n8n workflow templates | **21** | [n8n-templates/](n8n-templates/) |
 | System prompt snapshots | **14** | [prompt-engineering/prompts/](prompt-engineering/prompts/) |

@@ -4,7 +4,7 @@ This directory contains research papers and resources on Large Language Models (
 
 ## Overview
 
-The collection includes: (1) **foundation models for code** (external references to key code-LLM papers); (2) **48 PDFs** in `papers/`, organized into thematic subfolders — from classic deep-learning papers through contemporary agent and alignment research.
+The collection includes: (1) **foundation models for code** (external references to key code-LLM papers); (2) **49 PDFs** in `papers/`, organized into thematic subfolders — from classic deep-learning papers through contemporary agent and alignment research.
 
 ## Directory structure
 
@@ -15,7 +15,7 @@ papers/
 ├── alignment-and-post-training/   # 1 — RLHF / InstructGPT
 ├── generative-models/             # 1 — diffusion models
 ├── agents-and-engineering/        # 15 — agents, harnesses, code evaluation
-├── reliability-and-reasoning/     # 6 — hallucinations, reasoning, memory
+├── reliability-and-reasoning/     # 7 — hallucinations, reasoning, memory, evaluation
 ├── models-and-training/           # 4 — world models, fine-tuning, DeepSeek
 ├── ethics-risks-and-society/      # 7 — risks, work, autonomy
 └── perspectives-and-futures/      # 4 — long-term visions of AI
@@ -67,6 +67,7 @@ papers/
 
 ### [reliability-and-reasoning/](reliability-and-reasoning/)
 
+- **Ask, Don't Judge: Binary Questions for Interpretable LLM Evaluation and Self-Improvement** (Cho et al.) — BinEval decomposes evaluation into atomic yes/no questions for interpretable, training-free LLM judging and prompt self-improvement; [arXiv:2606.27226](https://arxiv.org/abs/2606.27226) (2026.06).
 - **A comprehensive taxonomy of hallucinations in Large Language Models**
 - **LLMs get list in multi-turn conversation**
 - **Reasoning Models Don't Always Say What They Think**
