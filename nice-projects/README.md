@@ -1,6 +1,6 @@
 # Nice projects to follow & fork 🚀
 
-A curated collection of **69** interesting open-source projects worth exploring, forking, and contributing to. This list is based on projects I've starred on GitHub and upstream sources vendored in this hub.
+A curated collection of **71** interesting open-source projects worth exploring, forking, and contributing to. This list is based on projects I've starred on GitHub and upstream sources vendored in this hub.
 
 ## Tools 🛠️
 
@@ -70,6 +70,7 @@ Structured notes (folder layout, install commands, how each fits our hub) live i
 - **[pengsida/learning_research](https://github.com/pengsida/learning_research)** — Human-facing research-methodology guide (Chinese, ~12.8k ★) for Ph.D. students by Peng Sida — finding problems, running experiments, writing/rebuttal/presenting. ⚠️ No license declared — link-only; the bulk of content lives on a living Notion doc.
 - **[Forward-Future/loop-library](https://github.com/Forward-Future/loop-library)** — MIT skill + live catalog (~1.6k ★) of 69 bounded AI-agent loops (feedback-cycle workflows with explicit trigger/action/verify/stop/handoff) across Engineering, Evaluation, Operations, Content, Design. Skill vendored at [cursor-claude-codex/skills/forward-future-loop-library/](../cursor-claude-codex/skills/forward-future-loop-library/); live catalog at `signals.forwardfuture.com/loop-library/`.
 - **[Master-cai/Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills)** — MIT agent skill (~4.3k ★) for section-by-section ML/CV/NLP research-paper rewriting, curated from Prof. Peng Sida's notes. Vendored at [cursor-claude-codex/skills/research-paper-writing/](../cursor-claude-codex/skills/research-paper-writing/); install via `npx skills add Master-cai/Research-Paper-Writing-Skills`.
+- **[shreyashankar/plain-writing-skill](https://github.com/shreyashankar/plain-writing-skill)** — Plain-language prose skill (~200 ★) with optional HTML revision diff. No license declared upstream. Vendored at [cursor-claude-codex/skills/plain-writing/](../cursor-claude-codex/skills/plain-writing/); install via `git clone` into `~/.claude/skills/plain-writing`.
 - **[benchflow-ai/awesome-evals](https://github.com/benchflow-ai/awesome-evals)** — CC0 curated, annotated, non-BS eval reference catalog (~0.2k ★) for building and evaluating AI agents: 443+ links across 10 themes (eval infrastructure, LLM-as-judge, agent-specific eval, safety/adversarial) + a `PATTERNS.md` runnable playbook (10 eval patterns with real Python code) + 146 deep reading notes. Vendored at [cursor-claude-codex/references/awesome-evals/](../cursor-claude-codex/references/awesome-evals/).
 - **[rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)** — Apache-2.0 official code (~97k ★) for *Build a Large Language Model (From Scratch)* by Sebastian Raschka: 66 PyTorch notebooks implementing a ChatGPT-like LLM end-to-end (attention → GPT → pretrain → finetune → LoRA). Vendored at [research/llms-from-scratch/](../research/llms-from-scratch/); pairs with [research/reasoning-from-scratch/](../research/reasoning-from-scratch/).
 - **[huggingface/smol-course](https://github.com/huggingface/smol-course)** — Apache-2.0 Hugging Face course (~6.6k ★) on aligning small LLMs that runs locally: instruction tuning, DPO/ORPO, LoRA/PEFT, evaluation, vision-language models, synthetic data, inference, agents. English-only subset vendored at [research/smol-course/](../research/smol-course/).
@@ -99,6 +100,12 @@ Structured notes (folder layout, install commands, how each fits our hub) live i
 ### Platforms & Tools
 - **[NocoDB](https://github.com/nocodb/nocodb)** - 🔥 🔥 🔥 Open Source Airtable Alternative
 - **[open-agent-platform](https://github.com/langchain-ai/open-agent-platform)** - An open-source, no-code agent building platform.
+
+## Study material 📖
+
+Curated reading lists and study roadmaps — external link-only sources worth working through alongside [papers/](../papers/), [research/](../research/), and [learning/](../learning/).
+
+- **[ilya-sutskever-recommended-reading](https://github.com/dzyim/ilya-sutskever-recommended-reading)** — ~27 papers, blogs, and courses on deep learning (RNNs/LSTMs, CNNs, attention, scaling laws, NTM, theory), attributed to Ilya Sutskever for John Carmack. Strong backlog for papers to bring into [papers/](../papers/). ⚠️ No license declared upstream.
 
 ## Other Useful Resources 📚
 
