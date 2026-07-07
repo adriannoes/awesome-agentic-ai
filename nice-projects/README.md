@@ -1,6 +1,6 @@
 # Nice projects to follow & fork 🚀
 
-A curated collection of **68** interesting open-source projects worth exploring, forking, and contributing to. This list is based on projects I've starred on GitHub and upstream sources vendored in this hub.
+A curated collection of **69** interesting open-source projects worth exploring, forking, and contributing to. This list is based on projects I've starred on GitHub and upstream sources vendored in this hub.
 
 ## Tools 🛠️
 
@@ -90,6 +90,9 @@ Structured notes (folder layout, install commands, how each fits our hub) live i
 - **[AutoAgent](https://github.com/HKUDS/AutoAgent)** - "AutoAgent: Fully-Automated and Zero-Code LLM Agent Framework"
 - **[companion-app](https://github.com/a16z-infra/companion-app)** - AI companions with memory: a lightweight stack to create and host your own AI companions
 - **[clawdis](https://github.com/steipete/clawdis)** - Your own personal AI assistant. Talk via WhatsApp, Telegram or Web.
+
+### Agent infrastructure / control plane
+- **[rust-norion](https://github.com/yanghao1143/rust-norion)** — Rust control-layer prototype for agentic systems: runtime boundaries, memory/replay governance, writer gates, audit traces, and rollback. ⚠️ Early research prototype (GPL-3.0); not a Cursor/Claude/Codex skill; advanced runbooks may require local or SSH setup.
 
 ## No-code 🎨
 
