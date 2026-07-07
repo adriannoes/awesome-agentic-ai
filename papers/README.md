@@ -4,7 +4,7 @@ This directory contains research papers and resources on Large Language Models (
 
 ## Overview
 
-The collection includes: (1) **foundation models for code** (external references to key code-LLM papers); (2) **49 PDFs** in `papers/`, organized into thematic subfolders — from classic deep-learning papers through contemporary agent and alignment research.
+The collection includes: (1) **foundation models for code** (external references to key code-LLM papers); (2) **51 PDFs** in `papers/`, organized into thematic subfolders — from classic deep-learning papers through contemporary agent and alignment research.
 
 ## Directory structure
 
@@ -14,7 +14,7 @@ papers/
 ├── foundation-models/             # 7 — Transformers, BERT, GPT, scaling laws (2017–2022)
 ├── alignment-and-post-training/   # 1 — RLHF / InstructGPT
 ├── generative-models/             # 1 — diffusion models
-├── agents-and-engineering/        # 15 — agents, harnesses, code evaluation
+├── agents-and-engineering/        # 17 — agents, harnesses, code evaluation
 ├── reliability-and-reasoning/     # 7 — hallucinations, reasoning, memory, evaluation
 ├── models-and-training/           # 4 — world models, fine-tuning, DeepSeek
 ├── ethics-risks-and-society/      # 7 — risks, work, autonomy
@@ -53,6 +53,7 @@ papers/
 - **A Technical Taxonomy of LLM Agent Communication Protocols** (Sander et al., TU Munich) — five-dimension taxonomy of LLM agent protocols (counterparty, payload, state, discovery, schema flexibility); [arXiv:2606.19135](https://arxiv.org/abs/2606.19135) (2026.06).
 - **Agentic Auto-Scheduling: An Experimental Study of LLM-Guided Loop Optimization** (Merouani et al., PACT 2025) — ComPilot uses off-the-shelf LLMs in a compiler feedback loop for loop-nest optimization; [arXiv:2511.00592](https://arxiv.org/abs/2511.00592) (2025.11).
 - **Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models**
+- **Autodata: An agentic data scientist to create high quality synthetic data** (Kulikov et al., Meta) — agentic framework for iterative synthetic training and benchmark data creation with meta-optimized data-scientist agents (Agentic Self-Instruct); [arXiv:2606.25996](https://arxiv.org/abs/2606.25996) (2026.06).
 - **Agents of Chaos**
 - **Beyond Synthetic Benchmarks: Evaluating LLM Performance on Real-World Class-Level Code Generation**
 - **Dive into Claude Code: The Design Space of Today's and Future AI Agent Systems**
@@ -61,6 +62,7 @@ papers/
 - **Fundamentals of Building Autonomous LLM Agents**
 - **[Harness engineering: leveraging Codex in an agent-first world](agents-and-engineering/Harness%20engineering_%20leveraging%20Codex%20in%20an%20agent-first%20world%20_%20OpenAI.pdf)** (OpenAI) — agent-first software engineering with Codex; pairs with [cursor-claude-codex/references/upstream-repos-catalog.md](../cursor-claude-codex/references/upstream-repos-catalog.md) and [reports/README.md](../reports/README.md) for industry framing.
 - **Measuring Agents in Production**
+- **MCP Server Architecture Patterns for LLM-Integrated Applications** (Rodrigues & Vas) — five production MCP server patterns (Resource Gateway, Tool Orchestrator, Stateful Session Server, Proxy Aggregator, Domain-Specific Adapter) plus anti-patterns and cross-cutting concerns; [arXiv:2606.30317](https://arxiv.org/abs/2606.30317) (2026.06).
 - **Scaling Laws for Agent Harnesses via Effective Feedback Compute** (Zhang et al., Harbin Institute of Technology) — introduces Effective Feedback Compute (EFC) as a scaling coordinate for agent harnesses; [arXiv:2605.29682](https://arxiv.org/abs/2605.29682) (2026.05).
 - **Towards a Science of Scaling Agent Systems**
 - **Virtual Agent Economies**

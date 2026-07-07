@@ -29,6 +29,7 @@ Curated industry and research reports from consulting firms, AI labs, and VCs. U
 
 | Report | Source | Focus |
 |--------|--------|-------|
+| [AI Index Report 2026](Stanford%20AI%20index%20Report%202026.pdf) | Stanford HAI | Annual data-driven AI landscape (R&D, performance, economy, science, medicine, policy, public opinion) |
 | [State of AI Report 2025](State%20of%20AI%20Report%20-%202025%20%28Air%20Street%20Capital%29.pdf) | Air Street Capital | Annual AI landscape (research, industry, politics, safety) |
 | [Artificial Intelligence Trends](Bond%20-%20Artificial_Intelligence%20Trends.pdf) | Bond (Mary Meeker) | Market and usage trends with charts |
 | [The Ultimate Guide to Fine-Tuning LLMs](The%20Ultimate%20Guide%20to%20Fine-Tuning%20LLMs%20from%20Basics%20to%20Breakthroughs.pdf) | Research compilation | Technical guide to fine-tuning (also in [papers/models-and-training/](../papers/models-and-training/)) |
@@ -39,7 +40,7 @@ Curated industry and research reports from consulting firms, AI labs, and VCs. U
 - **Building a pitch deck?** Start with Deloitte, KPMG, or McKinsey for executive-ready framing.
 - **Designing an agent?** [OpenAI's practical guide](OpenAI%20-%20A%20practical%20guide%20to%20building%20agents.pdf) + [cursor-claude-codex/references/agentic-patterns.md](../cursor-claude-codex/references/agentic-patterns.md) is the fastest path.
 - **Measuring impact?** [Deloitte's measure leap](Deloitte%20-%20The%20measure%20leap_%20Appraising%20AI%20agent%20impact%20with%20agent%20operations.pdf) and [Anthropic's productivity paper](Estimating%20AI%20productivity%20gains%20from%20Claude%20conversations.pdf).
-- **Yearly landscape?** [State of AI Report 2025](State%20of%20AI%20Report%20-%202025%20%28Air%20Street%20Capital%29.pdf).
+- **Yearly landscape?** [Stanford AI Index 2026](Stanford%20AI%20index%20Report%202026.pdf) (rigorous, data-driven) or [State of AI Report 2025](State%20of%20AI%20Report%20-%202025%20%28Air%20Street%20Capital%29.pdf) (VC/industry lens).
 
 ## Related research in this repo
 
