@@ -52,6 +52,7 @@ Skills in this folder are designed to work for **both Cursor and Claude Code**. 
 | `frontend-design` | Distinctive frontend interfaces; bold aesthetic, avoid generic AI look | [mitsuhiko/agent-stuff](https://github.com/mitsuhiko/agent-stuff) (Apache-2.0) |
 | `web-design-guidelines` | Audit UI against Vercel Web Interface Guidelines (summary; fetches live rules) | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) (MIT) |
 | `writing-guidelines` | Review docs/prose against Vercel's Writing Guidelines (summary; fetches live rules via WebFetch) | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) (MIT) |
+| `plain-writing` | Write and revise prose in plain language (simple words, no filler/jargon/dashes); optional HTML diff of edits | [shreyashankar/plain-writing-skill](https://github.com/shreyashankar/plain-writing-skill) |
 | `update-changelog` | Update CHANGELOG.md with notable changes since last release | [mitsuhiko/agent-stuff](https://github.com/mitsuhiko/agent-stuff) (Apache-2.0) |
 
 ### React / Next.js (Vercel skills)
@@ -102,8 +103,9 @@ Subfolders that group multiple related skills from a single upstream source. Eac
 | [alirezarezvani-skills/](./alirezarezvani-skills/) | 11 | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) (MIT) | Skill supply-chain audit + Playwright/E2E depth (`playwright-pro`). |
 | [research-paper-writing/](./research-paper-writing/) | 1 | [Master-cai/Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills) (MIT, ~4.3k ★) | Section-by-section ML/CV/NLP research-paper rewrite workflow, curated from Prof. Peng Sida's notes. |
 | [forward-future-loop-library/](./forward-future-loop-library/) | 1 | [Forward-Future/loop-library](https://github.com/Forward-Future/loop-library) (MIT, ~1.6k ★) | Discover/find/audit/adapt/design bounded AI-agent loops; 69-loop live catalog linked. |
+| [david-ondrej/](./david-ondrej/) | 30 | [davidondrej/skills](https://github.com/davidondrej/skills) (MIT) | Multi-agent orchestration, research/web, skill meta-authoring, thinking/docs. Highlights: `effective-agent-skills`, `codex-goal-loop`, `browser-harness`, `research-prompt`. ~40% reference David's personal stack (cmux, DeepAPI, Pi). |
 
-**Total:** 29 top-level skills + 269 in category folders = **298** `SKILL.md` packages. For Jeremy's other **18 categories** (devops, security, frontend/backend, ML, data, AWS/GCP, APIs, docs, enterprise), see the upstream repo.
+**Total:** 30 top-level skills + 299 in category folders = **329** `SKILL.md` packages. For Jeremy's other **18 categories** (devops, security, frontend/backend, ML, data, AWS/GCP, APIs, docs, enterprise), see the upstream repo.
 
 ## Attribution & licenses
 

@@ -94,7 +94,7 @@ Content integrated from the following repositories (adapted for our use, no runt
 | Source | License | What we integrated |
 |--------|---------|--------------------|
 | [obra/superpowers](https://github.com/obra/superpowers) | MIT | 14 workflow/quality/multi-agent skills @ v6.0.3 — see [skills/README.md](./skills/README.md) |
-| [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | MIT | 8 React/Next/Vercel skills (3 summaries + 5 full packages; vercel-optimize added 2026-06-25) — [skills/README.md](./skills/README.md) |
+| [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | MIT | 9 React/Next/Vercel skills (3 summaries + 6 full packages; vercel-optimize added 2026-06-25) — [skills/README.md](./skills/README.md) |
 | [xiaolai/Claude-BugHunter](https://github.com/xiaolai/Claude-BugHunter) | MIT | [skills/bug-hunter/](./skills/bug-hunter/) — 51 offensive-security skills + commands |
 | [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | Apache-2.0 | [skills/anthropic-cybersecurity-skills/](./skills/anthropic-cybersecurity-skills/) — 109 blue-team + AI-security + supply-chain + hardware skills @ v1.3.0 |
 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | MIT | [skills/taste-skills/](./skills/taste-skills/) — 13 anti-slop frontend design skills |
@@ -117,6 +117,8 @@ Content integrated from the following repositories (adapted for our use, no runt
 | [benchflow-ai/awesome-evals](https://github.com/benchflow-ai/awesome-evals) | CC0 1.0 | [references/awesome-evals/](./references/awesome-evals/) — eval reference catalog (443+ links) + PATTERNS playbook + 146 notes |
 | [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | Apache-2.0 | [research/llms-from-scratch/](../research/llms-from-scratch/) — 66 notebooks (GPT/attention/pretrain/finetune/LoRA) |
 | [huggingface/smol-course](https://github.com/huggingface/smol-course) | Apache-2.0 | [research/smol-course/](../research/smol-course/) — 12 notebooks (instruction tuning, DPO, LoRA/PEFT, eval, VLM, agents) |
+| [shreyashankar/plain-writing-skill](https://github.com/shreyashankar/plain-writing-skill) | — | [skills/plain-writing/](./skills/plain-writing/) — plain-language prose skill + HTML revision diff template |
+| [davidondrej/skills](https://github.com/davidondrej/skills) | MIT | [skills/david-ondrej/](./skills/david-ondrej/) — 30 agent-orchestration, research, skill-authoring, and thinking/docs skills |
 
-**298** agent skills total — full index: [skills/README.md](./skills/README.md).  
+**329** agent skills total — full index: [skills/README.md](./skills/README.md).  
 Additional upstream projects (link-only + OpenClaw snapshots): [upstream-repos-catalog.md](./references/upstream-repos-catalog.md) · [nice-projects/README.md](../nice-projects/README.md).

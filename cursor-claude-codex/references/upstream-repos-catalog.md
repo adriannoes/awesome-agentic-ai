@@ -38,6 +38,8 @@ Curated notes on external repos that complement **Cursor**, **Claude Code**, and
 | learning_research (research methodology) | ❌ link only | [pengsida/learning_research](https://github.com/pengsida/learning_research) |
 | Loop Library (bounded agent loops) | ✅ 1 skill | [Forward-Future/loop-library](https://github.com/Forward-Future/loop-library) |
 | Research Paper Writing | ✅ 1 skill | [Master-cai/Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills) |
+| Plain writing | ✅ 1 skill | [shreyashankar/plain-writing-skill](https://github.com/shreyashankar/plain-writing-skill) |
+| David Ondrej skills | ✅ 30 skills | [davidondrej/skills](https://github.com/davidondrej/skills) |
 | Awesome Agent Evals (eval reference catalog) | ✅ README + PATTERNS + 146 notes | [benchflow-ai/awesome-evals](https://github.com/benchflow-ai/awesome-evals) |
 | LLMs-from-scratch (notebooks) | ✅ 66 notebooks | [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) |
 | smol-course (alignment notebooks) | ✅ 12 notebooks | [huggingface/smol-course](https://github.com/huggingface/smol-course) |
@@ -556,6 +558,44 @@ npx skills add Master-cai/Research-Paper-Writing-Skills
 ```
 
 **Fit for this hub:** Covers the *writing-up* side of research that our [research/](../../../research/) notebooks (Karpathy, nanochat, autoresearch) don't. Pairs with [autoresearch](../skills/autoresearch/) (the research loop) as the writing companion, and with [writing-plans](../skills/writing-plans/) / [writing-skills](../skills/writing-skills/) for structured-writing discipline.
+
+---
+
+## [shreyashankar/plain-writing-skill](https://github.com/shreyashankar/plain-writing-skill)
+
+**License:** No license declared upstream (as of 2026-07-02). **~200 ★.**
+
+**What it is:** A single **agent skill** that makes the agent write and revise prose in a **plain style**: simple everyday words, complete sentences, no dashes, no jargon, no analogies, no filler, and full clear explanations. When revising, the skill can emit an HTML file (first draft / second draft / diff with hover reasons) using a bundled template. Platform-agnostic — any agent that can read `SKILL.md` can follow it.
+
+**Vendored in this hub (as of 2026-07-02):** [skills/plain-writing/](../skills/plain-writing/) — `SKILL.md` + `assets/revision_template.html`.
+
+**Install upstream (alternative):**
+
+```bash
+git clone https://github.com/shreyashankar/plain-writing-skill ~/.claude/skills/plain-writing
+```
+
+**Fit for this hub:** General-purpose prose layer for READMEs, docs, reports, emails, and PR/commit text. Complements [writing-guidelines](../skills/writing-guidelines/) (Vercel handbook compliance audit) and [research-paper-writing](../skills/research-paper-writing/) (academic section rewrite).
+
+---
+
+## [davidondrej/skills](https://github.com/davidondrej/skills)
+
+**License:** MIT (Copyright 2026 David Ondrej).
+
+**What it is:** David Ondrej's official agent-skills collection — **30** reusable workflows for coding agents, research agents, and workflow agents. Public mirror of a private `~/.agents` skills repo. Five category folders: `agent-orchestration/` (8), `ops-and-setup/` (5), `research-and-web/` (7), `skill-authoring/` (4), `thinking-and-docs/` (6). Almost every skill is a single `SKILL.md`; `browser-harness` ships `references/install.md`; `teach` ships four `*-FORMAT.md` companion files.
+
+**Vendored in this hub (as of 2026-07-05):** [skills/david-ondrej/](../skills/david-ondrej/) — all 30 skills, preserving upstream category layout + `LICENSE` + `UPSTREAM-README.md`.
+
+**Honest assessment:** High-quality meta-skill (`effective-agent-skills`, 15 KB), Codex-specific (`codex-goal-loop`), eval tooling (`run-deep-swe`), and research patterns (`research-prompt`, `browser-harness`). ~40% of skills reference David's personal stack (cmux, DeepAPI, Pi Agent, Hermes, VPS hosts) — keep originals, adapt paths at install time. Three name collisions with existing hub skills (`grill-me`, `handoff`, `teach` in [matt-pocock/](../skills/matt-pocock/)); documented in bundle README.
+
+**Install upstream (alternative):**
+
+```bash
+git clone https://github.com/davidondrej/skills ~/.agents/skills-davidondrej
+```
+
+**Fit for this hub:** Complements obra/superpowers orchestration skills, [matt-pocock/](../skills/matt-pocock/) grilling/handoff/teach variants, and [writing-skills](../skills/writing-skills/) meta-authoring. Unique value: `codex-goal-loop`, `fable-safe-prompt`, `run-deep-swe`, `cmux` reference, `research-prompt`.
 
 ---
 
