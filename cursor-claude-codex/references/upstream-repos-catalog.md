@@ -403,7 +403,7 @@ codex-profile cli work exec "review this repo"
 
 Pair with hub skills in `~/.agents/skills/` per profile. For tool-name mapping when running superpowers-style skills on Codex, see [using-superpowers/references/codex-tools.md](../skills/using-superpowers/references/codex-tools.md).
 
-**Fit for this hub:** Developer setup utility for the Codex column of [cursor-claude-codex/README.md](../README.md). Complements multi-account OpenClaw skills (e.g. `codex-account-switcher` in the OpenClaw catalog) with a focused, MIT-licensed CLI maintained by [Ducksss](https://github.com/Ducksss). Suggested via [issue #3](https://github.com/adriannoes/awesome-vibe-coding/issues/3).
+**Fit for this hub:** Developer setup utility for the Codex column of [cursor-claude-codex/README.md](../README.md). Complements multi-account OpenClaw skills (e.g. `codex-account-switcher` in the OpenClaw catalog) with a focused, MIT-licensed CLI maintained by [Ducksss](https://github.com/Ducksss). Suggested via [issue #3](https://github.com/adriannoes/awesome-agentic-ai/issues/3).
 
 ---
 
@@ -440,9 +440,9 @@ npx skills add https://github.com/Leonxlnx/taste-skill
 npx skills add https://github.com/Leonxlnx/taste-skill --skill "design-taste-frontend"
 ```
 
-**Vendored in this hub (as of 2026-06-10):** [skills/taste-skills/](../skills/taste-skills/) — **13 skills** @ commit `1a6dc0a`. Hub README: [taste-skills/README.md](../skills/taste-skills/README.md); upstream README: [UPSTREAM-README.md](../skills/taste-skills/UPSTREAM-README.md). Refresh: [MAINTENANCE.md](../MAINTENANCE.md#leonxlnxtaste-skill).
+**Vendored in this hub (as of 2026-07-07):** [skills/taste-skills/](../skills/taste-skills/) — **13 skills** @ commit `b177427`. Hub README: [taste-skills/README.md](../skills/taste-skills/README.md); upstream README: [UPSTREAM-README.md](../skills/taste-skills/UPSTREAM-README.md). Refresh: [MAINTENANCE.md](../MAINTENANCE.md#leonxlnxtaste-skill).
 
-**Honest assessment:** All 13 skills **PASS** [skill-security-auditor](../skills/alirezarezvani-skills/skill-security-auditor/) (2026-06-10). Complements — does not replace — [frontend-design](../skills/frontend-design/) and [web-design-guidelines](../skills/web-design-guidelines/). v2 default is experimental; pin commits or use `design-taste-frontend-v1` for stable v1 behavior. Not for global `alwaysApply`.
+**Honest assessment:** All 13 skills **PASS** [skill-security-auditor](../skills/alirezarezvani-skills/skill-security-auditor/) (2026-07-07). Complements — does not replace — [frontend-design](../skills/frontend-design/) and [web-design-guidelines](../skills/web-design-guidelines/). v2 default is experimental; pin commits or use `design-taste-frontend-v1` for stable v1 behavior. Not for global `alwaysApply`.
 
 **Fit for this hub:** Product Builders and frontend vibe-coding — landing pages, portfolios, marketing redesigns. Pairs with [design-md/](./design-md/) (Stitch) and [composition-patterns](../skills/composition-patterns/) for React structure after visual direction is set.
 
@@ -623,7 +623,7 @@ git clone https://github.com/davidondrej/skills ~/.agents/skills-davidondrej
 
 **Vendored in this hub (as of 2026-06-25):** [../../research/llms-from-scratch/](../../research/llms-from-scratch/) — chapter notebooks + appendices + setup + `pkg/` helper, mirrored from upstream `main`. The `reasoning-from-scratch` submodule is **not** included here (vendored separately at [../../research/reasoning-from-scratch/](../../research/reasoning-from-scratch/)).
 
-**Fit for this hub:** The end-to-end LLM pipeline in notebooks the hub was missing. Sits between [nn-zero-to-hero](../../research/nn-zero-to-hero/) (prerequisites) and [reasoning-from-scratch](../../research/reasoning-from-scratch/) (the next book). appendix-E (LoRA) + ch07 (instruction finetuning) pair with the fine-tuning/alignment hands-on in [smol-course](../../research/smol-course/).
+**Fit for this hub:** The end-to-end LLM pipeline in notebooks the hub was missing. Sits between [nn-zero-to-hero](../../research/nn-zero-to-hero/) (prerequisites) and [reasoning-from-scratch](../../research/reasoning-from-scratch/) (the next book). appendix-E (LoRA) + ch07 (instruction finetuning) pair with the fine-tuning/alignment hands-on in [smol-course](../../research/smol-course/). Same-author visual companion: [rasbt/llm-architecture-gallery](https://github.com/rasbt/llm-architecture-gallery) (link-only in [nice-projects](../../nice-projects/README.md#research--papers)).
 
 ---
 

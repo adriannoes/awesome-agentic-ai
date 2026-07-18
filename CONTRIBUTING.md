@@ -41,4 +41,4 @@ That prints `SKILL.md` totals and the **curated subtotal** used for marketing co
 
 ## Questions
 
-[Open a Discussion](https://github.com/adriannoes/awesome-vibe-coding/discussions) or reach out.
+[Open a Discussion](https://github.com/adriannoes/awesome-agentic-ai/discussions) or reach out.
