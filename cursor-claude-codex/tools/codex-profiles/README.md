@@ -7,7 +7,7 @@
 
 Switch Codex CLI and Desktop accounts with isolated `CODEX_HOME` directories. Each profile keeps auth, config, sessions, connectors, plugins, caches, and logs separate — without copying `auth.json` between accounts.
 
-Included in [awesome-vibe-coding](https://github.com/adriannoes/awesome-vibe-coding) for discoverability alongside [Codex-compatible skills](../../skills/). **Active development stays upstream.**
+Included in [awesome-agentic-ai](https://github.com/adriannoes/awesome-agentic-ai) for discoverability alongside [Codex-compatible skills](../../skills/). **Active development stays upstream.**
 
 ## Install (recommended — canonical)
 

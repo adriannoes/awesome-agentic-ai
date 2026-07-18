@@ -1,12 +1,12 @@
 <div align="center">
 
 ```
- ██╗   ██╗ ██╗ ██████╗  ███████╗      ██████╗  ██████╗  ██████╗  ██╗ ███╗   ██╗ ██████╗
- ██║   ██║ ██║ ██╔══██╗ ██╔════╝     ██╔════╝ ██╔═══██╗ ██╔══██╗ ██║ ████╗  ██║ ██╔════╝
- ██║   ██║ ██║ ██████╔╝ █████╗       ██║      ██║   ██║ ██║  ██║ ██║ ██╔██╗ ██║ ██║  ███╗
- ╚██╗ ██╔╝ ██║ ██╔══██╗ ██╔══╝       ██║      ██║   ██║ ██║  ██║ ██║ ██║╚██╗██║ ██║   ██║
-  ╚████╔╝  ██║ ██████╔╝ ███████╗     ╚██████╗ ╚██████╔╝ ██████╔╝ ██║ ██║ ╚████║ ╚██████╔╝
-   ╚═══╝   ╚═╝ ╚═════╝  ╚══════╝      ╚═════╝  ╚═════╝  ╚═════╝  ╚═╝ ╚═╝  ╚═══╝ ╚═════╝
+ █████╗   ██████╗  ███████╗ ███╗   ██╗ ████████╗ ██╗  ██████╗     █████╗  ██╗
+██╔══██╗ ██╔════╝  ██╔════╝ ████╗  ██║ ╚══██╔══╝ ██║ ██╔════╝    ██╔══██╗ ██║
+███████║ ██║  ███╗ █████╗   ██╔██╗ ██║    ██║    ██║ ██║         ███████║ ██║
+██╔══██║ ██║   ██║ ██╔══╝   ██║╚██╗██║    ██║    ██║ ██║         ██╔══██║ ██║
+██║  ██║ ╚██████╔╝ ███████╗ ██║ ╚████║    ██║    ██║ ╚██████╗    ██║  ██║ ██║
+╚═╝  ╚═╝  ╚═════╝  ╚══════╝ ╚═╝  ╚═══╝    ╚═╝    ╚═╝  ╚═════╝    ╚═╝  ╚═╝ ╚═╝
 ```
 
 </div>
@@ -15,7 +15,7 @@
 
 > The most complete collection of battle-tested AI-assisted development resources — for Product Managers, Designers, and Developers who want to ship real products with AI.
 
-**What's inside:** **329** agent skills (Cursor, Claude Code & Codex) · **8** slash commands · **21** coding rules · **201** Jupyter notebooks · **51** research papers (PDF, 9 themes) · **16** industry reports · **21** n8n workflow templates · **14** system prompts · **36** OpenClaw agents · **5,380** OpenClaw skills indexed · **71** curated GitHub projects.
+**What's inside:** **329** agent skills (Cursor, Claude Code & Codex) · **8** slash commands · **21** coding rules · **201** Jupyter notebooks · **51** research papers (PDF, 9 themes) · **16** industry reports · **21** n8n workflow templates · **14** system prompts · **36** OpenClaw agents · **5,380** OpenClaw skills indexed · **73** curated GitHub projects.
 
 Whether you're a PM who wants to prototype faster, a Designer who wants to understand the code your AI is generating, or a Developer looking for the sharpest rules to ship with — this repo is built to be copied, forked, and used the same day.
 
@@ -80,7 +80,7 @@ Battle-tested prompts for Cursor, Claude, Grok, Kimi, n8n, Lovable, v0, and more
 
 ### Learning ([learning/](learning/))
 
-Three freely-available textbooks that ground the notebooks and skills in this repo: *Understanding Deep Learning* (Prince), *Mathematics for Computer Science* (MIT 6.042J), and *Algorithms for Decision Making* (Stanford). See [learning/README.md](learning/README.md) for what each is best for.
+Five freely-available textbooks and references that ground the notebooks and skills in this repo: *Understanding Deep Learning* (Prince), *Mathematics for Computer Science* (MIT 6.042J), *Algorithms for Decision Making* (Stanford), the *CUDA C++ Programming Guide* (NVIDIA), and *Optimizing Software in C++* (Agner Fog). See [learning/README.md](learning/README.md) for what each is best for.
 
 ### Reports ([reports/](reports/))
 
@@ -92,7 +92,7 @@ Three freely-available textbooks that ground the notebooks and skills in this re
 
 ### Projects to watch ([nice-projects/](nice-projects/))
 
-**71** hand-picked open-source repos — tools, AI/ML, agent skills, and the upstream sources behind vendored hub content. See [nice-projects/README.md](nice-projects/README.md) and the full catalog at [cursor-claude-codex/references/upstream-repos-catalog.md](cursor-claude-codex/references/upstream-repos-catalog.md).
+**73** hand-picked open-source repos — tools, AI/ML, agent skills, and the upstream sources behind vendored hub content. See [nice-projects/README.md](nice-projects/README.md) and the full catalog at [cursor-claude-codex/references/upstream-repos-catalog.md](cursor-claude-codex/references/upstream-repos-catalog.md).
 
 ### n8n templates ([n8n-templates/](n8n-templates/))
 
@@ -146,7 +146,7 @@ Counts verified against the repo tree (2026-07-02):
 | Upstream sources integrated | **25** | [cursor-claude-codex/README.md](cursor-claude-codex/README.md#credits--sources) |
 | OpenClaw agents catalogued | **36** | [openclaw/README.md](openclaw/README.md) |
 | OpenClaw skills indexed (snapshot) | **5,380** | [openclaw/skills/README.md](openclaw/skills/README.md) |
-| GitHub projects to watch | **71** | [nice-projects/README.md](nice-projects/README.md) |
+| GitHub projects to watch | **73** | [nice-projects/README.md](nice-projects/README.md) |
 | Jupyter notebooks | **201** | [research/README.md](research/README.md) |
 | Research papers (PDF, 9 themes) | **51** | [papers/README.md](papers/README.md) |
 | Industry reports (PDF) | **16** | [reports/README.md](reports/README.md) |
