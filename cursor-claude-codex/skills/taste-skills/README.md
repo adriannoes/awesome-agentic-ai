@@ -2,7 +2,7 @@
 
 **Source:** [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)  
 **License:** MIT — see [LICENSE](./LICENSE)  
-**Vendored:** 2026-06-10 — **13 skills** @ commit `1a6dc0a` (full mirror, `SKILL.md` packages only)  
+**Vendored:** 2026-07-07 — **13 skills** @ commit `b177427` (full mirror, `SKILL.md` packages only)  
 **Upstream README:** [UPSTREAM-README.md](./UPSTREAM-README.md) · **Changelog:** [CHANGELOG.md](./CHANGELOG.md)
 
 ## What it is

@@ -37,6 +37,7 @@ This is the **end-to-end LLM pipeline in notebooks** the hub was missing. It sit
 - [../nanochat/](../nanochat/) — Karpathy's minimal ChatGPT stack (only 2 analysis notebooks here; the full pipeline is this repo)
 - [../reasoning-from-scratch/](../reasoning-from-scratch/) — same author, the *next* book (inference-time scaling, RL, distillation on a pretrained base)
 - [../nlp-with-transformers/](../nlp-with-transformers/) — applied NLP with transformer libraries (this repo builds the transformer *itself*)
+- [rasbt/llm-architecture-gallery](https://github.com/rasbt/llm-architecture-gallery) — same author's visual architecture fact sheets ([live gallery](https://sebastianraschka.com/llm-architecture-gallery/)); linked from [nice-projects/](../../nice-projects/README.md#research--papers)
 
 appendix-E (LoRA) and ch07 (instruction finetuning) pair with the fine-tuning/alignment hands-on in [../smol-course/](../smol-course/).
 

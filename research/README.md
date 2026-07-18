@@ -26,7 +26,7 @@ This repository contains the code for developing an LLM reasoning model and is t
 
 **Source:** [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) · **License:** Apache-2.0
 
-Official code for the book [*Build a Large Language Model (From Scratch)*](https://manning.com/books/build-a-large-language-model-from-scratch) by Sebastian Raschka. Step-by-step PyTorch notebooks implementing a ChatGPT-like LLM from scratch — text data → attention → GPT model → pretraining → finetuning (classification + instruction-following) → LoRA (appendix-E). **66 notebooks** across ch02–ch07 + appendix-A/D/E, plus bonus sections (gpt-to-llama, qwen3, muon optimizer). The from-scratch prequel to `reasoning-from-scratch` and the full-pipeline companion to `nanochat`.
+Official code for the book [*Build a Large Language Model (From Scratch)*](https://manning.com/books/build-a-large-language-model-from-scratch) by Sebastian Raschka. Step-by-step PyTorch notebooks implementing a ChatGPT-like LLM from scratch — text data → attention → GPT model → pretraining → finetuning (classification + instruction-following) → LoRA (appendix-E). **66 notebooks** across ch02–ch07 + appendix-A/D/E, plus bonus sections (gpt-to-llama, qwen3, muon optimizer). The from-scratch prequel to `reasoning-from-scratch` and the full-pipeline companion to `nanochat`. For a visual map of major LLM architectures (same author), see [rasbt/llm-architecture-gallery](https://github.com/rasbt/llm-architecture-gallery) in [nice-projects/](../nice-projects/README.md#research--papers).
 
 **Notebooks:** See [llms-from-scratch/README.md](llms-from-scratch/README.md) for the chapter/bonus table and the upstream README.
 
@@ -147,6 +147,10 @@ Companion notebooks and book PDF for **"Understanding Deep Learning"** by Simon 
 
 **Notebook:**
 - `Deepseek_OCR_(3B).ipynb` - Deepseek OCR model notebook (3B parameters)
+
+## Related learning materials
+
+GPU-oriented tracks (`llms-from-scratch`, `nanochat`, `autoresearch`, `smol-course`) assume NVIDIA hardware for training. The canonical API reference is the [CUDA C++ Programming Guide](../learning/CUDA_C_Programming_Guide.pdf) in [learning/](../learning/) — see [learning/README.md](../learning/README.md) for how it fits with the other textbooks. For CPU-side C++ performance (hotspots, compilers, SIMD), pair it with Agner Fog's [Optimizing Software in C++](../learning/Optimizing_Software_in_Cpp.pdf). For cluster-scale training/inference ops (accelerators, storage, networking, SLURM, debugging), see Stas Bekman's [*Machine Learning Engineering Open Book*](https://github.com/stas00/ml-engineering) in [nice-projects/](../nice-projects/README.md#study-material-).
 
 ---
 

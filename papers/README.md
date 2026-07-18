@@ -39,6 +39,8 @@ papers/
 - **Scaling Laws for Neural Language Models** (2020)
 - **Training Compute-Optimal Large Language Models** (Chinchilla, 2022)
 
+Visual companion (architectures across the foundation-model era): Sebastian Raschka's [LLM Architecture Gallery](https://sebastianraschka.com/llm-architecture-gallery/) — source metadata at [rasbt/llm-architecture-gallery](https://github.com/rasbt/llm-architecture-gallery), indexed in [nice-projects/](../nice-projects/README.md#research--papers).
+
 ### [alignment-and-post-training/](alignment-and-post-training/)
 
 - **Training language models to follow instructions with human feedback** (InstructGPT / RLHF, 2022)
