@@ -34,17 +34,20 @@ Curated industry and research reports from consulting firms, AI labs, and VCs. U
 | [Artificial Intelligence Trends](Bond%20-%20Artificial_Intelligence%20Trends.pdf) | Bond (Mary Meeker) | Market and usage trends with charts |
 | [The Ultimate Guide to Fine-Tuning LLMs](The%20Ultimate%20Guide%20to%20Fine-Tuning%20LLMs%20from%20Basics%20to%20Breakthroughs.pdf) | Research compilation | Technical guide to fine-tuning (also in [papers/models-and-training/](../papers/models-and-training/)) |
 | [The New SDLC With Vibe Coding](The%20New%20SDLC%20With%20Vibe%20Coding.pdf) | Industry report | How the software development lifecycle shifts under vibe coding — pairs with this repo's [cursor-claude-codex/](../cursor-claude-codex/) skills and [prompt-engineering/](../prompt-engineering/) |
+| [Graph Engineering for Multi-Agentic Systems: The Andrew Ng Playbook](Graph_Engineering_Andrew_Ng_Playbook.pdf) | Independent working note (Jul 2026) | Ng's four patterns + Anthropic workflows → graph/knowledge-graph orchestration for multi-agent systems; independently compiled (not affiliated with Ng / DeepLearning.AI). Pairs with [agentic-patterns.md](../cursor-claude-codex/references/agentic-patterns.md) and OpenAI's practical agent guide |
 
 ## How to use this folder
 
 - **Building a pitch deck?** Start with Deloitte, KPMG, or McKinsey for executive-ready framing.
-- **Designing an agent?** [OpenAI's practical guide](OpenAI%20-%20A%20practical%20guide%20to%20building%20agents.pdf) + [cursor-claude-codex/references/agentic-patterns.md](../cursor-claude-codex/references/agentic-patterns.md) is the fastest path.
+- **Designing an agent?** [OpenAI's practical guide](OpenAI%20-%20A%20practical%20guide%20to%20building%20agents.pdf) + [cursor-claude-codex/references/agentic-patterns.md](../cursor-claude-codex/references/agentic-patterns.md) is the fastest path. For loops → multi-agent → knowledge-graph orchestration, add the [Graph Engineering / Andrew Ng Playbook](Graph_Engineering_Andrew_Ng_Playbook.pdf). For the full technical stack (foundations → systems), read Roitman's [*Hitchhiker's Guide to Agentic AI*](../learning/Hitchhikers_Guide_to_Agentic_AI.pdf) in [learning/](../learning/).
 - **Measuring impact?** [Deloitte's measure leap](Deloitte%20-%20The%20measure%20leap_%20Appraising%20AI%20agent%20impact%20with%20agent%20operations.pdf) and [Anthropic's productivity paper](Estimating%20AI%20productivity%20gains%20from%20Claude%20conversations.pdf).
 - **Yearly landscape?** [Stanford AI Index 2026](Stanford%20AI%20index%20Report%202026.pdf) (rigorous, data-driven) or [State of AI Report 2025](State%20of%20AI%20Report%20-%202025%20%28Air%20Street%20Capital%29.pdf) (VC/industry lens).
 
 ## Related research in this repo
 
 - **Agent harness (engineering):** [Harness engineering: leveraging Codex in an agent-first world](../papers/agents-and-engineering/Harness%20engineering_%20leveraging%20Codex%20in%20an%20agent-first%20world%20_%20OpenAI.pdf) in [papers/agents-and-engineering/](../papers/agents-and-engineering/) — complements OpenAI's practical agent guide and [cursor-claude-codex/references/agentic-patterns.md](../cursor-claude-codex/references/agentic-patterns.md).
+- **Graph / multi-agent orchestration:** [Graph Engineering for Multi-Agentic Systems](Graph_Engineering_Andrew_Ng_Playbook.pdf) in this folder — Ng-style patterns composed into graph-grounded architectures (shared state, provenance, persistence).
+- **Full agentic textbook:** [*The Hitchhiker's Guide to Agentic AI*](../learning/Hitchhikers_Guide_to_Agentic_AI.pdf) (Roitman, arXiv:2606.24937) in [learning/](../learning/) — transformers through multi-agent production systems.
 
 ## A note on reports
 

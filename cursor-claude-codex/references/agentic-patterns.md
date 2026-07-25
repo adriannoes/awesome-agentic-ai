@@ -79,3 +79,5 @@ For the complete pattern catalogue with 170+ patterns (each with `based_on` prov
 - **Website:** https://agentic-patterns.com
 - **llms.txt:** https://agentic-patterns.com/llms.txt (machine-readable for RAG/LLM context)
 - **Repo:** https://github.com/nibzard/awesome-agentic-patterns
+
+**See also:** [Graph Engineering for Multi-Agentic Systems (Andrew Ng Playbook)](../../reports/Graph_Engineering_Andrew_Ng_Playbook.pdf) in [reports/](../../reports/) — how Reflection / Tool Use / Planning / Multi-Agent compose into graph-grounded architectures with shared knowledge-graph state.
