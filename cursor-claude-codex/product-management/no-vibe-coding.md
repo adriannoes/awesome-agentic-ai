@@ -42,3 +42,8 @@ Before writing code, verify:
 - [ ] Is there a specific task for this work?
 
 If the answer is "No" to any of these, STOP and go back to the Document/Plan phase.
+
+## See also
+
+- [*The Agentic SDLC Handbook*](../../learning/The_Agentic_SDLC_Handbook.pdf) in [learning/](../../learning/) — Meppiel's guide to AI-native SDLC (vibe-coding cliff, PROSE, dual path)
+- [The New SDLC With Vibe Coding](../../reports/The%20New%20SDLC%20With%20Vibe%20Coding.pdf) in [reports/](../../reports/) — industry framing for how the SDLC shifts under AI-assisted development

@@ -15,7 +15,7 @@
 
 > The most complete collection of battle-tested AI-assisted development resources — for Product Managers, Designers, and Developers who want to ship real products with AI.
 
-**What's inside:** **329** agent skills (Cursor, Claude Code & Codex) · **8** slash commands · **21** coding rules · **201** Jupyter notebooks · **52** research papers (PDF, 9 themes) · **17** industry reports · **21** n8n workflow templates · **14** system prompts · **36** OpenClaw agents · **5,380** OpenClaw skills indexed · **73** curated GitHub projects.
+**What's inside:** **329** agent skills (Cursor, Claude Code & Codex) · **8** slash commands · **21** coding rules · **201** Jupyter notebooks · **82** research papers (PDF, 10 themes) · **18** industry reports · **21** n8n workflow templates · **14** system prompts · **36** OpenClaw agents · **5,380** OpenClaw skills indexed · **73** curated GitHub projects.
 
 Whether you're a PM who wants to prototype faster, a Designer who wants to understand the code your AI is generating, or a Developer looking for the sharpest rules to ship with — this repo is built to be copied, forked, and used the same day.
 
@@ -80,11 +80,11 @@ Battle-tested prompts for Cursor, Claude, Grok, Kimi, n8n, Lovable, v0, and more
 
 ### Learning ([learning/](learning/))
 
-Seven freely-available textbooks and references that ground the notebooks and skills in this repo: *Understanding Deep Learning* (Prince), *Mathematics for Computer Science* (MIT 6.042J), *Algorithms for Decision Making* (Stanford), *The Hitchhiker's Guide to Agentic AI* (Roitman), the *CUDA C++ Programming Guide* (NVIDIA), *Optimizing Software in C++* (Agner Fog), and *Practical Guide to Bare Metal C++* (Robenko). See [learning/README.md](learning/README.md) for what each is best for.
+Eight freely-available textbooks and references that ground the notebooks and skills in this repo: *Understanding Deep Learning* (Prince), *Mathematics for Computer Science* (MIT 6.042J), *Algorithms for Decision Making* (Stanford), *The Hitchhiker's Guide to Agentic AI* (Roitman), *The Agentic SDLC Handbook* (Meppiel), the *CUDA C++ Programming Guide* (NVIDIA), *Optimizing Software in C++* (Agner Fog), and *Practical Guide to Bare Metal C++* (Robenko). See [learning/README.md](learning/README.md) for what each is best for.
 
 ### Reports ([reports/](reports/))
 
-17 industry reports from McKinsey, Deloitte, KPMG, OpenAI, Anthropic, Stanford HAI, Air Street Capital, and others — useful for pitch decks, business cases, and agent metrics. See [reports/README.md](reports/README.md) for a themed index.
+18 industry reports from McKinsey, Deloitte, KPMG, OpenAI, Anthropic, Stanford HAI, Air Street Capital, and others — useful for pitch decks, business cases, and agent metrics. See [reports/README.md](reports/README.md) for a themed index.
 
 ### OpenClaw ([openclaw/](openclaw/))
 
@@ -118,25 +118,26 @@ Other items (e.g. DeepSeek OCR) are documented in [research/README.md](research/
 
 ### Papers ([papers/](papers/))
 
-**52** research papers (PDFs) in **9 thematic subfolders** — from classic deep learning (AlexNet, DQN, Word2Vec) through the foundation-model era (Transformers, BERT, GPT-1/2/3, scaling laws, Chinchilla, RLHF, diffusion) to contemporary agent, harness, reliability, and ethics research. Full index: [papers/README.md](papers/README.md).
+**82** research papers (PDFs) in **10 thematic subfolders** — from AI foundations (Turing, Perceptron, Dartmouth) and classic deep learning through the foundation-model era (Transformers, BERT, GPT, MoE, CLIP, scaling laws, Chinchilla, RLHF, DPO, diffusion) to frontier model reports and contemporary agent, harness, reliability, and ethics research. Full index: [papers/README.md](papers/README.md).
 
 | Folder | Focus | PDFs |
 |--------|-------|------|
-| [early-deep-learning/](papers/early-deep-learning/) | CNNs, RL, word embeddings (2012–2013) | 3 |
-| [foundation-models/](papers/foundation-models/) | Transformers, BERT, GPT, scaling laws | 7 |
-| [alignment-and-post-training/](papers/alignment-and-post-training/) | RLHF / InstructGPT | 1 |
-| [generative-models/](papers/generative-models/) | Diffusion models | 1 |
-| [agents-and-engineering/](papers/agents-and-engineering/) | Agents, harnesses, code evaluation | 17 |
-| [reliability-and-reasoning/](papers/reliability-and-reasoning/) | Hallucinations, reasoning, memory, evaluation | 8 |
-| [models-and-training/](papers/models-and-training/) | World models, fine-tuning, DeepSeek | 4 |
+| [ai-foundations/](papers/ai-foundations/) | Turing, McCulloch–Pitts, Hebb, Perceptron, Dartmouth | 5 |
+| [early-deep-learning/](papers/early-deep-learning/) | LeNet, CNNs, RL, embeddings, ResNet, Seq2Seq | 7 |
+| [foundation-models/](papers/foundation-models/) | Transformers, BERT, GPT, MoE, CLIP, scaling laws | 11 |
+| [alignment-and-post-training/](papers/alignment-and-post-training/) | RLHF / InstructGPT, DPO | 2 |
+| [generative-models/](papers/generative-models/) | GANs, diffusion models | 2 |
+| [agents-and-engineering/](papers/agents-and-engineering/) | Agents, harnesses, ReAct, context/memory | 22 |
+| [reliability-and-reasoning/](papers/reliability-and-reasoning/) | Hallucinations, reasoning, LLM-as-judge | 9 |
+| [models-and-training/](papers/models-and-training/) | Frontier reports, world models, fine-tuning | 13 |
 | [ethics-risks-and-society/](papers/ethics-risks-and-society/) | Risks, work, autonomy | 7 |
 | [perspectives-and-futures/](papers/perspectives-and-futures/) | Long-term AI visions | 4 |
 
-Includes **12** foundational PDFs added to the repo (early DL through alignment and diffusion). Code-LLM papers (AlphaCode, StarCoder, DeepSeek-Coder, …) are external links in [papers/README.md](papers/README.md#foundation-models-for-code-external-references).
+Code-LLM papers (AlphaCode, StarCoder, DeepSeek-Coder, …) are external links in [papers/README.md](papers/README.md#foundation-models-for-code-external-references).
 
 ## Stats
 
-Counts verified against the repo tree (2026-07-02):
+Counts verified against the repo tree (2026-08-11):
 
 | Resource | Count | Entry point |
 |----------|------:|-------------|
@@ -148,8 +149,8 @@ Counts verified against the repo tree (2026-07-02):
 | OpenClaw skills indexed (snapshot) | **5,380** | [openclaw/skills/README.md](openclaw/skills/README.md) |
 | GitHub projects to watch | **73** | [nice-projects/README.md](nice-projects/README.md) |
 | Jupyter notebooks | **201** | [research/README.md](research/README.md) |
-| Research papers (PDF, 9 themes) | **52** | [papers/README.md](papers/README.md) |
-| Industry reports (PDF) | **17** | [reports/README.md](reports/README.md) |
+| Research papers (PDF, 10 themes) | **82** | [papers/README.md](papers/README.md) |
+| Industry reports (PDF) | **18** | [reports/README.md](reports/README.md) |
 | n8n workflow templates | **21** | [n8n-templates/](n8n-templates/) |
 | System prompt snapshots | **14** | [prompt-engineering/prompts/](prompt-engineering/prompts/) |
 

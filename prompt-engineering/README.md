@@ -23,7 +23,7 @@ Battle-tested prompts and system prompt references for AI coding tools.
 
 ## Freshness
 
-Prompts in [prompts/](prompts/) are **dated snapshots** (filenames include model/version dates). Use them for comparison and pattern mining, not as live system prompts. For agent harness design, see the OpenAI paper *Harness engineering* in [papers/agents-and-engineering/](../papers/agents-and-engineering/) ([index](../papers/README.md#agents-and-engineering)).
+Prompts in [prompts/](prompts/) are **dated snapshots** (filenames include model/version dates). Use them for comparison and pattern mining, not as live system prompts. For agent harness design, see the OpenAI paper *Harness engineering* in [papers/agents-and-engineering/](../papers/agents-and-engineering/) ([index](../papers/README.md#agents-and-engineering)); for the foundational reason→act loop, see [*ReAct*](../papers/agents-and-engineering/REACT-%20SYNERGIZING%20REASONING%20AND%20ACTING%20IN%20LANGUAGE%20MODELS.pdf). For durable stateful graph workflows (LangGraph recipes with repair loops and HITL checkpoints), see [*Graph-Based Agentic AI with LangGraph*](../papers/agents-and-engineering/Graph-Based%20Agentic%20AI%20with%20LangGraph_%20Workflow%20Pathways%20for%20Long-Running%20Stateful%20Business%20Processes.pdf) in the same folder.
 
 When adding a new prompt: keep the date in the filename, note the source in this table, and prefer linking upstream over copying unverified leaks.
 
