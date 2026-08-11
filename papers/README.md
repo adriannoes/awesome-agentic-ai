@@ -4,57 +4,78 @@ This directory contains research papers and resources on Large Language Models (
 
 ## Overview
 
-The collection includes: (1) **foundation models for code** (external references to key code-LLM papers); (2) **52 PDFs** in `papers/`, organized into thematic subfolders — from classic deep-learning papers through contemporary agent and alignment research.
+The collection includes: (1) **foundation models for code** (external references to key code-LLM papers); (2) **82 PDFs** in `papers/`, organized into thematic subfolders — from classic AI foundations through contemporary agent and alignment research.
 
 ## Directory structure
 
 ```
 papers/
-├── early-deep-learning/           # 3 — AlexNet, DQN, Word2Vec (2012–2013)
-├── foundation-models/             # 7 — Transformers, BERT, GPT, scaling laws (2017–2022)
-├── alignment-and-post-training/   # 1 — RLHF / InstructGPT
-├── generative-models/             # 1 — diffusion models
-├── agents-and-engineering/        # 17 — agents, harnesses, code evaluation
-├── reliability-and-reasoning/     # 8 — hallucinations, reasoning, memory, evaluation
-├── models-and-training/           # 4 — world models, fine-tuning, DeepSeek
+├── ai-foundations/                # 5 — Turing, McCulloch–Pitts, Hebb, Perceptron, Dartmouth (1943–1956)
+├── early-deep-learning/           # 7 — LeNet, AlexNet, DQN, Word2Vec, DBN, ResNet, Seq2Seq (1998–2015)
+├── foundation-models/             # 11 — Transformers, BERT, GPT, MoE, CLIP, scaling laws (2017–2022)
+├── alignment-and-post-training/   # 2 — RLHF / InstructGPT, DPO
+├── generative-models/             # 2 — GANs, diffusion models
+├── agents-and-engineering/        # 22 — agents, harnesses, ReAct, context/memory, code evaluation
+├── reliability-and-reasoning/     # 9 — hallucinations, reasoning, memory, LLM-as-judge evaluation
+├── models-and-training/           # 13 — frontier reports, world models, fine-tuning, DeepSeek
 ├── ethics-risks-and-society/      # 7 — risks, work, autonomy
 └── perspectives-and-futures/      # 4 — long-term visions of AI
 ```
 
 ## Papers by folder
 
+### [ai-foundations/](ai-foundations/)
+
+- **A Logical Calculus of the Ideas Immanent in Nervous Activity** (McCulloch & Pitts, 1943)
+- **The Organization of Behavior** (Hebb, 1949)
+- **Computing Machinery and Intelligence** (Turing, 1950)
+- **A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence** (McCarthy et al., 1955)
+- **The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain** (Rosenblatt, 1958)
+
 ### [early-deep-learning/](early-deep-learning/)
 
+- **Gradient-based learning applied to document recognition** (LeNet, 1998)
+- **A fast learning algorithm for deep belief nets** (Hinton et al., 2006)
 - **ImageNet Classification with Deep Convolutional Neural Networks** (AlexNet, 2012)
 - **Playing Atari with Deep Reinforcement Learning** (DQN, 2013)
 - **Efficient Estimation of Word Representations in Vector Space** (Word2Vec, 2013)
+- **Sequence to Sequence Learning with Neural Networks** (Sutskever et al., 2014)
+- **Deep Residual Learning for Image Recognition** (ResNet, 2015)
 
 ### [foundation-models/](foundation-models/)
 
 - **Attention Is All You Need** (Transformers, 2017)
+- **Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer** (Shazeer et al., 2017)
 - **BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding** (2018)
 - **Improving Language Understanding by Generative Pre-Training** (GPT-1, 2018)
 - **Language Models are Unsupervised Multitask Learners** (GPT-2, 2019)
 - **Language Models are Few-Shot Learners** (GPT-3, 2020)
 - **Scaling Laws for Neural Language Models** (2020)
+- **Learning Transferable Visual Models From Natural Language Supervision** (CLIP, 2021)
+- **Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity** (Fedus et al., 2021)
 - **Training Compute-Optimal Large Language Models** (Chinchilla, 2022)
+- **Understanding Transformers and Attention Mechanisms: An Introduction for Applied Mathematicians** — math-first primer on attention and Transformer architecture; pairs with [Attention Is All You Need](foundation-models/) and the notebooks in [research/llms-from-scratch/](../research/llms-from-scratch/).
 
 Visual companion (architectures across the foundation-model era): Sebastian Raschka's [LLM Architecture Gallery](https://sebastianraschka.com/llm-architecture-gallery/) — source metadata at [rasbt/llm-architecture-gallery](https://github.com/rasbt/llm-architecture-gallery), indexed in [nice-projects/](../nice-projects/README.md#research--papers).
 
 ### [alignment-and-post-training/](alignment-and-post-training/)
 
 - **Training language models to follow instructions with human feedback** (InstructGPT / RLHF, 2022)
+- **Direct Preference Optimization: Your Language Model is Secretly a Reward Model** (DPO, 2023)
 
 ### [generative-models/](generative-models/)
 
+- **Generative Adversarial Nets** (Goodfellow et al., 2014)
 - **Denoising Diffusion Probabilistic Models** (2020)
 
 ### [agents-and-engineering/](agents-and-engineering/)
 
 - **AI Agents vs. Agentic AI: A Conceptual Taxonomy, Applications and Challenges**
 - **A Technical Taxonomy of LLM Agent Communication Protocols** (Sander et al., TU Munich) — five-dimension taxonomy of LLM agent protocols (counterparty, payload, state, discovery, schema flexibility); [arXiv:2606.19135](https://arxiv.org/abs/2606.19135) (2026.06).
+- **Agent Harness Engineering: A Survey** — survey of agent harness design, tooling, and evaluation patterns for long-running LLM agents.
 - **Agentic Auto-Scheduling: An Experimental Study of LLM-Guided Loop Optimization** (Merouani et al., PACT 2025) — ComPilot uses off-the-shelf LLMs in a compiler feedback loop for loop-nest optimization; [arXiv:2511.00592](https://arxiv.org/abs/2511.00592) (2025.11).
 - **Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models**
+- **Agentic Context Management: Solving Agent Memory and Cost by Treating Them as Lifecycle and Architecture Problems** — frames agent memory and token cost as lifecycle/architecture concerns rather than prompt tricks; pairs with [agentic-patterns.md](../cursor-claude-codex/references/agentic-patterns.md) (Context & Memory) and *Everything is Context* in this folder.
 - **Autodata: An agentic data scientist to create high quality synthetic data** (Kulikov et al., Meta) — agentic framework for iterative synthetic training and benchmark data creation with meta-optimized data-scientist agents (Agentic Self-Instruct); [arXiv:2606.25996](https://arxiv.org/abs/2606.25996) (2026.06).
 - **Agents of Chaos**
 - **Beyond Synthetic Benchmarks: Evaluating LLM Performance on Real-World Class-Level Code Generation**
@@ -62,9 +83,12 @@ Visual companion (architectures across the foundation-model era): Sebastian Rasc
 - **Evaluating and Understanding Scheming Propensity in LLM Agents**
 - **Everything is Context: Agentic File System Abstraction for Context Engineering**
 - **Fundamentals of Building Autonomous LLM Agents**
+- **[Graph-Based Agentic AI with LangGraph: Workflow Pathways for Long-Running Stateful Business Processes](agents-and-engineering/Graph-Based%20Agentic%20AI%20with%20LangGraph_%20Workflow%20Pathways%20for%20Long-Running%20Stateful%20Business%20Processes.pdf)** (Pearson, Shapiro, Gonzalez Venegas, Al-Khatib & Pinzón Arzola) — practitioner guide to LangGraph for durable stateful business workflows (typed state, repair loops, agentic RAG with evidence gating, human-in-the-loop interrupt/checkpoint); [arXiv:2607.19297](https://arxiv.org/abs/2607.19297) (2026.07). Pairs with the [Graph Engineering / Andrew Ng Playbook](../reports/Graph_Engineering_Andrew_Ng_Playbook.pdf) in [reports/](../reports/) and [*The Hitchhiker's Guide to Agentic AI*](../learning/Hitchhikers_Guide_to_Agentic_AI.pdf) in [learning/](../learning/).
 - **[Harness engineering: leveraging Codex in an agent-first world](agents-and-engineering/Harness%20engineering_%20leveraging%20Codex%20in%20an%20agent-first%20world%20_%20OpenAI.pdf)** (OpenAI) — agent-first software engineering with Codex; pairs with [cursor-claude-codex/references/upstream-repos-catalog.md](../cursor-claude-codex/references/upstream-repos-catalog.md) and [reports/README.md](../reports/README.md) for industry framing.
 - **Measuring Agents in Production**
 - **MCP Server Architecture Patterns for LLM-Integrated Applications** (Rodrigues & Vas) — five production MCP server patterns (Resource Gateway, Tool Orchestrator, Stateful Session Server, Proxy Aggregator, Domain-Specific Adapter) plus anti-patterns and cross-cutting concerns; [arXiv:2606.30317](https://arxiv.org/abs/2606.30317) (2026.06).
+- **Native Python Object-Oriented Agents** — OOP design for Python agents (state, tools, and lifecycle as objects); practical companion to ReAct and harness papers in this folder.
+- **ReAct: Synergizing Reasoning and Acting in Language Models** (Yao et al., 2022) — interleaves chain-of-thought reasoning with tool/environment actions; foundational agent loop cited across [agentic-patterns.md](../cursor-claude-codex/references/agentic-patterns.md).
 - **Scaling Laws for Agent Harnesses via Effective Feedback Compute** (Zhang et al., Harbin Institute of Technology) — introduces Effective Feedback Compute (EFC) as a scaling coordinate for agent harnesses; [arXiv:2605.29682](https://arxiv.org/abs/2605.29682) (2026.05).
 - **Towards a Science of Scaling Agent Systems**
 - **Virtual Agent Economies**
@@ -72,6 +96,7 @@ Visual companion (architectures across the foundation-model era): Sebastian Rasc
 ### [reliability-and-reasoning/](reliability-and-reasoning/)
 
 - **Ask, Don't Judge: Binary Questions for Interpretable LLM Evaluation and Self-Improvement** (Cho et al.) — BinEval decomposes evaluation into atomic yes/no questions for interpretable, training-free LLM judging and prompt self-improvement; [arXiv:2606.27226](https://arxiv.org/abs/2606.27226) (2026.06).
+- **[Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena](reliability-and-reasoning/Judging%20LLM-as-a-Judge%20with%20MT-Bench%20and%20Chatbot%20Arena.pdf)** (Zheng et al., 2023) — introduces MT-Bench and Chatbot Arena; studies agreement, biases, and failure modes of LLM-as-judge; foundational for [awesome-evals](../cursor-claude-codex/references/awesome-evals/) §8 and PATTERNS §1.
 - **[RoPoLL: Robust Panel of LLM Judges](reliability-and-reasoning/RoPoLL_Robust_Panel_of_LLM_Judges.pdf)** (Acharya, Pan & Verkhovsky, AWS) — formalizes PoLL under Huber contamination and replaces mean aggregation with geometric median; robust LLM-as-judge panels under biased/Byzantine corruption; [arXiv:2606.30931](https://arxiv.org/abs/2606.30931) (2026.06). Pairs with [cursor-claude-codex/references/awesome-evals/](../cursor-claude-codex/references/awesome-evals/) (§8 LLM-as-judge & verifiers).
 - **A comprehensive taxonomy of hallucinations in Large Language Models**
 - **LLMs get list in multi-turn conversation**
@@ -82,6 +107,15 @@ Visual companion (architectures across the foundation-model era): Sebastian Rasc
 
 ### [models-and-training/](models-and-training/)
 
+- **GPT-4 Technical Report** (OpenAI, 2023)
+- **LLaMA: Open and Efficient Foundation Language Models** (Meta, 2023)
+- **The Llama 3 Herd of Models** (Meta, 2024)
+- **Qwen2.5 Technical Report** (Qwen Team, 2024)
+- **OpenAI o1 System Card** (OpenAI)
+- **OpenAI o3 and o4-mini System Card** (OpenAI)
+- **DeepSeek-V3 Technical Report** (DeepSeek-AI)
+- **DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning** (DeepSeek-AI)
+- **NVIDIA Nemotron 3 Super Technical Report** (NVIDIA)
 - **LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels**
 - **Deepseek: Manifold-Constrained Hyper-Connections**
 - **DeepSeek Prover V2: DeepSeek's latest model masters math proofs**
@@ -103,6 +137,8 @@ Visual companion (architectures across the foundation-model era): Sebastian Rasc
 - **Genius on Demand: The Value of Transformative Artificial Intelligence**
 - **The Future Is Neuro-Symbolic: Where Has It Been, and Where Is It Going?**
 - **The Next Decade in AI: Four Steps Towards Robust Artificial Intelligence**
+
+Strategic essay (not a peer-reviewed paper): Aschenbrenner's [*Situational Awareness: The Decade Ahead*](../reports/Situational_Awareness_Aschenbrenner.pdf) in [reports/](../reports/) — AGI timelines, compute scaling, alignment, and geopolitics (Jun 2024).
 
 ---
 
