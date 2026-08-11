@@ -44,7 +44,7 @@ Transform imperative tasks into verifiable goals. Define success criteria. Loop 
 
 | Category | Examples |
 |----------|----------|
-| **Context & Memory** | Curated context window, progressive disclosure, working memory via TodoWrite, session-scoped context runtime |
+| **Context & Memory** | Curated context window, progressive disclosure, working memory via TodoWrite, session-scoped context runtime — research backdrop: [*Agentic Context Management*](../../papers/agents-and-engineering/Agentic%20Context%20Management_%20Solving%20Agent%20Memory%20and%20Cost%20by%20Treating%20Them%20as%20Lifecycle%20and%20Architecture%20Problems.pdf) |
 | **Feedback Loops** | CI feedback, reflection loop, spec-as-test, output verification loop |
 | **Orchestration** | Plan-then-execute, sub-agent spawning, parallel tool execution, deterministic zero-LLM orchestration |
 | **Reliability** | Structured output, schema validation retry, workflow evals, agent circuit breaker |
@@ -80,4 +80,4 @@ For the complete pattern catalogue with 170+ patterns (each with `based_on` prov
 - **llms.txt:** https://agentic-patterns.com/llms.txt (machine-readable for RAG/LLM context)
 - **Repo:** https://github.com/nibzard/awesome-agentic-patterns
 
-**See also:** [Graph Engineering for Multi-Agentic Systems (Andrew Ng Playbook)](../../reports/Graph_Engineering_Andrew_Ng_Playbook.pdf) in [reports/](../../reports/) — how Reflection / Tool Use / Planning / Multi-Agent compose into graph-grounded architectures with shared knowledge-graph state.
+**See also:** [Graph Engineering for Multi-Agentic Systems (Andrew Ng Playbook)](../../reports/Graph_Engineering_Andrew_Ng_Playbook.pdf) in [reports/](../../reports/) — how Reflection / Tool Use / Planning / Multi-Agent compose into graph-grounded architectures with shared knowledge-graph state. Foundational loop: [*ReAct: Synergizing Reasoning and Acting in Language Models*](../../papers/agents-and-engineering/REACT-%20SYNERGIZING%20REASONING%20AND%20ACTING%20IN%20LANGUAGE%20MODELS.pdf). Implementation recipes: [*Graph-Based Agentic AI with LangGraph*](../../papers/agents-and-engineering/Graph-Based%20Agentic%20AI%20with%20LangGraph_%20Workflow%20Pathways%20for%20Long-Running%20Stateful%20Business%20Processes.pdf) in [papers/agents-and-engineering/](../../papers/agents-and-engineering/) (durable typed state, repair loops, HITL interrupt/checkpoint). Process layer: [*The Agentic SDLC Handbook*](../../learning/The_Agentic_SDLC_Handbook.pdf) in [learning/](../../learning/) + [no-vibe-coding.md](../product-management/no-vibe-coding.md).
