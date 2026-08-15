@@ -26,7 +26,8 @@ Temporary Items
 .temp_clones
 .tmp/
 
-# Local IDE / agent config (other tools — not hub content)
+# Local IDE / agent config (not hub content)
+.cursor/
 .claude/
 
 # Maintenance scripts and logs
