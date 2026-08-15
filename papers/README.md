@@ -88,6 +88,7 @@ Visual companion (architectures across the foundation-model era): Sebastian Rasc
 - **Measuring Agents in Production**
 - **MCP Server Architecture Patterns for LLM-Integrated Applications** (Rodrigues & Vas) — five production MCP server patterns (Resource Gateway, Tool Orchestrator, Stateful Session Server, Proxy Aggregator, Domain-Specific Adapter) plus anti-patterns and cross-cutting concerns; [arXiv:2606.30317](https://arxiv.org/abs/2606.30317) (2026.06).
 - **Native Python Object-Oriented Agents** — OOP design for Python agents (state, tools, and lifecycle as objects); practical companion to ReAct and harness papers in this folder.
+- **OpenSkill: Open-World Self-Evolution for LLM Agents** (Yan et al.) — agents derive skills and their own verification signals from open-world resources without target-task supervision; [arXiv:2606.06741](https://arxiv.org/abs/2606.06741) (2026.06).
 - **ReAct: Synergizing Reasoning and Acting in Language Models** (Yao et al., 2022) — interleaves chain-of-thought reasoning with tool/environment actions; foundational agent loop cited across [agentic-patterns.md](../cursor-claude-codex/references/agentic-patterns.md).
 - **Scaling Laws for Agent Harnesses via Effective Feedback Compute** (Zhang et al., Harbin Institute of Technology) — introduces Effective Feedback Compute (EFC) as a scaling coordinate for agent harnesses; [arXiv:2605.29682](https://arxiv.org/abs/2605.29682) (2026.05).
 - **Towards a Science of Scaling Agent Systems**
