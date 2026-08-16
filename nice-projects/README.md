@@ -88,6 +88,9 @@ Structured notes (folder layout, install commands, how each fits our hub) live i
 
 ## AI Agents 🤖⚡
 
+### Agent Platforms
+- **[Orkas](https://github.com/Orkas-AI/Orkas)** - Open-source, local-first desktop AI workforce coordinated by a Commander through one chat.
+
 ### Agent Frameworks
 - **[AutoAgent](https://github.com/HKUDS/AutoAgent)** - "AutoAgent: Fully-Automated and Zero-Code LLM Agent Framework"
 - **[companion-app](https://github.com/a16z-infra/companion-app)** - AI companions with memory: a lightweight stack to create and host your own AI companions
