@@ -15,7 +15,7 @@
 
 > The most complete collection of battle-tested AI-assisted development resources — for Product Managers, Designers, and Developers who want to ship real products with AI.
 
-**What's inside:** **329** agent skills (Cursor, Claude Code & Codex) · **8** slash commands · **21** coding rules · **201** Jupyter notebooks · **82** research papers (PDF, 10 themes) · **18** industry reports · **21** n8n workflow templates · **14** system prompts · **36** OpenClaw agents · **5,380** OpenClaw skills indexed · **73** curated GitHub projects.
+**What's inside:** **329** agent skills (Cursor, Claude Code & Codex) · **8** slash commands · **21** coding rules · **201** Jupyter notebooks · **82** research papers (PDF, 10 themes) · **18** industry reports · **21** n8n workflow templates · **14** system prompts · **36** OpenClaw agents · **5,380** OpenClaw skills indexed · **74** curated GitHub projects.
 
 Whether you're a PM who wants to prototype faster, a Designer who wants to understand the code your AI is generating, or a Developer looking for the sharpest rules to ship with — this repo is built to be copied, forked, and used the same day.
 
@@ -92,7 +92,7 @@ Eight freely-available textbooks and references that ground the notebooks and sk
 
 ### Projects to watch ([nice-projects/](nice-projects/))
 
-**73** hand-picked open-source repos — tools, AI/ML, agent skills, and the upstream sources behind vendored hub content. See [nice-projects/README.md](nice-projects/README.md) and the full catalog at [cursor-claude-codex/references/upstream-repos-catalog.md](cursor-claude-codex/references/upstream-repos-catalog.md).
+**74** hand-picked open-source repos — tools, AI/ML, agent skills, and the upstream sources behind vendored hub content. See [nice-projects/README.md](nice-projects/README.md) and the full catalog at [cursor-claude-codex/references/upstream-repos-catalog.md](cursor-claude-codex/references/upstream-repos-catalog.md).
 
 ### n8n templates ([n8n-templates/](n8n-templates/))
 
@@ -144,10 +144,10 @@ Counts verified against the repo tree (2026-08-11):
 | Agent skills (Cursor / Claude / Codex) | **329** | [cursor-claude-codex/skills/README.md](cursor-claude-codex/skills/README.md) |
 | Cursor slash commands | **8** | [cursor-claude-codex/commands/](cursor-claude-codex/commands/) |
 | Coding & stack rules | **21** | [cursor-claude-codex/coding/](cursor-claude-codex/coding/) |
-| Upstream sources integrated | **25** | [cursor-claude-codex/README.md](cursor-claude-codex/README.md#credits--sources) |
+| Upstream sources integrated | **26** | [cursor-claude-codex/README.md](cursor-claude-codex/README.md#credits--sources) |
 | OpenClaw agents catalogued | **36** | [openclaw/README.md](openclaw/README.md) |
 | OpenClaw skills indexed (snapshot) | **5,380** | [openclaw/skills/README.md](openclaw/skills/README.md) |
-| GitHub projects to watch | **73** | [nice-projects/README.md](nice-projects/README.md) |
+| GitHub projects to watch | **74** | [nice-projects/README.md](nice-projects/README.md) |
 | Jupyter notebooks | **201** | [research/README.md](research/README.md) |
 | Research papers (PDF, 10 themes) | **82** | [papers/README.md](papers/README.md) |
 | Industry reports (PDF) | **18** | [reports/README.md](reports/README.md) |

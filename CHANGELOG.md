@@ -8,6 +8,14 @@ adapted for a knowledge hub (content batches, not library APIs).
 
 ## [Unreleased]
 
+### Added
+
+- **nice-projects:** [Orkas](https://github.com/Orkas-AI/Orkas) local-first desktop AI workforce under new Agent Platforms subsection ([#16](https://github.com/adriannoes/awesome-agentic-ai/pull/16))
+
+### Changed
+
+- Hub counts synced in `README.md` and `nice-projects/README.md` (**73** → **74** curated GitHub projects; upstream sources **25** → **26** after `davidondrej/skills` integration)
+
 ## [1.0.0] - 2026-08-15
 
 First official release of the **AGENTIC AI** learning hub.
