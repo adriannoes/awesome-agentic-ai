@@ -93,6 +93,7 @@ Structured notes (folder layout, install commands, how each fits our hub) live i
 
 ### Agent Frameworks
 - **[AutoAgent](https://github.com/HKUDS/AutoAgent)** - "AutoAgent: Fully-Automated and Zero-Code LLM Agent Framework"
+- **[Dr. Claw](https://github.com/OpenLAIR/dr-claw)** — Open-source, model-agnostic research workspace for survey, ideation, experiments, paper writing, and research artifact delivery.
 - **[companion-app](https://github.com/a16z-infra/companion-app)** - AI companions with memory: a lightweight stack to create and host your own AI companions
 - **[clawdis](https://github.com/steipete/clawdis)** - Your own personal AI assistant. Talk via WhatsApp, Telegram or Web.
 
