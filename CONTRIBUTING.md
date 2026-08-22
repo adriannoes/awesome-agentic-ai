@@ -26,11 +26,12 @@ Vendored skills and snapshots should stay attributed and diffed — not blind-co
 Before updating README skill counts, run:
 
 ```bash
-chmod +x scripts/count-skills.sh   # once
-./scripts/count-skills.sh
+chmod +x bin/count-hub-stats.sh bin/count-skills.sh   # once
+./bin/count-hub-stats.sh    # all hub counts
+./bin/count-skills.sh       # SKILL.md total only
 ```
 
-That prints `SKILL.md` totals and the **curated subtotal** used for marketing copy.
+Counts live in [docs/stats.md](docs/stats.md); the main [README.md](README.md) links there instead of duplicating the full table.
 
 ## Guidelines
 

@@ -8,13 +8,29 @@ adapted for a knowledge hub (content batches, not library APIs).
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-08-21
+
+Significant content batch: new textbook, **+12** curated GitHub projects (agent learning paths, MCP, system design), and a slimmer hub README.
+
+### Highlights
+
+- **329** agent skills · **82** papers · **201** notebooks · **9** textbooks (**+1** Competitive Programmer's Handbook)
+- **85** curated GitHub projects (**+12** since v1.0.0) including Microsoft/Hugging Face agent courses and MCP catalog
+- **docs/** navigation layer — persona paths, stats, ecosystem links, about
+
 ### Added
 
-- **nice-projects:** [Orkas](https://github.com/Orkas-AI/Orkas) local-first desktop AI workforce under new Agent Platforms subsection ([#16](https://github.com/adriannoes/awesome-agentic-ai/pull/16))
+- **Learning:** *Competitive Programmer's Handbook* (Laaksonen, CC BY-NC-SA 4.0) with CSES Problem Set cross-links
+- **nice-projects:** 10 “Learn AI Agents” repos — courses (`ai-agents-for-beginners`, `agents-course`), tutorials (`awesome-llm-apps`, `GenAI_Agents`, `ai-engineering-hub`), catalogs (`free-ai-agents-resources`, `500-AI-Agents-Projects`, `awesome-ai-agents`), MCP index (`awesome-mcp-servers`), paper backlog (`LLM-Agent-Paper-List` also in `papers/README.md`)
+- **nice-projects:** [system-design-notes](https://github.com/liquidslr/system-design-notes) under Study material
+- **nice-projects:** [Orkas](https://github.com/Orkas-AI/Orkas) under Agent Platforms ([#16](https://github.com/adriannoes/awesome-agentic-ai/pull/16))
+- **Papers:** external agent research section — [LLM-Agent-Paper-List](https://github.com/WooooDyy/LLM-Agent-Paper-List) backlog link
+- **Infrastructure:** `docs/` (`paths/`, `stats.md`, `ecosystem.md`, `about.md`); `bin/count-hub-stats.sh` and `bin/count-skills.sh`
 
 ### Changed
 
-- Hub counts synced in `README.md` and `nice-projects/README.md` (**73** → **74** curated GitHub projects; upstream sources **25** → **26** after `davidondrej/skills` integration)
+- **README:** trimmed to hub map + persona quick-start links; detailed catalogs stay in area READMEs
+- Hub counts synced (**73** → **85** curated GitHub projects; textbooks **8** → **9**; upstream sources **25** → **26** after `davidondrej/skills`)
 
 ## [1.0.0] - 2026-08-15
 
