@@ -4,7 +4,7 @@ This directory contains research papers and resources on Large Language Models (
 
 ## Overview
 
-The collection includes: (1) **foundation models for code** (external references to key code-LLM papers); (2) **82 PDFs** in `papers/`, organized into thematic subfolders — from classic AI foundations through contemporary agent and alignment research.
+The collection includes: (1) **foundation models for code** (external references to key code-LLM papers); (2) **agent research** (external paper lists and surveys); (3) **82 PDFs** in `papers/`, organized into thematic subfolders — from classic AI foundations through contemporary agent and alignment research.
 
 ## Directory structure
 
@@ -187,3 +187,9 @@ Key code-LLM papers (links to arXiv, blogs, GitHub):
 - **CWM: An Open-Weights LLM for Research on Code Generation with World Models**, Meta FAIR CodeGen Team, [arXiv:2510.02387](https://arxiv.org/abs/2510.02387) (2025.09)
 
 **Note:** This README is based on the "Large Language Models for Coding" section from the [Awesome Vibe Coding](https://github.com/YuyaoGe/Awesome-Vibe-Coding) repository. For the complete taxonomy and detailed paper listings across all categories, please refer to the original repository.
+
+## Agent research (external references)
+
+Curated paper lists and surveys — link-only backlogs for expanding [agents-and-engineering/](agents-and-engineering/) and [reliability-and-reasoning/](reliability-and-reasoning/). See also [nice-projects/README.md](../nice-projects/README.md#learn-ai-agents-courses--roadmaps).
+
+- **[LLM-Agent-Paper-List](https://github.com/WooooDyy/LLM-Agent-Paper-List)** (Wang et al. survey companion, ~8.2k ★) — annotated list for *The Rise and Potential of Large Language Model Based Agents: A Survey*; planning, memory, tool use, multi-agent, safety. ⚠️ No license declared upstream — link-only.
