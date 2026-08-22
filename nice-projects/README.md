@@ -1,6 +1,6 @@
 # Nice projects to follow & fork 🚀
 
-A curated collection of **74** interesting open-source projects worth exploring, forking, and contributing to. This list is based on projects I've starred on GitHub and upstream sources vendored in this hub.
+A curated collection of **85** interesting open-source projects worth exploring, forking, and contributing to. This list is based on projects I've starred on GitHub and upstream sources vendored in this hub.
 
 ## Tools 🛠️
 
@@ -22,6 +22,9 @@ A curated collection of **74** interesting open-source projects worth exploring,
 - **[teracrawl](https://github.com/BrowserCash/teracrawl)** - High-performance web crawler API optimized for LLMs. Turn any search or website into clean Markdown using remote browsers.
 - **[Xquik](https://github.com/Xquik-dev/x-twitter-scraper)** - X/Twitter data API with REST, MCP, and webhook workflows.
 
+### MCP & agent integrations
+- **[awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)** — MIT curated catalog (~93k ★) of Model Context Protocol servers (filesystem, databases, SaaS APIs, browsers, …). Pairs with MCP papers in [papers/agents-and-engineering/](../papers/agents-and-engineering/) (e.g. *MCP Server Architecture Patterns*), the MCP chapter in [*Hitchhiker's Guide to Agentic AI*](../learning/Hitchhikers_Guide_to_Agentic_AI.pdf), and [agents-course](https://github.com/huggingface/agents-course) (MCP unit).
+
 ## AI/ML 🤖
 
 ### Models & Frameworks
@@ -33,6 +36,11 @@ A curated collection of **74** interesting open-source projects worth exploring,
 - **[camel-prompt-injection](https://github.com/google-research/camel-prompt-injection)** - Code for the paper "Defeating Prompt Injections by Design"
 - **[gen-ai-experiments](https://github.com/buildfastwithai/gen-ai-experiments)** - Collection of Jupyter notebooks designed to provide you with a comprehensive guide to various AI tools and technologies
 - **[llm-architecture-gallery](https://github.com/rasbt/llm-architecture-gallery)** — Apache-2.0 source metadata (~1.4k ★) for Sebastian Raschka's [LLM Architecture Gallery](https://sebastianraschka.com/llm-architecture-gallery/): `models.yml` fact sheets (dates, diagram paths, links) for major LLM architectures. Link-only data export — live site is the UI. Visual companion to [research/llms-from-scratch/](../research/llms-from-scratch/) and the papers in [papers/foundation-models/](../papers/foundation-models/) (including [*Understanding Transformers and Attention Mechanisms*](../papers/foundation-models/Understanding%20Transformers%20and%20Attention%20Mechanisms_%20An%20Introduction%20for%20Applied%20Mathematicians.pdf)).
+
+### Hands-on agent tutorials & apps
+- **[awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)** — Apache-2.0 collection (~134k ★): **100+** open-source LLM apps, agent skills, and RAG demos (LangChain, CrewAI, LangGraph, MCP, local models). Pairs with [500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) (use cases) and [GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents) (tutorial depth).
+- **[GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents)** — **50+** tutorials and implementations (~24k ★): conversational bots → multi-agent workflows (LangChain, LangGraph, RAG, routing, reflection). ⚠️ License not SPDX-clear upstream — link-only; pair with [research/smol-course/](../research/smol-course/) agents module.
+- **[ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub)** — MIT in-depth tutorials (~37k ★): LLMs, RAG pipelines, and real-world agent apps (notebooks + code). Pairs with [ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) (structured course) and [gen-ai-experiments](https://github.com/buildfastwithai/gen-ai-experiments) (notebook style).
 
 ### Prompts & Resources
 - **[awesome-copilot](https://github.com/github/awesome-copilot)** - Community-contributed instructions, prompts, and configurations to help you make the most of GitHub Copilot.
@@ -107,13 +115,25 @@ Structured notes (folder layout, install commands, how each fits our hub) live i
 
 ## Study material 📖
 
-Curated reading lists and study roadmaps — external link-only sources worth working through alongside [papers/](../papers/), [research/](../research/), and [learning/](../learning/).
+Curated reading lists, courses, and study roadmaps — external link-only sources worth working through alongside [papers/](../papers/), [research/](../research/), and [learning/](../learning/).
+
+### Learn AI agents (courses & roadmaps)
+
+- **[ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners)** — MIT Microsoft course (~73k ★): **18 lessons** on building AI agents (tool use, planning, multi-agent, AutoGen, Semantic Kernel, Azure AI Agent Service). Best first structured path for PMs and developers. Pairs with [agents-course](https://github.com/huggingface/agents-course) and the agents module in [research/smol-course/](../research/smol-course/).
+- **[agents-course](https://github.com/huggingface/agents-course)** — Apache-2.0 Hugging Face Agents Course (~31k ★): official repo for [huggingface.co/learn/agents-course](https://huggingface.co/learn/agents-course) — smolagents, tool calling, MCP, multi-agent, observability/evals (Langfuse bonus unit cited in [awesome-evals](../cursor-claude-codex/references/awesome-evals/)). Pairs with [research/smol-course/](../research/smol-course/) (alignment/finetune) and [agentic-patterns.md](../cursor-claude-codex/references/agentic-patterns.md).
+- **[free-ai-agents-resources](https://github.com/avinash201199/free-ai-agents-resources)** — MIT meta learning hub (~0.9k ★): curated 2026 roadmap — courses, frameworks, papers, tools, and project ideas. Good index to discover gaps before diving into hands-on repos below.
+- **[500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects)** — MIT curated use-case catalog (~37k ★): **500+** agent project ideas across industries (healthcare, finance, retail, …) with framework tags. Pairs with [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) and [GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents) for implementation patterns.
+- **[LLM-Agent-Paper-List](https://github.com/WooooDyy/LLM-Agent-Paper-List)** — Paper list (~8.2k ★) for the survey *The Rise and Potential of Large Language Model Based Agents* — annotated agent research backlog. Strong source for papers to bring into [papers/](../papers/) (especially [agents-and-engineering/](../papers/agents-and-engineering/)). ⚠️ No license declared — link-only.
+
+### Systems, ML infra & deep-learning reading
 
 - **[ilya-sutskever-recommended-reading](https://github.com/dzyim/ilya-sutskever-recommended-reading)** — ~27 papers, blogs, and courses on deep learning (RNNs/LSTMs, CNNs, attention, scaling laws, NTM, theory), attributed to Ilya Sutskever for John Carmack. Strong backlog for papers to bring into [papers/](../papers/). ⚠️ No license declared upstream.
 - **[ml-engineering](https://github.com/stas00/ml-engineering)** — CC-BY-SA-4.0 *Machine Learning Engineering Open Book* by Stas Bekman (~18k ★): hardware (compute/storage/network), orchestration (SLURM), large-scale LLM/VLM training and inference, debugging, and testing — field notes from BLOOM-176B, IDEFICS-80B, and later work. Ships PDF/EPUB plus a `SKILL.md` for AI agents. Pairs with the CUDA guide in [learning/](../learning/) and the GPU tracks in [research/](../research/).
+- **[system-design-notes](https://github.com/liquidslr/system-design-notes)** — Community Markdown notes (~11.3k ★) for Alex Xu's *System Design Interview — An Insider's Guide*: scaling, caching, load balancing, databases, messaging, rate limiting, and case-study walkthroughs. Pairs with [ml-engineering](https://github.com/stas00/ml-engineering) (ML infra at scale), production chapters in [*Hitchhiker's Guide to Agentic AI*](../learning/Hitchhikers_Guide_to_Agentic_AI.pdf), and [awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources) in the [main README](../README.md#architecture--design-patterns). ⚠️ No license declared; companion notes to a commercial book — link-only.
 
 ## Other Useful Resources 📚
 
+- **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** — Curated list (~30k ★) of autonomous AI agents, frameworks, and tools (AutoGPT, CrewAI, LangGraph, browser agents, sandboxes). ⚠️ No SPDX license declared upstream — link-only; overlaps with [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) and [free-ai-agents-resources](https://github.com/avinash201199/free-ai-agents-resources) for discovery.
 - **[awesome-AI-driven-development](https://github.com/eltociear/awesome-AI-driven-development)** - 🤖 A curated awesome list featuring 431+ AI-driven development tools, frameworks, and resources. Covers AI code editors, IDE extensions, multi-agent systems, code generation, testing, MCP servers, and more.
 - **[gen-ai-experiments](https://github.com/buildfastwithai/gen-ai-experiments)** - 🚀 A curated collection of 130+ production-ready Gen AI apps, agents, and experiments. Built with LangChain, RAG, AI Agents, Multi-Agent Teams, and more. Perfect for learning by building.
 - **[awesome-investing](https://github.com/mr-karan/awesome-investing)** - 💸💸 Curated list of investment & finance related resources
