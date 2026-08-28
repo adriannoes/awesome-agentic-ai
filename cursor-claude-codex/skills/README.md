@@ -50,6 +50,12 @@ Skills in this folder are designed to work for **both Cursor and Claude Code**. 
 | Skill | Description | Source |
 |-------|-------------|--------|
 | `frontend-design` | Distinctive frontend interfaces; bold aesthetic, avoid generic AI look | [mitsuhiko/agent-stuff](https://github.com/mitsuhiko/agent-stuff) (Apache-2.0) |
+| `archify` | Polished, validated architecture / workflow / sequence / data-flow / lifecycle maps as interactive HTML (Mermaid alternative) | [tt-a1i/archify](https://github.com/tt-a1i/archify) (MIT) |
+| `diagram-design` | Editorial HTML/SVG diagrams — 39 layout types, brand tokens, draw.io/Mermaid redraw | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) (MIT) |
+| `frontend-slides` | Zero-dependency 16:9 HTML presentations (from scratch or PPT) | [zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides) (MIT) |
+| `impeccable` | Frontend craft commands + 59 anti-pattern rules; sparse skill copy (full CLI via `npx impeccable install`) | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) (Apache-2.0) |
+| `humanizer` | Rewrite AI-sounding prose (Wikipedia AI-writing patterns) without changing claims | [blader/humanizer](https://github.com/blader/humanizer) (MIT) |
+| `i-have-adhd` | Output-contract skill: lead with the next action, number steps, restates state | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) (MIT) |
 | `web-design-guidelines` | Audit UI against Vercel Web Interface Guidelines (summary; fetches live rules) | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) (MIT) |
 | `writing-guidelines` | Review docs/prose against Vercel's Writing Guidelines (summary; fetches live rules via WebFetch) | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) (MIT) |
 | `plain-writing` | Write and revise prose in plain language (simple words, no filler/jargon/dashes); optional HTML diff of edits | [shreyashankar/plain-writing-skill](https://github.com/shreyashankar/plain-writing-skill) |
@@ -104,8 +110,15 @@ Subfolders that group multiple related skills from a single upstream source. Eac
 | [research-paper-writing/](./research-paper-writing/) | 1 | [Master-cai/Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills) (MIT, ~4.3k ★) | Section-by-section ML/CV/NLP research-paper rewrite workflow, curated from Prof. Peng Sida's notes. |
 | [forward-future-loop-library/](./forward-future-loop-library/) | 1 | [Forward-Future/loop-library](https://github.com/Forward-Future/loop-library) (MIT, ~1.6k ★) | Discover/find/audit/adapt/design bounded AI-agent loops; 69-loop live catalog linked. |
 | [david-ondrej/](./david-ondrej/) | 30 | [davidondrej/skills](https://github.com/davidondrej/skills) (MIT) | Multi-agent orchestration, research/web, skill meta-authoring, thinking/docs. Highlights: `effective-agent-skills`, `codex-goal-loop`, `browser-harness`, `research-prompt`. ~40% reference David's personal stack (cmux, DeepAPI, Pi). |
+| [archify/](./archify/) | 1 | [tt-a1i/archify](https://github.com/tt-a1i/archify) (MIT, ~18k ★) | Interactive architecture / workflow / sequence / data-flow / lifecycle maps as self-contained HTML. Complements [visual-content/](./visual-content/) (Mermaid/D2 starting points). |
+| [ui-ux-pro-max/](./ui-ux-pro-max/) | 7 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) (MIT, ~122k ★) | Searchable style/palette/font/UX catalogs + brand, tokens, slides, banners, shadcn styling. Not a taste POV — pair with [taste-skills/](./taste-skills/). |
+| [diagram-design/](./diagram-design/) | 1 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) (MIT, ~28k ★) | Editorial HTML/SVG diagrams (39 types). Complements [archify/](./archify/). |
+| [frontend-slides/](./frontend-slides/) | 1 | [zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides) (MIT, ~28k ★) | Zero-dependency 16:9 HTML decks. Complements [visual-content/presentation-slide-outliner](./visual-content/presentation-slide-outliner/SKILL.md). |
+| [impeccable/](./impeccable/) | 1 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) (Apache-2.0, ~63k ★) | Frontend craft commands + anti-pattern detector (sparse copy). |
+| [humanizer/](./humanizer/) | 1 | [blader/humanizer](https://github.com/blader/humanizer) (MIT, ~38k ★) | AI-tell prose rewrite (Wikipedia patterns). Complements [plain-writing/](./plain-writing/). |
+| [i-have-adhd/](./i-have-adhd/) | 1 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) (MIT, ~25k ★) | ADHD-friendly output contract (lead with the next action). |
 
-**Total:** 30 top-level skills + 299 in category folders = **329** `SKILL.md` packages. For Jeremy's other **18 categories** (devops, security, frontend/backend, ML, data, AWS/GCP, APIs, docs, enterprise), see the upstream repo.
+**Total:** 36 top-level skills + 306 in category folders = **342** `SKILL.md` packages. For Jeremy's other **18 categories** (devops, security, frontend/backend, ML, data, AWS/GCP, APIs, docs, enterprise), see the upstream repo.
 
 ## Attribution & licenses
 

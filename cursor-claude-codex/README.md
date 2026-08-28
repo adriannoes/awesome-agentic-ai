@@ -103,7 +103,7 @@ Content integrated from the following repositories (adapted for our use, no runt
 | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | MIT | [skills/alirezarezvani-skills/](./skills/alirezarezvani-skills/) — skill-security-auditor + playwright-pro |
 | [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) | MIT | [skills/visual-content/](./skills/visual-content/) (25) + [skills/business-automation/](./skills/business-automation/) (25) |
 | [revfactory/harness](https://github.com/revfactory/harness) | Apache-2.0 | [skills/harness/](./skills/harness/) meta-skill (Phase 3-0/4-0 duplicate-review guidelines) |
-| [google-labs-code/design.md](https://github.com/google-labs-code/design.md) | Apache-2.0 | [references/design-md/](./references/design-md/) spec (v0.3.0) + PHILOSOPHY.md + 3 examples |
+| [google-labs-code/design.md](https://github.com/google-labs-code/design.md) | Apache-2.0 | [references/design-md/](./references/design-md/) spec (v0.4.0) + PHILOSOPHY.md + 3 examples |
 | [Ducksss/codex-profiles](https://github.com/Ducksss/codex-profiles) | MIT | [tools/codex-profiles/](./tools/codex-profiles/) CLI snapshot |
 | [mitsuhiko/agent-stuff](https://github.com/mitsuhiko/agent-stuff) | Apache-2.0 | git-commit command, frontend-design, update-changelog skills |
 | [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | MIT | [best-practices/karpathy-guidelines.md](./best-practices/karpathy-guidelines.md) |
@@ -120,6 +120,13 @@ Content integrated from the following repositories (adapted for our use, no runt
 | [huggingface/smol-course](https://github.com/huggingface/smol-course) | Apache-2.0 | [research/smol-course/](../research/smol-course/) — 12 notebooks (instruction tuning, DPO, LoRA/PEFT, eval, VLM, agents) |
 | [shreyashankar/plain-writing-skill](https://github.com/shreyashankar/plain-writing-skill) | — | [skills/plain-writing/](./skills/plain-writing/) — plain-language prose skill + HTML revision diff template |
 | [davidondrej/skills](https://github.com/davidondrej/skills) | MIT | [skills/david-ondrej/](./skills/david-ondrej/) — 30 agent-orchestration, research, skill-authoring, and thinking/docs skills |
+| [tt-a1i/archify](https://github.com/tt-a1i/archify) | MIT | [skills/archify/](./skills/archify/) — interactive architecture / workflow / sequence / data-flow / lifecycle diagram skill |
+| [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | MIT | [skills/diagram-design/](./skills/diagram-design/) — editorial HTML/SVG diagrams (39 layout types) |
+| [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | MIT | [skills/i-have-adhd/](./skills/i-have-adhd/) — ADHD-friendly output-contract skill |
+| [blader/humanizer](https://github.com/blader/humanizer) | MIT | [skills/humanizer/](./skills/humanizer/) — rewrite AI-sounding prose without changing claims |
+| [zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides) | MIT | [skills/frontend-slides/](./skills/frontend-slides/) — zero-dependency 16:9 HTML presentations |
+| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | MIT | [skills/ui-ux-pro-max/](./skills/ui-ux-pro-max/) — 7 design-intelligence skills (catalogs, brand, tokens, slides, banners, styling) |
+| [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | Apache-2.0 | [skills/impeccable/](./skills/impeccable/) — frontend craft commands + anti-pattern detector (sparse copy) |
 
-**329** agent skills total — full index: [skills/README.md](./skills/README.md).  
+**342** agent skills total — full index: [skills/README.md](./skills/README.md).  
 Additional upstream projects (link-only + OpenClaw snapshots): [upstream-repos-catalog.md](./references/upstream-repos-catalog.md) · [nice-projects/README.md](../nice-projects/README.md).

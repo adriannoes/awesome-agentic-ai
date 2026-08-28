@@ -40,6 +40,15 @@ Curated notes on external repos that complement **Cursor**, **Claude Code**, and
 | Research Paper Writing | ✅ 1 skill | [Master-cai/Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills) |
 | Plain writing | ✅ 1 skill | [shreyashankar/plain-writing-skill](https://github.com/shreyashankar/plain-writing-skill) |
 | David Ondrej skills | ✅ 30 skills | [davidondrej/skills](https://github.com/davidondrej/skills) |
+| Archify (interactive system maps) | ✅ 1 skill | [tt-a1i/archify](https://github.com/tt-a1i/archify) |
+| Diagram Design (editorial HTML/SVG) | ✅ 1 skill | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) |
+| i-have-adhd (output contract) | ✅ 1 skill | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) |
+| Humanizer (AI-tell rewrite) | ✅ 1 skill | [blader/humanizer](https://github.com/blader/humanizer) |
+| Frontend Slides (16:9 HTML decks) | ✅ 1 skill | [zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides) |
+| UI UX Pro Max (design catalogs) | ✅ 7 skills | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
+| Impeccable (frontend craft + detector) | ✅ 1 skill (sparse) | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) |
+| Understand-Anything (code knowledge graphs) | ❌ link only | [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) |
+| Hallmark (anti-slop design) | ❌ link only | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) |
 | Awesome Agent Evals (eval reference catalog) | ✅ README + PATTERNS + 146 notes | [benchflow-ai/awesome-evals](https://github.com/benchflow-ai/awesome-evals) |
 | LLMs-from-scratch (notebooks) | ✅ 66 notebooks | [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) |
 | smol-course (alignment notebooks) | ✅ 12 notebooks | [huggingface/smol-course](https://github.com/huggingface/smol-course) |
@@ -331,11 +340,11 @@ Or via the `ccpi` CLI per upstream README.
 - `packages/cli/` — official `@google/design.md` CLI (`lint`, `diff`, WCAG contrast checks)
 - `skills-lock.json` — references agent skills that pair with the spec (jpoehnelt/skills, vercel-labs/json-render, msmps/opentui-skill)
 
-**Vendored in this hub (as of 2026-04-21):** [references/design-md/](./design-md/) — the full `spec.md`, all 3 examples, and the upstream `LICENSE`. CLI is **not** vendored (use `npx @google/design.md` to run it).
+**Vendored in this hub (as of 2026-08-27, tag 0.4.0):** [references/design-md/](./design-md/) — the full `spec.md`, all 3 examples, and the upstream `LICENSE`. CLI is **not** vendored (use `npx @google/design.md` to run it).
 
 **Use here:** Read [references/design-md/README.md](./design-md/README.md) first. Start a product with a DESIGN.md and every agent session stays visually coherent without re-explaining the brand.
 
-**Fit for this hub:** Primary bridge between **designers** and **AI-assisted development** — fills the gap between [cursor-claude-codex/skills/frontend-design/](../skills/frontend-design/) (how to build distinctive UI) and [cursor-claude-codex/skills/web-design-guidelines/](../skills/web-design-guidelines/) (how to audit UI). Natural pair with [VoltAgent/awesome-design-md](#voltagentawesome-design-md) which is a community collection that follows this same format.
+**Fit for this hub:** Primary bridge between **designers** and **AI-assisted development** — fills the gap between [cursor-claude-codex/skills/frontend-design/](../skills/frontend-design/) (how to build distinctive UI) and [cursor-claude-codex/skills/web-design-guidelines/](../skills/web-design-guidelines/) (how to audit UI). [impeccable](#pbakausimpeccable) `init` writes a related `DESIGN.md` + `PRODUCT.md`. Natural pair with [VoltAgent/awesome-design-md](#voltagentawesome-design-md) which is a community collection that follows this same format.
 
 ---
 
@@ -440,7 +449,7 @@ npx skills add https://github.com/Leonxlnx/taste-skill
 npx skills add https://github.com/Leonxlnx/taste-skill --skill "design-taste-frontend"
 ```
 
-**Vendored in this hub (as of 2026-07-07):** [skills/taste-skills/](../skills/taste-skills/) — **13 skills** @ commit `b177427`. Hub README: [taste-skills/README.md](../skills/taste-skills/README.md); upstream README: [UPSTREAM-README.md](../skills/taste-skills/UPSTREAM-README.md). Refresh: [MAINTENANCE.md](../MAINTENANCE.md#leonxlnxtaste-skill).
+**Vendored in this hub (as of 2026-08-27):** [skills/taste-skills/](../skills/taste-skills/) — **13 skills** @ commit `ccbc156`. Hub README: [taste-skills/README.md](../skills/taste-skills/README.md); upstream README: [UPSTREAM-README.md](../skills/taste-skills/UPSTREAM-README.md). Refresh recipe in the hub README.
 
 **Honest assessment:** All 13 skills **PASS** [skill-security-auditor](../skills/alirezarezvani-skills/skill-security-auditor/) (2026-07-07). Complements — does not replace — [frontend-design](../skills/frontend-design/) and [web-design-guidelines](../skills/web-design-guidelines/). v2 default is experimental; pin commits or use `design-taste-frontend-v1` for stable v1 behavior. Not for global `alwaysApply`.
 
@@ -596,6 +605,144 @@ git clone https://github.com/davidondrej/skills ~/.agents/skills-davidondrej
 ```
 
 **Fit for this hub:** Complements obra/superpowers orchestration skills, [matt-pocock/](../skills/matt-pocock/) grilling/handoff/teach variants, and [writing-skills](../skills/writing-skills/) meta-authoring. Unique value: `codex-goal-loop`, `fable-safe-prompt`, `run-deep-swe`, `cmux` reference, `research-prompt`.
+
+---
+
+## [tt-a1i/archify](https://github.com/tt-a1i/archify)
+
+**License:** MIT (© 2026 tt-a1i / Archify; © 2025 Cocoon AI for the original `architecture-diagram-generator`). **~18k ★.** Latest commit 2026-08-27 (`585be4c`, `v2.16.0-dev.0`). Site: [tt-a1i.github.io/archify](https://tt-a1i.github.io/archify/).
+
+**What it is:** A single **agent skill** that produces polished, validated **architecture / workflow / sequence / data-flow / lifecycle** diagrams as self-contained interactive HTML (inline SVG, dark/light, optional motion, PNG/SVG/WebM export). Typed JSON IR plus deterministic showcase checks — not a Mermaid renderer (it can *ingest* Mermaid topology and rewrite it). Ships a Node CLI (`bin/archify.mjs`), schemas, renderers, and a 107-mark brand catalogue. Targets Cursor, Claude Code, Codex, OpenCode, Raven (`npx skills add tt-a1i/archify`).
+
+**Vendored in this hub (as of 2026-08-27):** [skills/archify/](../skills/archify/) — the `archify/` package @ `585be4c`. Omitted: `test/`, generated `examples/*.html` (~700 KB each), docs site, gallery, benchmarks, `archify.zip`. JSON examples and `assets/template.html` are kept. `skill-security-auditor` **FAIL**s on `child_process` + `RegExp.exec` (same class of false positive as [vercel-optimize](../skills/vercel-optimize/)); documented in the hub README.
+
+**Install upstream (alternative):**
+
+```bash
+npx skills add tt-a1i/archify -g
+```
+
+**Fit for this hub:** The deep diagram skill we did not have. [visual-content/](../skills/visual-content/) is a breadth-first Mermaid/D2/PlantUML menu; Archify is the opinionated, checkable HTML map. Complements [commands/diagrams.md](../commands/diagrams.md) (Mermaid in chat) and [diagram-design](#cathrynlaverydiagram-design) (editorial 39-type HTML/SVG) without replacing either.
+
+---
+
+## [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design)
+
+**License:** MIT. **~28k ★.** Vendored @ `4faae66` (v2.6), 2026-08-27. Gallery: [cathrynlavery.github.io/diagram-design](https://cathrynlavery.github.io/diagram-design/).
+
+**What it is:** A single **agent skill** that draws **editorial diagrams** as self-contained HTML with inline SVG: **39 layout types** (architecture, flowchart, sequence, Wardley, Sankey, …), brand tokens from a website, semantic patterns separate from layout, optional accessible motion. Can redraw draw.io or Mermaid sources. Not a Mermaid renderer.
+
+**Vendored in this hub (as of 2026-08-27):** [skills/diagram-design/](../skills/diagram-design/) — the `diagram-design` SKILL.md package. Omitted: generated gallery HTML (`assets/example-*.html`, `assets/index.html`), screenshots/`docs/`, plugin wrappers. `skill-security-auditor` **FAIL**s on `base64.b64decode` in `drawio_extract.py` (draw.io payload encoding, not obfuscation); documented in the hub README.
+
+**Install upstream (alternative):**
+
+```bash
+npx skills add cathrynlavery/diagram-design -g
+```
+
+**Fit for this hub:** Editorial 39-type grammar vs [archify](#tt-a1iarchify) validated interactive IR. Pair with [visual-content/](../skills/visual-content/) as the breadth-first Mermaid/D2 menu and [commands/diagrams.md](../commands/diagrams.md) for Mermaid in chat.
+
+---
+
+## [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd)
+
+**License:** MIT. **~25k ★.** Vendored @ `cbe69fb`, 2026-08-27.
+
+**What it is:** An **output-contract** skill: reshape every reply for an ADHD reader — lead with the next action, number multi-step work, restate state each turn, suppress tangents, give time in minutes, make wins visible, no preamble or closers. Ten rules. Stays on until the user says `stop adhd mode`. No diagnosis required.
+
+**Vendored in this hub (as of 2026-08-27):** [skills/i-have-adhd/](../skills/i-have-adhd/) — SKILL.md + `agents/` wrappers. Omitted: `logo.png`, `evals/`, `hooks/`, plugin-folder duplicates. `skill-security-auditor` **PASS**.
+
+**Install upstream (alternative):**
+
+```bash
+npx skills add ayghri/i-have-adhd -g
+```
+
+**Fit for this hub:** Changes *how* the agent writes, not *what* it builds. Sits alongside any authoring or diagram skill without overlapping them. Not a substitute for [plain-writing](#shreyashankarplain-writing-skill).
+
+---
+
+## [blader/humanizer](https://github.com/blader/humanizer)
+
+**License:** MIT. **~38k ★.** Vendored @ `e2e92e7` (`v2.11.2`), 2026-08-27.
+
+**What it is:** A single skill that **rewrites AI-sounding text so it reads like a person wrote it**, without changing claims. Thirty-five patterns from Wikipedia's ["Signs of AI writing"](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing). Optional voice matching from a writing sample.
+
+**Vendored in this hub (as of 2026-08-27):** [skills/humanizer/](../skills/humanizer/) — SKILL.md + `AGENTS.md` + `scripts/` + `agents/`. Omitted: `.claude-plugin/`. `skill-security-auditor` **PASS**.
+
+**Install upstream (alternative):**
+
+```bash
+npx skills add blader/humanizer --global
+```
+
+**Fit for this hub:** AI-tell removal vs [plain-writing](#shreyashankarplain-writing-skill) (plain-language defaults) vs [writing-guidelines](../skills/writing-guidelines/) (Vercel handbook audit). Complementary, not duplicates.
+
+---
+
+## [zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides)
+
+**License:** MIT. **~28k ★.** Vendored @ `9906a34`, 2026-08-27. Walkthrough: [YouTube](https://www.youtube.com/watch?v=372Iksaz8b0).
+
+**What it is:** A single skill that builds **zero-dependency HTML presentations** — from scratch or by converting PowerPoint — as a fixed 16:9 (1920×1080) stage. Visual style discovery, anti-generic-AI aesthetics, optional bold template pack, PPT extract + PDF export + deploy scripts.
+
+**Vendored in this hub (as of 2026-08-27):** [skills/frontend-slides/](../skills/frontend-slides/) — SKILL.md + presets + `bold-template-pack/` + `scripts/`. Omitted: `plugins/` duplicate and `.claude-plugin/`. `skill-security-auditor` **WARN** on optional `export-pdf.sh` (`npm install playwright`); documented in the hub README.
+
+**Install upstream (alternative):** Claude Code marketplace `/plugin marketplace add https://github.com/zarazhangrui/frontend-slides`.
+
+**Fit for this hub:** Full HTML deck runtime vs [visual-content/presentation-slide-outliner](../skills/visual-content/presentation-slide-outliner/SKILL.md) (outline shim) vs [ui-ux-pro-max slides](#nextlevelbuilderui-ux-pro-max-skill) (token/Chart.js presentations).
+
+---
+
+## [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
+
+**License:** MIT. **~122k ★.** Vendored @ `8bd29e7` (`skill.json` **v2.13.0**), 2026-08-27. Site: [uupm.cc](https://uupm.cc). Same package as [skills.sh/nextlevelbuilder/ui-ux-pro-max-skill](https://www.skills.sh/nextlevelbuilder/ui-ux-pro-max-skill).
+
+**What it is:** A **design-intelligence** pack: searchable local catalogs (styles, palettes, fonts, UX rules, stacks) plus companion skills for brand, tokens, slides, banners, and shadcn/Tailwind styling. Catalog + routing, **not** a taste POV.
+
+**Vendored in this hub (as of 2026-08-27):** [skills/ui-ux-pro-max/](../skills/ui-ux-pro-max/) — **7 skills** from `.claude/skills/`. Omitted: gallery, screenshots, CLI source, docs, preview, projects, stack templates. Bundle scan **FAIL**s (`child_process`, `RegExp.exec`, optional `GEMINI_API_KEY` in CIP scripts); per-skill PASS/WARN/FAIL documented in the hub README.
+
+**Install upstream (alternative):** `npx ui-ux-pro-max-cli init --ai cursor` (not `npx skills add`).
+
+**Fit for this hub:** Searchable style/palette/stack data next to [taste-skills](#leonxlnxtaste-skill) (anti-slop POV) and [frontend-design](../skills/frontend-design/). Do not load all seven as `alwaysApply`.
+
+---
+
+## [pbakaus/impeccable](https://github.com/pbakaus/impeccable)
+
+**License:** Apache-2.0 (+ `NOTICE.md`). **~63k ★.** Vendored @ `63b04e2` (CLI **v3.6.1**, skill **v4.1.2**), 2026-08-27. Docs: [impeccable.style](https://impeccable.style).
+
+**What it is:** A **frontend craft** skill: 23 `/impeccable` commands (`init`, `audit`, `critique`, `polish`, `live`, …), `PRODUCT.md` / `DESIGN.md` setup, and **59 deterministic anti-pattern rules**. Grew from Anthropic's frontend-design skill. Full product includes a live-browser detector (~345 MB monorepo because the skill is duplicated into ~15 agent folders).
+
+**Vendored in this hub (as of 2026-08-27):** [skills/impeccable/](../skills/impeccable/) — sparse copy of `plugin/skills/impeccable/` plus root LICENSE/NOTICE. Omitted: 15 agent-folder clones; `live-browser.js`; browser detector bundles; `modern-screenshot.umd.js`. `skill-security-auditor` **FAIL**s on Node `child_process` (same class as [archify](#tt-a1iarchify) / [vercel-optimize](../skills/vercel-optimize/)); documented in the hub README.
+
+**Install upstream (alternative):** `npx impeccable install` for live-browser + hooks.
+
+**Fit for this hub:** Command + detector layer vs [design-md](#google-labs-codedesignmd) format spec vs [frontend-design](../skills/frontend-design/) (shorter aesthetic baseline). `init` writes a related `DESIGN.md` + `PRODUCT.md`.
+
+---
+
+## [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything)
+
+**License:** MIT. **~81k ★.** Link-only (not vendored).
+
+**What it is:** Agent plugin that turns a codebase into an **interactive knowledge graph** you can explore, search, and ask questions about. Targets Claude Code, Codex, Cursor, Copilot, Gemini CLI.
+
+**Why not vendored:** The plugin + knowledge-graph payload is large (~34 MB). This hub already covers architecture *maps* ([archify](#tt-a1iarchify), [diagram-design](#cathrynlaverydiagram-design)); Understand-Anything is a live exploration product, not a SKILL.md playbook.
+
+**Fit for this hub:** Discovery pointer under [nice-projects](../../nice-projects/README.md) for Product Builders who want graph-based code understanding next to diagram skills.
+
+---
+
+## [Nutlope/hallmark](https://github.com/Nutlope/hallmark)
+
+**License:** MIT. **~27k ★.** Link-only (not vendored).
+
+**What it is:** Anti-AI-slop **design skill** for Claude Code, Cursor, and Codex (Hassan El Mghari / Nutlope).
+
+**Why not vendored:** Overlaps [taste-skills](#leonxlnxtaste-skill) (already 13 anti-slop skills in-tree). Keep as a second opinion rather than a second copy.
+
+**Fit for this hub:** Link-only alternative POV beside taste-skills, [frontend-design](../skills/frontend-design/), and [impeccable](#pbakausimpeccable).
 
 ---
 

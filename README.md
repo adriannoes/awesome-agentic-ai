@@ -15,7 +15,7 @@
 
 > The most complete collection of battle-tested AI-assisted development resources — for Product Managers, Designers, and Developers who want to ship real products with AI.
 
-**What's inside:** **329** agent skills · **82** papers · **201** notebooks · **9** textbooks · **85** curated GitHub projects · **5,380** OpenClaw skills — [full stats](docs/stats.md) · [changelog](CHANGELOG.md)
+**What's inside:** **342** agent skills · **93** papers · **201** notebooks · **9** textbooks · **94** curated GitHub projects · **5,380** OpenClaw skills — [full stats](docs/stats.md) · [changelog](CHANGELOG.md)
 
 Whether you're a PM who wants to prototype faster, a Designer who wants to understand the code your AI is generating, or a Developer looking for the sharpest rules to ship with — this repo is built to be copied, forked, and used the same day.
 
@@ -32,14 +32,14 @@ Whether you're a PM who wants to prototype faster, a Designer who wants to under
 
 | Area | Count | Start here |
 |------|------:|------------|
-| Cursor, Claude & Codex | **329** skills | [cursor-claude-codex/README.md](cursor-claude-codex/README.md) |
+| Cursor, Claude & Codex | **342** skills | [cursor-claude-codex/README.md](cursor-claude-codex/README.md) |
 | Prompts | **14** snapshots | [prompt-engineering/README.md](prompt-engineering/README.md) |
 | Learning (textbooks) | **9** PDFs | [learning/README.md](learning/README.md) |
 | Reports | **18** PDFs | [reports/README.md](reports/README.md) |
 | OpenClaw ecosystem | **36** agents · **5,380** skills | [openclaw/README.md](openclaw/README.md) |
-| Projects to watch | **85** repos | [nice-projects/README.md](nice-projects/README.md) |
+| Projects to watch | **94** repos | [nice-projects/README.md](nice-projects/README.md) |
 | Research & notebooks | **201** notebooks | [research/README.md](research/README.md) |
-| Papers | **82** PDFs · 10 themes | [papers/README.md](papers/README.md) |
+| Papers | **93** PDFs · 10 themes | [papers/README.md](papers/README.md) |
 | n8n templates | **21** workflows | [n8n-templates/](n8n-templates/) |
 
 **Upstream catalog:** [cursor-claude-codex/references/upstream-repos-catalog.md](cursor-claude-codex/references/upstream-repos-catalog.md) · **Docs:** [docs/README.md](docs/README.md) · **External lists:** [docs/ecosystem.md](docs/ecosystem.md)

@@ -13,7 +13,7 @@ They are most useful as:
 - **A coverage checklist** — a menu of 25 visual outputs you might not have considered
 - **A starting point** — fork and deepen individual SKILL.md files when you actually use them on a project
 
-For **deep** design/visualization skills, see our curated ones: [frontend-design/](../frontend-design/), [web-design-guidelines/](../web-design-guidelines/), and the `/diagrams` command in [commands/diagrams.md](../../commands/diagrams.md).
+For **deep** design/visualization skills, see our curated ones: [archify/](../archify/) (validated interactive system maps), [diagram-design/](../diagram-design/) (editorial 39-type HTML/SVG), [frontend-slides/](../frontend-slides/) (16:9 HTML decks), [frontend-design/](../frontend-design/), [web-design-guidelines/](../web-design-guidelines/), and the `/diagrams` command in [commands/diagrams.md](../../commands/diagrams.md).
 
 ## Skills (25)
 

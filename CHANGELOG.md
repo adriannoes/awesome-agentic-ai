@@ -8,6 +8,23 @@ adapted for a knowledge hub (content batches, not library APIs).
 
 ## [Unreleased]
 
+### Added
+
+- **Skills:** [tt-a1i/archify](https://github.com/tt-a1i/archify) — interactive architecture / workflow / sequence / data-flow / lifecycle diagram skill (MIT, ~18k ★), vendored at [cursor-claude-codex/skills/archify/](cursor-claude-codex/skills/archify/)
+- **Skills:** [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) — editorial HTML/SVG diagrams, 39 layout types (MIT, ~28k ★)
+- **Skills:** [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) — ADHD-friendly output-contract skill (MIT, ~25k ★)
+- **Skills:** [blader/humanizer](https://github.com/blader/humanizer) — rewrite AI-sounding prose without changing claims (MIT, ~38k ★)
+- **Skills:** [zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides) — zero-dependency 16:9 HTML presentations (MIT, ~28k ★)
+- **Skills:** [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) — 7 design-intelligence skills (MIT, ~122k ★)
+- **Skills:** [pbakaus/impeccable](https://github.com/pbakaus/impeccable) — frontend craft commands + anti-pattern detector, sparse copy (Apache-2.0, ~63k ★)
+- **nice-projects / catalog (link-only):** [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) (~81k ★) and [Nutlope/hallmark](https://github.com/Nutlope/hallmark) (~27k ★)
+- **Papers:** 11 PDFs from the historical Learning series that were not yet in `papers/` — backprop, LSTM, Bahdanau attention, Nature DQN, AlphaGo, PPO, LoRA, Chain-of-Thought, Let's Verify Step by Step, Mixtral, Kimi K3
+
+### Changed
+
+- **Skills refresh:** [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) pin `b177427` → `ccbc156`; [google-labs-code/design.md](https://github.com/google-labs-code/design.md) spec **0.3.0 → 0.4.0**
+- Hub counts: **329** → **342** agent skills; **82** → **93** research papers; **85** → **94** curated GitHub projects; upstream sources **26** → **33**
+
 ## [1.1.0] - 2026-08-21
 
 Significant content batch: new textbook, **+12** curated GitHub projects (agent learning paths, MCP, system design), and a slimmer hub README.
@@ -160,7 +177,8 @@ Initial hub launch ([#1](https://github.com/adriannoes/awesome-agentic-ai/pull/1
 - Root README with quick-start paths for PMs, Designers, Developers, and Learners
 - Foundation folders: cursor rules, prompts, n8n templates, research
 
-[Unreleased]: https://github.com/adriannoes/awesome-agentic-ai/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/adriannoes/awesome-agentic-ai/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/adriannoes/awesome-agentic-ai/releases/tag/v1.1.0
 [1.0.0]: https://github.com/adriannoes/awesome-agentic-ai/releases/tag/v1.0.0
 [0.7.0]: https://github.com/adriannoes/awesome-agentic-ai/releases/tag/v0.7.0
 [0.6.0]: https://github.com/adriannoes/awesome-agentic-ai/releases/tag/v0.6.0
