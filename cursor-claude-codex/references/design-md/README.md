@@ -2,7 +2,7 @@
 
 **Source:** [google-labs-code/design.md](https://github.com/google-labs-code/design.md)
 **License:** Apache License 2.0 — Google LLC (see [LICENSE](./LICENSE))
-**Vendored:** 2026-06-25 (refreshed to upstream `docs/spec.md` @ v0.3.0; originally 2026-04-21) · spec.md + PHILOSOPHY.md + 3 examples
+**Vendored:** 2026-08-27 @ **0.4.0** (`9bf8eae`; originally 2026-04-21) · spec.md + PHILOSOPHY.md + 3 examples
 
 ## What is DESIGN.md?
 
@@ -11,13 +11,13 @@ A format specification (from Google Labs) for describing a **visual identity to 
 - **Machine-readable design tokens** in YAML front matter — colors, typography, spacing, rounded, components. Tokens follow the [Design Token JSON spec](https://www.designtokens.org/tr/2025.10/format/) with `{path.to.token}` references.
 - **Human-readable prose** in the markdown body — rationale, tone, application guidance.
 
-The format is designed to be a **living source of truth** that both humans and agents (Claude Code, Cursor, Gemini, Codex, Antigravity, etc.) can read and refine across sessions and tools. Tokens are easily convertible to `tokens.json`, Figma variables, or Tailwind theme config (Tailwind CSS v4 export is supported as of v0.3.0).
+The format is designed to be a **living source of truth** that both humans and agents (Claude Code, Cursor, Gemini, Codex, Antigravity, etc.) can read and refine across sessions and tools. Tokens are easily convertible to `tokens.json`, Figma variables, Tailwind theme config, or plain CSS custom properties (`--format css-vars` as of v0.4.0). Tailwind CSS v4 export has been supported since v0.3.0.
 
 ## What's in this folder
 
 | Path | Purpose |
 |------|---------|
-| [spec.md](./spec.md) | The full format specification (generated from the upstream `spec.mdx`) — v0.3.0 adds Tailwind v4 export, standard + CSS Color Module formats in the validator/linter, and several new lint rules |
+| [spec.md](./spec.md) | The full format specification (generated from the upstream `spec.mdx`) — v0.4.0 adds the optional `omitted` frontmatter key; v0.3.0 added Tailwind v4 export and standard + CSS Color Module formats in the validator/linter |
 | [PHILOSOPHY.md](./PHILOSOPHY.md) | Upstream design philosophy doc — why DESIGN.md exists and how to think about design tokens + prose together |
 | [examples/atmospheric-glass/](./examples/atmospheric-glass/) | Example design system: *Atmospheric Glass* — translucent, depth-based UI |
 | [examples/paws-and-paths/](./examples/paws-and-paths/) | Example design system: *Paws and Paths* — playful, pet-centric brand |
@@ -33,18 +33,21 @@ Each example includes `DESIGN.md`, `design_tokens.json`, `tailwind.config.js`, a
 
 ## CLI (upstream, not vendored)
 
-Google Labs ships an official CLI (Apache-2.0, not vendored here) that lints, diffs, and validates DESIGN.md files — including WCAG contrast checks. As of upstream v0.3.0:
+Google Labs ships an official CLI (Apache-2.0, not vendored here) that lints, diffs, validates, and exports DESIGN.md files — including WCAG contrast checks. As of upstream v0.4.0:
 
 ```bash
 npx @google/design.md lint DESIGN.md
 npx @google/design.md diff DESIGN.md DESIGN-v2.md
+npx @google/design.md export --format css-vars DESIGN.md
 ```
 
-Outputs structured JSON that agents can act on. The linter now supports standard + CSS Color Module formats, an unknown-top-level-key rule, a token-like-ignored rule for dropped frontmatter keys, and `lint --format markdown`.
+Outputs structured JSON that agents can act on. v0.4.0 adds `--format css-vars` (CSS custom properties, optional `--prefix`), an `omitted` frontmatter key to suppress expected-missing section warnings, and token name collision lint (flattened dot-notation keys vs nested YAML groups). The CLI is **not** vendored here — run it with `npx @google/design.md`.
 
 ## Related in this hub
 
 - [cursor-claude-codex/skills/frontend-design/](../../skills/frontend-design/) — skill for distinctive frontend interfaces
+- [cursor-claude-codex/skills/impeccable/](../../skills/impeccable/) — `/impeccable init` writes a related `DESIGN.md` + `PRODUCT.md`
+- [cursor-claude-codex/skills/ui-ux-pro-max/](../../skills/ui-ux-pro-max/) — searchable style/palette/token catalogs
 - [cursor-claude-codex/skills/web-design-guidelines/](../../skills/web-design-guidelines/) — Vercel UI audit skill
 - [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) (catalog entry: [upstream-repos-catalog.md](../upstream-repos-catalog.md#voltagentawesome-design-md)) — community-curated collection of DESIGN.md files for public sites; uses this same format
 
