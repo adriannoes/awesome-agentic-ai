@@ -6,7 +6,7 @@ Counts verified against the repo tree. Regenerate with:
 ./bin/count-hub-stats.sh
 ```
 
-**Last verified:** 2026-08-27
+**Last verified:** 2026-08-28
 
 | Resource | Count | Entry point |
 |----------|------:|-------------|

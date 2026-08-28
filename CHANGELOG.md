@@ -8,6 +8,16 @@ adapted for a knowledge hub (content batches, not library APIs).
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-08-28
+
+Design/diagram skill batch and papers backfill ([#19](https://github.com/adriannoes/awesome-agentic-ai/pull/19)).
+
+### Highlights
+
+- **342** agent skills · **93** papers · **201** notebooks · **9** textbooks
+- **94** curated GitHub projects · **33** upstream sources · **5,380** OpenClaw skills
+- Seven new skill packs (Archify, Diagram Design, Frontend Slides, UI UX Pro Max, Impeccable, Humanizer, i-have-adhd) plus **+11** historical papers
+
 ### Added
 
 - **Skills:** [tt-a1i/archify](https://github.com/tt-a1i/archify) — interactive architecture / workflow / sequence / data-flow / lifecycle diagram skill (MIT, ~18k ★), vendored at [cursor-claude-codex/skills/archify/](cursor-claude-codex/skills/archify/)
@@ -23,6 +33,7 @@ adapted for a knowledge hub (content batches, not library APIs).
 ### Changed
 
 - **Skills refresh:** [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) pin `b177427` → `ccbc156`; [google-labs-code/design.md](https://github.com/google-labs-code/design.md) spec **0.3.0 → 0.4.0**
+- **Infrastructure:** scope `.gitignore` `scripts/` to the repo root so vendored skill CLIs are tracked (includes ACS helpers previously hidden by the unanchored pattern)
 - Hub counts: **329** → **342** agent skills; **82** → **93** research papers; **85** → **94** curated GitHub projects; upstream sources **26** → **33**
 
 ## [1.1.0] - 2026-08-21
@@ -177,7 +188,8 @@ Initial hub launch ([#1](https://github.com/adriannoes/awesome-agentic-ai/pull/1
 - Root README with quick-start paths for PMs, Designers, Developers, and Learners
 - Foundation folders: cursor rules, prompts, n8n templates, research
 
-[Unreleased]: https://github.com/adriannoes/awesome-agentic-ai/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/adriannoes/awesome-agentic-ai/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/adriannoes/awesome-agentic-ai/releases/tag/v1.2.0
 [1.1.0]: https://github.com/adriannoes/awesome-agentic-ai/releases/tag/v1.1.0
 [1.0.0]: https://github.com/adriannoes/awesome-agentic-ai/releases/tag/v1.0.0
 [0.7.0]: https://github.com/adriannoes/awesome-agentic-ai/releases/tag/v0.7.0
