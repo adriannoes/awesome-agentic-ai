@@ -102,3 +102,5 @@ erDiagram
 - Explain what the diagram shows
 - Offer to refine or expand specific sections
 - Suggest alternative diagram types if applicable
+
+For validated, shareable HTML architecture / sequence / data-flow maps (not Mermaid in chat), use [archify](../skills/archify/). For editorial HTML/SVG with a 39-type layout grammar, use [diagram-design](../skills/diagram-design/).

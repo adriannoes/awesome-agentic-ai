@@ -4,20 +4,20 @@ This directory contains research papers and resources on Large Language Models (
 
 ## Overview
 
-The collection includes: (1) **foundation models for code** (external references to key code-LLM papers); (2) **agent research** (external paper lists and surveys); (3) **82 PDFs** in `papers/`, organized into thematic subfolders — from classic AI foundations through contemporary agent and alignment research.
+The collection includes: (1) **foundation models for code** (external references to key code-LLM papers); (2) **agent research** (external paper lists and surveys); (3) **93 PDFs** in `papers/`, organized into thematic subfolders — from classic AI foundations through contemporary agent and alignment research.
 
 ## Directory structure
 
 ```
 papers/
 ├── ai-foundations/                # 5 — Turing, McCulloch–Pitts, Hebb, Perceptron, Dartmouth (1943–1956)
-├── early-deep-learning/           # 7 — LeNet, AlexNet, DQN, Word2Vec, DBN, ResNet, Seq2Seq (1998–2015)
+├── early-deep-learning/           # 12 — backprop, LSTM, LeNet, AlexNet, DQN, Word2Vec, attention, ResNet, AlphaGo (1986–2016)
 ├── foundation-models/             # 11 — Transformers, BERT, GPT, MoE, CLIP, scaling laws (2017–2022)
-├── alignment-and-post-training/   # 2 — RLHF / InstructGPT, DPO
+├── alignment-and-post-training/   # 3 — PPO, RLHF / InstructGPT, DPO
 ├── generative-models/             # 2 — GANs, diffusion models
 ├── agents-and-engineering/        # 22 — agents, harnesses, ReAct, context/memory, code evaluation
-├── reliability-and-reasoning/     # 9 — hallucinations, reasoning, memory, LLM-as-judge evaluation
-├── models-and-training/           # 13 — frontier reports, world models, fine-tuning, DeepSeek
+├── reliability-and-reasoning/     # 11 — CoT, process supervision, hallucinations, reasoning, LLM-as-judge
+├── models-and-training/           # 16 — frontier reports, LoRA, Mixtral, world models, fine-tuning, DeepSeek, Kimi K3
 ├── ethics-risks-and-society/      # 7 — risks, work, autonomy
 └── perspectives-and-futures/      # 4 — long-term visions of AI
 ```
@@ -34,13 +34,18 @@ papers/
 
 ### [early-deep-learning/](early-deep-learning/)
 
+- **Learning representations by back-propagating errors** (Rumelhart, Hinton & Williams, *Nature*, 1986)
+- **Long Short-Term Memory** (Hochreiter & Schmidhuber, 1997)
 - **Gradient-based learning applied to document recognition** (LeNet, 1998)
 - **A fast learning algorithm for deep belief nets** (Hinton et al., 2006)
 - **ImageNet Classification with Deep Convolutional Neural Networks** (AlexNet, 2012)
-- **Playing Atari with Deep Reinforcement Learning** (DQN, 2013)
+- **Playing Atari with Deep Reinforcement Learning** (DQN workshop paper, 2013)
 - **Efficient Estimation of Word Representations in Vector Space** (Word2Vec, 2013)
 - **Sequence to Sequence Learning with Neural Networks** (Sutskever et al., 2014)
+- **Neural Machine Translation by Jointly Learning to Align and Translate** (Bahdanau, Cho & Bengio, ICLR 2015) — additive attention; [arXiv:1409.0473](https://arxiv.org/abs/1409.0473)
+- **Human-level control through deep reinforcement learning** (Mnih et al., *Nature*, 2015) — journal DQN; pairs with the 2013 Atari workshop paper in this folder
 - **Deep Residual Learning for Image Recognition** (ResNet, 2015)
+- **Mastering the game of Go with deep neural networks and tree search** (Silver et al. — AlphaGo, *Nature*, 2016)
 
 ### [foundation-models/](foundation-models/)
 
@@ -60,6 +65,7 @@ Visual companion (architectures across the foundation-model era): Sebastian Rasc
 
 ### [alignment-and-post-training/](alignment-and-post-training/)
 
+- **Proximal Policy Optimization Algorithms** (Schulman et al., 2017) — the on-policy RL algorithm later used in RLHF; [arXiv:1707.06347](https://arxiv.org/abs/1707.06347)
 - **Training language models to follow instructions with human feedback** (InstructGPT / RLHF, 2022)
 - **Direct Preference Optimization: Your Language Model is Secretly a Reward Model** (DPO, 2023)
 
@@ -96,6 +102,8 @@ Visual companion (architectures across the foundation-model era): Sebastian Rasc
 
 ### [reliability-and-reasoning/](reliability-and-reasoning/)
 
+- **Chain-of-Thought Prompting Elicits Reasoning in Large Language Models** (Wei et al., 2022) — “think step by step” as a scaling effect; [arXiv:2201.11903](https://arxiv.org/abs/2201.11903)
+- **Let's Verify Step by Step** (Lightman et al., 2023) — process supervision vs outcome supervision for math reasoning; [arXiv:2305.20050](https://arxiv.org/abs/2305.20050)
 - **Ask, Don't Judge: Binary Questions for Interpretable LLM Evaluation and Self-Improvement** (Cho et al.) — BinEval decomposes evaluation into atomic yes/no questions for interpretable, training-free LLM judging and prompt self-improvement; [arXiv:2606.27226](https://arxiv.org/abs/2606.27226) (2026.06).
 - **[Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena](reliability-and-reasoning/Judging%20LLM-as-a-Judge%20with%20MT-Bench%20and%20Chatbot%20Arena.pdf)** (Zheng et al., 2023) — introduces MT-Bench and Chatbot Arena; studies agreement, biases, and failure modes of LLM-as-judge; foundational for [awesome-evals](../cursor-claude-codex/references/awesome-evals/) §8 and PATTERNS §1.
 - **[RoPoLL: Robust Panel of LLM Judges](reliability-and-reasoning/RoPoLL_Robust_Panel_of_LLM_Judges.pdf)** (Acharya, Pan & Verkhovsky, AWS) — formalizes PoLL under Huber contamination and replaces mean aggregation with geometric median; robust LLM-as-judge panels under biased/Byzantine corruption; [arXiv:2606.30931](https://arxiv.org/abs/2606.30931) (2026.06). Pairs with [cursor-claude-codex/references/awesome-evals/](../cursor-claude-codex/references/awesome-evals/) (§8 LLM-as-judge & verifiers).
@@ -111,15 +119,18 @@ Visual companion (architectures across the foundation-model era): Sebastian Rasc
 - **GPT-4 Technical Report** (OpenAI, 2023)
 - **LLaMA: Open and Efficient Foundation Language Models** (Meta, 2023)
 - **The Llama 3 Herd of Models** (Meta, 2024)
+- **Mixtral of Experts** (Jiang et al., 2024) — open sparse MoE that competes with denser models; [arXiv:2401.04088](https://arxiv.org/abs/2401.04088)
 - **Qwen2.5 Technical Report** (Qwen Team, 2024)
 - **OpenAI o1 System Card** (OpenAI)
 - **OpenAI o3 and o4-mini System Card** (OpenAI)
 - **DeepSeek-V3 Technical Report** (DeepSeek-AI)
 - **DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning** (DeepSeek-AI)
 - **NVIDIA Nemotron 3 Super Technical Report** (NVIDIA)
+- **Kimi K3: Open Frontier Intelligence** (Moonshot AI / Kimi Team, 2026) — 2.8T-parameter open-weight MoE with native vision and 1M context; [arXiv:2607.24653](https://arxiv.org/abs/2607.24653)
 - **LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels**
 - **Deepseek: Manifold-Constrained Hyper-Connections**
 - **DeepSeek Prover V2: DeepSeek's latest model masters math proofs**
+- **LoRA: Low-Rank Adaptation of Large Language Models** (Hu et al., 2021) — parameter-efficient fine-tuning via low-rank adapters; [arXiv:2106.09685](https://arxiv.org/abs/2106.09685)
 - **The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs** (also in [reports/](../reports/))
 
 ### [ethics-risks-and-society/](ethics-risks-and-society/)

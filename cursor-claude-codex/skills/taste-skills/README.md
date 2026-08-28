@@ -2,7 +2,7 @@
 
 **Source:** [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)  
 **License:** MIT — see [LICENSE](./LICENSE)  
-**Vendored:** 2026-07-07 — **13 skills** @ commit `b177427` (full mirror, `SKILL.md` packages only)  
+**Vendored:** 2026-08-27 — **13 skills** @ commit `ccbc156` (full mirror, `SKILL.md` packages only)  
 **Upstream README:** [UPSTREAM-README.md](./UPSTREAM-README.md) · **Changelog:** [CHANGELOG.md](./CHANGELOG.md)
 
 ## What it is
@@ -68,6 +68,8 @@ Or copy `skills/<folder>/` into `~/.claude/skills/` or `~/.agents/skills/` per p
 - [frontend-design](../frontend-design/) — shorter aesthetic baseline (mitsuhiko)
 - [web-design-guidelines](../web-design-guidelines/) — Vercel UI audit
 - [references/design-md/](../../references/design-md/) — Stitch `DESIGN.md` spec
+- [impeccable](../impeccable/) — frontend craft commands + detector
+- [ui-ux-pro-max](../ui-ux-pro-max/) — searchable style/palette catalogs (not a taste POV)
 - [composition-patterns](../composition-patterns/) — React structure after visual direction
 
 ## Refresh
