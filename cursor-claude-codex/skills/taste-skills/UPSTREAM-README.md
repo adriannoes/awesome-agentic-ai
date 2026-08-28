@@ -2,7 +2,7 @@
   <img src="assets/readme-banner.webp" alt="Taste Skill - Anti-slop Agent Skills for premium frontends" width="100%" />
 </p>
 
-# Taste Skill
+<h1 align="center">Taste Skill</h1>
 
 <p align="center">
   <em>The Anti-Slop Frontend Framework for AI Agents</em>
@@ -12,16 +12,64 @@
   <a href="https://tasteskill.dev" title="Visit tasteskill.dev"><img src="assets/readme-buttons/btn-site.webp" alt="Visit tasteskill.dev" height="56" /></a>
 </p>
 
+<p align="center">
+  <a href="https://platform.kimi.ai?track_id=track-20f0d64bcaba419bb425a3e8c306f65d&aff=taste-skill">
+    <img src="https://gcdn.moonshot.cn/growth-cdn/sponsor/kimi-en.png" alt="Kimi K3" width="100%" />
+  </a>
+</p>
+
+<p>Thanks to <strong>Kimi (Moonshot AI)</strong>, our Open Source Friend, for supporting taste-skill! With 2.8T parameters, native vision, and a 1-million-token context window, <strong>Kimi K3</strong> delivers frontier performance across long-horizon coding, knowledge work, and reasoning.</p>
+
+<p><a href="https://platform.kimi.ai?track_id=track-20f0d64bcaba419bb425a3e8c306f65d&aff=taste-skill"><strong>Get a Kimi API key</strong></a>. Taste-skill users get <strong>10% bonus API credits</strong> on their first purchase.</p>
+
 <h3 align="center">Sponsors</h3>
 
 <table align="center">
   <tr>
-    <td align="center" width="76"><a href="https://animations.dev"><img src="assets/sponsors/animations-dev.webp" alt="animations.dev" width="62" height="62" /></a></td>
+    <td align="center" width="104">
+      <a href="https://interfaces.dev/?utm_source=tasteskill&utm_medium=sponsorship">
+        <img src="assets/sponsors/interfaces-dev-icon.webp" alt="Interfaces" width="52" height="52" />
+      </a>
+    </td>
+    <td><sub><a href="https://interfaces.dev/?utm_source=tasteskill&utm_medium=sponsorship"><strong>interfaces.dev</strong></a> · A design engineering magazine by <a href="https://github.com/jakubkrehel"><strong>Jakub Krehel</strong></a></sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="104">
+      <a href="https://reactbits.dev">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/sponsors/reactbits-icon-dark.svg" />
+          <img src="assets/sponsors/reactbits-icon-light.svg" alt="React Bits" width="52" height="52" />
+        </picture>
+      </a>
+    </td>
+    <td><sub><a href="https://reactbits.dev"><strong>React Bits</strong></a> · animated React components for creative interfaces</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="104"><a href="https://animations.dev"><img src="assets/sponsors/animations-dev.webp" alt="animations.dev" width="52" height="52" /></a></td>
     <td><sub><a href="https://github.com/emilkowalski"><strong>Emil Kowalski</strong></a> · <a href="https://animations.dev">animations.dev</a></sub></td>
   </tr>
   <tr>
-    <td align="center" width="76"><a href="https://vercel.com/open-source-program"><img src="assets/sponsors/vercel-logo.svg" alt="Vercel" width="62" height="62" /></a></td>
-    <td><a href="https://vercel.com/open-source-program"><img src="assets/vercel-oss-program-badge.svg" alt="Vercel Open Source Program" height="32" /></a></td>
+    <td align="center" width="104"><a href="https://img.ly/"><img src="assets/sponsors/imgly-logo.svg" alt="IMG.LY" width="52" height="52" /></a></td>
+    <td><sub><a href="https://img.ly/"><strong>IMG.LY</strong></a> · CreativeEditor SDK</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="104"><a href="https://www.sent.dm"><img src="assets/sponsors/sentdm.png" alt="Sent.dm" width="52" height="52" /></a></td>
+    <td><sub><a href="https://www.sent.dm"><strong>Sent.dm</strong></a> · messaging APIs for SMS, WhatsApp, and RCS</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="104"><a href="https://www.kimi.com"><img src="assets/sponsors/kimi-icon.png" alt="Kimi" width="52" height="52" /></a></td>
+    <td>
+      <a href="https://www.kimi.com">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-06-05/1d8h69mt3v89kkekg24gg" />
+          <img alt="Kimi Open Source Friends" src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-06-05/1d8h69fudcmosb3pipls0" height="42" />
+        </picture>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="104"><a href="https://vercel.com/open-source-program"><img src="assets/sponsors/vercel-logo.svg" alt="Vercel" width="52" height="52" /></a></td>
+    <td><a href="https://vercel.com/open-source-program"><img src="assets/vercel-oss-program-badge.svg" alt="Vercel Open Source Program" height="28" /></a></td>
   </tr>
 </table>
 
@@ -158,9 +206,8 @@ If Taste Skill helps you, consider sponsoring:
 
 [Sponsor on GitHub](https://github.com/sponsors/Leonxlnx)
 
-### Current Sponsors
+### Community Sponsors
 
-<a href="https://animations.dev" title="Emil Kowalski · animations.dev"><img src="assets/sponsors/animations-dev.webp" width="62" height="62" alt="Emil Kowalski" title="Emil Kowalski · animations.dev" /></a>
 <a href="https://github.com/dnakov"><img src="https://github.com/dnakov.png" width="40" height="40" style="border-radius:50%" alt="dnakov" title="dnakov" /></a>
 <a href="https://github.com/AkramReshad"><img src="https://github.com/AkramReshad.png" width="40" height="40" style="border-radius:50%" alt="AkramReshad" title="AkramReshad" /></a>
 <a href="https://github.com/ajmalaksar25"><img src="https://github.com/ajmalaksar25.png" width="40" height="40" style="border-radius:50%" alt="ajmalaksar25" title="ajmalaksar25" /></a>
@@ -175,6 +222,8 @@ If Taste Skill helps you, consider sponsoring:
 <a href="https://github.com/mccun934"><img src="https://github.com/mccun934.png" width="40" height="40" style="border-radius:50%" alt="mccun934" title="mccun934" /></a>
 <a href="https://github.com/techmedic5"><img src="https://github.com/techmedic5.png" width="40" height="40" style="border-radius:50%" alt="techmedic5" title="techmedic5" /></a>
 <a href="https://github.com/bytewerk-dev"><img src="https://github.com/bytewerk-dev.png" width="40" height="40" style="border-radius:50%" alt="bytewerk-dev" title="bytewerk-dev" /></a>
+<a href="https://github.com/LuisGot"><img src="https://github.com/LuisGot.png" width="40" height="40" style="border-radius:50%" alt="LuisGot" title="LuisGot" /></a>
+<a href="https://github.com/oskar-collab"><img src="https://github.com/oskar-collab.png" width="40" height="40" style="border-radius:50%" alt="oskar-collab" title="oskar-collab" /></a>
 
 <p align="center">
  <a href="https://www.star-history.com/leonxlnx/taste-skill">
@@ -189,16 +238,6 @@ If Taste Skill helps you, consider sponsoring:
 ## Research
 
 Background writing that shaped these skills lives in [`research/`](research/).
-
-## Star History
-
-<a href="https://www.star-history.com/?repos=Leonxlnx%2Ftaste-skill&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Leonxlnx/taste-skill&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Leonxlnx/taste-skill&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Leonxlnx/taste-skill&type=date&legend=top-left" />
- </picture>
-</a>
 
 ## Common Questions
 
