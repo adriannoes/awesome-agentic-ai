@@ -107,6 +107,7 @@ Structured notes (folder layout, install commands, how each fits our hub) live i
 
 ### Agent Platforms
 - **[Orkas](https://github.com/Orkas-AI/Orkas)** - Open-source, local-first desktop AI workforce coordinated by a Commander through one chat.
+- **[YYLO](https://github.com/yylo-dev/yylo)** - Command-line orchestrator for coding agents with typed task, validation, merge, and release-readiness boundaries; each task runs in a dedicated branch/worktree and the merge queue owns risk-based review.
 
 ### Agent Frameworks
 - **[AutoAgent](https://github.com/HKUDS/AutoAgent)** - "AutoAgent: Fully-Automated and Zero-Code LLM Agent Framework"
