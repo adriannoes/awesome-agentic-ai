@@ -41,6 +41,7 @@ Whether you're a PM who wants to prototype faster, a Designer who wants to under
 | Research & notebooks | **201** notebooks | [research/README.md](research/README.md) |
 | Papers | **93** PDFs · 10 themes | [papers/README.md](papers/README.md) |
 | n8n templates | **21** workflows | [n8n-templates/](n8n-templates/) |
+- [mblode/agent-skills](https://github.com/mblode/agent-skills) - Nobody ships AI slop on purpose. These skills make sure you don't. UI audits, typography, docs, PR review, and releases.
 
 **Upstream catalog:** [cursor-claude-codex/references/upstream-repos-catalog.md](cursor-claude-codex/references/upstream-repos-catalog.md) · **Docs:** [docs/README.md](docs/README.md) · **External lists:** [docs/ecosystem.md](docs/ecosystem.md)
 
