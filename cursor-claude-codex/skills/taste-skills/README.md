@@ -69,6 +69,7 @@ Or copy `skills/<folder>/` into `~/.claude/skills/` or `~/.agents/skills/` per p
 - [web-design-guidelines](../web-design-guidelines/) — Vercel UI audit
 - [references/design-md/](../../references/design-md/) — Stitch `DESIGN.md` spec
 - [impeccable](../impeccable/) — frontend craft commands + detector
+- [mblode/agent-skills](https://github.com/mblode/agent-skills) — link-only second POV (UI/docs/PR/release pack); install upstream
 - [ui-ux-pro-max](../ui-ux-pro-max/) — searchable style/palette catalogs (not a taste POV)
 - [composition-patterns](../composition-patterns/) — React structure after visual direction
 

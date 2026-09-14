@@ -49,6 +49,7 @@ Curated notes on external repos that complement **Cursor**, **Claude Code**, and
 | Impeccable (frontend craft + detector) | ✅ 1 skill (sparse) | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) |
 | Understand-Anything (code knowledge graphs) | ❌ link only | [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) |
 | Hallmark (anti-slop design) | ❌ link only | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) |
+| mblode agent-skills (UI/docs/PR/release pack) | ❌ link only | [mblode/agent-skills](https://github.com/mblode/agent-skills) |
 | Awesome Agent Evals (eval reference catalog) | ✅ README + PATTERNS + 146 notes | [benchflow-ai/awesome-evals](https://github.com/benchflow-ai/awesome-evals) |
 | LLMs-from-scratch (notebooks) | ✅ 66 notebooks | [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) |
 | smol-course (alignment notebooks) | ✅ 12 notebooks | [huggingface/smol-course](https://github.com/huggingface/smol-course) |
@@ -743,6 +744,18 @@ npx skills add blader/humanizer --global
 **Why not vendored:** Overlaps [taste-skills](#leonxlnxtaste-skill) (already 13 anti-slop skills in-tree). Keep as a second opinion rather than a second copy.
 
 **Fit for this hub:** Link-only alternative POV beside taste-skills, [frontend-design](../skills/frontend-design/), and [impeccable](#pbakausimpeccable).
+
+---
+
+## [mblode/agent-skills](https://github.com/mblode/agent-skills)
+
+**License:** MIT. **~113 ★.** Link-only (not vendored).
+
+**What it is:** Matthew Blode's **~26** skills for Claude Code, Cursor, and Codex — UI/typography audits, docs, PR review, and npm releases. Install via `npx skills add mblode/agent-skills`.
+
+**Why not vendored:** Overlaps [taste-skills](#leonxlnxtaste-skill), [impeccable](#pbakausimpeccable), and [frontend-design](../skills/frontend-design/). Keep as a second opinion rather than a second copy of the anti-slop/UI stack.
+
+**Fit for this hub:** Link-only alternative POV beside taste-skills / impeccable. AX/DX audit and `autoship` are the pieces this hub does not already vendor.
 
 ---
 
