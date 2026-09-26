@@ -8,7 +8,9 @@ adapted for a knowledge hub (content batches, not library APIs).
 
 ## [Unreleased]
 
-Prepared as the next minor release (**v1.3.0**): agent entrypoint plus the open-models paper batch. Not tagged yet.
+## [1.3.0] - 2026-09-26
+
+Agent entrypoint and open-models paper batch ([#22](https://github.com/adriannoes/awesome-agentic-ai/pull/22)).
 
 ### Highlights
 
