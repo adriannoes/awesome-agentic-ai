@@ -4,6 +4,7 @@ Supplementary navigation and reference — keeps the [main README](../README.md)
 
 | Doc | Purpose |
 |-----|---------|
+| [../AGENTS.md](../AGENTS.md) | Orientation for an agent connected to this repo (skills + study materials) |
 | [stats.md](stats.md) | Full hub counts (verified against repo tree) |
 | [about.md](about.md) | Audience, positioning, maintainer |
 | [ecosystem.md](ecosystem.md) | External awesome lists we follow |

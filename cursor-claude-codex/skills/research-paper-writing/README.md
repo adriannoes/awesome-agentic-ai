@@ -39,7 +39,7 @@ Or copy/symlink this folder into your skills path (`~/.claude/skills/`, `~/.agen
 ## Pairs with
 
 - [research/](../../../research/) — educational notebooks and autonomous research setups (Karpathy nn-zero-to-hero, nanochat, autoresearch). This skill covers the *writing-up* side those notebooks don't.
-- [autoresearch](../autoresearch/) — Karpathy's autonomous research loop; this skill is the writing companion to the research loop
+- [autoresearch](../autoresearch/) — Karpathy's autonomous research loop; this skill is the writing companion to the research loop. Hub papers: [SoL-Pi](../../../papers/agents-and-engineering/SoL-Pi_%20Recursively%20Scaling%20Auto-Research%20Loops%20for%20Efficient%20Agent%20Harness.pdf), [*The Last AI Built by Humans*](../../../papers/perspectives-and-futures/The%20Last%20AI%20Built%20by%20Humans_%20Toward%20Genuine%20Recursive%20Self-Improvement.pdf)
 - [writing-plans](../writing-plans/) · [writing-skills](../writing-skills/) — structured-writing skills (for code plans/skills, but the discipline transfers)
 
 ## Attribution

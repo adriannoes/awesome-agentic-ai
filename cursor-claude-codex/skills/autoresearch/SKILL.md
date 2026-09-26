@@ -329,3 +329,13 @@ A good autoresearch run:
 7. **Ran autonomously** — didn't stop to ask permission between experiments
 
 If the skill "passes" all evals but the actual output quality hasn't improved — the evals are bad, not the skill. Go back to step 2 and write better evals.
+
+---
+
+## Hub papers (RSI & auto-research)
+
+- [*The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement*](../../../papers/perspectives-and-futures/The%20Last%20AI%20Built%20by%20Humans_%20Toward%20Genuine%20Recursive%20Self-Improvement.pdf) — RSI roadmap and Headroom-Closed Index (HCI) diagnostic
+- [SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness](../../../papers/agents-and-engineering/SoL-Pi_%20Recursively%20Scaling%20Auto-Research%20Loops%20for%20Efficient%20Agent%20Harness.pdf) — scaled harness auto-research (NVIDIA / NTU / MIT)
+- [CodeMidas: Scaling Agentic Coding RL Environments from Code Itself](../../../papers/agents-and-engineering/CodeMidas_%20Scaling%20Agentic%20Coding%20RL%20Environments%20from%20Code%20Itself.pdf) — RL training environments mined from source code (Xiaomi / PKU)
+- [Grounded Skill Synthesis from Code at Scale for Agentic Intelligence](../../../papers/agents-and-engineering/Grounded%20Skill%20Synthesis%20from%20Code%20at%20Scale%20for%20Agentic%20Intelligence.pdf) — Code2Skill / CodeSkillBank (Ant International)
+- [awesome-rsi](https://github.com/theseus-labs-rsi/awesome-rsi) — curated RSI paper list (Theseus Labs)

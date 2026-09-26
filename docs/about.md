@@ -7,6 +7,7 @@
 - **Product Builders** who want to go from idea to product faster
 - **Developers** looking for optimized Cursor, Claude Code, and Codex rules
 - **Anyone** curious about how AI-assisted development actually works
+- **Agents** pointed at this repo to apply vendored skills and study the local papers, notebooks, and textbooks — start at [AGENTS.md](../AGENTS.md)
 
 ## What makes this different
 

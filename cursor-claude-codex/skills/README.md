@@ -2,7 +2,7 @@
 
 Skills in this folder are designed to work for **both Cursor and Claude Code**. Place here any skill that you want to reuse across both tools so a single definition serves both.
 
-**See also:** [cursor-claude-codex/README.md](../README.md) | [commands/](../commands/) | [product-management/no-vibe-coding.md](../product-management/no-vibe-coding.md)
+**See also:** [cursor-claude-codex/README.md](../README.md) | [commands/](../commands/) | [product-management/no-vibe-coding.md](../product-management/no-vibe-coding.md) | skill-evolution papers in [papers/agents-and-engineering/](../../papers/agents-and-engineering/) — [Grounded Skill Synthesis from Code at Scale](../../papers/agents-and-engineering/Grounded%20Skill%20Synthesis%20from%20Code%20at%20Scale%20for%20Agentic%20Intelligence.pdf) (Code2Skill / CodeSkillBank), [WikiSkill](../../papers/agents-and-engineering/WikiSkill%20Compiling%20Agent%20Experience%20into%20Persistent%20Knowledge%20for%20Skill%20Evolution.pdf), [CodeMidas](../../papers/agents-and-engineering/CodeMidas_%20Scaling%20Agentic%20Coding%20RL%20Environments%20from%20Code%20Itself.pdf)
 
 ## What goes here
 
@@ -82,7 +82,7 @@ Skills in this folder are designed to work for **both Cursor and Claude Code**. 
 
 | Skill | Description | Source |
 |-------|-------------|--------|
-| `autoresearch` | Research and evaluation workflows | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) |
+| `autoresearch` | Research and evaluation workflows; pairs with [SoL-Pi](../../papers/agents-and-engineering/SoL-Pi_%20Recursively%20Scaling%20Auto-Research%20Loops%20for%20Efficient%20Agent%20Harness.pdf), [CodeMidas](../../papers/agents-and-engineering/CodeMidas_%20Scaling%20Agentic%20Coding%20RL%20Environments%20from%20Code%20Itself.pdf), and [*The Last AI Built by Humans*](../../papers/perspectives-and-futures/The%20Last%20AI%20Built%20by%20Humans_%20Toward%20Genuine%20Recursive%20Self-Improvement.pdf) | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) |
 | `writing-skills` | How to write new skills well — Anthropic best practices, persuasion principles, subagent-tested examples | [obra/superpowers](https://github.com/obra/superpowers) (MIT) |
 | `using-superpowers` | How to use the superpowers skill collection effectively | [obra/superpowers](https://github.com/obra/superpowers) (MIT) |
 

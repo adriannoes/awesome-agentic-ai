@@ -31,7 +31,7 @@ chmod +x bin/count-hub-stats.sh bin/count-skills.sh   # once
 ./bin/count-skills.sh       # SKILL.md total only
 ```
 
-Counts live in [docs/stats.md](docs/stats.md); the main [README.md](README.md) links there instead of duplicating the full table.
+Counts live in [docs/stats.md](docs/stats.md); the main [README.md](README.md) links there instead of duplicating the full table. Agents working in this repo should follow [AGENTS.md](AGENTS.md).
 
 ## Guidelines
 
