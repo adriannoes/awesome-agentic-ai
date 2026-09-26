@@ -28,6 +28,8 @@ cursor-claude-codex/
 
 Skills written for Claude Code often work on Codex with minimal changes. When a skill references `Task`, `TodoWrite`, or `Skill` tools, see [skills/using-superpowers/references/codex-tools.md](./skills/using-superpowers/references/codex-tools.md).
 
+**This hub:** open the repo and start at the root [AGENTS.md](../AGENTS.md). Claude Code reads [CLAUDE.md](../CLAUDE.md), which points there. Nested `AGENTS.md` files inside skill packages apply only to that package.
+
 **Project overview:** [main README](../README.md) · [OpenClaw ecosystem](../openclaw/README.md) · [nice-projects](../nice-projects/README.md)
 
 ## Categories

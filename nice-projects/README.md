@@ -1,6 +1,6 @@
 # Nice projects to follow & fork 🚀
 
-A curated collection of **95** interesting open-source projects worth exploring, forking, and contributing to. This list is based on projects I've starred on GitHub and upstream sources vendored in this hub.
+A curated collection of **96** interesting open-source projects worth exploring, forking, and contributing to. This list is based on projects I've starred on GitHub and upstream sources vendored in this hub.
 
 ## Tools 🛠️
 
@@ -133,6 +133,7 @@ Curated reading lists, courses, and study roadmaps — external link-only source
 - **[agents-course](https://github.com/huggingface/agents-course)** — Apache-2.0 Hugging Face Agents Course (~32k ★): official repo for [huggingface.co/learn/agents-course](https://huggingface.co/learn/agents-course) — smolagents, tool calling, MCP, multi-agent, observability/evals (Langfuse bonus unit cited in [awesome-evals](../cursor-claude-codex/references/awesome-evals/)). Pairs with [research/smol-course/](../research/smol-course/) (alignment/finetune) and [agentic-patterns.md](../cursor-claude-codex/references/agentic-patterns.md).
 - **[free-ai-agents-resources](https://github.com/avinash201199/free-ai-agents-resources)** — MIT meta learning hub (~0.9k ★): curated 2026 roadmap — courses, frameworks, papers, tools, and project ideas. Good index to discover gaps before diving into hands-on repos below.
 - **[500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects)** — MIT curated use-case catalog (~37k ★): **500+** agent project ideas across industries (healthcare, finance, retail, …) with framework tags. Pairs with [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) and [GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents) for implementation patterns.
+- **[awesome-rsi](https://github.com/theseus-labs-rsi/awesome-rsi)** (Theseus Labs) — curated recursive self-improvement (RSI) paper and project list; companion to [*The Last AI Built by Humans*](../papers/perspectives-and-futures/The%20Last%20AI%20Built%20by%20Humans_%20Toward%20Genuine%20Recursive%20Self-Improvement.pdf) in [papers/perspectives-and-futures/](../papers/perspectives-and-futures/). Pairs with [SoL-Pi](../papers/agents-and-engineering/SoL-Pi_%20Recursively%20Scaling%20Auto-Research%20Loops%20for%20Efficient%20Agent%20Harness.pdf) and the [autoresearch](../cursor-claude-codex/skills/autoresearch/) skill.
 - **[LLM-Agent-Paper-List](https://github.com/WooooDyy/LLM-Agent-Paper-List)** — Paper list (~8.2k ★) for the survey *The Rise and Potential of Large Language Model Based Agents* — annotated agent research backlog. Strong source for papers to bring into [papers/](../papers/) (especially [agents-and-engineering/](../papers/agents-and-engineering/)). ⚠️ No license declared — link-only.
 
 ### Systems, ML infra & deep-learning reading

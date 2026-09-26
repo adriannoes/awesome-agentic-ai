@@ -8,6 +8,33 @@ adapted for a knowledge hub (content batches, not library APIs).
 
 ## [Unreleased]
 
+Prepared as the next minor release (**v1.3.0**): agent entrypoint plus the open-models paper batch. Not tagged yet.
+
+### Highlights
+
+- **342** agent skills · **107** papers (11 themes) · **201** notebooks · **9** textbooks
+- **96** curated GitHub projects · **33** upstream sources · **5,380** OpenClaw skills · **18** industry reports
+- Root [AGENTS.md](AGENTS.md) so a connected agent can apply vendored skills and study local materials
+- New [papers/open-models/](papers/open-models/) theme from Nathan Lambert's open-source AI reading list
+
+### Added
+
+- **Agents:** [AGENTS.md](AGENTS.md) — map of skills, papers, notebooks, textbooks, and reports, plus rules for reading vendored `SKILL.md` files. [CLAUDE.md](CLAUDE.md) points Claude Code at it. README section **Connect an agent**.
+- **Papers / open-models:** new theme [papers/open-models/](papers/open-models/) — 8 PDFs from [Nathan Lambert's Open-Source AI reading list](https://www.interconnects.ai/p/open-source-ai-reading-list) (Solaiman release gradient, Kapoor/Bommasani societal impact, Longpre consent audit, Panfilov distillation traces, Pythia, OLMo 1/2/3); essays and reports link-only in [open-models/README.md](papers/open-models/README.md)
+- **Papers:** [CodeMidas](https://arxiv.org/abs/2609.22068) (Ye et al., Xiaomi / PKU, 2026) — scale agentic coding RL environments from source code itself (5,545 tasks, execution-grounded verifiers); PDF in [papers/agents-and-engineering/](papers/agents-and-engineering/)
+- **Papers:** [Grounded Skill Synthesis from Code at Scale](https://arxiv.org/abs/2609.05571) (Tong et al., Ant International, 2026) — Code2Skill pipeline and CodeSkillBank (1M+ verified skills mined from GitHub); PDF in [papers/agents-and-engineering/](papers/agents-and-engineering/)
+- **Papers:** [DeepSeek-V4.1-Flash](https://arxiv.org/abs/2609.19969) (DeepSeek-AI, 2026) — 1M-context MoE with CSA2 + FP4 KV cache compression for input-heavy agent workloads; PDF in [papers/models-and-training/](papers/models-and-training/)
+- **Papers:** [The Last AI Built by Humans](https://arxiv.org/abs/2609.11873) (Duan et al., SJTU / Theseus Labs, 2026) — RSI roadmap (Headroom-Closed Index, autonomy stages, scenario requirements); PDF in [papers/perspectives-and-futures/](papers/perspectives-and-futures/)
+- **Papers:** [SoL-Pi](https://arxiv.org/abs/2609.20519) (Liu et al., NVIDIA / NTU / MIT, 2026) — scale auto-research loops to discover harness efficiency mechanisms (action fusion, context compact, ObservationPack, evidence-preserving reducer); PDF in [papers/agents-and-engineering/](papers/agents-and-engineering/)
+- **Papers:** [WikiSkill](https://arxiv.org/abs/2608.27454) (Tang et al., Google Research, 2026) — compile agent execution experience into a persistent wiki that co-evolves reusable skills; PDF in [papers/agents-and-engineering/](papers/agents-and-engineering/)
+- **nice-projects / catalog (link-only):** [theseus-labs-rsi/awesome-rsi](https://github.com/theseus-labs-rsi/awesome-rsi) — curated RSI paper and project list; companion to [*The Last AI Built by Humans*](papers/perspectives-and-futures/The%20Last%20AI%20Built%20by%20Humans_%20Toward%20Genuine%20Recursive%20Self-Improvement.pdf)
+- **nice-projects / catalog (link-only):** [mblode/agent-skills](https://github.com/mblode/agent-skills) — MIT pack (~26 skills) for UI/typography audits, docs, PR review, and releases. Pointer only (overlaps taste-skills / impeccable); install via `npx skills add mblode/agent-skills` ([#21](https://github.com/adriannoes/awesome-agentic-ai/pull/21))
+
+### Changed
+
+- Hub counts: **93** → **107** research papers (11 themes incl. open-models); **94** → **96** curated GitHub projects (sync + awesome-rsi)
+- GitHub repository description refreshed to the counts above (skills, papers, notebooks, textbooks, reports, projects, OpenClaw)
+
 ## [1.2.0] - 2026-08-28
 
 Design/diagram skill batch and papers backfill ([#19](https://github.com/adriannoes/awesome-agentic-ai/pull/19)).
