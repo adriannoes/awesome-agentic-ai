@@ -1,6 +1,6 @@
 # Nice projects to follow & fork 🚀
 
-A curated collection of **96** interesting open-source projects worth exploring, forking, and contributing to. This list is based on projects I've starred on GitHub and upstream sources vendored in this hub.
+A curated collection of **97** interesting open-source projects worth exploring, forking, and contributing to. This list is based on projects I've starred on GitHub and upstream sources vendored in this hub.
 
 ## Tools 🛠️
 
@@ -23,6 +23,7 @@ A curated collection of **96** interesting open-source projects worth exploring,
 - **[Xquik](https://github.com/Xquik-dev/x-twitter-scraper)** - X/Twitter data API with REST, MCP, and webhook workflows.
 
 ### MCP & agent integrations
+- **[Hyperconsciousness](https://github.com/louis030195/hyperconsciousness)** - MIT developer-alpha Rust knowledge store with encrypted, append-only records and scoped, expiring MCP grants. Requires a [Rust source build and local store setup](https://github.com/louis030195/hyperconsciousness#install-from-source).
 - **[awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)** — MIT curated catalog (~93k ★) of Model Context Protocol servers (filesystem, databases, SaaS APIs, browsers, …). Pairs with MCP papers in [papers/agents-and-engineering/](../papers/agents-and-engineering/) (e.g. *MCP Server Architecture Patterns*), the MCP chapter in [*Hitchhiker's Guide to Agentic AI*](../learning/Hitchhikers_Guide_to_Agentic_AI.pdf), and [agents-course](https://github.com/huggingface/agents-course) (MCP unit).
 
 ## AI/ML 🤖

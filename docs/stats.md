@@ -6,7 +6,7 @@ Counts verified against the repo tree. Regenerate with:
 ./bin/count-hub-stats.sh
 ```
 
-**Last verified:** 2026-09-26
+**Last verified:** 2026-09-27
 
 | Resource | Count | Entry point |
 |----------|------:|-------------|
@@ -16,7 +16,7 @@ Counts verified against the repo tree. Regenerate with:
 | Upstream sources integrated | **33** | [cursor-claude-codex/README.md](../cursor-claude-codex/README.md#credits--sources) |
 | OpenClaw agents catalogued | **36** | [openclaw/README.md](../openclaw/README.md) |
 | OpenClaw skills indexed (snapshot) | **5,380** | [openclaw/skills/README.md](../openclaw/skills/README.md) |
-| GitHub projects to watch | **96** | [nice-projects/README.md](../nice-projects/README.md) |
+| GitHub projects to watch | **97** | [nice-projects/README.md](../nice-projects/README.md) |
 | Textbooks & references (PDF) | **9** | [learning/README.md](../learning/README.md) |
 | Jupyter notebooks | **201** | [research/README.md](../research/README.md) |
 | Research papers (PDF, 11 themes) | **107** | [papers/README.md](../papers/README.md) |

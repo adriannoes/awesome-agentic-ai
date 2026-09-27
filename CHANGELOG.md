@@ -8,6 +8,14 @@ adapted for a knowledge hub (content batches, not library APIs).
 
 ## [Unreleased]
 
+### Added
+
+- **nice-projects / catalog (link-only):** [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness), an MIT developer-alpha encrypted knowledge store with scoped MCP grants, under [MCP & agent integrations](nice-projects/README.md#mcp--agent-integrations). Requires a Rust source build and local store setup.
+
+### Changed
+
+- Curated GitHub project count: **96** → **97**; synchronized the catalog, README, agent orientation and hub stats.
+
 ## [1.3.0] - 2026-09-26
 
 Agent entrypoint and open-models paper batch ([#22](https://github.com/adriannoes/awesome-agentic-ai/pull/22)).

@@ -20,7 +20,7 @@ If a number in prose disagrees with the tree, regenerate counts and trust the sc
 ./bin/count-hub-stats.sh
 ```
 
-**Snapshot (2026-09-26):** 342 agent skills · 107 papers (11 themes) · 201 notebooks · 9 textbooks · 18 industry reports · 96 curated GitHub projects · 14 prompt snapshots · 21 n8n templates · 8 slash commands · 21 coding rules · 33 upstream sources · 36 OpenClaw agents · 5,380 OpenClaw skills (index snapshot).
+**Snapshot (2026-09-27):** 342 agent skills · 107 papers (11 themes) · 201 notebooks · 9 textbooks · 18 industry reports · 97 curated GitHub projects · 14 prompt snapshots · 21 n8n templates · 8 slash commands · 21 coding rules · 33 upstream sources · 36 OpenClaw agents · 5,380 OpenClaw skills (index snapshot).
 
 ## Use a skill
 
