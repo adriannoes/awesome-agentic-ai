@@ -6,5 +6,6 @@ CLI utilities that complement agent skills — setup, environment isolation, and
 |------|-------------|
 | [agent-qa](https://github.com/vostride/agent-qa) | Self-improving QA agent with CLI, MCP, and skills for natural-language web and mobile tests |
 | [codex-profiles/](./codex-profiles/) | Isolated `CODEX_HOME` profiles for Codex CLI/Desktop (multi-account) — vendored from [Ducksss/codex-profiles](https://github.com/Ducksss/codex-profiles) |
+| [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) | Records a coding-agent run, then replays it offline from the recording with no model called — or re-runs it from any step on a different model |
 
 **See also:** [cursor-claude-codex/README.md](../README.md) · [skills/](../skills/) (agent instructions) · [references/upstream-repos-catalog.md](../references/upstream-repos-catalog.md)

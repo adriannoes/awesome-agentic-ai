@@ -44,6 +44,7 @@ Developer utilities (not agent skills):
 
 - **[agent-qa](https://github.com/vostride/agent-qa)** — self-improving QA agent with CLI, MCP, and skills for natural-language web and mobile tests
 - **[codex-profiles](./tools/codex-profiles/)** — isolated Codex CLI/Desktop profiles per account ([Ducksss/codex-profiles](https://github.com/Ducksss/codex-profiles))
+- **[OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)** — records a coding-agent run and replays it offline with no model called, or re-runs it from any step on a different model
 
 ### ⚡ [Commands](./commands/)
 **Cursor only.** Slash commands — copy to `.cursor/commands/` or symlink:
