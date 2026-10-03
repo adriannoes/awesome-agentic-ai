@@ -1,6 +1,6 @@
 # Nice projects to follow & fork 🚀
 
-A curated collection of **96** interesting open-source projects worth exploring, forking, and contributing to. This list is based on projects I've starred on GitHub and upstream sources vendored in this hub.
+A curated collection of **97** interesting open-source projects worth exploring, forking, and contributing to. This list is based on projects I've starred on GitHub and upstream sources vendored in this hub.
 
 ## Tools 🛠️
 
@@ -108,6 +108,7 @@ Structured notes (folder layout, install commands, how each fits our hub) live i
 
 ### Agent Platforms
 - **[Orkas](https://github.com/Orkas-AI/Orkas)** - Open-source, local-first desktop AI workforce coordinated by a Commander through one chat.
+- **[Tale](https://github.com/tale-project/tale)** - MIT-licensed, self-hostable project workspace for teams and AI agents, with task delegation, persistent agent sandboxes, and shared review of reports and deliverables.
 
 ### Agent Frameworks
 - **[AutoAgent](https://github.com/HKUDS/AutoAgent)** - "AutoAgent: Fully-Automated and Zero-Code LLM Agent Framework"

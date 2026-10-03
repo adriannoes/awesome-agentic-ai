@@ -15,7 +15,7 @@
 
 > The most complete collection of battle-tested AI-assisted development resources — for Product Managers, Designers, and Developers who want to ship real products with AI.
 
-**What's inside:** **342** agent skills · **107** papers · **201** notebooks · **9** textbooks · **96** curated GitHub projects · **5,380** OpenClaw skills — [full stats](docs/stats.md) · [changelog](CHANGELOG.md)
+**What's inside:** **342** agent skills · **107** papers · **201** notebooks · **9** textbooks · **97** curated GitHub projects · **5,380** OpenClaw skills — [full stats](docs/stats.md) · [changelog](CHANGELOG.md)
 
 Whether you're a PM who wants to prototype faster, a Designer who wants to understand the code your AI is generating, or a Developer looking for the sharpest rules to ship with — this repo is built to be copied, forked, and used the same day.
 
@@ -47,7 +47,7 @@ Copy a skill into another project only when you want it outside this hub. Paths 
 | Learning (textbooks) | **9** PDFs | [learning/README.md](learning/README.md) |
 | Reports | **18** PDFs | [reports/README.md](reports/README.md) |
 | OpenClaw ecosystem | **36** agents · **5,380** skills | [openclaw/README.md](openclaw/README.md) |
-| Projects to watch | **96** repos | [nice-projects/README.md](nice-projects/README.md) |
+| Projects to watch | **97** repos | [nice-projects/README.md](nice-projects/README.md) |
 | Research & notebooks | **201** notebooks | [research/README.md](research/README.md) |
 | Papers | **107** PDFs · 11 themes | [papers/README.md](papers/README.md) |
 | n8n templates | **21** workflows | [n8n-templates/](n8n-templates/) |
