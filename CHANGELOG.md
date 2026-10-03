@@ -8,6 +8,14 @@ adapted for a knowledge hub (content batches, not library APIs).
 
 ## [Unreleased]
 
+### Added
+
+- **nice-projects / Agent Platforms (link-only):** [Tale](https://github.com/tale-project/tale) — self-hostable project workspace for teams and AI agents, with persistent agent sandboxes and review of task deliverables. See [Agent Platforms](nice-projects/README.md#agent-platforms).
+
+### Changed
+
+- Curated GitHub project count: **96** → **97**; synchronized the catalog, README, and [hub stats](docs/stats.md).
+
 ## [1.3.0] - 2026-09-26
 
 Agent entrypoint and open-models paper batch ([#22](https://github.com/adriannoes/awesome-agentic-ai/pull/22)).
