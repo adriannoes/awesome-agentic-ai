@@ -17,6 +17,7 @@ A curated collection of **96** interesting open-source projects worth exploring,
 - **[square-ui](https://github.com/ln-dev7/square-ui)** - Collection of beautifully crafted open-source layouts UI built with shadcn/ui.
 - **[mapcn](https://github.com/AnmolSaini16/mapcn)** - Beautiful map components. 100% Free, Zero config, one command setup.
 - **[Rust](https://github.com/rust-lang/rust)** - Empowering everyone to build reliable and efficient software.
+- **[drevon](https://github.com/csakash/drevon)** - `npx drevon init` turns any directory into an AI workspace with one shared config, persistent cross-session memory, prompts and skills for Claude Code, Codex, Copilot, Cursor, Windsurf, Cline, Aider and Continue. MIT.
 
 ### Web Crawling & Data
 - **[teracrawl](https://github.com/BrowserCash/teracrawl)** - High-performance web crawler API optimized for LLMs. Turn any search or website into clean Markdown using remote browsers.
