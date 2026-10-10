@@ -8,6 +8,10 @@ adapted for a knowledge hub (content batches, not library APIs).
 
 ## [Unreleased]
 
+### Added
+
+- **Papers / catalog (link-only):** [js-lee-AI/awesome-agent-loop-papers](https://github.com/js-lee-AI/awesome-agent-loop-papers) and [js-lee-AI/awesome-llm-agent-papers](https://github.com/js-lee-AI/awesome-llm-agent-papers) — companion paper lists for *The Agent Loop* (Lee & Park, SSRN 2026) and *LLM Agents: A Survey* (Lee, Preprints.org 2026); listed under Agent research (external references) in [papers/README.md](papers/README.md) ([#26](https://github.com/adriannoes/awesome-agentic-ai/pull/26))
+
 ## [1.3.0] - 2026-09-26
 
 Agent entrypoint and open-models paper batch ([#22](https://github.com/adriannoes/awesome-agentic-ai/pull/22)).
