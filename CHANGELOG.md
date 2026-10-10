@@ -8,6 +8,14 @@ adapted for a knowledge hub (content batches, not library APIs).
 
 ## [Unreleased]
 
+### Changed
+
+- **Infrastructure:** Hub count tooling is maintainer-local under gitignored `scripts/`; public docs tell contributors to update [docs/stats.md](docs/stats.md) and README counts against the tree
+
+### Removed
+
+- **Infrastructure:** Public `bin/count-hub-stats.sh` and `bin/count-skills.sh` (use maintainer `scripts/` checkout instead)
+
 ## [1.4.0] - 2026-10-09
 
 pstack + emilkowalski skills, harness paper, and catalog expansion ([#28](https://github.com/adriannoes/awesome-agentic-ai/pull/28); agent survey paper lists in [#26](https://github.com/adriannoes/awesome-agentic-ai/pull/26)).
