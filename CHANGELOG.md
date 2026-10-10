@@ -8,6 +8,17 @@ adapted for a knowledge hub (content batches, not library APIs).
 
 ## [Unreleased]
 
+## [1.4.0] - 2026-10-09
+
+pstack + emilkowalski skills, harness paper, and catalog expansion ([#28](https://github.com/adriannoes/awesome-agentic-ai/pull/28); agent survey paper lists in [#26](https://github.com/adriannoes/awesome-agentic-ai/pull/26)).
+
+### Highlights
+
+- **403** agent skills · **108** papers (11 themes) · **201** notebooks · **9** textbooks
+- **100** curated GitHub projects · **35** upstream sources · **5,380** OpenClaw skills · **18** industry reports
+- Vendored **pstack 0.15.5** (`/poteto-mode`, playbooks, principles) and **emilkowalski** (14 design/motion skills)
+- *Harness Engineering* PDF (eleven coding harnesses) · Grok Bot, ai-engineering-from-scratch, and engineering-articles catalogs
+
 ### Added
 
 - **Papers / catalog (link-only):** [js-lee-AI/awesome-agent-loop-papers](https://github.com/js-lee-AI/awesome-agent-loop-papers) and [js-lee-AI/awesome-llm-agent-papers](https://github.com/js-lee-AI/awesome-llm-agent-papers) — companion paper lists for *The Agent Loop* (Lee & Park, SSRN 2026) and *LLM Agents: A Survey* (Lee, Preprints.org 2026); listed under Agent research (external references) in [papers/README.md](papers/README.md) ([#26](https://github.com/adriannoes/awesome-agentic-ai/pull/26))
