@@ -71,7 +71,7 @@ These are directly coding-agent-relevant patterns added to the catalogue after t
 
 - **Deterministic Threat Rule Scanning** — apply deterministic regex rules as a first-pass layer to detect known threat patterns (prompt injection, tool poisoning, MCP abuse) in agent tool calls and skill definitions. Pairs with [skill-security-auditor](../skills/alirezarezvani-skills/skill-security-auditor/) and the AI Security skills in [anthropic-cybersecurity-skills/](../skills/anthropic-cybersecurity-skills/).
 - **Policy-Gated Tool Proxy** — insert a transparent proxy between agents and tool servers that evaluates every tool call against a policy engine before forwarding, with an immutable audit trail. The governance counterpart to unified-tool-gateway.
-- **Local-First Credential Broker** — keep raw secrets out of the agent process by injecting credentials at the network layer via a local broker, instead of handing the agent env vars or config files. Aligns with the [security/](../../security/) principle of never embedding secrets.
+- **Local-First Credential Broker** — keep raw secrets out of the agent process by injecting credentials at the network layer via a local broker, instead of handing the agent env vars or config files. Aligns with the [security/](../security/) principle of never embedding secrets.
 
 ## Full Catalogue
 

@@ -11,6 +11,22 @@ adapted for a knowledge hub (content batches, not library APIs).
 ### Added
 
 - **Papers / catalog (link-only):** [js-lee-AI/awesome-agent-loop-papers](https://github.com/js-lee-AI/awesome-agent-loop-papers) and [js-lee-AI/awesome-llm-agent-papers](https://github.com/js-lee-AI/awesome-llm-agent-papers) — companion paper lists for *The Agent Loop* (Lee & Park, SSRN 2026) and *LLM Agents: A Survey* (Lee, Preprints.org 2026); listed under Agent research (external references) in [papers/README.md](papers/README.md) ([#26](https://github.com/adriannoes/awesome-agentic-ai/pull/26))
+- **Skills / pstack:** [cursor-claude-codex/skills/pstack/](cursor-claude-codex/skills/pstack/) — vendored pstack **0.15.5** (Lauren Tan, MIT): 47 `SKILL.md` packages (`/poteto-mode`, 23 playbooks, 24 command skills, 23 principles), 2 agents, and hub-authored [usage guide](cursor-claude-codex/skills/pstack/guide/) with 24 command pages
+- **nice-projects / catalog (link-only):** [RongleCat/awesome-grok-bot](https://github.com/RongleCat/awesome-grok-bot) — CC0 bilingual Grok Bot / Grok Build awesome list (~1,974 entries); new [Cursor & Grok Bot](nice-projects/README.md#cursor--grok-bot-xai-cloud-agents) section (cloud xAI + Cursor agents vs local [OpenClaw](openclaw/README.md))
+- **Skills / emilkowalski:** [cursor-claude-codex/skills/emilkowalski/](cursor-claude-codex/skills/emilkowalski/) — vendored [emilkowalski/skills](https://github.com/emilkowalski/skills) (MIT, ~43k ★): **14** design-engineering + animation skills @ `e8a175d` (`emil-design-eng`, `animate`, `review-animations`, `mobile-native`, `ask-sonner`, …)
+- **Papers / agents-and-engineering:** [Harness Engineering: Anatomy, Architecture, and Evolution of Coding Agents](papers/agents-and-engineering/Harness%20Engineering_%20Anatomy%2C%20Architecture%2C%20and%20Evolution%20of%20Coding%20Agents.pdf) (Barbaste et al., 2026) — source-code study of eleven coding harnesses (Claude Code, Codex CLI, Gemini CLI, OpenHands, OpenClaw, …); [arXiv:2609.00006](https://arxiv.org/abs/2609.00006)
+- **nice-projects / catalog (link-only):** [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) — MIT **523**-lesson AI engineering curriculum (agents, MCP, Agent Skills, coding agents); [learners path](docs/paths/learners.md)
+- **nice-projects / catalog (link-only):** [harshit3011/Technical-Engineering-Articles](https://github.com/harshit3011/Technical-Engineering-Articles) — MIT index of **69** HLD/LLD, backend, distributed-systems, and AI-engineering threads ([@Harry_The_Nerd](https://x.com/Harry_The_Nerd) on X)
+
+### Changed
+
+- Hub counts: **342** → **403** agent skills; **107** → **108** research papers; upstream sources **33** → **35**; curated GitHub projects **96** → **100**
+- **references:** pstack, awesome-grok-bot, and emilkowalski rows in the [upstream catalog](cursor-claude-codex/references/upstream-repos-catalog.md); [references/README.md](cursor-claude-codex/references/README.md) catalog count **47** → **50**
+- **ecosystem / prompts:** cross-links from [docs/ecosystem.md](docs/ecosystem.md) and [prompt-engineering/README.md](prompt-engineering/README.md)
+
+### Fixed
+
+- Broken relative links in hub-authored docs: [pstack guide](cursor-claude-codex/skills/pstack/guide/) playbook and principle indexes (46), [awesome-evals README](cursor-claude-codex/references/awesome-evals/README.md) (18), agentic-patterns, and upstream catalog
 
 ## [1.3.0] - 2026-09-26
 

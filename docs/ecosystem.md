@@ -10,6 +10,8 @@ Curated third-party indexes that complement this hub. For repos we star, fork, o
 - [awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration) — Integrate the DeepSeek API into popular software
 - [awesome-datascience](https://github.com/academic/awesome-datascience) — Data science resources
 - [awesome-AI-driven-development](https://github.com/eltociear/awesome-AI-driven-development) — AI-driven development tools, MCP servers, multi-agent systems (also in [nice-projects](../nice-projects/README.md))
+- [awesome-grok-bot](https://github.com/RongleCat/awesome-grok-bot) — Bilingual Grok Bot / Grok Build resource list (~1,974 entries): always-on xAI + Cursor cloud agents (also in [nice-projects](../nice-projects/README.md#cursor--grok-bot-xai-cloud-agents))
+- [ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) — MIT 523-lesson AI engineering curriculum (agents, MCP, skills, LLM apps; also in [nice-projects](../nice-projects/README.md#learn-ai-agents-courses--roadmaps))
 
 ## Programming languages
 
@@ -22,6 +24,7 @@ Curated third-party indexes that complement this hub. For repos we star, fork, o
 - [awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources) — System design concepts and interview prep
 - [awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) — Patterns of scalable, reliable, large-scale systems
 - [system-design-notes](https://github.com/liquidslr/system-design-notes) — Community notes for *System Design Interview* ([nice-projects](../nice-projects/README.md#systems-ml-infra--deep-learning-reading))
+- [Technical-Engineering-Articles](https://github.com/harshit3011/Technical-Engineering-Articles) — MIT index of HLD/LLD, backend, distributed systems, and AI-engineering threads on X ([nice-projects](../nice-projects/README.md#systems-ml-infra--deep-learning-reading))
 
 ## Design & product
 

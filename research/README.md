@@ -30,6 +30,10 @@ Official code for the book [*Build a Large Language Model (From Scratch)*](https
 
 **Notebooks:** See [llms-from-scratch/README.md](llms-from-scratch/README.md) for the chapter/bonus table and the upstream README.
 
+### External curriculum (link-only)
+
+**[rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch)** (MIT, ~65k ★) — **523**-lesson open curriculum (math → ML → LLMs → agents, MCP, Agent Skills). Not vendored here (too large); complements the notebooks below. Indexed in [nice-projects/](../nice-projects/README.md#learn-ai-agents-courses--roadmaps) and [docs/paths/learners.md](../docs/paths/learners.md).
+
 ### smol-course
 
 **Source:** [huggingface/smol-course](https://github.com/huggingface/smol-course) · **License:** Apache-2.0

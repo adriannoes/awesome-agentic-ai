@@ -4,6 +4,10 @@ Reference index for [OpenClaw](https://github.com/openclaw/openclaw) — a local
 
 **See also:** [README.md](../README.md) (project overview) · [cursor-claude-codex/README.md](../cursor-claude-codex/README.md) (Cursor, Claude Code & Codex) · [nice-projects/README.md](../nice-projects/README.md) (projects to watch) · [skills/README.md](./skills/README.md) (skills index)
 
+**Cloud agents (contrast):** xAI + Cursor **Grok Bot** (persistent cloud computer per bot, not local OpenClaw) — community index [RongleCat/awesome-grok-bot](https://github.com/RongleCat/awesome-grok-bot) in [nice-projects § Cursor & Grok Bot](../nice-projects/README.md#cursor--grok-bot-xai-cloud-agents).
+
+**Harness study:** OpenClaw is one of eleven systems in [*Harness Engineering: Anatomy, Architecture, and Evolution of Coding Agents*](../papers/agents-and-engineering/Harness%20Engineering_%20Anatomy%2C%20Architecture%2C%20and%20Evolution%20of%20Coding%20Agents.pdf) ([arXiv:2609.00006](https://arxiv.org/abs/2609.00006)) — compare with Claude Code, Codex CLI, OpenHands, Pi, and others in [papers/agents-and-engineering/](../papers/agents-and-engineering/).
+
 ## Vendored upstream indexes
 
 To survive upstream changes or deletions, we keep local snapshots of the two community indexes this folder depends on:

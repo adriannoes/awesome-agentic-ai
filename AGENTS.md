@@ -20,7 +20,7 @@ If a number in prose disagrees with the tree, regenerate counts and trust the sc
 ./bin/count-hub-stats.sh
 ```
 
-**Snapshot (2026-09-26):** 342 agent skills · 107 papers (11 themes) · 201 notebooks · 9 textbooks · 18 industry reports · 96 curated GitHub projects · 14 prompt snapshots · 21 n8n templates · 8 slash commands · 21 coding rules · 33 upstream sources · 36 OpenClaw agents · 5,380 OpenClaw skills (index snapshot).
+**Snapshot (2026-10-09):** 403 agent skills · 108 papers (11 themes) · 201 notebooks · 9 textbooks · 18 industry reports · 100 curated GitHub projects · 14 prompt snapshots · 21 n8n templates · 8 slash commands · 21 coding rules · 35 upstream sources · 36 OpenClaw agents · 5,380 OpenClaw skills (index snapshot).
 
 ## Use a skill
 
@@ -52,7 +52,7 @@ Match the request to a folder. Prefer the local file over a web summary when a P
 | Industry reports | [reports/README.md](reports/README.md) |
 | System-prompt snapshots | [prompt-engineering/README.md](prompt-engineering/README.md) |
 | Evals | [cursor-claude-codex/references/awesome-evals/](cursor-claude-codex/references/awesome-evals/) |
-| Projects to watch | [nice-projects/README.md](nice-projects/README.md) — **links only** |
+| Projects to watch | [nice-projects/README.md](nice-projects/README.md) — **links only** (incl. [Grok Bot / Grok Build](nice-projects/README.md#cursor--grok-bot-xai-cloud-agents) via [awesome-grok-bot](https://github.com/RongleCat/awesome-grok-bot)) |
 | OpenClaw agents and skill index | [openclaw/README.md](openclaw/README.md) — snapshot, separate from Cursor/Claude/Codex skills |
 | n8n workflows | [n8n-templates/](n8n-templates/) |
 
@@ -71,4 +71,4 @@ When you summarize a paper, name the local PDF path and the arXiv id from [paper
 - Treat [nice-projects/](nice-projects/) or [docs/ecosystem.md](docs/ecosystem.md) as code that lives in this clone.
 - Restyle or “clean up” third-party `SKILL.md` trees (OpenClaw index, cybersecurity skills, notebooks) unless that was the task.
 - Invent counts, star counts, or arXiv ids.
-- Confuse the **342** Cursor / Claude / Codex skills with the **5,380** OpenClaw skills. They are different catalogs.
+- Confuse the **403** Cursor / Claude / Codex skills with the **5,380** OpenClaw skills. They are different catalogs.
