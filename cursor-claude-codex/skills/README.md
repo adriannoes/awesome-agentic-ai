@@ -101,9 +101,11 @@ Subfolders that group multiple related skills from a single upstream source. Eac
 |--------|--------|--------|-------------|
 | [anthropic-cybersecurity-skills/](./anthropic-cybersecurity-skills/) | 109 | [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) (Apache-2.0) | Cherry-picked blue-team / SOC / DFIR / DevSecOps / AI-security / supply-chain / hardware-firmware playbooks (subset of 817 upstream @ v1.3.0). Pairs with bug-hunter for offense vs defense. |
 | [bug-hunter/](./bug-hunter/) | 51 | [xiaolai/Claude-BugHunter](https://github.com/xiaolai/Claude-BugHunter) (MIT) | Authorized bug bounty & external pentest: 24+ `hunt-*` classes, enterprise identity chains, triage/reporting. |
+| [pstack/](./pstack/) | 47 | [cursor/plugins — pstack](https://github.com/cursor/plugins/tree/main/pstack) (MIT) | Lauren Tan's rigorous agent workflows: `/poteto-mode` + 23 playbooks, 24 command skills, 23 principles. Hub usage guide in [pstack/guide/](./pstack/guide/). Install in Cursor via `/add-plugin pstack`. |
 | [visual-content/](./visual-content/) | 25 | [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) (MIT) | Mermaid, D2, PlantUML, charts, architecture & journey diagrams. Breadth-first; pair with [skill-auto-activation](../references/skill-auto-activation.md). |
 | [business-automation/](./business-automation/) | 25 | [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) (MIT) | n8n, Zapier, Slack, email, spreadsheets, PDFs, forms. Breadth-first; pair with [skill-auto-activation](../references/skill-auto-activation.md). |
 | [matt-pocock/](./matt-pocock/) | 20 | [mattpocock/skills](https://github.com/mattpocock/skills) (MIT, ~54k ★) | "Skills for real engineers." Grilling sessions, deep-module design vocabulary, triage state machine, domain-modeling, handoff, ask-matt. Matt's flagship is `grill-with-docs`. |
+| [emilkowalski/](./emilkowalski/) | 14 | [emilkowalski/skills](https://github.com/emilkowalski/skills) (MIT, ~43k ★) | Design engineering + motion taste (Vercel/Linear craft). Flagship `emil-design-eng`; animation audit/review stack; `mobile-native`, `animate-expo`, `ask-sonner`, `break-ui`. |
 | [igoruehara-spec-driven/](./igoruehara-spec-driven/) | 15 | [igoruehara/spec-driven](https://github.com/igoruehara/spec-driven) (MIT) | Spec-Driven Development pipeline (Lean Inception → DDD → TDD → SDD). Upstream pt-BR, translated to English by this hub. 15 skills + SessionStart hook + templates at [product-management/igoruehara-sdd/](../product-management/igoruehara-sdd/). |
 | [taste-skills/](./taste-skills/) | 13 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) (MIT) | Anti-slop frontend design + optional image-generation comps for web/mobile/brand kits. |
 | [alirezarezvani-skills/](./alirezarezvani-skills/) | 11 | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) (MIT) | Skill supply-chain audit + Playwright/E2E depth (`playwright-pro`). |
@@ -118,7 +120,7 @@ Subfolders that group multiple related skills from a single upstream source. Eac
 | [humanizer/](./humanizer/) | 1 | [blader/humanizer](https://github.com/blader/humanizer) (MIT, ~38k ★) | AI-tell prose rewrite (Wikipedia patterns). Complements [plain-writing/](./plain-writing/). |
 | [i-have-adhd/](./i-have-adhd/) | 1 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) (MIT, ~25k ★) | ADHD-friendly output contract (lead with the next action). |
 
-**Total:** 36 top-level skills + 306 in category folders = **342** `SKILL.md` packages. For Jeremy's other **18 categories** (devops, security, frontend/backend, ML, data, AWS/GCP, APIs, docs, enterprise), see the upstream repo.
+**Total:** 36 top-level skills + 367 in category folders = **403** `SKILL.md` packages. For Jeremy's other **18 categories** (devops, security, frontend/backend, ML, data, AWS/GCP, APIs, docs, enterprise), see the upstream repo.
 
 ## Attribution & licenses
 

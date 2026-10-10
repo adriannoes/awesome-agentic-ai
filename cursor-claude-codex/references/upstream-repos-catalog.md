@@ -13,6 +13,8 @@ Curated notes on external repos that complement **Cursor**, **Claude Code**, and
 | Anthropic Cybersecurity Skills | ✅ 109 skills | [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) |
 | Taste skills (anti-slop UI) | ✅ 13 skills | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) |
 | Skills for Real Engineers | ✅ 20 skills | [mattpocock/skills](https://github.com/mattpocock/skills) |
+| Emil Kowalski design & motion skills | ✅ 14 skills | [emilkowalski/skills](https://github.com/emilkowalski/skills) |
+| pstack (poteto-mode + principles) | ✅ 47 skills + 2 agents | [cursor/plugins — pstack](https://github.com/cursor/plugins/tree/main/pstack) |
 | Claude Skills (security + E2E) | ✅ 11 skills | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) |
 | Claude Code Plugins + Skills | ✅ 50 skills (2 cats) | [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) |
 | DESIGN.md spec (Google Labs) | ✅ spec + 3 examples | [google-labs-code/design.md](https://github.com/google-labs-code/design.md) |
@@ -54,6 +56,7 @@ Curated notes on external repos that complement **Cursor**, **Claude Code**, and
 | LLMs-from-scratch (notebooks) | ✅ 66 notebooks | [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) |
 | smol-course (alignment notebooks) | ✅ 12 notebooks | [huggingface/smol-course](https://github.com/huggingface/smol-course) |
 | OpenAI Cookbook (eval/RAG notebooks) | ❌ link only | [openai/openai-cookbook](https://github.com/openai/openai-cookbook) |
+| Awesome Grok Bot (xAI + Cursor cloud agents) | ❌ link only | [RongleCat/awesome-grok-bot](https://github.com/RongleCat/awesome-grok-bot) |
 
 ---
 
@@ -387,6 +390,53 @@ Then run `/setup-matt-pocock-skills` in your agent — it asks about your issue 
 
 ---
 
+## [emilkowalski/skills](https://github.com/emilkowalski/skills)
+
+**License:** MIT. **~43k ★.** [skills.sh](https://skills.sh/b/emilkowalski/skills) · newsletter [aiforui.dev/skills](https://aiforui.dev/skills).
+
+**What it is:** **Skills for designers and engineers** — domain expertise from Emil Kowalski (Vercel, Linear, Sonner) encoded as agent skills. Focus: **animation taste** (easing, duration, property choice), **design engineering** polish, **mobile-native** web fixes, **trusted UI libraries**, Sonner toasts, Swift, and **UI stress-testing** (`break-ui`). Based on [Agents with Taste](https://emilkowal.ski/ui/agents-with-taste).
+
+**Layout upstream:** `skills/<name>/SKILL.md` plus reference files (`RECIPES.md`, `STANDARDS.md`, `AUDIT.md`, …) and root `performance-cheatsheet.md`.
+
+**Vendored in this hub (as of 2026-10-04):** [skills/emilkowalski/](../skills/emilkowalski/) — **14** skills @ commit `e8a175d`. Hub README: [emilkowalski/README.md](../skills/emilkowalski/README.md); upstream README: [UPSTREAM-README.md](../skills/emilkowalski/UPSTREAM-README.md).
+
+**Install upstream (alternative):**
+
+```bash
+npx skills@latest add emilkowalski/skills
+```
+
+**Fit for this hub:** Motion and craft layer beside [taste-skills](#leonxlnxtaste-skill) (marketing/landing anti-slop), [impeccable](#pbakausimpeccable) (detector), [web-design-guidelines](#vercel-labsagent-skills) (audit), and [react-best-practices](#vercel-labsagent-skills) (React perf). Start with `emil-design-eng`; use `improve-animations` / `review-animations` for codebase passes; `animate-expo` / `mobile-native` for mobile surfaces.
+
+---
+
+## [cursor/plugins — pstack](https://github.com/cursor/plugins/tree/main/pstack)
+
+**License:** MIT. **Author:** Lauren Tan ([@poteto](https://x.com/poteto)). **Version vendored:** 0.15.5 @ commit `adf3218ca2f5b9971eedc07a76bef22df7701539`.
+
+**What it is:** A Cursor plugin for rigorous agent engineering — `/poteto-mode` routes to 23 playbooks and invokes specialized skills (`how`, `why`, `architect`, `arena`, `swarm`, `interrogate`, `tdd`, …) plus 23 inline `principle-*` skills. Ships `poteto-agent` and Comment Sicko subagents.
+
+**Layout upstream:**
+
+- `skills/` — 47 `SKILL.md` packages (24 commands + 23 principles), including `poteto-mode/playbooks/` (23), references, and scripts
+- `agents/` — `poteto-agent.md`, `comment-sicko.md`
+- `docs/guide/` — 10-chapter official usage guide (not vendored as images here)
+- `automations/benny/` — issue-triage automation pack (not vendored here)
+
+**Vendored in this hub (as of 2026-09-29):** [skills/pstack/](../skills/pstack/) — full skill tree + agents + hub-authored [guide/](../skills/pstack/guide/) (24 command usage pages, playbook/principle/agent indexes). Omitted: `docs/guide/images/`, `automations/benny/`, `cursor-team-kit` cross-references (install separately).
+
+**Install upstream (recommended):**
+
+```bash
+/add-plugin pstack
+```
+
+Then run `/setup-pstack` once and use `/poteto-mode` for non-trivial work.
+
+**Fit for this hub:** Complements obra/superpowers workflow skills and [matt-pocock/skills](#mattpocockskills) with multi-model panels (arena, interrogate), verification skills, and principle-named redirects mid-task. Unofficial Korean book: [pstack-guide-ko](https://github.com/jayjongcheolpark/pstack-guide-ko).
+
+---
+
 ## [Ducksss/codex-profiles](https://github.com/Ducksss/codex-profiles)
 
 **License:** MIT (per upstream README).
@@ -529,7 +579,7 @@ The one broadly transferable package is `skill-card-generator` (agent-agnostic g
 
 **Vendored in this hub:** Link-only — no license means no legal right to redistribute, and the real content lives on a living Notion doc that would go stale if copied. Pointed to from [nice-projects/README.md](../../nice-projects/README.md) under the research/learning angle.
 
-**Fit for this hub:** Research-methodology companion to our [research/](../../../research/) notebooks (Karpathy, NLP-with-transformers, understanding-deep-learning). It is the *human* research-skills counterpart to the agent research skills we vendor ([autoresearch](../skills/autoresearch/), [research-paper-writing](../skills/research-paper-writing/)).
+**Fit for this hub:** Research-methodology companion to our [research/](../../research/) notebooks (Karpathy, NLP-with-transformers, understanding-deep-learning). It is the *human* research-skills counterpart to the agent research skills we vendor ([autoresearch](../skills/autoresearch/), [research-paper-writing](../skills/research-paper-writing/)).
 
 ---
 
@@ -567,7 +617,7 @@ npx skills add Forward-Future/loop-library --skill loop-library -g
 npx skills add Master-cai/Research-Paper-Writing-Skills
 ```
 
-**Fit for this hub:** Covers the *writing-up* side of research that our [research/](../../../research/) notebooks (Karpathy, nanochat, autoresearch) don't. Pairs with [autoresearch](../skills/autoresearch/) (the research loop) as the writing companion, and with [writing-plans](../skills/writing-plans/) / [writing-skills](../skills/writing-skills/) for structured-writing discipline.
+**Fit for this hub:** Covers the *writing-up* side of research that our [research/](../../research/) notebooks (Karpathy, nanochat, autoresearch) don't. Pairs with [autoresearch](../skills/autoresearch/) (the research loop) as the writing companion, and with [writing-plans](../skills/writing-plans/) / [writing-skills](../skills/writing-skills/) for structured-writing discipline.
 
 ---
 
@@ -808,6 +858,18 @@ npx skills add blader/humanizer --global
 **Vendored in this hub:** Link-only — the repo is enormous and changes rapidly; vendoring would create a large, perpetually-stale copy. The eval/RAG notebooks are pointed to from [awesome-evals/README.md](./awesome-evals/README.md) as the **hands-on practice** companion to the eval reference catalog (which is the theory + patterns).
 
 **Fit for this hub:** Pairs with [awesome-evals/](./awesome-evals/) (theory) and [smol-course](#huggingfacesmol-course) v1/4 (evaluation module). Closes the RAG and LLM-eval hands-on gaps without the weight of a full cookbook mirror.
+
+---
+
+## [RongleCat/awesome-grok-bot](https://github.com/RongleCat/awesome-grok-bot) *(link-only)*
+
+**License:** CC0 1.0 (per upstream README badge). **~358 ★.** Unofficial community list — not affiliated with xAI or Cursor.
+
+**What it is:** A bilingual (EN / 中文 / 日本語) **awesome list** of **~1,974** Grok Bot and Grok Build resources: tools, playbooks, meetups, and community links. **Grok Bot** (beta 2026-08-11) is xAI’s always-on AI teammate product with Cursor — each bot gets a **persistent shared cloud computer** (browser, files, terminal) that keeps running after the user disconnects. The list explicitly excludes grok.com chat, Grok Imagine, and generic Grok model writeups.
+
+**Vendored in this hub:** Link-only — the index is large, fast-moving, and event-heavy (global meetup calendar). Read upstream for the latest entries.
+
+**Fit for this hub:** The Grok Bot / Grok Build discovery layer beside our [OpenClaw snapshots](../../openclaw/README.md) (local-first assistants). Pairs with Grok prompt snapshots in [prompt-engineering/](../../prompt-engineering/), webhook control UIs via [pstack `make-bot-ui`](../skills/pstack/make-bot-ui/SKILL.md), and the related open-source desktop client [RongleCat/grok-app](https://github.com/RongleCat/grok-app). Also listed in [nice-projects](../../nice-projects/README.md#cursor--grok-bot-xai-cloud-agents) and [docs/ecosystem.md](../../docs/ecosystem.md).
 
 ---
 

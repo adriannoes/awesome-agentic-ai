@@ -30,7 +30,7 @@ Skills written for Claude Code often work on Codex with minimal changes. When a 
 
 **This hub:** open the repo and start at the root [AGENTS.md](../AGENTS.md). Claude Code reads [CLAUDE.md](../CLAUDE.md), which points there. Nested `AGENTS.md` files inside skill packages apply only to that package.
 
-**Project overview:** [main README](../README.md) · [OpenClaw ecosystem](../openclaw/README.md) · [nice-projects](../nice-projects/README.md)
+**Project overview:** [main README](../README.md) · [OpenClaw ecosystem](../openclaw/README.md) (local) · [Grok Bot resources](../nice-projects/README.md#cursor--grok-bot-xai-cloud-agents) (xAI + Cursor cloud) · [nice-projects](../nice-projects/README.md)
 
 ## Categories
 
@@ -102,6 +102,8 @@ Content integrated from the following repositories (adapted for our use, no runt
 | [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | Apache-2.0 | [skills/anthropic-cybersecurity-skills/](./skills/anthropic-cybersecurity-skills/) — 109 blue-team + AI-security + supply-chain + hardware skills @ v1.3.0 |
 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | MIT | [skills/taste-skills/](./skills/taste-skills/) — 13 anti-slop frontend design skills |
 | [mattpocock/skills](https://github.com/mattpocock/skills) | MIT | [skills/matt-pocock/](./skills/matt-pocock/) — 20 engineering/productivity/misc skills |
+| [emilkowalski/skills](https://github.com/emilkowalski/skills) | MIT | [skills/emilkowalski/](./skills/emilkowalski/) — 14 design-engineering + animation skills @ `e8a175d` |
+| [cursor/plugins — pstack](https://github.com/cursor/plugins/tree/main/pstack) | MIT | [skills/pstack/](./skills/pstack/) — 47 skills (poteto-mode, playbooks, principles) + [usage guide](./skills/pstack/guide/) @ 0.15.5 |
 | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | MIT | [skills/alirezarezvani-skills/](./skills/alirezarezvani-skills/) — skill-security-auditor + playwright-pro |
 | [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) | MIT | [skills/visual-content/](./skills/visual-content/) (25) + [skills/business-automation/](./skills/business-automation/) (25) |
 | [revfactory/harness](https://github.com/revfactory/harness) | Apache-2.0 | [skills/harness/](./skills/harness/) meta-skill (Phase 3-0/4-0 duplicate-review guidelines) |
@@ -130,5 +132,5 @@ Content integrated from the following repositories (adapted for our use, no runt
 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | MIT | [skills/ui-ux-pro-max/](./skills/ui-ux-pro-max/) — 7 design-intelligence skills (catalogs, brand, tokens, slides, banners, styling) |
 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | Apache-2.0 | [skills/impeccable/](./skills/impeccable/) — frontend craft commands + anti-pattern detector (sparse copy) |
 
-**342** agent skills total — full index: [skills/README.md](./skills/README.md).  
+**403** agent skills total — full index: [skills/README.md](./skills/README.md).  
 Additional upstream projects (link-only + OpenClaw snapshots): [upstream-repos-catalog.md](./references/upstream-repos-catalog.md) · [nice-projects/README.md](../nice-projects/README.md).

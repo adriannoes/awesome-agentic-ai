@@ -10,9 +10,10 @@ Foundations → textbooks → notebooks → agents.
 
 ## Build agents
 
-4. [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) — 18-lesson Microsoft course (MIT)
-5. [huggingface/agents-course](https://github.com/huggingface/agents-course) — Hugging Face Agents Course
-6. Hands-on repos: [nice-projects/README.md#learn-ai-agents-courses--roadmaps](../../nice-projects/README.md#learn-ai-agents-courses--roadmaps)
+4. [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) — full-stack MIT curriculum (523 lessons; Phase 14 agents, MCP, Agent Skills) or jump in via [learning paths](https://aiengineeringfromscratch.com/learning-paths.html)
+5. [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) — 18-lesson Microsoft course (MIT)
+6. [huggingface/agents-course](https://github.com/huggingface/agents-course) — Hugging Face Agents Course
+7. More courses and catalogs: [nice-projects/README.md#learn-ai-agents-courses--roadmaps](../../nice-projects/README.md#learn-ai-agents-courses--roadmaps)
 
 ## Deep dives
 
