@@ -21,17 +21,9 @@ This repo is a knowledge hub for AI-assisted development — rules, skills, prom
 
 ## Upstream refreshes
 
-Vendored skills and snapshots should stay attributed and diffed — not blind-copied. See [cursor-claude-codex/MAINTENANCE.md](cursor-claude-codex/MAINTENANCE.md) and [cursor-claude-codex/references/upstream-repos-catalog.md](cursor-claude-codex/references/upstream-repos-catalog.md).
+Vendored skills and snapshots should stay attributed and diffed — not blind-copied. Use [cursor-claude-codex/references/upstream-repos-catalog.md](cursor-claude-codex/references/upstream-repos-catalog.md) for sources and pins; preserve licenses and upstream README snapshots in each package.
 
-Before updating README skill counts, run:
-
-```bash
-chmod +x bin/count-hub-stats.sh bin/count-skills.sh   # once
-./bin/count-hub-stats.sh    # all hub counts
-./bin/count-skills.sh       # SKILL.md total only
-```
-
-Counts live in [docs/stats.md](docs/stats.md); the main [README.md](README.md) links there instead of duplicating the full table. Agents working in this repo should follow [AGENTS.md](AGENTS.md).
+When catalog size changes, update [docs/stats.md](docs/stats.md) and the headline counts in [README.md](README.md) so they match the tree. Agents working in this repo should follow [AGENTS.md](AGENTS.md).
 
 ## Guidelines
 

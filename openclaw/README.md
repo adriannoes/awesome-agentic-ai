@@ -19,7 +19,7 @@ To survive upstream changes or deletions, we keep local snapshots of the two com
 
 For the **latest** index, read upstream. For a **stable reference**, read our local copy. The derivatives table and skills index below are compiled from these snapshots.
 
-**Refresh cadence:** Re-sync both snapshots quarterly (see [cursor-claude-codex/MAINTENANCE.md](../cursor-claude-codex/MAINTENANCE.md)). After `rsync`, spot-check category file counts in [awesome-openclaw-skills/categories/](./awesome-openclaw-skills/categories/) against upstream `README.md`.
+**Refresh cadence:** Re-sync both snapshots quarterly (pin and attribution in [upstream-repos-catalog.md](../cursor-claude-codex/references/upstream-repos-catalog.md)). After `rsync`, spot-check category file counts in [awesome-openclaw-skills/categories/](./awesome-openclaw-skills/categories/) against upstream `README.md`.
 
 ## OpenClaw Derivatives
 

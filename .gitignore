@@ -30,6 +30,6 @@ Temporary Items
 .cursor/
 .claude/
 
-# Maintenance scripts and logs (repo root only — vendored skills keep their own scripts/)
+# Maintainer-only (not hub content): count scripts, vendor refresh, branch rulesets
 /scripts/
 cursor-claude-codex/MAINTENANCE.md

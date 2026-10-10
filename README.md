@@ -56,7 +56,7 @@ Copy a skill into another project only when you want it outside this hub. Paths 
 
 ## Contributing
 
-Fork → branch → commit ([Conventional Commits](https://www.conventionalcommits.org/)) → PR. See [CONTRIBUTING.md](CONTRIBUTING.md). Verify counts with `./bin/count-hub-stats.sh` before updating stats copy.
+Fork → branch → commit ([Conventional Commits](https://www.conventionalcommits.org/)) → PR. See [CONTRIBUTING.md](CONTRIBUTING.md). When you change catalog size, update [docs/stats.md](docs/stats.md) and README headline counts to match the tree.
 
 ## License
 

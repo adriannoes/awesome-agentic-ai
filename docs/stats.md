@@ -1,10 +1,6 @@
 # Hub stats
 
-Counts verified against the repo tree. Regenerate with:
-
-```bash
-./bin/count-hub-stats.sh
-```
+Counts verified against the repo tree when this file is updated. After catalog changes, refresh the table and the headline numbers in [README.md](../README.md) so they match the tree.
 
 **Last verified:** 2026-10-09
 

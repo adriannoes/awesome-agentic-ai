@@ -14,11 +14,7 @@ This repository is a **knowledge hub**, not an application. People connect an ag
 | Paper catalog | [papers/README.md](papers/README.md) |
 | How to add content | [CONTRIBUTING.md](CONTRIBUTING.md) |
 
-If a number in prose disagrees with the tree, regenerate counts and trust the script:
-
-```bash
-./bin/count-hub-stats.sh
-```
+If a number in prose disagrees with the tree, recount from the tree (for example `find cursor-claude-codex/skills -name SKILL.md | wc -l`) and update [docs/stats.md](docs/stats.md) plus [README.md](README.md).
 
 **Snapshot (2026-10-09):** 403 agent skills · 108 papers (11 themes) · 201 notebooks · 9 textbooks · 18 industry reports · 100 curated GitHub projects · 14 prompt snapshots · 21 n8n templates · 8 slash commands · 21 coding rules · 35 upstream sources · 36 OpenClaw agents · 5,380 OpenClaw skills (index snapshot).
 
@@ -31,7 +27,7 @@ Skills live under [cursor-claude-codex/skills/](cursor-claude-codex/skills/). Ea
 3. Follow that file. Do not substitute a summary from the index.
 4. A nested `AGENTS.md` or `CLAUDE.md` inside a skill package applies **only to that package**. This file governs the hub.
 5. Do not edit a vendored skill unless the user asked to refresh, fix, or adapt that skill. Keep upstream attribution and license notes.
-6. Refresh procedure: [cursor-claude-codex/MAINTENANCE.md](cursor-claude-codex/MAINTENANCE.md).
+6. Upstream pins and vendoring sources: [cursor-claude-codex/references/upstream-repos-catalog.md](cursor-claude-codex/references/upstream-repos-catalog.md).
 
 When this repo is the workspace, the skill files are already on disk. Read them from `cursor-claude-codex/skills/`. Copy or symlink into another project's `.cursor/skills/`, `~/.claude/skills/`, or `~/.agents/skills/` only when the user wants those skills in a **different** project. Platform notes: [cursor-claude-codex/README.md](cursor-claude-codex/README.md).
 
@@ -62,7 +58,7 @@ When you summarize a paper, name the local PDF path and the arXiv id from [paper
 
 - Write docs, READMEs, and changelog entries in **English**.
 - Commit only when the user asks. Use [Conventional Commits](https://www.conventionalcommits.org/). One functional change per commit.
-- After adding a paper, skill, or catalog entry: update the area README, cross-links, [docs/stats.md](docs/stats.md), the counts in [README.md](README.md), and [CHANGELOG.md](CHANGELOG.md) under `[Unreleased]`. Then run `./bin/count-hub-stats.sh`.
+- After adding a paper, skill, or catalog entry: update the area README, cross-links, [docs/stats.md](docs/stats.md), the counts in [README.md](README.md), and [CHANGELOG.md](CHANGELOG.md) under `[Unreleased]`.
 - Do not commit secrets, tokens, or credentials.
 - A new GitHub release is for a significant content batch (new theme, or on the order of 10–15 papers), not for a typo. Versioning and release steps are described in [CHANGELOG.md](CHANGELOG.md) and the release notes of prior tags (`v1.x.x`).
 
