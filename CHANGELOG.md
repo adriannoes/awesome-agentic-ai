@@ -8,9 +8,32 @@ adapted for a knowledge hub (content batches, not library APIs).
 
 ## [Unreleased]
 
+## [1.5.0] - 2026-10-24
+
+Vendored presentation + hiring skills, labml paper-code index, design/motion/video catalogs, and security/OpenCode discovery expansion.
+
+### Highlights
+
+- **408** agent skills · **108** papers (11 themes) · **201** notebooks · **9** textbooks
+- **112** curated GitHub projects · **65** upstream repos (catalog) · **5,380** OpenClaw skills · **18** industry reports
+- Vendored **ppt-master** (native PPTX) and **every-hiring-automations-kit** (4 Codex hiring skills)
+- Link-only: **labml** annotated papers, **Opus 5.5** prompt gallery, **design/motion/video** stack (HyperFrames, video-shotcraft, Blender MCP, …)
+- Security/OpenCode catalogs (morluto RE, awesome-opencode, plugin87 XIAS) + **AVOID** note for Open-ClaudeCode
+
+### Added
+
+- **Skills / ppt-master:** [cursor-claude-codex/skills/ppt-master/](cursor-claude-codex/skills/ppt-master/) — vendored [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) (MIT, ~60k ★): native editable PPTX workflow (`skills/ppt-master/` @ `b4efe3d`, skill v6.7.0) + hub README (Python deps, `.env`, refresh recipe)
+- **Skills / every-hiring:** [cursor-claude-codex/skills/every-hiring-automations-kit/](cursor-claude-codex/skills/every-hiring-automations-kit/) — vendored [EveryInc/every-hiring-automations-kit-public](https://github.com/EveryInc/every-hiring-automations-kit-public) @ `4ecc464`: 4 hiring skills + worksheets/blueprints (Codex; no SPDX license upstream)
+- **Catalog (link-only):** [morluto/awesome-reverse-engineering](https://github.com/morluto/awesome-reverse-engineering) (CC0 RE + MCP catalog, CAUTION), [awesome-opencode/awesome-opencode](https://github.com/awesome-opencode/awesome-opencode) (CC0 OpenCode ecosystem, CAUTION), [plugin87/ux-ui-agent-skills](https://github.com/plugin87/ux-ui-agent-skills) (MIT XIAS kit, link-only RECOMMEND) — `nice-projects/`, [upstream-repos-catalog.md](cursor-claude-codex/references/upstream-repos-catalog.md), cross-links from [bug-hunter](cursor-claude-codex/skills/bug-hunter/README.md)
+- **Catalog (assessment only):** [LING71671/Open-ClaudeCode](https://github.com/LING71671/Open-ClaudeCode) — documented **AVOID** (proprietary Claude Code redistribution); negative pointer under Prompts & Resources, not promoted in main list
+- **Catalog (link-only):** [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) — MIT **700+** Opus 5.5 creative-coding prompt gallery (motion, 3D, explainers); [nice-projects § Prompts](nice-projects/README.md#prompts--resources), [prompt-engineering](prompt-engineering/README.md), [designers path](docs/paths/designers.md)
+- **Catalog (link-only, design/motion/video):** [blender-mcp](https://github.com/ahujasid/blender-mcp), [img2threejs](https://github.com/img2threejs/img2threejs), [video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft), [hyperframes](https://github.com/heygen-com/hyperframes), [penpot](https://github.com/penpot/penpot), [remotion](https://github.com/remotion-dev/remotion), [lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) — [nice-projects § Design, motion & agent video](nice-projects/README.md#design-motion--agent-video-link-only), [upstream-repos-catalog](cursor-claude-codex/references/upstream-repos-catalog.md), [designers path](docs/paths/designers.md), [ecosystem](docs/ecosystem.md)
+- **Research / catalog (link-only):** [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) — MIT **60+** annotated PyTorch papers at [nn.labml.ai](https://nn.labml.ai); hub pointer [research/labml-annotated-papers/](research/labml-annotated-papers/), [nice-projects](nice-projects/README.md#research--papers), cross-links in [papers/](papers/README.md), [learning/](learning/README.md), [learners path](docs/paths/learners.md)
+
 ### Changed
 
-- **Infrastructure:** Hub count tooling is maintainer-local under gitignored `scripts/`; public docs tell contributors to update [docs/stats.md](docs/stats.md) and README counts against the tree
+- Hub counts: **403** → **408** agent skills; curated GitHub projects **100** → **112**; upstream catalog **50** → **65** entries ([references/README.md](cursor-claude-codex/references/README.md))
+- **Docs:** Cross-link pass — [docs/README.md](docs/README.md), [docs/about.md](docs/about.md), [CONTRIBUTING.md](CONTRIBUTING.md), [README.md](README.md), [AGENTS.md](AGENTS.md), persona paths, [docs/ecosystem.md](docs/ecosystem.md); [docs/stats.md](docs/stats.md) synced (**2026-10-23**)
 
 ### Removed
 
