@@ -8,6 +8,10 @@ adapted for a knowledge hub (content batches, not library APIs).
 
 ## [Unreleased]
 
+### Added
+
+- **nice-projects:** [OpenLAIR/dr-claw](https://github.com/OpenLAIR/dr-claw) — research workspace under **Research workspaces** (catalog placement from review of [#14](https://github.com/adriannoes/awesome-agentic-ai/pull/14))
+
 ## [1.5.0] - 2026-10-24
 
 Vendored presentation + hiring skills, labml paper-code index, design/motion/video catalogs, and security/OpenCode discovery expansion.

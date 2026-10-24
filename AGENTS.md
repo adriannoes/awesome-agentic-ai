@@ -16,7 +16,7 @@ This repository is a **knowledge hub**, not an application. People connect an ag
 
 If a number in prose disagrees with the tree, recount from the tree (for example `find cursor-claude-codex/skills -name SKILL.md | wc -l`) and update [docs/stats.md](docs/stats.md) plus [README.md](README.md).
 
-**Snapshot (2026-10-23):** 408 agent skills · 108 papers (11 themes) · 201 notebooks · 9 textbooks · 18 industry reports · 112 curated GitHub projects · 14 prompt snapshots · 21 n8n templates · 8 slash commands · 21 coding rules · 40 upstream rows (Credits) · 65 upstream repos (catalog) · 36 OpenClaw agents · 5,380 OpenClaw skills (index snapshot).
+**Snapshot (2026-10-23):** 408 agent skills · 108 papers (11 themes) · 201 notebooks · 9 textbooks · 18 industry reports · 113 curated GitHub projects · 14 prompt snapshots · 21 n8n templates · 8 slash commands · 21 coding rules · 40 upstream rows (Credits) · 65 upstream repos (catalog) · 36 OpenClaw agents · 5,380 OpenClaw skills (index snapshot).
 
 ## Use a skill
 
