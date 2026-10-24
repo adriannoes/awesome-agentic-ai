@@ -47,6 +47,7 @@ Curated notes on external repos that complement **Cursor**, **Claude Code**, and
 | i-have-adhd (output contract) | ✅ 1 skill | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) |
 | Humanizer (AI-tell rewrite) | ✅ 1 skill | [blader/humanizer](https://github.com/blader/humanizer) |
 | Frontend Slides (16:9 HTML decks) | ✅ 1 skill | [zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides) |
+| PPT Master (native PPTX workflow) | ✅ 1 skill | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) |
 | UI UX Pro Max (design catalogs) | ✅ 7 skills | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
 | Impeccable (frontend craft + detector) | ✅ 1 skill (sparse) | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) |
 | Understand-Anything (code knowledge graphs) | ❌ link only | [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) |
@@ -57,6 +58,20 @@ Curated notes on external repos that complement **Cursor**, **Claude Code**, and
 | smol-course (alignment notebooks) | ✅ 12 notebooks | [huggingface/smol-course](https://github.com/huggingface/smol-course) |
 | OpenAI Cookbook (eval/RAG notebooks) | ❌ link only | [openai/openai-cookbook](https://github.com/openai/openai-cookbook) |
 | Awesome Grok Bot (xAI + Cursor cloud agents) | ❌ link only | [RongleCat/awesome-grok-bot](https://github.com/RongleCat/awesome-grok-bot) |
+| Awesome reverse engineering (RE + agent MCP) | ❌ link only | [morluto/awesome-reverse-engineering](https://github.com/morluto/awesome-reverse-engineering) |
+| Open-ClaudeCode (unofficial Claude Code archive) | 🚫 not listed | [LING71671/Open-ClaudeCode](https://github.com/LING71671/Open-ClaudeCode) — assessment only |
+| Awesome OpenCode (plugins & ecosystem) | ❌ link only | [awesome-opencode/awesome-opencode](https://github.com/awesome-opencode/awesome-opencode) |
+| UX/UI agent skills (XIAS design-system kit) | ❌ link only | [plugin87/ux-ui-agent-skills](https://github.com/plugin87/ux-ui-agent-skills) |
+| Every hiring automations kit | ✅ 4 skills | [EveryInc/every-hiring-automations-kit-public](https://github.com/EveryInc/every-hiring-automations-kit-public) |
+| labml annotated paper implementations | ❌ link only | [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) |
+| Awesome Opus 5.5 videos (prompt gallery) | ❌ link only | [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) |
+| MCP for Blender | ❌ link only | [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp) |
+| img2threejs (image → Three.js skill) | ❌ link only | [img2threejs/img2threejs](https://github.com/img2threejs/img2threejs) |
+| video-shotcraft (Remotion promos) | ❌ link only | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) |
+| HyperFrames (HTML → MP4 agents) | ❌ link only | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) |
+| Penpot (design + MCP) | ❌ link only | [penpot/penpot](https://github.com/penpot/penpot) |
+| Remotion (React video framework) | ❌ link only | [remotion-dev/remotion](https://github.com/remotion-dev/remotion) |
+| lemo-opuscar (code film styles) | ❌ link only | [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) |
 
 ---
 
@@ -731,6 +746,27 @@ npx skills add blader/humanizer --global
 
 ---
 
+## [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)
+
+**License:** MIT. **~60k ★.** Vendored @ `b4efe3d` (skill **v6.7.0**), 2026-10-11. Examples: [ppt-master-examples](https://hugohe3.github.io/ppt-master-examples/).
+
+**What it is:** A routed presentation workflow that exports **natively editable `.pptx`** (DrawingML, charts/tables, slide masters on template routes) from PDFs, DOCX, pasted text, or existing decks — via SVG authoring and Python OOXML tooling. Routes: generate, create template, edit-native fill, beautify/reconstruct, quick mode, optional animation/narration.
+
+**Vendored in this hub (as of 2026-10-11):** [skills/ppt-master/](../skills/ppt-master/) — upstream `skills/ppt-master/` only (~78 MB: scripts, workflows, references, icon templates). Omitted: repo `docs/`, bundled `projects/` examples, `.claude-plugin/`. Requires **Python 3.10+** and `pip install -r requirements.txt`; optional `.env` for image/search/TTS APIs. PyMuPDF (AGPL) note for some PDF paths — documented in the hub README.
+
+**Install upstream (alternative):**
+
+```bash
+npx skills add hugohe3/ppt-master
+# Claude Code marketplace:
+# /plugin marketplace add hugohe3/ppt-master
+# /plugin install ppt-master@ppt-master
+```
+
+**Fit for this hub:** Native PowerPoint output vs [frontend-slides](#zarazhangruifrontend-slides) (HTML 16:9) vs [ui-ux-pro-max slides](#nextlevelbuilderui-ux-pro-max-skill) (catalog-driven HTML slides). Pair with [presentation-slide-outliner](../skills/visual-content/presentation-slide-outliner/SKILL.md) for outline-first work.
+
+---
+
 ## [zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides)
 
 **License:** MIT. **~28k ★.** Vendored @ `9906a34`, 2026-08-27. Walkthrough: [YouTube](https://www.youtube.com/watch?v=372Iksaz8b0).
@@ -858,6 +894,180 @@ npx skills add blader/humanizer --global
 **Vendored in this hub:** Link-only — the repo is enormous and changes rapidly; vendoring would create a large, perpetually-stale copy. The eval/RAG notebooks are pointed to from [awesome-evals/README.md](./awesome-evals/README.md) as the **hands-on practice** companion to the eval reference catalog (which is the theory + patterns).
 
 **Fit for this hub:** Pairs with [awesome-evals/](./awesome-evals/) (theory) and [smol-course](#huggingfacesmol-course) v1/4 (evaluation module). Closes the RAG and LLM-eval hands-on gaps without the weight of a full cookbook mirror.
+
+---
+
+## [morluto/awesome-reverse-engineering](https://github.com/morluto/awesome-reverse-engineering) *(link-only)*
+
+**License:** CC0-1.0. **~350 ★** (Oct 2026 launch). Maintainer: [morluto](https://github.com/morluto) (promotes sibling [REA](https://github.com/morluto/rea) agent RE stack).
+
+**What it is:** Markdown-only awesome list for **binary, mobile, firmware, malware, and protocol** reverse engineering—organized by task, with an **AI-assisted analysis / MCP** section (Ghidra/IDA/debugger bridges). Includes lychee link CI and maintainer **resource-intake** reproduction notes (`examples/resource-intake/verify.py`).
+
+**Vendored in this hub:** **No** — link-only in [nice-projects § Security research](../../nice-projects/README.md#security-research--reversing-link-only).
+
+**Trust (2026-10-13):** **CAUTION** — transparent CC0 curation and active PR review, but **very young** repo, REA marketing funnel, dual-use outbound links (malware tooling, debug MCPs). Hub does **not** vet third-party downloads. **Authorized targets / isolated lab only.**
+
+**Fit for this hub:** Tool discovery beside vendored [bug-hunter](../skills/bug-hunter/) (web pentest) and [anthropic-cybersecurity-skills](../skills/anthropic-cybersecurity-skills/) (DFIR/malware playbooks).
+
+---
+
+## [LING71671/Open-ClaudeCode](https://github.com/LING71671/Open-ClaudeCode) *(not listed — assessment only)*
+
+**License:** GitHub **NOASSERTION**; bundled `package/LICENSE.md` is **© Anthropic PBC** (proprietary). **~965 ★.** Last push **2026-07-22** (frozen ~v2.1.88 npm-era snapshot).
+
+**What it is:** Unofficial “research archive” of **Anthropic Claude Code**: minified `package/cli.js`, large source map, ~1,900 reconstructed TypeScript files, official plugins, native vendor binaries, plus **community** Electron desktop and API-proxy README flows—not MIT open source despite README wording.
+
+**Vendored in this hub:** **No.** **Not** in [nice-projects](../../nice-projects/README.md) main catalog (negative entry under Prompts & Resources points here).
+
+**Trust (2026-10-13):** **AVOID** for hub promotion — redistributes **proprietary** client code, stale vs current `@anthropic-ai/claude-code`, elevated credential/supply-chain risk via third-party builds/proxies, possible **ToS** issues.
+
+**Use instead:** [Claude Code documentation](https://code.claude.com/docs/en/overview) · `npm install -g @anthropic-ai/claude-code` · [anthropics/claude-code](https://github.com/anthropics/claude-code) · hub [claude-code-system-prompts](https://github.com/Piebald-AI/claude-code-system-prompts) (prompt patterns only).
+
+---
+
+## [awesome-opencode/awesome-opencode](https://github.com/awesome-opencode/awesome-opencode) *(link-only)*
+
+**License:** CC0-1.0. **~10.6k ★.** Community org (not Anomaly). **`main` last push 2026-07-03**; ~223 YAML catalog entries (plugins, themes, agents, projects).
+
+**What it is:** Awesome list for [OpenCode](https://opencode.ai) — Anomaly’s terminal coding agent ([`anomalyco/opencode`](https://github.com/anomalyco/opencode), MIT). Official docs link this index alongside [opencode.cafe](https://opencode.cafe); that is **discovery**, not security attestation.
+
+**Vendored in this hub:** **No** (contrast [OpenClaw snapshots](../../openclaw/README.md)). Listed in [nice-projects § OpenCode](../../nice-projects/README.md#opencode-ecosystem-terminal-coding-agent).
+
+**Trust (2026-10-13):** **CAUTION** — schema CI and official-repo table are positives; **no malware/security review** of linked plugins; ecosystem has seen malicious npm/skill abuse. Treat every install as **unvetted third-party code**.
+
+**Fit for this hub:** Fourth harness discovery path beside Cursor / Claude Code / Codex CLI; pairs with harness papers in [papers/agents-and-engineering/](../../papers/agents-and-engineering/).
+
+---
+
+## [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) *(link-only)*
+
+**License:** MIT. **~8.2k ★** (Oct 2026). Maintainer: [yihui-dev](https://github.com/yihui-dev).
+
+**What it is:** Curated **700+** user prompts behind viral **Claude Opus 5.5** animations — motion graphics, explainers, 3D scenes, games/interactive — implemented as agent-generated code (Canvas, SVG, Three.js, GSAP, GLSL, …). README highlights **100** featured videos; `prompts/` + `data/videos.json` are the source of truth. Companion site [Skillry](https://skillry.dev/ai-videos/opus-5-5) hosts side-by-side originals and live remakes (third-party; not required to use the prompts).
+
+**Vendored in this hub:** **No** — link-only. Listed in [nice-projects § Prompts & Resources](../../nice-projects/README.md#prompts--resources); cross-linked from [prompt-engineering/](../../prompt-engineering/README.md).
+
+**Fit for this hub:** Community **user-prompt** gallery (contrast [prompt-engineering/prompts/](../../prompt-engineering/prompts/) system-prompt snapshots). Pairs with motion/UI skills: [emilkowalski](../skills/emilkowalski/), [frontend-slides](../skills/frontend-slides/), [diagram-design](../skills/diagram-design/), [taste-skills](../skills/taste-skills/), [ppt-master](../skills/ppt-master/), [lemo-opuscar](#lemomo-ailemo-opuscar) (film styles). For designers: [docs/paths/designers.md](../../docs/paths/designers.md).
+
+---
+
+## [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp) *(link-only)*
+
+**License:** MIT. **~32k ★.** Community **MCP for Blender** (not affiliated with Blender Foundation).
+
+**What it is:** MCP server + Blender addon so agents can prompt-driven model, scene, and viewport operations in Blender 3D.
+
+**Vendored in this hub:** **No.** Listed in [nice-projects § Design, motion & agent video](../../nice-projects/README.md#design-motion--agent-video-link-only).
+
+**Fit for this hub:** 3D/MCP bridge beside [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) and web motion stacks ([img2threejs](#img2threejsimg2threejs), [awesome-opus5-5-videos](#yihui-devawesome-opus5-5-videos)).
+
+---
+
+## [img2threejs/img2threejs](https://github.com/img2threejs/img2threejs) *(link-only)*
+
+**License:** Apache-2.0. **~19k ★.** Ships root `SKILL.md` + `skills/` tooling.
+
+**What it is:** Rebuild objects from a reference image as **code-only**, quality-gated, animation-ready **Three.js** (token-efficient image→3D).
+
+**Vendored in this hub:** **No** (candidate for future sparse vendoring). **Trust:** run hub `skill-security-auditor` before vendoring; includes scripts/forge pipeline.
+
+**Fit:** Pairs [image-to-code-skill](../skills/taste-skills/skills/image-to-code-skill/SKILL.md) aesthetics with 3D output; complements [awesome-opus5-5-videos](#yihui-devawesome-opus5-5-videos).
+
+---
+
+## [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) *(link-only)*
+
+**License:** Apache-2.0. **~13k ★.** Root `SKILL.md` + Remotion template + shot recipe gallery.
+
+**What it is:** Agent skill for **cinematic product videos** — capture real pages, pick from **152** shot recipes, render promos in **Remotion** (Claude Code / Codex plugin layout).
+
+**Vendored in this hub:** **No** (candidate for future vendoring). Prefer link-only until security audit on publish scripts.
+
+**Fit:** Product-video layer beside [frontend-slides](../skills/frontend-slides/), [ppt-master](../skills/ppt-master/), [hyperframes](#heygen-comhyperframes); framework pointer [remotion-dev/remotion](#remotion-devremotion).
+
+---
+
+## [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) *(link-only)*
+
+**License:** Apache-2.0. **~71k ★.** Agent-first HTML→video monorepo with multiple skills (e.g. motion doctrine, captions, Figma token import).
+
+**What it is:** Write HTML, render MP4; built for agents with plugin layouts for Cursor/Codex/Claude.
+
+**Vendored in this hub:** **No** — repo too large for hub snapshot; install upstream.
+
+**Fit:** Agent video stack with [video-shotcraft](#vincentwei1021video-shotcraft) and vendored motion taste [emilkowalski](../skills/emilkowalski/).
+
+---
+
+## [penpot/penpot](https://github.com/penpot/penpot) *(link-only)*
+
+**License:** MPL-2.0. **~62k ★.** Open-source design platform for product teams.
+
+**What it is:** Figma-class collaborative design with an **MCP server** so coding agents can read design files and tokens.
+
+**Vendored in this hub:** **No** — full application stack. Pairs [DESIGN.md](../references/design-md/) spec and [VoltAgent/awesome-design-md](#voltagentawesome-design-md).
+
+---
+
+## [remotion-dev/remotion](https://github.com/remotion-dev/remotion) *(link-only)*
+
+**License:** Remotion license (see upstream `LICENSE`). **~67k ★.** React framework for programmatic video.
+
+**What it is:** Core **Remotion** monorepo. `.agents/skills/` are primarily for **maintaining Remotion**, not end-user promo workflows.
+
+**Vendored in this hub:** **No.** For agent-driven promos, start with [video-shotcraft](#vincentwei1021video-shotcraft) or [hyperframes](#heygen-comhyperframes).
+
+---
+
+## [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) *(link-only)*
+
+**License:** MIT. **~6k ★.** Claude Code plugin + `plugin/skills/lemo-opuscar/SKILL.md`.
+
+**What it is:** **59** film-style prompts with code-only demo films (Claude Opus 5.5; no video model) — style toolbox for agent-generated motion.
+
+**Vendored in this hub:** **No.** Overlaps [awesome-opus5-5-videos](#yihui-devawesome-opus5-5-videos) (broader prompt index).
+
+---
+
+## [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) *(link-only)*
+
+**License:** MIT. **~67k ★.** Site: [nn.labml.ai](https://nn.labml.ai/index.html). Actively maintained (weekly additions per upstream README).
+
+**What it is:** Collection of **60+** minimal **PyTorch** implementations of deep learning papers — transformers (GPT, ViT, Switch, RETRO, RoPE, …), optimizers, GANs, RL (PPO, DQN), distillation, and related algorithms — each documented for side-by-side reading on the website.
+
+**Vendored in this hub:** **No** — link-only. Hub anchor: [research/labml-annotated-papers/](../../research/labml-annotated-papers/README.md). Listed in [nice-projects](../../nice-projects/README.md#research--papers).
+
+**Fit for this hub:** Paper-aligned code companion to [papers/](../../papers/) PDFs and to pedagogical tracks [understanding-deep-learning](../../research/understanding-deep-learning/) + [llms-from-scratch](#rasbtllms-from-scratch) (book pipeline vs single-paper depth). Not counted in the hub’s **201** vendored Jupyter notebooks.
+
+---
+
+## [EveryInc/every-hiring-automations-kit-public](https://github.com/EveryInc/every-hiring-automations-kit-public)
+
+**License:** No SPDX license on GitHub (Oct 2026). **~8 ★.** Vendored @ `4ecc464`, 2026-10-15.
+
+**What it is:** Public **hiring workflow kit** for Codex: four agent skills (screening, operator comms, candidate comms, phone-screen prep) plus `START_HERE.md`, customization worksheet, hiring-plan template, automation blueprints, and test plan. Recreates ATS-style flows via **operator-connected** Slack, Gmail, Google Calendar, Notion, and optional Drive — prompts and safeguards only, not a hosted ATS.
+
+**Vendored in this hub (as of 2026-10-15):** [skills/every-hiring-automations-kit/](../skills/every-hiring-automations-kit/) — full public tree (~228 KB). No candidate data, credentials, or live automation state in the repo.
+
+**Trust:** Markdown-only; strong human-in-the-loop send gates and synthetic-data test plan. Operators must keep PII out of git and validate connectors locally.
+
+**Fit for this hub:** People-ops / recruiting beside [business-automation](../skills/business-automation/) (generic automation) and [product-management/](../product-management/) (role specs). Pairs with [plain-writing](../skills/plain-writing/) for candidate-facing tone.
+
+---
+
+## [plugin87/ux-ui-agent-skills](https://github.com/plugin87/ux-ui-agent-skills) *(link-only)*
+
+**License:** MIT. **~1.6k ★** (v2.9.8, Oct 2026). Maintainer: Thientan Soparat ([plugin87](https://github.com/plugin87)).
+
+**What it is:** **XIAS** — integrated design-system kit for agents: **25** `.claude/skills/` packages, DTCG tokens, 52 component specs, 138 design-system profiles, taste doctrine, **52 objective UI gates**, optional Playwright axe/contrast scripts, MCP gate server, Claude Code hooks.
+
+**Vendored in this hub:** **No** (link-only). Overlaps [taste-skills](../skills/taste-skills/), [ui-ux-pro-max](../skills/ui-ux-pro-max/), [impeccable](../skills/impeccable/), [emilkowalski](../skills/emilkowalski/).
+
+**Install (upstream):** `npx ux-ui-agent-skills init --agent cursor` or Claude plugin marketplace — **not** bare `npx skills add` (skills alone omit `tokens/` / `scripts/`).
+
+**Trust (2026-10-13):** **RECOMMEND link-only** · **CAUTION vendoring** — all 25 skill folders **PASS** hub `skill-security-auditor`; `scripts/` / `bin/` FAIL on local `exec`/gate patterns (same class as ui-ux-pro-max/impeccable). Optional Playwright and pinned CDN axe fallback when gates run.
+
+**Fit for this hub:** “Senior design architect + measurable gates” POV; listed in [nice-projects](../../nice-projects/README.md#agent-skills-ui-specs--claude-ecosystem-hub-catalog).
 
 ---
 

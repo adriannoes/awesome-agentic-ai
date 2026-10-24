@@ -30,7 +30,7 @@ Skills written for Claude Code often work on Codex with minimal changes. When a 
 
 **This hub:** open the repo and start at the root [AGENTS.md](../AGENTS.md). Claude Code reads [CLAUDE.md](../CLAUDE.md), which points there. Nested `AGENTS.md` files inside skill packages apply only to that package.
 
-**Project overview:** [main README](../README.md) · [OpenClaw ecosystem](../openclaw/README.md) (local) · [Grok Bot resources](../nice-projects/README.md#cursor--grok-bot-xai-cloud-agents) (xAI + Cursor cloud) · [nice-projects](../nice-projects/README.md)
+**Project overview:** [main README](../README.md) · [OpenClaw ecosystem](../openclaw/README.md) (local) · [nice-projects](../nice-projects/README.md) (**112** link-only) · [design/motion/video](../nice-projects/README.md#design-motion--agent-video-link-only) · [labml papers](../research/labml-annotated-papers/) · [Grok Bot](../nice-projects/README.md#cursor--grok-bot-xai-cloud-agents) (xAI + Cursor cloud)
 
 ## Categories
 
@@ -122,6 +122,7 @@ Content integrated from the following repositories (adapted for our use, no runt
 | [benchflow-ai/awesome-evals](https://github.com/benchflow-ai/awesome-evals) | CC0 1.0 | [references/awesome-evals/](./references/awesome-evals/) — eval reference catalog (443+ links) + PATTERNS playbook + 146 notes |
 | [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | Apache-2.0 | [research/llms-from-scratch/](../research/llms-from-scratch/) — 66 notebooks (GPT/attention/pretrain/finetune/LoRA) |
 | [huggingface/smol-course](https://github.com/huggingface/smol-course) | Apache-2.0 | [research/smol-course/](../research/smol-course/) — 12 notebooks (instruction tuning, DPO, LoRA/PEFT, eval, VLM, agents) |
+| [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | MIT | Link-only — [research/labml-annotated-papers/](../research/labml-annotated-papers/) + [nn.labml.ai](https://nn.labml.ai) (60+ annotated PyTorch papers) |
 | [shreyashankar/plain-writing-skill](https://github.com/shreyashankar/plain-writing-skill) | — | [skills/plain-writing/](./skills/plain-writing/) — plain-language prose skill + HTML revision diff template |
 | [davidondrej/skills](https://github.com/davidondrej/skills) | MIT | [skills/david-ondrej/](./skills/david-ondrej/) — 30 agent-orchestration, research, skill-authoring, and thinking/docs skills |
 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | MIT | [skills/archify/](./skills/archify/) — interactive architecture / workflow / sequence / data-flow / lifecycle diagram skill |
@@ -129,8 +130,12 @@ Content integrated from the following repositories (adapted for our use, no runt
 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | MIT | [skills/i-have-adhd/](./skills/i-have-adhd/) — ADHD-friendly output-contract skill |
 | [blader/humanizer](https://github.com/blader/humanizer) | MIT | [skills/humanizer/](./skills/humanizer/) — rewrite AI-sounding prose without changing claims |
 | [zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides) | MIT | [skills/frontend-slides/](./skills/frontend-slides/) — zero-dependency 16:9 HTML presentations |
+| [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | MIT | [skills/ppt-master/](./skills/ppt-master/) — native editable PPTX from documents (skill package @ `b4efe3d`, v6.7.0) |
+| [awesome-opencode/awesome-opencode](https://github.com/awesome-opencode/awesome-opencode) | CC0 | Link-only — OpenCode plugins/themes index ([anomalyco/opencode](https://github.com/anomalyco/opencode)); see [upstream-repos-catalog](./references/upstream-repos-catalog.md#awesome-opencodeawesome-opencode) |
+| [plugin87/ux-ui-agent-skills](https://github.com/plugin87/ux-ui-agent-skills) | MIT | Link-only — XIAS design-system + UI gate kit (25 skills); install via `npx ux-ui-agent-skills init` |
+| [EveryInc/every-hiring-automations-kit-public](https://github.com/EveryInc/every-hiring-automations-kit-public) | — | [skills/every-hiring-automations-kit/](./skills/every-hiring-automations-kit/) — 4 hiring skills + worksheets/blueprints @ `4ecc464` |
 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | MIT | [skills/ui-ux-pro-max/](./skills/ui-ux-pro-max/) — 7 design-intelligence skills (catalogs, brand, tokens, slides, banners, styling) |
 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | Apache-2.0 | [skills/impeccable/](./skills/impeccable/) — frontend craft commands + anti-pattern detector (sparse copy) |
 
-**403** agent skills total — full index: [skills/README.md](./skills/README.md).  
+**408** agent skills total — full index: [skills/README.md](./skills/README.md).  
 Additional upstream projects (link-only + OpenClaw snapshots): [upstream-repos-catalog.md](./references/upstream-repos-catalog.md) · [nice-projects/README.md](../nice-projects/README.md).
