@@ -7,6 +7,6 @@ Ship with spec-driven AI workflows in under 5 minutes.
 3. Generate tasks with [generate-tasks.md](../../cursor-claude-codex/product-management/generate-tasks.md)
 4. Ship with [writing-plans](../../cursor-claude-codex/skills/writing-plans/) + [executing-plans](../../cursor-claude-codex/skills/executing-plans/)
 
-**Also useful:** [product-management/README.md](../../cursor-claude-codex/product-management/README.md) · [reports/](../../reports/) (industry agent guides) · [The Agentic SDLC Handbook](../../learning/The_Agentic_SDLC_Handbook.pdf)
+**Also useful:** [product-management/README.md](../../cursor-claude-codex/product-management/README.md) · [every-hiring-automations-kit](../../cursor-claude-codex/skills/every-hiring-automations-kit/) (vendored hiring skills) · [reports/](../../reports/) (industry agent guides) · [The Agentic SDLC Handbook](../../learning/The_Agentic_SDLC_Handbook.pdf) · [ppt-master](../../cursor-claude-codex/skills/ppt-master/) (native PPTX decks)
 
 ← [Hub README](../../README.md)

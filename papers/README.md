@@ -64,6 +64,8 @@ papers/
 
 Visual companion (architectures across the foundation-model era): Sebastian Raschka's [LLM Architecture Gallery](https://sebastianraschka.com/llm-architecture-gallery/) — source metadata at [rasbt/llm-architecture-gallery](https://github.com/rasbt/llm-architecture-gallery), indexed in [nice-projects/](../nice-projects/README.md#research--papers).
 
+Code companion (annotated PyTorch per paper): [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) — side-by-side notes at [nn.labml.ai](https://nn.labml.ai); hub pointer [research/labml-annotated-papers/](../research/labml-annotated-papers/) (link-only, not vendored).
+
 ### [alignment-and-post-training/](alignment-and-post-training/)
 
 - **Proximal Policy Optimization Algorithms** (Schulman et al., 2017) — the on-policy RL algorithm later used in RLHF; [arXiv:1707.06347](https://arxiv.org/abs/1707.06347)

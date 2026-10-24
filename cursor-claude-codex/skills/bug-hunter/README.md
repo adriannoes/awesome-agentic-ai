@@ -82,6 +82,11 @@ mv cursor-claude-codex/skills/bug-hunter/README.md cursor-claude-codex/skills/bu
 
 Track [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) if the fork lags behind.
 
+## Pairs with
+
+- [anthropic-cybersecurity-skills/](../anthropic-cybersecurity-skills/) — blue-team / DFIR / malware **playbooks** (hub subset)
+- [morluto/awesome-reverse-engineering](https://github.com/morluto/awesome-reverse-engineering) — **link-only** RE tool + debugger-MCP catalog (binary/mobile/firmware); lab/authorized targets only — [catalog note](../../references/upstream-repos-catalog.md#morlutoawesome-reverse-engineering)
+
 ## Attribution
 
 Vendored as-is from upstream on **2026-05-25**. Built by Sachin Sharma (see upstream README). Catalog: [upstream-repos-catalog.md](../../references/upstream-repos-catalog.md#xiaolaiclaude-bughunter).

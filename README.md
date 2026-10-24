@@ -15,7 +15,7 @@
 
 > The most complete collection of battle-tested AI-assisted development resources — for Product Managers, Designers, and Developers who want to ship real products with AI.
 
-**What's inside:** **403** agent skills · **108** papers · **201** notebooks · **9** textbooks · **100** curated GitHub projects · **5,380** OpenClaw skills — [full stats](docs/stats.md) · [changelog](CHANGELOG.md)
+**What's inside:** **408** agent skills · **108** papers · **201** notebooks · **9** textbooks · **112** curated GitHub projects · **5,380** OpenClaw skills — [full stats](docs/stats.md) · [changelog](CHANGELOG.md)
 
 Whether you're a PM who wants to prototype faster, a Designer who wants to understand the code your AI is generating, or a Developer looking for the sharpest rules to ship with — this repo is built to be copied, forked, and used the same day.
 
@@ -23,9 +23,9 @@ Whether you're a PM who wants to prototype faster, a Designer who wants to under
 
 Open this repository as the workspace. The agent reads [AGENTS.md](AGENTS.md) (Claude Code follows [CLAUDE.md](CLAUDE.md), which points there) and can:
 
-- **Apply skills** already on disk under [cursor-claude-codex/skills/](cursor-claude-codex/skills/) — 403 `SKILL.md` packages for Cursor, Claude Code, and Codex. Read the skill file before using it; the index is [skills/README.md](cursor-claude-codex/skills/README.md).
+- **Apply skills** already on disk under [cursor-claude-codex/skills/](cursor-claude-codex/skills/) — 408 `SKILL.md` packages for Cursor, Claude Code, and Codex. Read the skill file before using it; the index is [skills/README.md](cursor-claude-codex/skills/README.md).
 - **Study local materials** — 108 papers in 11 themes, 9 textbooks, 201 notebooks, 18 industry reports, and prompt snapshots — instead of searching the web for copies.
-- **Follow curated links** — GitHub projects, OpenClaw indexes, and external reading lists (including [Nathan Lambert's open-models list](papers/open-models/README.md)) without treating those links as vendored code.
+- **Follow curated links** — [112 projects](nice-projects/README.md) (skills ecosystems, [design/motion/video](nice-projects/README.md#design-motion--agent-video-link-only), MCP, security RE), [labml paper code](research/labml-annotated-papers/), OpenClaw indexes, and external lists ([ecosystem.md](docs/ecosystem.md), [Nathan Lambert's open-models](papers/open-models/README.md)) without treating those URLs as vendored code.
 
 Copy a skill into another project only when you want it outside this hub. Paths for Cursor, Claude Code, and Codex are in [cursor-claude-codex/README.md](cursor-claude-codex/README.md).
 
@@ -42,17 +42,17 @@ Copy a skill into another project only when you want it outside this hub. Paths 
 
 | Area | Count | Start here |
 |------|------:|------------|
-| Cursor, Claude & Codex | **403** skills | [cursor-claude-codex/README.md](cursor-claude-codex/README.md) |
+| Cursor, Claude & Codex | **408** skills | [cursor-claude-codex/README.md](cursor-claude-codex/README.md) |
 | Prompts | **14** snapshots | [prompt-engineering/README.md](prompt-engineering/README.md) |
 | Learning (textbooks) | **9** PDFs | [learning/README.md](learning/README.md) |
 | Reports | **18** PDFs | [reports/README.md](reports/README.md) |
 | OpenClaw ecosystem | **36** agents · **5,380** skills | [openclaw/README.md](openclaw/README.md) |
-| Projects to watch | **100** repos | [nice-projects/README.md](nice-projects/README.md) |
+| Projects to watch | **112** repos | [nice-projects/README.md](nice-projects/README.md) |
 | Research & notebooks | **201** notebooks | [research/README.md](research/README.md) |
 | Papers | **108** PDFs · 11 themes | [papers/README.md](papers/README.md) |
 | n8n templates | **21** workflows | [n8n-templates/](n8n-templates/) |
 
-**Agent orientation:** [AGENTS.md](AGENTS.md) · **Upstream catalog:** [cursor-claude-codex/references/upstream-repos-catalog.md](cursor-claude-codex/references/upstream-repos-catalog.md) · **Docs:** [docs/README.md](docs/README.md) · **External lists:** [docs/ecosystem.md](docs/ecosystem.md)
+**Agent orientation:** [AGENTS.md](AGENTS.md) · **Upstream catalog (65 repos):** [cursor-claude-codex/references/upstream-repos-catalog.md](cursor-claude-codex/references/upstream-repos-catalog.md) · **Docs:** [docs/README.md](docs/README.md) · **External lists:** [docs/ecosystem.md](docs/ecosystem.md)
 
 ## Contributing
 

@@ -11,7 +11,29 @@ Curated third-party indexes that complement this hub. For repos we star, fork, o
 - [awesome-datascience](https://github.com/academic/awesome-datascience) — Data science resources
 - [awesome-AI-driven-development](https://github.com/eltociear/awesome-AI-driven-development) — AI-driven development tools, MCP servers, multi-agent systems (also in [nice-projects](../nice-projects/README.md))
 - [awesome-grok-bot](https://github.com/RongleCat/awesome-grok-bot) — Bilingual Grok Bot / Grok Build resource list (~1,974 entries): always-on xAI + Cursor cloud agents (also in [nice-projects](../nice-projects/README.md#cursor--grok-bot-xai-cloud-agents))
+- [awesome-opencode/awesome-opencode](https://github.com/awesome-opencode/awesome-opencode) — CC0 community index of OpenCode plugins/themes (~223 entries); unofficial, linked from [Anomaly’s ecosystem docs](https://opencode.ai/docs/ecosystem) (also in [nice-projects](../nice-projects/README.md#opencode-ecosystem-terminal-coding-agent))
 - [ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) — MIT 523-lesson AI engineering curriculum (agents, MCP, skills, LLM apps; also in [nice-projects](../nice-projects/README.md#learn-ai-agents-courses--roadmaps))
+- [awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) — MIT prompt gallery for Claude Opus 5.5 motion/3D/creative-coding demos (also in [nice-projects](../nice-projects/README.md#prompts--resources) and [prompt-engineering](../prompt-engineering/README.md))
+
+## Design, motion & agent video
+
+Indexed in [nice-projects § Design, motion & agent video](../nice-projects/README.md#design-motion--agent-video-link-only) and [upstream-repos-catalog](../cursor-claude-codex/references/upstream-repos-catalog.md):
+
+- [blender-mcp](https://github.com/ahujasid/blender-mcp) — MCP-driven Blender
+- [img2threejs](https://github.com/img2threejs/img2threejs) — image → Three.js skill
+- [video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) — Remotion product promos
+- [hyperframes](https://github.com/heygen-com/hyperframes) — HTML → MP4 for agents
+- [penpot](https://github.com/penpot/penpot) — open design tool + MCP
+- [remotion](https://github.com/remotion-dev/remotion) — React video framework (agent promo workflows: prefer video-shotcraft / hyperframes)
+- [lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) — code-only film styles for Claude Code
+
+## Deep learning papers (code + notes)
+
+- [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) — MIT **60+** annotated PyTorch paper walkthroughs (~67k ★) at [nn.labml.ai](https://nn.labml.ai); link-only hub pointer [research/labml-annotated-papers/](../research/labml-annotated-papers/) (pairs with [papers/](../papers/) PDFs and UDL / LLM-from-scratch notebooks in [research/](../research/); also in [nice-projects](../nice-projects/README.md#research--papers))
+
+## Security research (link-only)
+
+- [morluto/awesome-reverse-engineering](https://github.com/morluto/awesome-reverse-engineering) — CC0 RE tool catalog (binaries, mobile, firmware, malware, debugger MCPs); **authorized targets / lab only** (also in [nice-projects](../nice-projects/README.md#security-research--reversing-link-only); pairs with vendored [bug-hunter](../cursor-claude-codex/skills/bug-hunter/) and [anthropic-cybersecurity-skills](../cursor-claude-codex/skills/anthropic-cybersecurity-skills/))
 
 ## Programming languages
 

@@ -133,6 +133,12 @@ Minimal and clean examples of machine learning algorithms and implementations. W
 - `ML-Notebooks/notebooks/maths/mean.ipynb` - Mean calculation
 - `ML-Notebooks/notebooks/maths/feature-scaling.ipynb` - Feature scaling
 
+### labml-annotated-papers (link-only)
+
+**Source:** [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) · **License:** MIT · **~67k ★**
+
+Annotated PyTorch implementations of **60+** deep learning papers with explanations rendered at [nn.labml.ai](https://nn.labml.ai/index.html) (transformers, optimizers, GANs, RL, distillation, …). **Not vendored** in this repo — use the site or clone upstream. Hub pointer: [labml-annotated-papers/README.md](labml-annotated-papers/README.md). Pairs with [papers/](../papers/) PDFs and [understanding-deep-learning/](understanding-deep-learning/) chapter notebooks.
+
 ### understanding-deep-learning
 
 **Source:** [udlbook/udlbook](https://github.com/udlbook/udlbook)
@@ -153,6 +159,8 @@ Companion notebooks and book PDF for **"Understanding Deep Learning"** by Simon 
 - `Deepseek_OCR_(3B).ipynb` - Deepseek OCR model notebook (3B parameters)
 
 ## Related learning materials
+
+For **paper-specific** minimal implementations (attention variants, ViT, PPO, StyleGAN, …) alongside local PDFs, see [labml-annotated-papers/](labml-annotated-papers/) → [nn.labml.ai](https://nn.labml.ai/index.html).
 
 GPU-oriented tracks (`llms-from-scratch`, `nanochat`, `autoresearch`, `smol-course`) assume NVIDIA hardware for training. The canonical API reference is the [CUDA C++ Programming Guide](../learning/CUDA_C_Programming_Guide.pdf) in [learning/](../learning/) — see [learning/README.md](../learning/README.md) for how it fits with the other textbooks. For KV cache / MLA mechanics in code, see `llms-from-scratch/ch04/05_mla` and `ch04/03_kv-cache`; for frontier long-context agent infra, see [DeepSeek-V4.1-Flash](../papers/models-and-training/DeepSeek-V4.1-Flash_%20Pushing%20the%20Limits%20of%20KV%20Cache%20Compression.pdf) and Kimi K3 in [papers/models-and-training/](../papers/models-and-training/). For the end-to-end agentic stack (transformers → alignment → harnesses → multi-agent), see Roitman's [Hitchhiker's Guide to Agentic AI](../learning/Hitchhikers_Guide_to_Agentic_AI.pdf). For AI-native delivery process (spec-driven SDLC, tool evaluation), see Meppiel's [Agentic SDLC Handbook](../learning/The_Agentic_SDLC_Handbook.pdf). For CPU-side C++ performance (hotspots, compilers, SIMD), pair it with Agner Fog's [Optimizing Software in C++](../learning/Optimizing_Software_in_Cpp.pdf). For C++ without an OS (embedded / bare metal, no exceptions/RTTI), see Robenko's [Practical Guide to Bare Metal C++](../learning/Practical_Guide_to_Bare_Metal_Cpp.pdf). For cluster-scale training/inference ops (accelerators, storage, networking, SLURM, debugging), see Stas Bekman's [*Machine Learning Engineering Open Book*](https://github.com/stas00/ml-engineering) in [nice-projects/](../nice-projects/README.md#study-material-).
 

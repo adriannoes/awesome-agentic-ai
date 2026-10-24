@@ -18,6 +18,8 @@ This isn't just another collection of AI tools. We focus on:
 - **Product thinking** — technical concepts connected to business outcomes
 - **Reproducible results** — tested and documented vendored content with upstream attribution
 
+**Scale (see [stats.md](stats.md)):** **408** agent skills · **108** papers · **201** notebooks · **112** curated GitHub projects (link-only discovery) · **65** upstream repos in the [catalog](../cursor-claude-codex/references/upstream-repos-catalog.md).
+
 ## Maintainer
 
 This repository is maintained by **Adrianno**, a Staff Product Manager at [Pipefy](https://www.pipefy.com), diving into the magic behind LLMs.

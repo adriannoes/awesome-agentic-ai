@@ -86,6 +86,11 @@ python3 cursor-claude-codex/skills/alirezarezvani-skills/skill-security-auditor/
 
 Expect **WARN/FAIL** on DFIR/offensive-adjacent commands — review in authorized IR context; re-run after refresh.
 
+## Pairs with
+
+- [bug-hunter/](../bug-hunter/) — authorized **web** bounty / external pentest (offense); this bundle is **blue-team / DFIR / malware playbooks** (defense)
+- [morluto/awesome-reverse-engineering](https://github.com/morluto/awesome-reverse-engineering) — **link-only** breadth index for static/dynamic RE and debugger **MCP** tooling; lab/authorized targets only — [catalog note](../../references/upstream-repos-catalog.md#morlutoawesome-reverse-engineering)
+
 ## Refresh from upstream
 
 See [PICK-LIST.md](./PICK-LIST.md) and [MAINTENANCE.md](../../MAINTENANCE.md#mukul975anthropic-cybersecurity-skills). Pin to release tags; re-run the cherry-pick script or adjust `PICK-LIST.md` when expanding domains.

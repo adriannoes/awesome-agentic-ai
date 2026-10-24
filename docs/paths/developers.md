@@ -7,6 +7,6 @@ Core skills, rules, and security for Cursor, Claude Code, and Codex.
 3. Pick your stack rules from [coding/](../../cursor-claude-codex/coding/) (Python, TypeScript, FastAPI, Next.js, …)
 4. Lock down security with [anthropic-security-audit.md](../../cursor-claude-codex/security/anthropic-security-audit.md)
 
-**Also useful:** [skills/README.md](../../cursor-claude-codex/skills/README.md) (full index) · [upstream-repos-catalog.md](../../cursor-claude-codex/references/upstream-repos-catalog.md) · [agentic-patterns.md](../../cursor-claude-codex/references/agentic-patterns.md)
+**Also useful:** [skills/README.md](../../cursor-claude-codex/skills/README.md) (full index) · [upstream-repos-catalog.md](../../cursor-claude-codex/references/upstream-repos-catalog.md) (**65** repos) · [agentic-patterns.md](../../cursor-claude-codex/references/agentic-patterns.md) · [nice-projects](../../nice-projects/README.md) (MCP, OpenCode, security RE) · [bug-hunter](../../cursor-claude-codex/skills/bug-hunter/) + [morluto RE index](../../nice-projects/README.md#security-research--reversing-link-only)
 
 ← [Hub README](../../README.md)

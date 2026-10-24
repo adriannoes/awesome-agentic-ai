@@ -20,8 +20,10 @@ Foundations → textbooks → notebooks → agents.
 | Track | Folder |
 |-------|--------|
 | LLM from scratch | [research/llms-from-scratch/](../../research/llms-from-scratch/) |
+| Paper-aligned PyTorch (link-only) | [research/labml-annotated-papers/](../../research/labml-annotated-papers/) → [nn.labml.ai](https://nn.labml.ai) |
 | Reasoning models | [research/reasoning-from-scratch/](../../research/reasoning-from-scratch/) |
 | Small-model alignment | [research/smol-course/](../../research/smol-course/) |
 | Full catalog | [research/README.md](../../research/README.md) |
+| External courses & catalogs | [nice-projects § Study material](../../nice-projects/README.md#study-material-) · [docs/ecosystem.md](../../docs/ecosystem.md) |
 
 ← [Hub README](../../README.md)

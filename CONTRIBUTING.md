@@ -9,6 +9,8 @@ This repo is a knowledge hub for AI-assisted development — rules, skills, prom
 - **n8n-templates/** — Workflow automation templates
 - **research/** — Jupyter notebooks and experiments
 - **learning/**, **papers/** — Learning materials and research papers
+- **nice-projects/** — Curated GitHub projects to watch (**link-only**; update count in [docs/stats.md](docs/stats.md))
+- **research/labml-annotated-papers/** — Link-only pointer pages (no vendoring of large upstream trees)
 
 ## How to Contribute
 
@@ -23,7 +25,9 @@ This repo is a knowledge hub for AI-assisted development — rules, skills, prom
 
 Vendored skills and snapshots should stay attributed and diffed — not blind-copied. Use [cursor-claude-codex/references/upstream-repos-catalog.md](cursor-claude-codex/references/upstream-repos-catalog.md) for sources and pins; preserve licenses and upstream README snapshots in each package.
 
-When catalog size changes, update [docs/stats.md](docs/stats.md) and the headline counts in [README.md](README.md) so they match the tree. Agents working in this repo should follow [AGENTS.md](AGENTS.md).
+**Link-only catalog entries** (no clone in tree): add a row to the catalog summary table + a `##` section, an entry in [nice-projects/README.md](nice-projects/README.md) when it is a “project to watch,” cross-links in [docs/ecosystem.md](docs/ecosystem.md) and persona paths when relevant, and a line under `[Unreleased]` in [CHANGELOG.md](CHANGELOG.md).
+
+When catalog size changes, update [docs/stats.md](docs/stats.md) (skills, nice-projects, **65**-row upstream catalog) and the headline counts in [README.md](README.md) so they match the tree. Agents working in this repo should follow [AGENTS.md](AGENTS.md).
 
 ## Guidelines
 
