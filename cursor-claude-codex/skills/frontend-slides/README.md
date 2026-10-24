@@ -45,6 +45,7 @@ Then: `Use frontend-slides to create a 16:9 HTML deck about this project.` PPT c
 ## Pairs with
 
 - [visual-content/presentation-slide-outliner](../visual-content/presentation-slide-outliner/SKILL.md) — breadth-first slide-outline shim; Frontend Slides is the full HTML deck runtime
+- [ppt-master/](../ppt-master/) — native **PPTX** generation (SVG → OOXML); Frontend Slides is zero-dependency **HTML** 16:9
 - [taste-skills/](../taste-skills/) — UI taste / anti-slop aesthetics; Frontend Slides applies that taste to 16:9 decks
 - [frontend-design/](../frontend-design/) — product UI aesthetics; Frontend Slides is presentations, not app chrome
 
