@@ -13,7 +13,7 @@ Counts verified against the repo tree when this file is updated. After catalog c
 | Upstream repos catalogued (vendored + link-only) | **65** | [cursor-claude-codex/references/upstream-repos-catalog.md](../cursor-claude-codex/references/upstream-repos-catalog.md) |
 | OpenClaw agents catalogued | **36** | [openclaw/README.md](../openclaw/README.md) |
 | OpenClaw skills indexed (snapshot) | **5,380** | [openclaw/skills/README.md](../openclaw/skills/README.md) |
-| GitHub projects to watch | **112** | [nice-projects/README.md](../nice-projects/README.md) |
+| GitHub projects to watch | **113** | [nice-projects/README.md](../nice-projects/README.md) |
 | Textbooks & references (PDF) | **9** | [learning/README.md](../learning/README.md) |
 | Jupyter notebooks | **201** | [research/README.md](../research/README.md) |
 | Research papers (PDF, 11 themes) | **108** | [papers/README.md](../papers/README.md) |

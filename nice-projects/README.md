@@ -1,6 +1,6 @@
 # Nice projects to follow & fork 🚀
 
-A curated collection of **112** interesting open-source projects worth exploring, forking, and contributing to. This list is based on projects I've starred on GitHub and upstream sources vendored in this hub.
+A curated collection of **113** interesting open-source projects worth exploring, forking, and contributing to. This list is based on projects I've starred on GitHub and upstream sources vendored in this hub.
 
 ## Tools 🛠️
 
@@ -141,6 +141,10 @@ Always-on **Grok Bot** teammates (xAI + Cursor, beta 2026-08-11): each bot share
 
 ### Agent Platforms
 - **[Orkas](https://github.com/Orkas-AI/Orkas)** - Open-source, local-first desktop AI workforce coordinated by a Commander through one chat.
+
+### Research workspaces
+
+- **[Dr. Claw](https://github.com/OpenLAIR/dr-claw)** — GPL-3.0/AGPL-3.0 open-source research workspace (~1.2k ★): survey, ideation, experiments, paper writing, and artifact delivery; model-agnostic (Claude Code, Codex, Gemini CLI, OpenRouter); OpenClaw integration. Same [OpenLAIR](https://github.com/OpenLAIR) ecosystem as the [OpenSkill](https://arxiv.org/abs/2606.06741) paper in [papers/agents-and-engineering/](../papers/agents-and-engineering/). ⚠️ Desktop agent with file/shell access — link-only.
 
 ### Agent Frameworks
 - **[AutoAgent](https://github.com/HKUDS/AutoAgent)** - "AutoAgent: Fully-Automated and Zero-Code LLM Agent Framework"
