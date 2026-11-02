@@ -25,9 +25,9 @@ This repo is a knowledge hub for AI-assisted development — rules, skills, prom
 
 Vendored skills and snapshots should stay attributed and diffed — not blind-copied. Use [cursor-claude-codex/references/upstream-repos-catalog.md](cursor-claude-codex/references/upstream-repos-catalog.md) for sources and pins; preserve licenses and upstream README snapshots in each package.
 
-**Link-only catalog entries** (no clone in tree): add a row to the catalog summary table + a `##` section, an entry in [nice-projects/README.md](nice-projects/README.md) when it is a “project to watch,” cross-links in [docs/ecosystem.md](docs/ecosystem.md) and persona paths when relevant, and a line under `[Unreleased]` in [CHANGELOG.md](CHANGELOG.md).
+**Link-only catalog entries** (no clone in tree): follow the **cross-doc checklist** in [AGENTS.md](AGENTS.md#change-the-hub) (same steps for vendored upstream pins when counts or discovery text change).
 
-When catalog size changes, update [docs/stats.md](docs/stats.md) (skills, nice-projects, **65**-row upstream catalog) and the headline counts in [README.md](README.md) so they match the tree. Agents working in this repo should follow [AGENTS.md](AGENTS.md).
+When catalog size changes, recount from the tree (`grep -cE '^- \\*\\*\\[' nice-projects/README.md` for projects; upstream summary table rows in [upstream-repos-catalog.md](cursor-claude-codex/references/upstream-repos-catalog.md)), then sync [docs/stats.md](docs/stats.md), [README.md](README.md), [AGENTS.md](AGENTS.md) snapshot, [docs/about.md](docs/about.md), [nice-projects/README.md](nice-projects/README.md) intro line, and [cursor-claude-codex/README.md](cursor-claude-codex/README.md) if it cites the nice-projects total. Agents working in this repo should follow [AGENTS.md](AGENTS.md).
 
 ## Guidelines
 

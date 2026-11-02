@@ -30,7 +30,7 @@ Skills written for Claude Code often work on Codex with minimal changes. When a 
 
 **This hub:** open the repo and start at the root [AGENTS.md](../AGENTS.md). Claude Code reads [CLAUDE.md](../CLAUDE.md), which points there. Nested `AGENTS.md` files inside skill packages apply only to that package.
 
-**Project overview:** [main README](../README.md) · [OpenClaw ecosystem](../openclaw/README.md) (local) · [nice-projects](../nice-projects/README.md) (**112** link-only) · [design/motion/video](../nice-projects/README.md#design-motion--agent-video-link-only) · [labml papers](../research/labml-annotated-papers/) · [Grok Bot](../nice-projects/README.md#cursor--grok-bot-xai-cloud-agents) (xAI + Cursor cloud)
+**Project overview:** [main README](../README.md) · [OpenClaw ecosystem](../openclaw/README.md) (local) · [nice-projects](../nice-projects/README.md) (**118** link-only) · [design/motion/video](../nice-projects/README.md#design-motion--agent-video-link-only) · [labml papers](../research/labml-annotated-papers/) · [Grok Bot](../nice-projects/README.md#cursor--grok-bot-xai-cloud-agents) (xAI + Cursor cloud)
 
 ## Categories
 

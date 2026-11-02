@@ -16,7 +16,7 @@ This repository is a **knowledge hub**, not an application. People connect an ag
 
 If a number in prose disagrees with the tree, recount from the tree (for example `find cursor-claude-codex/skills -name SKILL.md | wc -l`) and update [docs/stats.md](docs/stats.md) plus [README.md](README.md).
 
-**Snapshot (2026-10-23):** 408 agent skills · 108 papers (11 themes) · 201 notebooks · 9 textbooks · 18 industry reports · 113 curated GitHub projects · 14 prompt snapshots · 21 n8n templates · 8 slash commands · 21 coding rules · 40 upstream rows (Credits) · 65 upstream repos (catalog) · 36 OpenClaw agents · 5,380 OpenClaw skills (index snapshot).
+**Snapshot (2026-11-01):** 408 agent skills · 108 papers (11 themes) · 201 notebooks · 9 textbooks · 18 industry reports · 118 curated GitHub projects · 14 prompt snapshots · 21 n8n templates · 8 slash commands · 21 coding rules · 40 upstream rows (Credits) · 70 upstream repos (catalog) · 36 OpenClaw agents · 5,380 OpenClaw skills (index snapshot).
 
 ## Use a skill
 
@@ -61,6 +61,14 @@ When you summarize a paper, name the local PDF path and the arXiv id from [paper
 - Write docs, READMEs, and changelog entries in **English**.
 - Commit only when the user asks. Use [Conventional Commits](https://www.conventionalcommits.org/). One functional change per commit.
 - After adding a paper, skill, or catalog entry: update the area README, cross-links, [docs/stats.md](docs/stats.md), the counts in [README.md](README.md), and [CHANGELOG.md](CHANGELOG.md) under `[Unreleased]`.
+- **Cross-doc checklist** (link-only or upstream catalog entry — do all that apply in one batch):
+  1. [cursor-claude-codex/references/upstream-repos-catalog.md](cursor-claude-codex/references/upstream-repos-catalog.md) — summary table row + `##` section (install, license, fit, overlaps).
+  2. [nice-projects/README.md](nice-projects/README.md) — bullet in the right section + intro project count.
+  3. [cursor-claude-codex/references/README.md](cursor-claude-codex/references/README.md) — mention in the catalog blurb when it is a headline upstream.
+  4. [docs/ecosystem.md](docs/ecosystem.md) — external-list cross-link when the repo is an awesome list or community index; otherwise the themed subsection that fits (design, security, languages, …).
+  5. [docs/paths/](docs/paths/) — persona quick starts when the entry matches PM / designer / developer / learner workflows.
+  6. Counts: [docs/stats.md](docs/stats.md) (`Last verified` date), [README.md](README.md), [AGENTS.md](AGENTS.md) snapshot, [docs/about.md](docs/about.md), [cursor-claude-codex/README.md](cursor-claude-codex/README.md) if it states the nice-projects total.
+  7. [CHANGELOG.md](CHANGELOG.md) `[Unreleased]` — one line listing primary paths touched.
 - Do not commit secrets, tokens, or credentials.
 - A new GitHub release is for a significant content batch (new theme, or on the order of 10–15 papers), not for a typo. Versioning and release steps are described in [CHANGELOG.md](CHANGELOG.md) and the release notes of prior tags (`v1.x.x`).
 
