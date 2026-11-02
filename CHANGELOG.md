@@ -8,9 +8,25 @@ adapted for a knowledge hub (content batches, not library APIs).
 
 ## [Unreleased]
 
+## [1.6.0] - 2026-11-02
+
+Catalog expansion (design, video, spec workflows), Dr. Claw research workspace, and DAIR.AI Hacker Papers reading path.
+
+### Highlights
+
+- **408** agent skills · **108** papers (11 themes) · **201** notebooks · **9** textbooks
+- **118** curated GitHub projects · **70** upstream repos (catalog) · **5,380** OpenClaw skills · **18** industry reports
+- Link-only: **elayadesign/ai-design-skills**, **BeautifulRust**, **carrossel-skill**, **OpenMontage**, **google/elephant-goldfish-model**, **OpenLAIR/dr-claw**
+- Papers: [DAIR.AI Academy — Hacker Papers](https://academy.dair.ai/papers/collections/hacker-papers) (arXiv + Hacker News threads)
+
 ### Added
 
+- **Papers (link-only):** [DAIR.AI Academy — Hacker Papers](https://academy.dair.ai/papers/collections/hacker-papers) — arXiv classics with Hacker News discussion threads; [papers/README.md](papers/README.md#paper-reading--community-discussion-external), cross-link from [research/README.md](research/README.md#ml-notebooks)
 - **nice-projects:** [OpenLAIR/dr-claw](https://github.com/OpenLAIR/dr-claw) — research workspace under **Research workspaces** (catalog placement from review of [#14](https://github.com/adriannoes/awesome-agentic-ai/pull/14))
+- **Catalog (link-only):** [elayadesign/ai-design-skills](https://github.com/elayadesign/ai-design-skills) (MIT landing-page design skills), [morganlinton/BeautifulRust](https://github.com/morganlinton/BeautifulRust) (MIT Claude Code plugin, idiomatic Rust) — [nice-projects](nice-projects/README.md#agent-skills-ui-specs--claude-ecosystem-hub-catalog), [upstream-repos-catalog.md](cursor-claude-codex/references/upstream-repos-catalog.md), [references/README.md](cursor-claude-codex/references/README.md), [designers](docs/paths/designers.md) / [developers](docs/paths/developers.md) / [product-managers](docs/paths/product-managers.md) paths, [about](docs/about.md), [ecosystem](docs/ecosystem.md), [cursor-claude-codex/README.md](cursor-claude-codex/README.md); counts **115** nice-projects · **67** upstream catalog ([stats](docs/stats.md), [README](README.md), [AGENTS.md](AGENTS.md))
+- **Catalog (link-only):** [guilhermealvestech/carrossel-skill](https://github.com/guilhermealvestech/carrossel-skill) (MIT `/carrossel` — on-brand social carousels, Claude Code/Codex) — [nice-projects](nice-projects/README.md#design-motion--agent-video-link-only), [upstream-repos-catalog.md](cursor-claude-codex/references/upstream-repos-catalog.md#guilhermealvestechcarrossel-skill), [designers](docs/paths/designers.md) / [product-managers](docs/paths/product-managers.md), [ecosystem](docs/ecosystem.md); counts **116** nice-projects · **68** upstream catalog ([stats](docs/stats.md), [README](README.md), [AGENTS.md](AGENTS.md))
+- **Catalog (link-only):** [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) (AGPL-3.0 agentic video studio — pipelines, Backlot, Remotion/FFmpeg) — [nice-projects](nice-projects/README.md#design-motion--agent-video-link-only), [upstream-repos-catalog.md](cursor-claude-codex/references/upstream-repos-catalog.md#calesthioopenmontage), [designers](docs/paths/designers.md) / [developers](docs/paths/developers.md), [ecosystem](docs/ecosystem.md), [references/README.md](cursor-claude-codex/references/README.md); counts **117** nice-projects · **69** upstream catalog ([stats](docs/stats.md), [README](README.md), [AGENTS.md](AGENTS.md))
+- **Catalog (link-only):** [google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) (Apache-2.0 EGM — Elephant/Goldfish spec design + fresh-subagent review) — [nice-projects](nice-projects/README.md#agent-skills-ui-specs--claude-ecosystem-hub-catalog), [upstream-repos-catalog.md](cursor-claude-codex/references/upstream-repos-catalog.md#googleelephant-goldfish-model), [product-managers](docs/paths/product-managers.md) / [developers](docs/paths/developers.md), [ecosystem](docs/ecosystem.md); counts **118** nice-projects · **70** upstream catalog ([stats](docs/stats.md), [README](README.md), [AGENTS.md](AGENTS.md))
 
 ## [1.5.0] - 2026-10-24
 
@@ -283,7 +299,11 @@ Initial hub launch ([#1](https://github.com/adriannoes/awesome-agentic-ai/pull/1
 - Root README with quick-start paths for PMs, Designers, Developers, and Learners
 - Foundation folders: cursor rules, prompts, n8n templates, research
 
-[Unreleased]: https://github.com/adriannoes/awesome-agentic-ai/compare/v1.2.0...HEAD
+[Unreleased]: https://github.com/adriannoes/awesome-agentic-ai/compare/v1.6.0...HEAD
+[1.6.0]: https://github.com/adriannoes/awesome-agentic-ai/releases/tag/v1.6.0
+[1.5.0]: https://github.com/adriannoes/awesome-agentic-ai/releases/tag/v1.5.0
+[1.4.0]: https://github.com/adriannoes/awesome-agentic-ai/releases/tag/v1.4.0
+[1.3.0]: https://github.com/adriannoes/awesome-agentic-ai/releases/tag/v1.3.0
 [1.2.0]: https://github.com/adriannoes/awesome-agentic-ai/releases/tag/v1.2.0
 [1.1.0]: https://github.com/adriannoes/awesome-agentic-ai/releases/tag/v1.1.0
 [1.0.0]: https://github.com/adriannoes/awesome-agentic-ai/releases/tag/v1.0.0

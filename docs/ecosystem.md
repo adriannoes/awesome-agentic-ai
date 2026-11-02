@@ -14,6 +14,8 @@ Curated third-party indexes that complement this hub. For repos we star, fork, o
 - [awesome-opencode/awesome-opencode](https://github.com/awesome-opencode/awesome-opencode) — CC0 community index of OpenCode plugins/themes (~223 entries); unofficial, linked from [Anomaly’s ecosystem docs](https://opencode.ai/docs/ecosystem) (also in [nice-projects](../nice-projects/README.md#opencode-ecosystem-terminal-coding-agent))
 - [ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) — MIT 523-lesson AI engineering curriculum (agents, MCP, skills, LLM apps; also in [nice-projects](../nice-projects/README.md#learn-ai-agents-courses--roadmaps))
 - [awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) — MIT prompt gallery for Claude Opus 5.5 motion/3D/creative-coding demos (also in [nice-projects](../nice-projects/README.md#prompts--resources) and [prompt-engineering](../prompt-engineering/README.md))
+- [elayadesign/ai-design-skills](https://github.com/elayadesign/ai-design-skills) — MIT agent design skills for landing pages (also [Design & product](#design--product) and [nice-projects](../nice-projects/README.md#agent-skills-ui-specs--claude-ecosystem-hub-catalog))
+- [google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) — Apache-2.0 EGM plugin for spec design + fresh-subagent review (Claude Code / Codex / Antigravity; also [nice-projects](../nice-projects/README.md#agent-skills-ui-specs--claude-ecosystem-hub-catalog))
 
 ## Design, motion & agent video
 
@@ -23,9 +25,11 @@ Indexed in [nice-projects § Design, motion & agent video](../nice-projects/READ
 - [img2threejs](https://github.com/img2threejs/img2threejs) — image → Three.js skill
 - [video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) — Remotion product promos
 - [hyperframes](https://github.com/heygen-com/hyperframes) — HTML → MP4 for agents
+- [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) — AGPL-3.0 full agentic video studio (12 pipelines, Backlot storyboard; [nice-projects](../nice-projects/README.md#design-motion--agent-video-link-only))
 - [penpot](https://github.com/penpot/penpot) — open design tool + MCP
 - [remotion](https://github.com/remotion-dev/remotion) — React video framework (agent promo workflows: prefer video-shotcraft / hyperframes)
 - [lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) — code-only film styles for Claude Code
+- [guilhermealvestech/carrossel-skill](https://github.com/guilhermealvestech/carrossel-skill) — MIT `/carrossel` on-brand social carousels (Claude Code/Codex; [nice-projects § Agent skills](../nice-projects/README.md#agent-skills-ui-specs--claude-ecosystem-hub-catalog))
 
 ## Deep learning papers (code + notes)
 
@@ -39,6 +43,7 @@ Indexed in [nice-projects § Design, motion & agent video](../nice-projects/READ
 
 - [awesome-python](https://github.com/vinta/awesome-python) — Python resources
 - [awesome-typescript](https://github.com/dzharii/awesome-typescript) — TypeScript resources
+- [morganlinton/BeautifulRust](https://github.com/morganlinton/BeautifulRust) — MIT Claude Code plugin: `rust-best-practices` skill for idiomatic Rust (also in [nice-projects](../nice-projects/README.md#agent-skills-ui-specs--claude-ecosystem-hub-catalog))
 
 ## Architecture & design patterns
 
@@ -50,6 +55,7 @@ Indexed in [nice-projects § Design, motion & agent video](../nice-projects/READ
 
 ## Design & product
 
+- [elayadesign/ai-design-skills](https://github.com/elayadesign/ai-design-skills) — MIT agent design skills (landing pages today; also in [nice-projects](../nice-projects/README.md#agent-skills-ui-specs--claude-ecosystem-hub-catalog))
 - [Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools) — Design tools and plugins
 - [awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) — Beginner-friendly open-source projects
 - [awesome-cto](https://github.com/kuchin/awesome-cto) — Resources for CTOs and startup technical leadership

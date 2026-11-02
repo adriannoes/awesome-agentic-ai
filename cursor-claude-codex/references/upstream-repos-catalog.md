@@ -72,6 +72,11 @@ Curated notes on external repos that complement **Cursor**, **Claude Code**, and
 | Penpot (design + MCP) | ❌ link only | [penpot/penpot](https://github.com/penpot/penpot) |
 | Remotion (React video framework) | ❌ link only | [remotion-dev/remotion](https://github.com/remotion-dev/remotion) |
 | lemo-opuscar (code film styles) | ❌ link only | [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) |
+| AI Design Skills (landing pages) | ❌ link only | [elayadesign/ai-design-skills](https://github.com/elayadesign/ai-design-skills) |
+| Beautiful Rust (idiomatic Rust) | ❌ link only | [morganlinton/BeautifulRust](https://github.com/morganlinton/BeautifulRust) |
+| Carrossel (brand social carousels) | ❌ link only | [guilhermealvestech/carrossel-skill](https://github.com/guilhermealvestech/carrossel-skill) |
+| OpenMontage (agentic video studio) | ❌ link only | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) |
+| Elephant-Goldfish Model (EGM design) | ❌ link only | [google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) |
 
 ---
 
@@ -1080,6 +1085,93 @@ npx skills add hugohe3/ppt-master
 **Vendored in this hub:** Link-only — the index is large, fast-moving, and event-heavy (global meetup calendar). Read upstream for the latest entries.
 
 **Fit for this hub:** The Grok Bot / Grok Build discovery layer beside our [OpenClaw snapshots](../../openclaw/README.md) (local-first assistants). Pairs with Grok prompt snapshots in [prompt-engineering/](../../prompt-engineering/), webhook control UIs via [pstack `make-bot-ui`](../skills/pstack/make-bot-ui/SKILL.md), and the related open-source desktop client [RongleCat/grok-app](https://github.com/RongleCat/grok-app). Also listed in [nice-projects](../../nice-projects/README.md#cursor--grok-bot-xai-cloud-agents) and [docs/ecosystem.md](../../docs/ecosystem.md).
+
+---
+
+## [elayadesign/ai-design-skills](https://github.com/elayadesign/ai-design-skills) *(link-only)*
+
+**License:** MIT. **~3k ★** (Oct 2026).
+
+**What it is:** Growing collection of **design skills** for Claude Code, Cursor, Codex, Windsurf, and other tools that read markdown rules. Each skill is a self-contained folder under `skills/`; design tokens (fonts, colors, spacing, motion) live in one editable section per skill. Ships **`landing-page-design`** today (intake, page structure, conversion copy, full visual system). Site redesigns live upstream in [elayadesign/redesign-skill](https://github.com/elayadesign/redesign-skill) (predates this monorepo).
+
+**Vendored in this hub:** **No** (link-only). Overlaps [frontend-design](../skills/frontend-design/), [taste-skills](../skills/taste-skills/), [ui-ux-pro-max](../skills/ui-ux-pro-max/), and [impeccable](../skills/impeccable/) — keep as a landing-page–focused POV.
+
+**Install (upstream):** Copy `skills/<name>/` into `.claude/skills/`, or pull `SKILL.md` into `.cursor/rules/` / `AGENTS.md` per upstream README.
+
+**Fit for this hub:** Product Builders shipping marketing sites with agents — listed in [nice-projects](../../nice-projects/README.md#agent-skills-ui-specs--claude-ecosystem-hub-catalog) and [docs/paths/designers.md](../../docs/paths/designers.md).
+
+---
+
+## [morganlinton/BeautifulRust](https://github.com/morganlinton/BeautifulRust) *(link-only)*
+
+**License:** MIT. **~159 ★** (Oct 2026). Claude Code **plugin** marketplace (`beautiful-rust`).
+
+**What it is:** Single skill **`rust-best-practices`** (~500 lines) that auto-loads on Rust/cargo/clippy/`.rs` tasks. Distills Google Rust Style, Rust API Guidelines, *Effective Rust*, Rust Design Patterns, and Microsoft Pragmatic Rust Guidelines — resolves disagreements explicitly. Covers mindset, pre-handback checklist (fmt/clippy/tests), ownership, API design, errors, idioms, async, unsafe/FFI, crates/modules, docs, tests, and performance.
+
+**Vendored in this hub:** **No** (link-only). Complements language-agnostic skills ([matt-pocock](../skills/matt-pocock/), [karpathy-guidelines](../best-practices/karpathy-guidelines.md)) with Rust-specific idioms; no overlap with vendored security/RE skills that mention Rust incidentally.
+
+**Install (upstream):**
+
+```bash
+claude plugin install beautiful-rust --marketplace morganlinton/BeautifulRust
+```
+
+Or `claude --plugin-dir ./BeautifulRust` after clone for a one-off session. Cursor/Codex: copy `skills/rust-best-practices/SKILL.md` into project rules (plugin hooks are Claude Code–native).
+
+**Fit for this hub:** Rust backends, CLIs, and agent harnesses (e.g. [claw-code](#ultraworkersclaw-code)) — listed in [nice-projects](../../nice-projects/README.md#agent-skills-ui-specs--claude-ecosystem-hub-catalog) and [docs/ecosystem.md](../../docs/ecosystem.md#programming-languages).
+
+---
+
+## [guilhermealvestech/carrossel-skill](https://github.com/guilhermealvestech/carrossel-skill) *(link-only)*
+
+**License:** MIT. **~89 ★** (Oct 2026). Maintainer: Guilherme Alves ([guilhermealvestech](https://github.com/guilhermealvestech)).
+
+**What it is:** Claude Code / Codex skill **`/carrossel`** for **on-brand social carousels** (Instagram-style 1080×1350): copy-first slide scripts, approved gallery as style reference, brand onboarding from an existing site or from scratch, image-gen asset series, Playwright render checks, HTML + PNG @1x/@2x, local gallery/slider, caption export, and taste memory in `GOSTO.md`. Upstream README and workflow copy are **pt-BR**; skill mechanics are tool-agnostic markdown + Node scripts.
+
+**Vendored in this hub:** **No** (link-only). Overlaps [ppt-master](../skills/ppt-master/) (native PPTX), [frontend-slides](../skills/frontend-slides/) (HTML decks), [ui-ux-pro-max](../skills/ui-ux-pro-max/) (design catalogs), and [ai-design-skills](#elayadesignai-design-skills) (landing pages) — distinct niche is **multi-slide social series with brand lock-in and render pipeline**.
+
+**Install (upstream):** Node 18+; clone repo, copy `skills/carrossel` to `~/.claude/skills/` or `~/.codex/skills/`, `npm install` + `playwright install chromium` per upstream README. Cursor: copy skill folder or `SKILL.md` into project rules and run scripts from the copied tree.
+
+**Trust:** Skill markdown is process-heavy; `scripts/` uses local Node + Playwright + optional image-gen APIs when you enable them — same class as [ui-ux-pro-max](#nextlevelbuilderui-ux-pro-max-skill) gate/render packs. Review before running in sensitive repos.
+
+**Fit for this hub:** Designers and PMs shipping **social / growth creative** with agents — [nice-projects § Design, motion & agent video](../../nice-projects/README.md#design-motion--agent-video-link-only), [agent skills catalog](../../nice-projects/README.md#agent-skills-ui-specs--claude-ecosystem-hub-catalog), [designers path](../../docs/paths/designers.md), [product-managers path](../../docs/paths/product-managers.md).
+
+---
+
+## [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) *(link-only)*
+
+**License:** AGPL-3.0. **~74k ★** (Oct 2026). [openmontage.video](https://openmontage.video) · maintainer [calesthio](https://github.com/calesthio).
+
+**What it is:** Open-source **agentic video production system** for Claude Code, Cursor, Copilot, Windsurf, and Codex: **12** pipeline definitions, **100+** tools, **700+** agent skill / production-knowledge files under `skills/`. Covers reference-video analysis (YouTube/TikTok/local), scripting, research, image/video gen (many providers), TTS, music, subtitles, Remotion/FFmpeg/Blender paths, self-review gates, and **Backlot** — a local live storyboard (`python -m backlot`). Supports both AI-generated motion and **real stock-footage** documentary montages.
+
+**Vendored in this hub:** **No** (link-only). Monorepo is too large and fast-moving for a static copy; **AGPL-3.0** network copyleft applies to modified deployments. Pairs with link-only [hyperframes](#heygen-comhyperframes), [video-shotcraft](#vincentwei1021video-shotcraft), [remotion-dev/remotion](#remotion-devremotion), and [blender-mcp](#ahujasidblender-mcp) — OpenMontage is the **integrated studio** layer, not a single `SKILL.md`.
+
+**Install (upstream):** Python 3.10+, FFmpeg, Node 18+; `git clone` → `make setup` → open repo in your coding agent; optional `.env` API keys per [docs/PROVIDERS.md](https://github.com/calesthio/OpenMontage/blob/main/docs/PROVIDERS.md). Agents should start with [`AGENT_GUIDE.md`](https://github.com/calesthio/OpenMontage/blob/main/AGENT_GUIDE.md) and pipeline manifests — not ad-hoc prompts.
+
+**Trust:** Production runs invoke **paid third-party APIs** when keys are set, local FFmpeg/Blender, and web research. Review `tools/` and provider logs before unattended runs. **Do not vendor** without a legal review of AGPL obligations.
+
+**Fit for this hub:** Agent-driven **long-form and promo video** beside [nice-projects § Design, motion & agent video](../../nice-projects/README.md#design-motion--agent-video-link-only), [designers path](../../docs/paths/designers.md), [developers path](../../docs/paths/developers.md), and [docs/ecosystem.md](../../docs/ecosystem.md#design-motion--agent-video).
+
+---
+
+## [google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) *(link-only)*
+
+**License:** Apache-2.0. **~8k ★** (Nov 2026). [egm.dev](https://egm.dev) — not an officially supported Google product (per upstream README).
+
+**What it is:** **Elephant-Goldfish Model (EGM)** plugin for spec-driven design before implementation: **Elephant** (deep-context agent) drafts specs; **Goldfish** reviewers read the draft + referenced code **without** the prior conversation to surface blind spots; **you** approve trade-offs. Skills include `egm-brainstorm`, `egm-draft`, `egm-review`, `egm-resolve`, `egm-bootstrap`, `egm-review-loop`, `egm-drift-report`. Outputs land in `concepts_brief.md`, `design_draft.md`, and approved designs under `docs/designs/`.
+
+**Vendored in this hub:** **No** (link-only). Plugin bundles `skills/`, `agents/` (reviewer personas), and `resources/document_standards/` — skill-only copies break EGM per upstream [harnesses.md](https://github.com/google/elephant-goldfish-model/blob/main/docs/harnesses.md). Complements vendored [igoruehara-spec-driven](../skills/igoruehara-spec-driven/) (full SDD pipeline), [writing-plans](../skills/writing-plans/) / [executing-plans](../skills/executing-plans/) (obra), and [create-prd.md](../product-management/create-prd.md) with **fresh-subagent design review**.
+
+**Install (upstream):**
+
+```bash
+claude plugin marketplace add google/elephant-goldfish-model
+claude plugin install egm@egm
+```
+
+Codex: `codex plugin marketplace add google/elephant-goldfish-model && codex plugin add egm@egm`. Antigravity: `agy plugin install https://github.com/google/elephant-goldfish-model`. **Goldfish reviews require fresh subagent contexts** — see [support matrix](https://github.com/google/elephant-goldfish-model/blob/main/docs/harnesses.md#support-status--contributing-other-harnesses).
+
+**Fit for this hub:** PMs and engineers doing **design-before-code** — [nice-projects § Agent skills](../../nice-projects/README.md#agent-skills-ui-specs--claude-ecosystem-hub-catalog), [product-managers path](../../docs/paths/product-managers.md), [developers path](../../docs/paths/developers.md), [docs/ecosystem.md](../../docs/ecosystem.md#ai--development).
 
 ---
 

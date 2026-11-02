@@ -4,7 +4,7 @@ This directory contains research papers and resources on Large Language Models (
 
 ## Overview
 
-The collection includes: (1) **foundation models for code** (external references to key code-LLM papers); (2) **agent research** (external paper lists and surveys); (3) **108 PDFs** in `papers/`, organized into thematic subfolders — from classic AI foundations through contemporary agent and alignment research.
+The collection includes: (1) **foundation models for code** (external references to key code-LLM papers); (2) **agent research** (external paper lists and surveys); (3) **108 PDFs** in `papers/`, organized into thematic subfolders — from classic AI foundations through contemporary agent and alignment research; (4) **external paper collections** (HN-backed reading paths, survey companions, open-models essays) — link-only, not vendored.
 
 ## Directory structure
 
@@ -234,3 +234,9 @@ Curated paper lists and surveys — link-only backlogs for expanding [agents-and
 - **[awesome-rsi](https://github.com/theseus-labs-rsi/awesome-rsi)** (Theseus Labs) — curated RSI paper and project list; companion to [*The Last AI Built by Humans*](perspectives-and-futures/The%20Last%20AI%20Built%20by%20Humans_%20Toward%20Genuine%20Recursive%20Self-Improvement.pdf) in this folder.
 - **[LLM-Agent-Paper-List](https://github.com/WooooDyy/LLM-Agent-Paper-List)** (Wang et al. survey companion, ~8.2k ★) — annotated list for *The Rise and Potential of Large Language Model Based Agents: A Survey*; planning, memory, tool use, multi-agent, safety. ⚠️ No license declared upstream — link-only.
 - **[Open-Source AI & Open Models Reading List](https://www.interconnects.ai/p/open-source-ai-reading-list)** (Nathan Lambert / Interconnects, Sep 2026) — curated essays, reports, and papers on open models; PDFs indexed in [open-models/](open-models/).
+
+## Paper reading & community discussion (external)
+
+Link-only collections for **reading paths** and **community context** around papers already in this tree (or worth adding next). Not vendored PDFs.
+
+- **[Hacker Papers](https://academy.dair.ai/papers/collections/hacker-papers)** ([DAIR.AI Academy](https://academy.dair.ai/)) — curated arXiv classics with long **Hacker News** discussion threads per paper (Attention, scaling laws, GPT-3, CoT, Chinchilla, emergent abilities, BERT, GANs, and more). Use after (or alongside) local PDFs in [foundation-models/](foundation-models/), [models-and-training/](models-and-training/), [reliability-and-reasoning/](reliability-and-reasoning/), and [generative-models/](generative-models/). Same org as vendored [ML-Notebooks](../research/README.md#ml-notebooks) in [research/](../research/).

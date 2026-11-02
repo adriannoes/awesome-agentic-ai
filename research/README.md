@@ -111,6 +111,8 @@ Neural Networks: Zero to Hero - A course on neural networks from scratch. Learn 
 
 Minimal and clean examples of machine learning algorithms and implementations. Well-organized notebooks covering fundamental ML concepts from linear regression to neural networks.
 
+**Related (link-only):** [Hacker Papers](https://academy.dair.ai/papers/collections/hacker-papers) on DAIR.AI Academy — arXiv papers with curated Hacker News threads; indexed in [papers/README.md](../papers/README.md#paper-reading--community-discussion-external).
+
 **Notebooks:**
 - `ML-Notebooks/notebooks/linear_regression.ipynb` - Linear regression
 - `ML-Notebooks/notebooks/logistic_regression.ipynb` - Logistic regression
