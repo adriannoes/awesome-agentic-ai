@@ -8,6 +8,8 @@ adapted for a knowledge hub (content batches, not library APIs).
 
 ## [Unreleased]
 
+- Link-only: **landedjobs/ai-engineer-portfolio-projects** in `nice-projects/README.md` (Study material → Learn AI agents); project count 118 → 119 in `README.md`, `AGENTS.md`, `docs/stats.md`, `docs/about.md`, `cursor-claude-codex/README.md`.
+
 ## [1.6.0] - 2026-11-02
 
 Catalog expansion (design, video, spec workflows), Dr. Claw research workspace, and DAIR.AI Hacker Papers reading path.
