@@ -2,7 +2,7 @@
 
 Counts verified against the repo tree when this file is updated. After catalog changes, refresh the table and the headline numbers in [README.md](../README.md) so they match the tree.
 
-**Last verified:** 2026-11-01
+**Last verified:** 2026-11-18
 
 | Resource | Count | Entry point |
 |----------|------:|-------------|
@@ -13,7 +13,7 @@ Counts verified against the repo tree when this file is updated. After catalog c
 | Upstream repos catalogued (vendored + link-only) | **70** | [cursor-claude-codex/references/upstream-repos-catalog.md](../cursor-claude-codex/references/upstream-repos-catalog.md) |
 | OpenClaw agents catalogued | **36** | [openclaw/README.md](../openclaw/README.md) |
 | OpenClaw skills indexed (snapshot) | **5,380** | [openclaw/skills/README.md](../openclaw/skills/README.md) |
-| GitHub projects to watch | **118** | [nice-projects/README.md](../nice-projects/README.md) |
+| GitHub projects to watch | **119** | [nice-projects/README.md](../nice-projects/README.md) |
 | Textbooks & references (PDF) | **9** | [learning/README.md](../learning/README.md) |
 | Jupyter notebooks | **201** | [research/README.md](../research/README.md) |
 | Research papers (PDF, 11 themes) | **108** | [papers/README.md](../papers/README.md) |
